@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+## WorkflowHub project
 
-You can use the [editor on GitHub](https://github.com/workflowhub-eu/about.workflowhub.eu/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This website describes the project for developing and running the [WorkflowHub](https://dev.workflowhub.eu/).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### About WorkflowHub
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Created as part of the [EOSC-Life](https://www.eosc-life.eu/) WP2 [Tools Collaboratory](https://github.com/eosc-life/tools-collaboratory-roadmap), the WorkflowHub is under development.
 
-```markdown
-Syntax highlighted code block
+Aims of the project include
 
-# Header 1
-## Header 2
-### Header 3
+* Evolvement of [myExperiment](https://myexperiment.org/) that is workflow system agnostic, supports a repository of workflows in native and standardised form (e.g. [CWL](commonwl.org/)) and the virtual aggregation of established tool, workflow and registries to support discovery over a fragmented ecosystem. The federated registry would support a **common API** to simplify access for tool developers.
+* Standardised workflow identifiers and metadata descriptions needed for workflow discovery, reuse, preservation, interoperability and monitoring and metadata harvesting using standard protocols. Workflows are usually multi-component (requiring links to test data, example runs, explanatory documentation, etc) and used in collections for scientific use cases. We plan to use the Research Object specification for packaging workflows, which has already been combined with [CWL](https://commonwl.org/) and is part of the [BioComputeObject](http://biocomputeobject.org/) specification.
+* Workflow snapshot preservation, publishing, citation and monitoring, credit claiming and workflows part of the scholarly communication landscape partnering with platforms like [DataCite](https://datacite.org/) and EOSC’s [OpenAIRE](https://www.openaire.eu/) and their Research Community Dashboards linking publications with workflows, associated datasets, software, etc.
+* The workflow registry is planned to be based on the [SEEK platform](https://seek4science.org/) using [Common Workflow Language](https://commonwl.org/) and [Research Objects](http://www.researchobject.org/) to glue in federated workflow and tool descriptions across the research infrastructures.
 
-- Bulleted
-- List
+## Project resources
 
-1. Numbered
-2. List
+* **Dev instance** (minimal viable product): <https://dev.workflowhub.eu/>
+* **Source**: [seek4science/seek](https://github.com/seek4science/seek/tree/workflow) branch `workflow`
+* **Wiki**: <https://github.com/workflowhub-eu/about.workflowhub.eu/wiki>
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/workflowhub-eu/about.workflowhub.eu/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.

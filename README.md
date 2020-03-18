@@ -19,4 +19,4 @@ Aims of the project include
 * **Dev instance** (minimal viable product): <https://dev.workflowhub.eu/>
 * **Source**: [seek4science/seek](https://github.com/seek4science/seek/tree/workflow) branch `workflow`
 * **Wiki**: <https://github.com/workflowhub-eu/about/wiki>
-
+* **Slack**: <https://seek4science.slack.com/archives/CPLLVV94L>

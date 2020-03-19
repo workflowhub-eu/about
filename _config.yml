@@ -1,5 +1,5 @@
-theme: jekyll-theme-cayman
-title: eScience Lab
+theme: jekyll-theme-minimal
+title: The Workflow Hub project
 email: info@esciencelab.org.uk
 description: > # this means to ignore newlines until "baseurl:" 
   This website describes the project for developing and running the WorkflowHub, 

@@ -20,3 +20,7 @@ Aims of the project include
 * **Source**: [seek4science/seek](https://github.com/seek4science/seek/tree/workflow) branch `workflow`
 * **Wiki**: <https://github.com/workflowhub-eu/about/wiki>
 * **Slack**: <https://seek4science.slack.com/archives/CPLLVV94L>
+
+## Acknowledgements
+
+workflowhub.eu is developed as part of [EOSC-Life](https://eosc-life.eu/), funded by European Union’s [Horizon 2020](https://ec.europa.eu/programmes/horizon2020/) programme under grant agreement [824087](https://cordis.europa.eu/project/id/824087). 

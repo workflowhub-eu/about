@@ -20,6 +20,9 @@ Aims of the project include
 * **Source**: [seek4science/seek](https://github.com/seek4science/seek/tree/workflow) branch `workflow`
 * **Wiki**: <https://github.com/workflowhub-eu/about/wiki>
 
+## Code of conduct
+
+This project has a [Code of Conduct](https://github.com/workflowhub-eu/about/blob/master/CODE_OF_CONDUCT.md) to ensure interactions are friendly, respectful and inclusive. You can contact <info@esciencelab.org.uk> if you have any concerns or questions.
 
 ## Acknowledgements
 

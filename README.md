@@ -1,6 +1,6 @@
 ## WorkflowHub project
 
-This website describes the project for developing and running the [WorkflowHub](https://dev.workflowhub.eu/).
+This website describes the project for developing and running the [WorkflowHub](https://workflowhub.eu/).
 
 
 ### About WorkflowHub

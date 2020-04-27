@@ -1,4 +1,5 @@
 theme: jekyll-theme-minimal
+markdown: CommonMarkGhPages
 title: EOSC-Life Workflow Hub project
 email: info@esciencelab.org.uk
 description: > # this means to ignore newlines until "baseurl:" 

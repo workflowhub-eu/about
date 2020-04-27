@@ -4,7 +4,7 @@ This project has a [Code of Conduct](https://github.com/workflowhub-eu/about/blo
 
 ## User Guide
 
-* [What is WorkflowHub](What-is-WorkflowHub)
+* [What is WorkflowHub](./What-is-WorkflowHub)
 * [Workflow RO Crate](Workflow-RO-Crate)
 * [How to register](How-to-register)
 * [Logging-in](Logging-in)

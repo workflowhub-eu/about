@@ -1,1 +1,0 @@
-WorkflowHub is a repository and a registry of computational workflows for data analysis.

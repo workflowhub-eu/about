@@ -4,17 +4,17 @@ This project has a [Code of Conduct](https://github.com/workflowhub-eu/about/blo
 
 ## User Guide
 
-* [[What is WorkflowHub]]
-* [[Workflow RO Crate]]
-* [[How to register]]
-* [[Logging-in]]
-* [[How to join a project]]
-* [[How to find and retrieve workflow(s) from WorkflowHub]]
-* [[How to make a workflow RO-crate]]
-* [[How to register your workflow(s) in WorkflowHub]]
-  * [[Registering an existing Workflow RO Crate]]
-  * [[Registering a workflow with a diagram and abstract-CWL]]
-  * [[Registering just a workflow]]
+* [What is WorkflowHub](What-is-WorkflowHub)
+* [Workflow RO Crate](Workflow-RO-Crate)
+* [How to register](How-to-register)
+* [Logging-in](Logging-in)
+* [How to join a project](How-to-join-a-project)
+* [How to find and retrieve workflow(s) from WorkflowHub](How-to-find-and-retrieve-workflow(s)-from-WorkflowHub)
+* [How to make a workflow RO-crate](How-to-make-a-workflow-RO-crate)
+* [How to register your workflow(s) in WorkflowHub](How-to-register-your-workflow(s)-in-WorkflowHub)
+  * [Registering an existing Workflow RO Crate](Registering-an-existing-Workflow-RO-Crate)
+  * [Registering a workflow with a diagram and abstract-CWL](Registering-a-workflow-with-a-diagram-and-abstract-CWL)
+  * [Registering just a workflow](Registering-just-a-workflow)
 
 ## Project resources
 

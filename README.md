@@ -45,7 +45,7 @@ Anyone is welcome to join the weekly _Workflow Hub Club_ calls using Zoom.
 * Agenda/telcon details: <https://s.apache.org/workflowhub-minutes>
 </details>
 
-  
+##
 ## Other resources
 
 <details>
@@ -94,7 +94,7 @@ Workflow Hub intends to harvest workflows from existing workflow repositories, i
 * <https://usegalaxy.eu/>
 </details>
 
-  
+##
 ## Acknowledgements
 
 workflowhub.eu is developed as part of [EOSC-Life](https://eosc-life.eu/), funded by European Union’s [Horizon 2020](https://ec.europa.eu/programmes/horizon2020/) programme under grant agreement [824087](https://cordis.europa.eu/project/id/824087). 

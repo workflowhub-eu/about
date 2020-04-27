@@ -1,0 +1,1 @@
+[workflowhub.eu](https://workflowhub.eu/) wiki content is distributed under [BSD 3-Clause "New" or "Revised" License](https://github.com/workflowhub-eu/about/blob/master/LICENSE), developed as part of [EOSC-Life](https://www.eosc-life.eu/), funded by European Union’s Horizon 2020 programme under grant agreement number [824087](https://cordis.europa.eu/project/id/824087).

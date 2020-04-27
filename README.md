@@ -4,13 +4,11 @@ This website describes the project for developing and running the [WorkflowHub](
 
 ## Code of conduct
 
-This project has a [Code of Conduct](https://github.com/workflowhub-eu/about/blob/master/CODE_OF_CONDUCT.md) to ensure interactions are friendly, respectful and inclusive. You can contact <info@esciencelab.org.uk> if you have any concerns or questions.
-
-## [About WorkflowHub](../About-WorkflowHub)
+This project has a [Code of Conduct](../CODE_OF_CONDUCT) to ensure interactions are friendly, respectful and inclusive. You can contact <info@esciencelab.org.uk> if you have any concerns or questions.
 
 ## User Guide
 
-* [What is WorkflowHub](../What-is-WorkflowHub)
+* [What is WorkflowHub](../About-WorkflowHub)
 * [Workflow RO Crate](../Workflow-RO-Crate)
 * [How to register](../How-to-register)
 * [Logging-in](../Logging-in)
@@ -37,8 +35,10 @@ This project has a [Code of Conduct](https://github.com/workflowhub-eu/about/blo
  (to request write-access, ask in Slack channel) 
 * [Workflow Hub Introduction slides](https://drive.google.com/open?id=1hfBAjjRnL9jGoxHEvq66Wo-wuKqouR3C), Carole Goble 2020-03-25
 
+## Regular meeting
+
 <details>
-<summary>Regular meeting: "Workflow Hub Club" (all welcome!)</summary>
+<summary>Workflow Hub Club - all welcome!</summary>
 
 Anyone is welcome to join the weekly _Workflow Hub Club_ calls using Zoom.
 

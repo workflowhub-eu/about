@@ -25,7 +25,6 @@ This project has a [Code of Conduct](https://github.com/workflowhub-eu/about/blo
 * **Preview instance**: <https://covid19.workflowhub.eu/> (currently COVID-19-specific)
 * **Dev instance** <https://dev.workflowhub.eu/> (use for testing; occasionally wiped)
 * **Source**: [seek4science/seek](https://github.com/seek4science/seek/tree/workflow) branch `workflow`
-* **Details**: [Details](Details)
 * **Tasks**: 
   * Workflow Hub imlementation <https://github.com/seek4science/seek/projects/3> (SEEK)
   * General Workflow Hub <https://github.com/workflowhub-eu/about/issues>
@@ -46,7 +45,7 @@ Anyone is welcome to join the weekly _Workflow Hub Club_ calls using Zoom.
 * Agenda/telcon details: <https://s.apache.org/workflowhub-minutes>
 </details>
 
-
+  
 ## Other resources
 
 <details>
@@ -95,6 +94,7 @@ Workflow Hub intends to harvest workflows from existing workflow repositories, i
 * <https://usegalaxy.eu/>
 </details>
 
+  
 ## Acknowledgements
 
 workflowhub.eu is developed as part of [EOSC-Life](https://eosc-life.eu/), funded by European Union’s [Horizon 2020](https://ec.europa.eu/programmes/horizon2020/) programme under grant agreement [824087](https://cordis.europa.eu/project/id/824087). 

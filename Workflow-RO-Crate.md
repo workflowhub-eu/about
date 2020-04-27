@@ -1,6 +1,6 @@
 # Workflow RO-Crate (DRAFT)
 
-![Workflow RO-Crate](https://github.com/workflowhub-eu/about/blob/master/logo/ro-crate-workflow.svg)
+![Workflow RO-Crate](../logo/ro-crate-workflow.svg)
 
 *Please note* this is a draft spec and subject to change. Please leave any suggestions and comments here: https://github.com/seek4science/seek/issues/183 
 

@@ -19,7 +19,7 @@ Aims of the project include
 * **Preview instance**: <https://covid19.workflowhub.eu/> (currently COVID-19-specific)
 * **Dev instance** <https://dev.workflowhub.eu/> (use for testing; occasionally wiped)
 * **Source**: [seek4science/seek](https://github.com/seek4science/seek/tree/workflow) branch `workflow`
-* **Details**: [Details](https://github.com/workflowhub-eu/about/blob/master/Details.md)
+* **Details**: [Details](Details.md)
 
 ## Code of conduct
 

@@ -5,7 +5,7 @@ For more information on how to make a workflow RO-crate, please go to [How-to-ma
 
 ## Uploading the RO crate
 
-[[images/upload-ROcrate.PNG]]
+![](images/upload-ROcrate.PNG)
 
 ## Filling in the metadata
 
@@ -36,8 +36,8 @@ The next page is basically a form to gather the necessary meta data that will be
     3. **If anyone not registered with WorkflowHub assisted creating this Workflow, you can specify them below.**\
     Use this field to fill in the remaining creators.
     
-    [[images/creators_metadata.PNG]]
+![](images/creators_metadata.PNG)
 
 ##  Check the uploaded RO-crate
 
-[[images/uploaded-galaxy-workflow.PNG]]
+![](images/uploaded-galaxy-workflow.PNG)

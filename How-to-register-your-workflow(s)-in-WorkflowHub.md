@@ -10,7 +10,7 @@ Before you register a workflow, you need to ensure that you
 
 To create a workflow, you can either click on the "contribute" icon in the WorkflowHub homepage, or in the "Workflow" option of the "Create" menu from any page of the application.
 
-[[images/ug_link_to_wf_upload.PNG|alt:welcome screen with links to workflow upload]]
+![](images/ug_link_to_wf_upload.PNG)
 
 
 ### Supported workflow types

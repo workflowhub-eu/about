@@ -4,7 +4,7 @@ This option allows you to register a workflow in **two ways**, uploading or refe
 
 You can either upload a local file or give a remote URL that links towards a workflow file.
 
-[[images/upload-workflow.PNG]]
+![](images/upload-workflow.PNG)
 
 
 ## Filling in the metadata
@@ -36,8 +36,8 @@ The next page is basically a form to gather the necessary meta data that will be
     3. **If anyone not registered with WorkflowHub assisted creating this Workflow, you can specify them below.**\
     Use this field to fill in the remaining creators.
     
-    [[images/creators_metadata.PNG]]
+![](images/creators_metadata.PNG)
 
 ## Check the uploaded workflow
 
-[[images/uploaded-galaxy-workflow.PNG]]
+![](images/uploaded-galaxy-workflow.PNG)

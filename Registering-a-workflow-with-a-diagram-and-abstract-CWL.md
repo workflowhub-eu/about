@@ -1,11 +1,8 @@
-
-
-
 This option allows you to upload a workflow along with optionally a diagram and/ or an abstract CWL. 
 
 ## Uploading the files
 
-[[images/workflow_diagram_CWLabstract.PNG]]
+![](images/workflow_diagram_CWLabstract.PNG)
 
 ### 1. The main workflow file
 
@@ -55,9 +52,9 @@ The next page is basically a form to gather the necessary meta data that will be
     3. **If anyone not registered with WorkflowHub assisted creating this Workflow, you can specify them below.**\
     Use this field to fill in the remaining creators.
     
-    [[images/creators_metadata.PNG]]
+![](images/creators_metadata.PNG)
 
 
 ##  Check the uploaded workflow
 
-[[images/result_diagram_CWLabstract.PNG]]
+![](images/result_diagram_CWLabstract.PNG)

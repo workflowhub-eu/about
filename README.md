@@ -4,7 +4,7 @@ This website describes the project for developing and running the [WorkflowHub](
 
 ## Code of conduct
 
-This project has a [Code of Conduct]((https://github.com/workflowhub-eu/about/blob/master/CODE_OF_CONDUCT.md)) to ensure interactions are friendly, respectful and inclusive. You can contact <info@esciencelab.org.uk> if you have any concerns or questions.
+This project has a [Code of Conduct](https://github.com/workflowhub-eu/about/blob/master/CODE_OF_CONDUCT.md)) to ensure interactions are friendly, respectful and inclusive. You can contact <info@esciencelab.org.uk> if you have any concerns or questions.
 
 ## User Guide
 

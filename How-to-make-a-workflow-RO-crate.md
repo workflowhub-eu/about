@@ -33,5 +33,5 @@ The most convenient way to make a workflow RO-crate at this moment is by making 
 
 ### 2. Making one offline yourself
 
-We are working on a python package at this moment to wrap your own RO-crates. This will allow you to not be bounded by the file limitations ( of the Workflow Hub website, and will make it possible to automate the RO crate generation.
+We are working on a python package at this moment to wrap your own RO-crates. This will allow you to not be bounded by the file limitations of the Workflow Hub website, and will make it possible to automate the RO crate generation.
 The python package can be found in this [repo](https://github.com/ResearchObject/ro-crate-py).

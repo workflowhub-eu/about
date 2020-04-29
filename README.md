@@ -8,17 +8,17 @@ This project has a [Code of Conduct](https://github.com/workflowhub-eu/about/blo
 
 ## User Guide
 
-* [What is WorkflowHub](../About-WorkflowHub)
-* [Workflow RO Crate](../Workflow-RO-Crate)
-* [How to register](../How-to-register)
-* [Logging-in](../Logging-in)
-* [How to join a project](../How-to-join-a-project)
-* [How to find and retrieve workflow(s) from WorkflowHub](../How-to-find-and-retrieve-workflow(s)-from-WorkflowHub)
-* [How to make a workflow RO-crate](../How-to-make-a-workflow-RO-crate)
-* [How to register your workflow(s) in WorkflowHub](../How-to-register-your-workflow(s)-in-WorkflowHub)
-  * [Registering an existing Workflow RO Crate](../Registering-an-existing-Workflow-RO-Crate)
-  * [Registering a workflow with a diagram and abstract-CWL](../Registering-a-workflow-with-a-diagram-and-abstract-CWL)
-  * [Registering just a workflow](../Registering-just-a-workflow)
+* [What is WorkflowHub](https://about.workflowhub.eu/About-WorkflowHub)
+* [Workflow RO Crate](https://about.workflowhub.eu/Workflow-RO-Crate)
+* [How to register](https://about.workflowhub.eu/How-to-register)
+* [Logging-in](https://about.workflowhub.eu/Logging-in)
+* [How to join a project](https://about.workflowhub.eu/How-to-join-a-project)
+* [How to find and retrieve workflow(s) from WorkflowHub](https://about.workflowhub.eu/How-to-find-and-retrieve-workflow(s)-from-WorkflowHub)
+* [How to make a workflow RO-crate](https://about.workflowhub.eu/How-to-make-a-workflow-RO-crate)
+* [How to register your workflow(s) in WorkflowHub](https://about.workflowhub.eu/How-to-register-your-workflow(s)-in-WorkflowHub)
+  * [Registering an existing Workflow RO Crate](https://about.workflowhub.eu/Registering-an-existing-Workflow-RO-Crate)
+  * [Registering a workflow with a diagram and abstract-CWL](https://about.workflowhub.eu/Registering-a-workflow-with-a-diagram-and-abstract-CWL)
+  * [Registering just a workflow](https://about.workflowhub.eu/Registering-just-a-workflow)
 
 ## Project resources
 

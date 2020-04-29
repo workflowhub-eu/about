@@ -6,7 +6,7 @@ This option allows you to upload a workflow along with optionally a diagram and/
 
 ### 1. The main workflow file
 
-This is the main workflow file that has to be uploaded. Note that in this option it is not possible to reference towards a workflow, this feature is only available at this moment in the [Registering just a workflow](./Registering-just-a-workflow) option. Specify the `Workflow type` of the main workflow. If your workflow is not listed, please choose *other*.
+This is the main workflow file that has to be uploaded. Note that in this option it is not possible to reference towards a workflow, this feature is only available at this moment in the [Registering just a workflow](../Registering-just-a-workflow) option. Specify the `Workflow type` of the main workflow. If your workflow is not listed, please choose *other*.
 
 ### 2. The CWL abstract (optional)
 
@@ -32,7 +32,7 @@ The next page is basically a form to gather the necessary meta data that will be
 
 - **Description**: If a CWL (abstract) file is given, the description will be parsed automatically out of the `doc` attribute. In any other case this field can be used to write some documentation that will be showed on the workflow page
 
-- **Projects\***: Every workflow registration is linked to one or more projects. If you can not select the correct project, please go to [Joining a project](./How-to-join-a-project).
+- **Projects\***: Every workflow registration is linked to one or more projects. If you can not select the correct project, please go to [Joining a project](../How-to-join-a-project).
 
 - **License**: The standard license is [Apache Software License 2.0](https://opensource.org/licenses/Apache-2.0). If you did not make the workflow yourself, be sure that the license corresponds to the license where you took the workflow from (for example [github licenses](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/licensing-a-repository) )
 

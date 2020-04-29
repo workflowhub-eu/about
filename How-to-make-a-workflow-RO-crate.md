@@ -1,5 +1,5 @@
 
-More info about workflow RO-crates can be found [here](./Workflow-RO-Crate).
+More info about workflow RO-crates can be found [here](../Workflow-RO-Crate).
 
 ### 1. Using the Workflow Hub website
 

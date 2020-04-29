@@ -1,7 +1,7 @@
 
 This option allows you to upload an existing Workflow RO Crate.
 
-For more information on how to make a workflow RO-crate, please go to [How-to-make-a-workflow-RO-crate](./How-to-make-a-workflow-RO-crate)
+For more information on how to make a workflow RO-crate, please go to [How-to-make-a-workflow-RO-crate](../How-to-make-a-workflow-RO-crate)
 
 ## Uploading the RO crate
 
@@ -16,7 +16,7 @@ The next page is basically a form to gather the necessary meta data that will be
 
 - **Description**: If a CWL (abstract) file is given, the description will be parsed automatically out of the `doc` attribute. In any other case this field can be used to write some documentation that will be showed on the workflow page
 
-- **Projects\***: Every workflow registration is linked to one or more projects. If you can not select the correct project, please go to [Joining a project](./How-to-join-a-project).
+- **Projects\***: Every workflow registration is linked to one or more projects. If you can not select the correct project, please go to [Joining a project](../How-to-join-a-project).
 
 - **License**: The standard license is [Apache Software License 2.0](https://opensource.org/licenses/Apache-2.0). If you did not make the workflow yourself, be sure that the license corresponds to the license where you took the workflow from (for example [github licenses](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/licensing-a-repository) )
 

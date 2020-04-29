@@ -4,7 +4,7 @@ Before you register a workflow, you need to ensure that you
 * are [logged into](../Logging-in) the workflowhub
 * you are part of a project
 * know the type of the workflow
-* have decided which [projects](./Browsing-projects) to assign the workflow to
+* have decided which [projects](../Browsing-projects) to assign the workflow to
 
 ### Get started
 

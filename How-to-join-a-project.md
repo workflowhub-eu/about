@@ -5,11 +5,11 @@ You can join projects in 3 ways:
 > * Request membership of existing projects after your registration
 > * Create your own projects after your registration
 
-> Select existing projects during your registration
+### Select existing projects during your registration
 
 If during the registration you selected a Project, you will need to wait until you have been assigned to that Project by a Project administrator. You will receive an email when you have been assigned to the Project.
 
-> Request membership of existing projects after your registration
+### Request membership of existing projects after your registration
 * In the navigation menu bar, click "Browse", "Projects" and then select the project you want to join.
 * In the project page, click "Request membership" button in the top right hand corner. After clicking the button, there is an option to also provide some details about who you are and why you wish to join.
 * The request will be delivered to all the Project administrators, who will then be able to add you to the project. Once added, you will receive an email notifying you.
@@ -17,7 +17,7 @@ If during the registration you selected a Project, you will need to wait until y
 
 It is only possible to make a request once every 12 hours.
 
-> Create your own projects after your registration
+### Create your own projects after your registration
 
 If you wish to create and manage your own Projects, you will first need to create a Programme that they will fall under.
 * In the navigation menu bar, click "Create" and then "Programme"

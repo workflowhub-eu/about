@@ -1,4 +1,5 @@
-This option allows you to register a workflow along with optionally a diagram and/ or an abstract CWL. 
+# Registering a workflow with optionally a diagram and/or abstract-CWL
+
 
 ## Uploading or referencing the files
 

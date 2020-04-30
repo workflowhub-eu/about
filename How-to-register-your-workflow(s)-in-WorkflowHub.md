@@ -1,3 +1,5 @@
+# How to register your workflow(s) in WorkflowHub?
+
 ### Prerequisites
 
 Before you register a workflow, you need to ensure that you

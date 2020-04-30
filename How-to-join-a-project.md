@@ -1,3 +1,5 @@
+How to join a project?
+
 You can join projects in 3 ways:
 > * Select existing projects during your registration
 > * Request membership of existing projects after your registration

@@ -1,3 +1,5 @@
+# How to register
+
 > Which WorkflowHub instance?
 > * Use <https://dev.workflowhub.eu/> for testing - this testing instance may occasionally be wiped
 > * (TODO) Use <http://covid19.workflowhub.eu/> for long-lived workflow registrations - this will become the production instance

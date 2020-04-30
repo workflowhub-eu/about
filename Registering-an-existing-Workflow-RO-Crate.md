@@ -1,3 +1,4 @@
+# Registering an existing Workflow RO-Crate
 
 This option allows you to upload an existing Workflow RO Crate.
 

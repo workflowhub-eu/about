@@ -1,4 +1,4 @@
-#About WorkflowHub
+# About WorkflowHub
 
 Created as part of the [EOSC-Life](https://www.eosc-life.eu/) WP2 [Tools Collaboratory](https://github.com/eosc-life/tools-collaboratory-roadmap), the WorkflowHub is under development.
 

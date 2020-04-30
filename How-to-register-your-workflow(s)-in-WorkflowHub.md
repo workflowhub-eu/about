@@ -26,12 +26,10 @@ It is also possible to upload workflows from another type (for ex. bash scripts)
 
 ### Registering a workflow
 
-After clicking on the "Contribute" icon or selecting "Create" and then "Workflow" from the navigation menu bar, you have 3 options for registering your workflow:
+After clicking on the "Contribute" icon or selecting "Create" and then "Workflow" from the navigation menu bar, you have 2 options for registering your workflow:
+* [By registering a workflow, with an optional diagram and CWL description.](../Registering-a-workflow-with-a-diagram-and-abstract-CWL) \
+  With this option you can register your workflow in WorkflowHub by uploading or referencing a workflow file along with optionally a CWL Description and/or a diagram. WorkflowHub will than generate an RO crate based on these files.
 * [By registering an existing Workflow RO Crate](../Registering-an-existing-Workflow-RO-Crate)\
-  When you have created the workflow RO crate yourself, and want to upload it "as is".
-* [By registering a workflow, along with a diagram and abstract CWL](../Registering-a-workflow-with-a-diagram-and-abstract-CWL) \
-  When you not only have a workflow file, but also a CWL abstract and/or a diagram you want to upload
-* [By registering just a workflow](../Registering-just-a-workflow) \
-  Use this option when your starting point is only a workflow file or a reference to a workflow.
+  When you have created the workflow RO crate yourself, and want to upload or reference it "as is".
 
 For more information on the upload options, please go to the corresponding pages.

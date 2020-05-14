@@ -10,12 +10,14 @@ For more information on how to make a workflow RO-crate, please go to [How-to-ma
 
 ## Filling in the metadata
 
-The next page is basically a form to gather the necessary meta data that will be inclosed in the RO-crate.
+The next page is basically a form to gather the necessary meta data that will be inclosed in the RO-crate. This will mostly be filled in automatically by parsing the metadata found in the RO-crate JSON-LD. For correct parsing make sure that the RO-crate is following the [specification](../Workflow-RO-Crate) and has the `.crate.zip` file extension.
 
 ### The fields:
 - **Title\***: This field is mandatory 
 
-- **Description**: If a CWL (abstract) file is given, the description will be parsed automatically out of the `doc` attribute. In any other case this field can be used to write some documentation that will be showed on the workflow page
+- **Description**: If a CWL (abstract) file is given, the description will be parsed automatically out of the `doc` attribute. In any other case this field can be used to write some documentation that will be showed on the workflow page.
+
+- **Maturity**: This field can be used to specify in which maturity state the workflow is. The two available options are *work-in-progress* and *stable*.
 
 - **Projects\***: Every workflow registration is linked to one or more projects. If you can not select the correct project, please go to [Joining a project](../How-to-join-a-project).
 

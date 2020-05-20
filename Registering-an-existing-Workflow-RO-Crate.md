@@ -8,6 +8,8 @@ For more information on how to make a workflow RO-crate, please go to [How-to-ma
 
 ![](images/upload-ROcrate.PNG)
 
+> TIP: Make sure that the uploaded or referenced files do not contain spaces in the filename. 
+
 ## Filling in the metadata
 
 The next page is basically a form to gather the necessary meta data that will be inclosed in the RO-crate. This will mostly be filled in automatically by parsing the metadata found in the RO-crate JSON-LD. For correct parsing make sure that the RO-crate is following the [specification](../Workflow-RO-Crate) and has the `.crate.zip` file extension.

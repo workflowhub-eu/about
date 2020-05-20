@@ -7,8 +7,7 @@ The workflow and other associated files can be registered in two ways, uploading
 
 ![](images/workflow_diagram_CWLabstract.PNG)
 
-| TIP: Make sure that the uploaded or referenced files do not contain spaces in the filename. |
-| --- |
+> TIP: Make sure that the uploaded or referenced files do not contain spaces in the filename. 
 
 ### 1. The main workflow file
 

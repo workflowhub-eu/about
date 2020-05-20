@@ -8,7 +8,7 @@ For more information on how to make a workflow RO-crate, please go to [How-to-ma
 
 ![](images/upload-ROcrate.PNG)
 
-> TIP: Make sure that the uploaded or referenced files do not contain spaces in the filename. 
+> TIP: Make sure that the uploaded or referenced file does not contain spaces in the filename. 
 
 ## Filling in the metadata
 

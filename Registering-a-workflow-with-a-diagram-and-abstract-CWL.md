@@ -7,6 +7,9 @@ The workflow and other associated files can be registered in two ways, uploading
 
 ![](images/workflow_diagram_CWLabstract.PNG)
 
+| TIP: Make sure that the uploaded or referenced files do not contain spaces in the filename. |
+| --- |
+
 ### 1. The main workflow file
 
 This is the main workflow file that has to be uploaded/referenced. Specify the **Workflow type** of the main workflow in the dropdown list: Common Workflow Language(.cwl), Galaxy(.ga), KNIME(.knwf), Nextflow(.nf) or Snakemake(.snake). If your workflow type is not listed, please choose *other*.

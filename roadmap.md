@@ -8,7 +8,7 @@ See also:
 
 Table of Contents:
 
-* Table of Contents
+1. Table of Contents
 {:toc}
 
 ## June 2020

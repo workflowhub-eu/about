@@ -96,6 +96,7 @@ Community:
 
 
 Docs:
+
 * 
 
 Technical Features:
@@ -126,7 +127,6 @@ Community:
 *   Registration from a github
 *   [Life Monitor](https://github.com/crs4/life_monitor) integration web service is now an application
     *   Luca
-*   
 *   Webinar?
 *   UX of the Hub
 

@@ -90,7 +90,7 @@ Community:
 
 ## August 2020
 
-*   VACATION >>>>>>>
+*   Vacation
 
 ## Sept 2020
 

@@ -15,7 +15,7 @@ See also:
 -> Meta-data discussion [notes](https://docs.google.com/document/d/14b7PnZ01PimuZyfE4OZPH_atB_k4qH_xk5gKFzScB2o/edit)
 * Synchronising the current Workflow RO-Crate with respect to bioschemas and ro-crate
 * User-defined Collections - Curated lists of workflows (or other types)
-* Migration of COVID-19 Workflow Hub to more generic version
+* Migration of COVID-19 Workflow Hub to more generic version (and re-directing covid-19 domain to list of covid-19 workflows)
 * Dedicated technical discussion first week of June
 
 ## July 2020

@@ -13,9 +13,9 @@ See also:
 * Implementing link back to workflow origin (e.g. to a GitHub repo)
 * Finalising the Workflow Bioschemas & [Metadata](https://docs.google.com/spreadsheets/d/1ah4GQFlXuZiL6UeWAbHXt1iAlxEIidkC8g8lsSfNfRQ/edit#gid=0) \
 -> Meta-data discussion [notes](https://docs.google.com/document/d/14b7PnZ01PimuZyfE4OZPH_atB_k4qH_xk5gKFzScB2o/edit)
-* Synchronising the current Workflow RO-Crate with respect to bioschemas and ro-crate
+* Synchronising the current Workflow RO-Crate with bioschemas and ro-crate
 * Implementing "Collections" - User-maintained lists of workflows (and other things)
-* Migrating of COVID-19 Workflow Hub to more generic version (and re-directing covid-19 domain to list of covid-19 workflows)
+* Migrating COVID-19 Workflow Hub to more generic version (and re-directing covid-19 domain to list of covid-19 workflows)
 
 ## July 2020
 

@@ -27,6 +27,7 @@ This project has a [Code of Conduct](https://github.com/workflowhub-eu/about/blo
 * **Dev instance** <https://dev.workflowhub.eu/> (use for testing; occasionally wiped)
 * **Source**: [seek4science/seek](https://github.com/seek4science/seek/tree/workflow) branch `workflow`
 * **Tasks**: 
+  * [Workflow Hub roadmap](roadmap)
   * Workflow Hub imlementation <https://github.com/seek4science/seek/projects/3> (SEEK)
   * General Workflow Hub <https://github.com/workflowhub-eu/about/issues>
 * **Mailing list**: [`workflowhub😊elixir-europe.org`](https://lists.elixir-europe.org/mailman/listinfo/workflowhub_elixir-europe.org)

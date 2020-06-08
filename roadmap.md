@@ -1,6 +1,6 @@
 # Workflow Hub Roadmap
 
-_Please feel free to help contribute to this roadmap!_
+_Please feel free to help [contribute](https://github.com/workflowhub-eu/about/blob/master/roadmap.md) to this roadmap!_
 
 See also:
   * Workflow Hub imlementation <https://github.com/seek4science/seek/projects/3> (SEEK)

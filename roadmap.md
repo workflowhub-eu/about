@@ -6,6 +6,11 @@ See also:
   * Workflow Hub imlementation <https://github.com/seek4science/seek/projects/3> (SEEK)
   * General Workflow Hub <https://github.com/workflowhub-eu/about/issues>
 
+Table of Contents:
+
+* Table of Contents
+{:toc}
+
 ## June 2020
 
 * Investigating/designing improvements to storage mechanism to allow storage of workflows as directories (as opposed to Zip files)

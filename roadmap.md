@@ -31,16 +31,16 @@ See also:
 
 ## August 2020
 
-* (Vacation)
+*Vacation*
 
-## Sept 2020
+## September 2020
 
 * Beta release EOSCLife Workflow Hub
 * TRS implementation
 * API for automated upload of RO-Crates
 * Linking workflow steps to Bio.tools
 
-## Autumn 2020 and later
+## Autumn 2020 and beyond
 
 * One-click execution of workflows using TRS
 * Tools ecosystem integration of WorkflowHub

@@ -2,7 +2,7 @@
 
 ![Workflow RO-Crate](logo/ro-crate-workflow.svg)
 
-*Please note* this is a draft spec and subject to change. Please leave any suggestions and comments here: https://github.com/seek4science/seek/issues/183 
+*Please note* this is a draft spec and subject to change. Please leave any suggestions and comments here: [https://github.com/seek4science/seek/issues/183](https://github.com/seek4science/seek/issues/183)
 
 _Workflow RO Crates_ are a specialization of [_RO Crate_](https://researchobject.github.io/ro-crate/) for packaging an executable workflow with all necessary documentation. It is aligned with, and intends to strictly extend, the more general [BioSchemas Workflow profile](https://bioschemas.org/profiles/Workflow/0.3-DRAFT-2020_03_03/). 
 

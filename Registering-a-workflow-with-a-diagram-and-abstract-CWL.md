@@ -60,6 +60,6 @@ The next page is basically a form to gather the necessary metadata that will be 
 
 ##  Check the uploaded workflow
 
-Make sure that all the metadata you filled in previously is showed properly and is correct. Click `Download RO crate` to check wether all metadata files (JSONLD and HTML) are correctly generated.
+Make sure that all the metadata you filled in previously is showed properly and is correct. Click **Download RO crate** to check wether all metadata files (JSONLD and HTML) are correctly generated.
 
 ![](images/result_diagram_CWLabstract.PNG)

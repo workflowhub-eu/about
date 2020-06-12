@@ -2,15 +2,15 @@
 
 This option allows you to upload an existing Workflow RO Crate.
 
-For more information on how to make a workflow RO-crate, please go to [How-to-make-a-workflow-RO-crate](../How-to-make-a-workflow-RO-crate)
+For more information on how to make a workflow RO-crate, please go to the help page [How to make a workflow RO-crate](../How-to-make-a-workflow-RO-crate)
 
 ## Uploading the RO crate
 
-> TIP: Make sure that the uploaded or referenced file does not contain spaces in the filename. 
+> TIP: Make sure that the uploaded or referenced file does not contain spaces in the filename and has the `.crate.zip` file extension for correct parsing of the metadata
 
 ## Filling in the metadata
 
-The next page is basically a form to gather the necessary meta data that will be inclosed in the RO-crate. This will mostly be filled in automatically by parsing the metadata found in the RO-crate JSON-LD. For correct parsing make sure that the RO-crate is following the [specification](../Workflow-RO-Crate) and has the `.crate.zip` file extension.
+The next page is basically a form to gather the necessary metadata that will be inclosed in the RO-crate. This will mostly be filled in automatically by parsing the metadata found in the RO-crate JSON-LD. For correct parsing make sure that the RO-crate is following the [specification](../Workflow-RO-Crate) and has the `.crate.zip` file extension.
 
 ### The fields:
 - **Title\***: This field is mandatory 
@@ -25,7 +25,7 @@ The next page is basically a form to gather the necessary meta data that will be
 
 - **Sharing**: Specify who can view the summary, get access to the content, and edit the Workflow. This is possibly already filled in according to the selected project.
 
-- **Tags**: Choose an appropriate tag for your workflow. Please check if your tag is already available and use the existing one if so. If you make a new tag, keep it simple without capitals or spaces. For example all new covid-19 workflows will be tagged with `covid-19`.
+- **Tags**: Choose an appropriate tag for your workflow. Please check if your tag is already available and use the existing one if so. If you make a new tag, keep it simple without capitals or spaces. For example all new covid-19 workflows need to be tagged with `covid-19`. This to 
 
 - **Creators**: This is an important section where all the people that where involved in making/publishing this workflow are listed. These creators will be added to the metadata in the RO-crate. 
     3 sections are used to specify the contributors or creators of the workflow.
@@ -42,5 +42,7 @@ The next page is basically a form to gather the necessary meta data that will be
 ![](images/creators_metadata.PNG)
 
 ##  Check the uploaded RO-crate
+
+Make sure that all the metadata that is parsed/ filled is showed properly and is correct.
 
 ![](images/uploaded-galaxy-workflow.PNG)

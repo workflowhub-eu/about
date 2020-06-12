@@ -3,7 +3,7 @@
 
 ## Uploading or referencing the files
 
-The workflow and other associated files can be registered in two ways, uploading through the **Local file** tab or referencing through the **Remote URL** tab. In both options the file will be incorporated into the RO-crate, but when the workflow is referenced, it will also contain the remote URL in the metadata.
+The workflow and other associated files can be registered in two ways, uploading through the **Local file** tab or referencing through the **Remote URL** tab. In both options the file will be incorporated into the RO-crate, but when the workflow is referenced, it will also contain the remote URL in the metadata. This will change in the future since we want to be a hub and not a repository for workflows.
 
 > TIP: Make sure that the uploaded or referenced files do not contain spaces in the filename. 
 
@@ -26,7 +26,7 @@ Click upload.
 
 ## Filling in the metadata
 
-The next page is basically a form to gather the necessary meta data that will be inclosed in the RO-crate.
+The next page is basically a form to gather the necessary metadata that will be inclosed in the RO-crate.
 
 ### The fields:
 - **Title\***: This field is mandatory and is with some workflow types pre-filled with the title of the workflow.
@@ -41,7 +41,7 @@ The next page is basically a form to gather the necessary meta data that will be
 
 - **Sharing**: Specify who can view the summary, get access to the content, and edit the Workflow. This is possibly already filled in according to the selected project.
 
-- **Tags**: Choose an appropriate tag for your workflow. Please check if your tag is already available and use the existing one if so. If you make a new tag, keep it simple without capitals or spaces. For example all new covid-19 workflows will be tagged with `covid-19`.
+- **Tags**: Choose an appropriate tag for your workflow. Please check if your tag is already available and use the existing one if so. If you make a new tag, keep it simple without capitals or spaces. For example all new covid-19 workflows need to be tagged with `covid-19`. This to 
 
 - **Creators**: This is an important section where all the people that where involved in making/publishing this workflow are listed. These creators will be added to the metadata in the RO-crate. 
     3 sections are used to specify the contributors or creators of the workflow.
@@ -59,5 +59,7 @@ The next page is basically a form to gather the necessary meta data that will be
 
 
 ##  Check the uploaded workflow
+
+Make sure that all the metadata you filled in previously is showed properly and is correct. Click `Download RO crate` to check wether all metadata files (JSONLD and HTML) are correctly generated.
 
 ![](images/result_diagram_CWLabstract.PNG)

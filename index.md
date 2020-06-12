@@ -18,6 +18,7 @@ This project has a [Code of Conduct](https://github.com/workflowhub-eu/about/blo
 * [How to register your workflow(s) in WorkflowHub](https://about.workflowhub.eu/How-to-register-your-workflow(s)-in-WorkflowHub)
   * [Simple](https://about.workflowhub.eu/Registering-a-workflow-with-a-diagram-and-abstract-CWL)
   * [Advanced](https://about.workflowhub.eu/Registering-an-existing-Workflow-RO-Crate)
+* [Updating a registered workflow](Updating-a-registered-workflow)
   
 
 

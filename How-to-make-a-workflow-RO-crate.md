@@ -22,7 +22,7 @@ The most convenient way to make a workflow RO-crate at this moment is by making 
   The metadata properties are based on the [BioSchemas workflow profile](https://bioschemas.org/profiles/Workflow)  .
 
 - **HTML file**\
-  A web page serving the meta data in a human readable way.
+  A web page serving the metadata in a human readable way.
   - Original URL
   - Author (creators)
   - License

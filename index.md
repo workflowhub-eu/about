@@ -30,7 +30,7 @@ This project has a [Code of Conduct](https://github.com/workflowhub-eu/about/blo
   * [Workflow Hub roadmap](roadmap)
   * Workflow Hub imlementation <https://github.com/seek4science/seek/projects/3> (SEEK)
   * General Workflow Hub <https://github.com/workflowhub-eu/about/issues>
-* **Mailing list**: [`workflowhub😊elixir-europe.org`](https://lists.elixir-europe.org/mailman/listinfo/workflowhub_elixir-europe.org)
+* **Mailing list**: [`workflowhub😊elixir-europe.org`](https://lists.elixir-europe.org/mailman/listinfo/workflowhub_elixir-europe.org) ([subscribe](https://lists.elixir-europe.org/mailman/listinfo/workflowhub_elixir-europe.org)/[archive](https://mail.elixir-europe.org/pipermail/workflowhub_elixir-europe.org/))
 * **Slack chat**:  [#workflows on seek4science.slack.com](https://seek4science.slack.com/archives/CPLLVV94L) ([join](https://join.slack.com/t/seek4science/shared_invite/zt-csqh94qb-kf~kFbZxuHl1Hpxhbc8avw))
 * [Google Drive](https://drive.google.com/drive/folders/1_bZ63W4oRtWL5OnWJNYvE4u3A27VyGGe)
  (to request write-access, ask in Slack channel) 

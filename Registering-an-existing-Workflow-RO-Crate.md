@@ -1,12 +1,10 @@
-# Registering an existing Workflow RO-Crate
+# **Advanced** - Registering an existing Workflow RO-Crate
 
 This option allows you to upload an existing Workflow RO Crate.
 
 For more information on how to make a workflow RO-crate, please go to [How-to-make-a-workflow-RO-crate](../How-to-make-a-workflow-RO-crate)
 
 ## Uploading the RO crate
-
-![](images/upload-ROcrate.PNG)
 
 > TIP: Make sure that the uploaded or referenced file does not contain spaces in the filename. 
 

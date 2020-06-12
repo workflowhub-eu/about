@@ -1,11 +1,9 @@
-# Registering a workflow with optionally a diagram and/or abstract-CWL
+# **Simple** - Registering a workflow with optionally a diagram and/or abstract-CWL
 
 
 ## Uploading or referencing the files
 
 The workflow and other associated files can be registered in two ways, uploading through the **Local file** tab or referencing through the **Remote URL** tab. In both options the file will be incorporated into the RO-crate, but when the workflow is referenced, it will also contain the remote URL in the metadata.
-
-![](images/workflow_diagram_CWLabstract.PNG)
 
 > TIP: Make sure that the uploaded or referenced files do not contain spaces in the filename. 
 

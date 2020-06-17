@@ -29,7 +29,6 @@ Information on how to use galaxy can be found on the [Galaxy Training Network](h
 This is the most easy way to generate a Galaxy workflow and is extensively explained [here](https://galaxyproject.org/learn/advanced-workflow/extract/).
 
   <b>Editing a Galaxy workflow</b><br>
-
 Using the Galaxy workflow editor it is recommended to add tags and/or add for example the tutorial title as Annotation/Notes. Mor information on how to use the editor can be found [here](https://galaxyproject.github.io/training-material/topics/introduction/tutorials/galaxy-intro-101/tutorial.html) in the "The workflow editor" section.
 
   <b>Galaxy to CWL abstract</b><br>

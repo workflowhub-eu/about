@@ -24,7 +24,7 @@ Following workflow types are tested to work well with Workflow Hub, click on the
   <ol>
   <b>How to use Galaxy</b><br>
 Information on how to use galaxy can be found on the [Galaxy Training Network](https://galaxyproject.github.io/training-material).
-  
+
   <b>Extract a Workflow from a History</b><br>
 This is the most easy way to generate a Galaxy workflow and is extensively explained [here](https://galaxyproject.org/learn/advanced-workflow/extract/).
 

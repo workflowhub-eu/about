@@ -22,6 +22,7 @@ Following workflow types are tested to work well with Workflow Hub, click on the
 <details>
   <summary>Galaxy (.ga)</summary>
   <ol>
+  
   <b>How to use Galaxy</b><br>
 Information on how to use galaxy can be found on the [Galaxy Training Network](https://galaxyproject.github.io/training-material).
 

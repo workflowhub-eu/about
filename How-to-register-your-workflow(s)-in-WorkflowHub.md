@@ -60,7 +60,7 @@ Galaxy workflows can easily be converted to CWL abstract with
   More information will soon be available.
   </ol>
 </details>
-
+<br>
 It is also possible to upload workflows from another type (for ex. bash scripts), these will be recognized as unknown workflow type. Note that at this moment only for CWL workflows it is possible to automatically generate a diagram.
 
 ### Registering a workflow

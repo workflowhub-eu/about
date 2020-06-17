@@ -22,11 +22,11 @@ Following workflow types are tested to work well with Workflow Hub, click on the
 <details>
   <summary>Galaxy (.ga)</summary>
   <ol>
-  
+
   <b>How to use Galaxy</b><br>
 Information on how to use galaxy can be found on the [Galaxy Training Network](https://galaxyproject.github.io/training-material).
 
-  <b>Extract a Workflow from a History</b><br>
+  <b>Extract a workflow from a History</b><br>
 This is the most easy way to generate a Galaxy workflow and is extensively explained [here](https://galaxyproject.org/learn/advanced-workflow/extract/).
 
   <b>Editing a Galaxy workflow</b><br>
@@ -35,6 +35,7 @@ Using the Galaxy workflow editor it is recommended to add tags and/or add for ex
   <b>Galaxy to CWL abstract</b><br>
 Galaxy workflows can easily be converted to CWL abstract with 
 [galaxy2cwl](https://github.com/workflowhub-eu/galaxy2cwl). This can be seen as a standardized summary of the workflow that can be interpreted by WorkflowHub. CWL abstract can also be used to generate a diagram.
+
   </ol>
 </details>
 <details>
@@ -63,6 +64,7 @@ Galaxy workflows can easily be converted to CWL abstract with
 </details>
 <br>
 It is also possible to upload workflows from another type (for ex. bash scripts), these will be recognized as unknown workflow type. Note that at this moment only for CWL workflows it is possible to automatically generate a diagram.
+
 
 ### Registering a workflow
 

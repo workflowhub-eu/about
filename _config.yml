@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
 markdown: CommonMarkGhPages
-title: EOSC-Life Workflow Hub project
+title: Workflow Hub project
 email: info@esciencelab.org.uk
 description: > # this means to ignore newlines until "baseurl:" 
   Project pages for developing and running the WorkflowHub, 

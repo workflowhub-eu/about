@@ -8,7 +8,7 @@ See also:
 
 ## June 2020
 
-* ☑ Investigating/designing improvements to storage mechanism to allow storage of workflows as directories (as opposed to Zip files)
+* ☑ Investigating/designing improvements to storage mechanism to allow [storage of workflows as directories](https://docs.google.com/document/d/19IW3pwgJSXH_GWW633NL3sNYDjZuwGSmUkK1h5OSGrs/edit) (as opposed to Zip files)
 * ☑ Improving user registration guidance
 * ☑ Implementing link back to workflow origin (e.g. to a GitHub repo)
 * ☑ Finalising the Workflow Bioschemas & [Metadata](https://docs.google.com/spreadsheets/d/1ah4GQFlXuZiL6UeWAbHXt1iAlxEIidkC8g8lsSfNfRQ/edit#gid=0) \

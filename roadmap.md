@@ -8,21 +8,20 @@ See also:
 
 ## June 2020
 
-* Investigating/designing improvements to storage mechanism to allow storage of workflows as directories (as opposed to Zip files)
-* Improving user registration guidance
-* Implementing link back to workflow origin (e.g. to a GitHub repo)
-* Finalising the Workflow Bioschemas & [Metadata](https://docs.google.com/spreadsheets/d/1ah4GQFlXuZiL6UeWAbHXt1iAlxEIidkC8g8lsSfNfRQ/edit#gid=0) \
+* ☑ Investigating/designing improvements to storage mechanism to allow storage of workflows as directories (as opposed to Zip files)
+* ☑ Improving user registration guidance
+* ☑ Implementing link back to workflow origin (e.g. to a GitHub repo)
+* ☑ Finalising the Workflow Bioschemas & [Metadata](https://docs.google.com/spreadsheets/d/1ah4GQFlXuZiL6UeWAbHXt1iAlxEIidkC8g8lsSfNfRQ/edit#gid=0) \
 -> Meta-data discussion [notes](https://docs.google.com/document/d/14b7PnZ01PimuZyfE4OZPH_atB_k4qH_xk5gKFzScB2o/edit)
-* Synchronising the current Workflow RO-Crate with bioschemas and ro-crate
-* Implementing "Collections" - User-maintained lists of workflows (and other things)
-* Migrating COVID-19 Workflow Hub to more generic version (and re-directing covid-19 domain to list of covid-19 workflows)
+* ☑ Implementing "Collections" - User-maintained lists of workflows (and other things)
+* ☑ Migrating COVID-19 Workflow Hub to more generic version (and re-directing covid-19 domain to list of covid-19 workflows)
+* Synchronising the current Workflow RO-Crate with bioschemas and ro-crate ([ro-crate #81](https://github.com/ResearchObject/ro-crate/pull/81))
 
 ## July 2020
 
 * **EOSCLife Workflow Hub pre-Beta release**
 * Overhauling guidance on adding your workflow
 * [RO-Crate Python Library](https://github.com/ResearchObject/ro-crate-py) release
-* Nextflow -> CWL project kickoff
 * Improving user registration experience/flow
 * Implementing improvements to storage mechanism (directories)
 * Implementing versioning of workflows
@@ -45,3 +44,5 @@ See also:
 * Tools ecosystem integration of WorkflowHub
 * Implementing assisted registration of workflows from a GitHub repository
 * [Life Monitor](https://github.com/crs4/life_monitor) integration web service is now an application
+* Nextflow -> CWL Abstract (**volunteers needed**, potential research/MsC project?)
+

@@ -26,7 +26,7 @@ Following workflow types are tested to work well with Workflow Hub, click on the
   <b>How to use Galaxy</b><br>
 Information on how to use galaxy can be found on the [Galaxy Training Network](https://galaxyproject.github.io/training-material).
 
-  <b>Extract a workflow from a History</b><br>
+  <b>Extract a workflow from the History</b><br>
 This is the most easy way to generate a Galaxy workflow and is extensively explained [here](https://galaxyproject.org/learn/advanced-workflow/extract/).
 
   <b>Editing a Galaxy workflow</b><br>
@@ -36,10 +36,13 @@ Using the Galaxy workflow editor it is recommended to add tags and/or add for ex
 Galaxy workflows can easily be converted to CWL abstract with 
 [galaxy2cwl](https://github.com/workflowhub-eu/galaxy2cwl). This can be seen as a standardized summary of the workflow that can be interpreted by WorkflowHub. CWL abstract can also be used to generate a diagram.
 
+  <b>Uploading to WorkflowHub</b><br>
+Since it is not possible to reference a workflow in a Galaxy instance, you either have to download the workflow file and upload it to WorkflowHub, or make an RO-crate following the steps below. You can still reference the workflow in the galaxy instance using the source property in the metadata of the registration.
+
   </ol>
 </details>
 <details>
-  <summary>Common Workflow Language (.CWL)</summary>
+  <summary>Common Workflow Language (.cwl)</summary>
   <ol>
   More information will soon be available.
   </ol>
@@ -67,17 +70,18 @@ It is also possible to upload workflows from another type (for ex. bash scripts)
 
 <br>
 
-### Registering a workflow
+### Registering your workflow on WorkflowHub 
 
-After clicking on the "Contribute" icon or selecting "Create" and then "Workflow" from the navigation menu bar, you have 2 options for registering your workflow:
-* **Simple** - [By registering a workflow, with an optional diagram and CWL description.](../Registering-a-workflow-with-a-diagram-and-abstract-CWL) \
-  With this option you can register your workflow in WorkflowHub by uploading or referencing a workflow file along with optionally a CWL Description and/or a diagram. WorkflowHub will than generate an RO crate based on these files and the metadata you filled in while registering the workflow.
-* **Advanced** - [By registering an existing Workflow RO-Crate](../Registering-an-existing-Workflow-RO-Crate)\
-  When you have created the workflow RO-crate yourself, and want to upload or reference it "as is".
+After clicking on the "Contribute" icon or selecting "Create" and then "Workflow" from the navigation menu bar, you have 2 options for registering your workflow. For more information on the these options, please go to the corresponding pages:
 
-For more information on the upload options, please go to the corresponding pages.
+#### - [The simple and recommended way: registering a workflow-file](../Registering-a-workflow-with-a-diagram-and-abstract-CWL) 
 
+Using the UI of WorkflowHub you upload or reference a workflow file along with optionally a CWL Description and/or a diagram.
 
-### API
+#### - [The advanced way: registering a workflow RO-crate](../Registering-an-existing-Workflow-RO-Crate)
 
-We are working on a WorkflowHub API that will allow the user to automatically register RO-crates. Not all features are yet developed, but a glimpse of the API can be found [here](https://workflowhub.eu/api).
+When you have created a workflow RO-crate of your workflow using the [python package](https://github.com/ResearchObject/ro-crate-py), and want to upload or reference it.
+
+#### - [In development] Registering a workflow RO-crate using the API
+
+We are working on a WorkflowHub API that will allow the user to automatically register workflow RO-crates. Not all features are yet developed, but a glimpse of the API can be found [here](https://workflowhub.eu/api).

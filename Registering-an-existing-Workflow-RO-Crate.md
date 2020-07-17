@@ -1,10 +1,10 @@
-# **Advanced** - Registering an existing Workflow RO-Crate
+# **Advanced** - Registering a Workflow RO-Crate
 
-This option allows you to upload an existing Workflow RO Crate.
+Creating workflow RO-crates can be done using the [ro-crate-py ](https://github.com/ResearchObject/ro-crate-py) package. This gives you the advantage that you are not bound by the file limitations the workflow registration can give you. 
 
-For more information on how to make a workflow RO-crate, please go to the help page [How to make a workflow RO-crate](../How-to-make-a-workflow-RO-crate)
+## Referring or uploading the RO crate
 
-## Uploading the RO crate
+The workflow RO-crate can be registered in two ways, uploading through the **Local file** tab or referencing through the **Remote URL** tab. We recommend referencing the files, for example towards a github repo. 
 
 > TIP: Make sure that the uploaded or referenced file does not contain spaces in the filename and has the `.crate.zip` file extension for correct parsing of the metadata
 
@@ -16,6 +16,9 @@ The next page is basically a form to gather the necessary metadata that will be 
 - **Title\***: This field is mandatory 
 
 - **Description**: If a CWL (abstract) file is given, the description will be parsed automatically out of the `doc` attribute. In any other case this field can be used to write some documentation that will be showed on the workflow page.
+
+- **Source**: 
+If the workflow came from an external repository (i.e. GitHub), you can include its original URL here.
 
 - **Maturity**: This field can be used to specify in which maturity state the workflow is. The two available options are *work-in-progress* and *stable*.
 

@@ -9,14 +9,14 @@ This project has a [Code of Conduct](https://github.com/workflowhub-eu/about/blo
 ## User Guide
 
 * [What is WorkflowHub](https://about.workflowhub.eu/About-WorkflowHub)
-* [Workflow RO Crate](https://about.workflowhub.eu/Workflow-RO-Crate)
 * [How to register](https://about.workflowhub.eu/How-to-register)
 * [Logging-in](https://about.workflowhub.eu/Logging-in)
 * [How to join a project](https://about.workflowhub.eu/How-to-join-a-project)
-* [How to find and retrieve workflow(s) from WorkflowHub](https://about.workflowhub.eu/How-to-find-and-retrieve-workflow(s)-from-WorkflowHub)
-* [How to make a workflow RO-crate](https://about.workflowhub.eu/How-to-make-a-workflow-RO-crate)
-* [How to register your workflow(s) in WorkflowHub](https://about.workflowhub.eu/How-to-register-your-workflow(s)-in-WorkflowHub)
+* [How to find and retrieve workflows from WorkflowHub](https://about.workflowhub.eu/How-to-find-and-retrieve-workflow(s)-from-WorkflowHub)
+* [How to register your workflow in WorkflowHub](https://about.workflowhub.eu/How-to-register-your-workflow(s)-in-WorkflowHub)
 * [Updating a registered workflow](Updating-a-registered-workflow)
+* [Workflow RO Crates](https://about.workflowhub.eu/Workflow-RO-Crate)
+* [How to make a workflow RO-crate](https://about.workflowhub.eu/How-to-make-a-workflow-RO-crate)
   
 
 

@@ -10,12 +10,20 @@ The workflow RO-crate can be registered in two ways, uploading through the **Loc
 
 ## Filling in the metadata
 
-The next page is basically a form to gather the necessary metadata that will be inclosed in the RO-crate. This will mostly be filled in automatically by parsing the metadata found in the RO-crate JSON-LD. For correct parsing make sure that the RO-crate is following the [specification](../Workflow-RO-Crate) and has the `.crate.zip` file extension.
+Using a correctly generated RO-crate, the following fields will probably be filled in automatically by parsing the metadata found in the RO-crate JSON-LD. For correct parsing make sure that the RO-crate is following the [specification](../Workflow-RO-Crate) and has the `.crate.zip` file extension.
 
 ### The fields:
 - **Title\***: This field is mandatory 
 
-- **Description**: If a CWL (abstract) file is given, the description will be parsed automatically out of the `doc` attribute. In any other case this field can be used to write some documentation that will be showed on the workflow page.
+- **Description**: 
+    The order the description gets parsed:
+
+    1. description in abstract CWL
+    2. description in workflow file
+    3. description in JSON-LD
+    4. README .md
+
+    You can always make changes afterwards.
 
 - **Source**: 
 If the workflow came from an external repository (i.e. GitHub), you can include its original URL here.

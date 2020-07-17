@@ -12,7 +12,7 @@ This is the main workflow file that has to be uploaded/referenced. Specify the *
 
 ### 2. The CWL abstract (optional)
 
-The CWL abstract is used as a summary of the workflow to parse Inputs, Steps, Outputs and the description (doc) if provided. If you have a Galaxy workflow you can generate the CWL abstract with 
+The CWL abstract is used as a summary of the workflow to parse for example the description (doc) if provided or to generate a svg diagram. If you have a Galaxy workflow you can generate the CWL abstract with 
 [galaxy2cwl](https://github.com/workflowhub-eu/galaxy2cwl). If your main workflow is a CWL workflow, you can skip this step. In the future it will also be possible to convert other workflow types to CWL abstract. 
 
 ### 3. The diagram (optional)

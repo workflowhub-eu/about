@@ -47,22 +47,45 @@ Anyone is welcome to join the weekly _Workflow Hub Club_ calls using Zoom.
 * Agenda/telcon details: <https://s.apache.org/workflowhub-minutes>
 </details>
 
-##
-## Other resources
+## Events
+
+<details>
+<summary>FAIR Computational Workflows workshop (2020-09-02)</summary>
+The Workflow Hub team organized the [Workshop on FAIR Computational Workflows](https://eccb2020.info/ntbew01-workshop-on-fair-computational-workflows/) at the
+19th European Conference on Computational Biology ([ECCB 2020](https://eccb2020.info/)).
+
+Talks included:
+* _A review on the FAIR principles for computational workflows_ (Sarah Cohen-Boulakia)
+* [Toward defining and implementing FAIR for research software](https://tinyurl.com/y36tmjlc) (Mateusz Kuzak)
+* [WorkflowHub - a registry for workflows](https://doi.org/10.5281/zenodo.4012124) (Carole Goble)
+* [Common Workflow Language and CWLProv](https://tinyurl.com/eccb20-cwl) (Michael R. Crusoe)
+* [Packaging workflows with RO-Crate](https://doi.org/10.5281/zenodo.4011999) (Stian Soiland-Reyes)
+* [Testing workflows: Life Monitor and OpenEBench](https://docs.google.com/presentation/d/15113lwn8_H7ftDF9I650O3rZGeAVr6LVSU4-XDkBgA0/edit#slide=id.g9337569ecf_1_0) (Simone Leo & Salvador Capella-Gutierrez)
+* [FAIR Computational Workflows & OpenEBench](https://docs.google.com/presentation/d/15113lwn8_H7ftDF9I650O3rZGeAVr6LVSU4-XDkBgA0/edit#slide=id.g963779cf0b_1_335) (Salvador Capella-Gutierrez)
+* [FAIR computational data analysis with Galaxy](https://docs.google.com/presentation/d/15113lwn8_H7ftDF9I650O3rZGeAVr6LVSU4-XDkBgA0/edit#slide=id.g96ed33c7ca_4_28)(Björn Grüning)
+* _Nextflow and nf-core_ (Alex Peltzer)
+
+The ECCB organizers have recorded the workshop and aim to make all slides/videoes available later.
+</details>
 
 <details>
 <summary>COVID-19 BioHackathon (2020-04-05 / 2020-04-11)</summary>
 
-Workflow Hub is one of the [topics](https://github.com/virtual-biohackathons/covid-19-bh20/wiki/Workflow-Hub) at the [Virtual COVID-19 BioHackathon](https://github.com/virtual-biohackathons/covid-19-bh20/):
+Workflow Hub was one of the topics at the [Virtual COVID-19 BioHackathon](https://github.com/virtual-biohackathons/covid-19-bh20/), attracting more than 30 developers. The participants also collaborated with the _Workflows_ and _FAIR Data_ topics.
 
-> This topic proposes to set up an early pre-production instance of the Workflow Hub, covid19.workflowhub.eu, to be a registry that gather the COVID-19 workflows and their metadata. Part of the tasks here is also to curate the existing workflows and help making them interoperable, reusable and reproducible.
+Thanks to the collaborative effort the Workflow Hub could be launched early at <https://covid19.workflowhub.eu/> in a "pre-beta" stage. The COVID-19 workflows registered at the hackathon now appear as part of <https://workflowhub.eu/> 
 
-> The curated metadata will be in a FAIR format based on RO-Crate and BioSchemas annotations and maintained separate from the Workflow Hub; where possible contributed back to the workflow's origin GitHub repositories.
-
-Anyone is welcome to join!
-
-* https://github.com/virtual-biohackathons/covid-19-bh20/wiki/Workflow-Hub
+More:
+ * [ELIXIR: Hacking the pandemic](https://elixir-europe.org/news/hacking-pandemic>)
+ * [WorkflowHub topic at COVID-19 BH](https://github.com/virtual-biohackathons/covid-19-bh20/wiki/Workflow-Hub)
+ * [WorkflowHub topic notes ](https://docs.google.com/document/d/140QltsC2hPjdTue6COn0w-zo7TYgb68TGW-72SQqWBA/edit#)
+ * [FAIR Data topic at COVID-19 BH](https://github.com/virtual-biohackathons/covid-19-bh20/wiki/FairData)
+ * [Workflows topic at COVID-19 BH](https://github.com/virtual-biohackathons/covid-19-bh20/wiki/Workflows)
 </details>
+
+
+## Other resources
+
 
 <details>
 <summary>Planning documents</summary>

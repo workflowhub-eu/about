@@ -51,10 +51,12 @@ Anyone is welcome to join the weekly _Workflow Hub Club_ calls using Zoom.
 
 <details>
 <summary>FAIR Computational Workflows workshop (2020-09-02)</summary>
+
 The Workflow Hub team organized the [Workshop on FAIR Computational Workflows](https://eccb2020.info/ntbew01-workshop-on-fair-computational-workflows/) at the
 19th European Conference on Computational Biology ([ECCB 2020](https://eccb2020.info/)).
 
 Talks included:
+
 * _A review on the FAIR principles for computational workflows_ (Sarah Cohen-Boulakia)
 * [Toward defining and implementing FAIR for research software](https://tinyurl.com/y36tmjlc) (Mateusz Kuzak)
 * [WorkflowHub - a registry for workflows](https://doi.org/10.5281/zenodo.4012124) (Carole Goble)
@@ -62,7 +64,7 @@ Talks included:
 * [Packaging workflows with RO-Crate](https://doi.org/10.5281/zenodo.4011999) (Stian Soiland-Reyes)
 * [Testing workflows: Life Monitor and OpenEBench](https://docs.google.com/presentation/d/15113lwn8_H7ftDF9I650O3rZGeAVr6LVSU4-XDkBgA0/edit#slide=id.g9337569ecf_1_0) (Simone Leo & Salvador Capella-Gutierrez)
 * [FAIR Computational Workflows & OpenEBench](https://docs.google.com/presentation/d/15113lwn8_H7ftDF9I650O3rZGeAVr6LVSU4-XDkBgA0/edit#slide=id.g963779cf0b_1_335) (Salvador Capella-Gutierrez)
-* [FAIR computational data analysis with Galaxy](https://docs.google.com/presentation/d/15113lwn8_H7ftDF9I650O3rZGeAVr6LVSU4-XDkBgA0/edit#slide=id.g96ed33c7ca_4_28)(Björn Grüning)
+* [FAIR computational data analysis with Galaxy](https://docs.google.com/presentation/d/15113lwn8_H7ftDF9I650O3rZGeAVr6LVSU4-XDkBgA0/edit#slide=id.g96ed33c7ca_4_28) (Björn Grüning)
 * _Nextflow and nf-core_ (Alex Peltzer)
 
 The ECCB organizers have recorded the workshop and aim to make all slides/videoes available later.

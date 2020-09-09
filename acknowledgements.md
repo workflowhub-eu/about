@@ -44,12 +44,12 @@ Participants include:
 * Alexander Vasilenko (VKM IBPM RAS, MIRRI)
 * Alexander Kanitz
 * Alban Gaignard
-* Ambarish Kumar
+* Ambarish Kumar (Jawaharlal Nehru University, New Delhi, India)
 * Antonio Rosato
 * Bert Droesbeke (ELIXIR-BE, VIB-UGent Center for Plant Systems Biology)
 * Björn Grüning (University of Freiburg, ELIXIR-DE, Galaxy Project)
 * Carole Goble (The University of Manchester, ELIXIR-UK)
-* Carlos Oscar Sorzano
+* Carlos Oscar Sorzano (CNB CSIC)
 * Castrense Savojardo (ELIXIR-IT)
 * Dan Fornika
 * Decruw Cedric
@@ -59,7 +59,7 @@ Participants include:
 * Finn Bacall (The University of Manchester, ELIXIR-UK)
 * Flora D’Anna
 * Frédéric Lemoine (Institut Pasteur, Paris)
-* Frederik Coppens (ELIXIR-BE, VIB-UGent Center for Plant Systems Biology)
+* Frederik Coppens (ELIXIR-BE, VIB-UGent Center for Plant Systems Biology, EOSC-Life)
 * Georg Peiter
 * Giacomo Tartari (ELIXIR-IT)
 * Hervé Ménager (Institut Pasteur, ELIXIR-FR, bio.tools)
@@ -69,8 +69,8 @@ Participants include:
 * José Mª Fernández (BSC, ELIXIR-ES)
 * Kiran K Telukunta
 * Lars Ridder (Netherlands eScience Center)
-* Laura del Caño (CNB-CSIC, INSTRUCT)
-* Laura Rodriguez-Navas (BSC, ELIXIR-ES)
+* Laura del Caño (CNB-CSIC, INSTRUCT, EOSC-Life)
+* Laura Rodriguez Navas (BSC, ELIXIR-ES)
 * Leyla Garcia
 * Luca Pireddu (CRS4/BBMRI)
 * Magnus Palmblad (LUMC, ELIXIR-NL)
@@ -93,22 +93,35 @@ Participants include:
 * Stian Soiland-Reyes (The University of Manchester, ELIXIR-UK, BioExcel, CWL)
 * Stuart Owen (The University of Manchester,, ELIXIR-UK)
 * Vahid Kiani
-* Vincenzo Laveglia (CIRMMP Florence)
+* Vincenzo Laveglia (CIRMMP Florence, EOSC-Life)
 * Wolfgang Müller (HITS GmbH)
 * Xiaoming Hu (HITS GmbH)
 
-We are also grateful for contributions from:
+We are also grateful for contributions through hackathons/codefests and other events from:
 
-* Charles Hadley
-* Chris Child
+* Andrea Giachetti (CIRMMP Florence EOSC-life demonstrator)
+* Anne Fouilloux
+* Assunta DeSanto
+* Boï Kone
+* Charles Hadley King (George Washington University)
+* Chris Child (The University of Manchester)
 * Daniel Garijo 
 * Eoghan Ó Carragáin 
+* Festus Nyasimi
 * Ivan Topolsky
+* Janisha Patel (George Washington University)
 * Jasper Koehorst
+* Jennifer Chang
 * Maciek Bak
+* Marius van den Beek (PennState University, Galaxy project)
+* Melanie Föll
+* Nicola Soranzo
 * Oscar Corcho 
 * Peter Sefton 
+* Philip Ewels (SciLifeLab, nf-core)
 * Raul Palma 
 * Sheeba Samuel
+* Shivani Sharma
 * Victoria Dominguez Del Angel
+* Yannis Doukas (The University of Manchester)
 

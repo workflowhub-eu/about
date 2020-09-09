@@ -70,7 +70,7 @@ Participants include:
 * Kiran K Telukunta
 * Lars Ridder (Netherlands eScience Center)
 * Laura del Caño (CNB-CSIC, INSTRUCT)
-* Laura Rodriguez Navas (BSC, ELIXIR-ES)
+* Laura Rodriguez-Navas (BSC, ELIXIR-ES)
 * Leyla Garcia
 * Luca Pireddu (CRS4/BBMRI)
 * Magnus Palmblad (LUMC, ELIXIR-NL)
@@ -87,7 +87,7 @@ Participants include:
 * Rob Hooft
 * Robin Richardson (Netherlands eScience Center)
 * Romain Dallet (EMBRC)
-* Salvador Capella-Gutierrez
+* Salvador Capella-Gutierrez (BSC, ELIXIR-ES)
 * Simone Leo (CRS4/BBMRI)
 * Sirarat Sarntivijai (ELIXIR-Hub)
 * Stian Soiland-Reyes (The University of Manchester, ELIXIR-UK, BioExcel, CWL)

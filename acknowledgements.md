@@ -13,7 +13,7 @@ The main [Workflow Hub codebase](https://github.com/seek4science/seek/tree/workf
 
 ## Related projects
 
-Workflow Hub activities are strongly coordinated with [ELIXIR Europe](https://elixir-europe.org/) including these nodes:
+Workflow Hub activities are strongly coordinated with [ELIXIR Europe](https://elixir-europe.org/) with participants from:
  
  * [ELIXIR UK](https://elixir-europe.org/about-us/who-we-are/nodes/uk)
  * [ELIXIR Belgium](https://elixir-europe.org/about-us/who-we-are/nodes/belgium)

@@ -46,7 +46,7 @@ Participants include:
 * Alban Gaignard
 * Ambarish Kumar
 * Antonio Rosato
-* Bert Droesbeke
+* Bert Droesbeke (ELIXIR-BE, VIB-UGent Center for Plant Systems Biology)
 * Björn Grüning (University of Freiburg, ELIXIR-DE, Galaxy Project)
 * Carole Goble (The University of Manchester, ELIXIR-UK)
 * Carlos Oscar Sorzano
@@ -63,7 +63,7 @@ Participants include:
 * Georg Peiter
 * Giacomo Tartari (ELIXIR-IT)
 * Hervé Ménager (Institut Pasteur, ELIXIR-FR, bio.tools)
-* Ignacio Eguinoa
+* Ignacio Eguinoa (ELIXIR-BE, VIB-UGent Center for Plant Systems Biology)
 * Jennifer Harrow (ELIXIR-Hub, tools platform coordinator)
 * Jon Ison (Institut Pasteur, ELIXIR-FR, bio.tools)
 * José Mª Fernández (BSC, ELIXIR-ES)

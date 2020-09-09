@@ -70,6 +70,29 @@ Talks included:
 The ECCB organizers have recorded the workshop and aim to make all slides/videoes available later.
 </details>
 
+
+
+<details>
+<summary>BCC2020 CollaborationFest (2020-07-22 / 2020-07-23)</summary>
+
+Workflow Hub was one of the working clusters at the [BCC2020 CollaborationFest](https://bcc2020.github.io/cofest/) as part of [Bioinformatics Community Conference 2020](https://bcc2020.github.io/).
+
+Activities included a _Bring your own Workflow_ session to register more workflows at <https://workflowhub.eu/>.
+
+_Improving support for Galaxy workflows_ worked closely with Galaxy developers at BCC and the topic _Exporting RO-Crate/BioCompute-Object packaged workflows from Galaxy_ which made a first release of the [RO-Crate Python library](https://pypi.org/project/rocrate/) and alignments with [BioCompute Object](https://biocomputeobject.org/).
+
+_Metadata and BioSchemas_ aligned and released [BioSchemas ComputationalWorkflow profile](https://bioschemas.org/profiles/ComputationalWorkflow/0.5-DRAFT-2020_07_21/) 0.5 which was also aligned with the next version of [RO-Crate](https://w3id.org/ro/crate/)
+
+_IWC for Galaxy Workflows_ looked at API for workflow registration and created an open source license drop-down list for workflows.
+
+
+
+More:
+ * [WorkflowHub notes during CoFest](https://docs.google.com/document/d/1EC0Z-N9c26qG2aguV_irNLftn_98sX6eaHrBs_ov8Jk/edit#)
+</details>
+
+
+
 <details>
 <summary>COVID-19 BioHackathon (2020-04-05 / 2020-04-11)</summary>
 
@@ -106,7 +129,7 @@ These planning documents are from the [Workflow Hub Google Drive](https://drive.
 <summary>Related resources</summary>
 
 * [SEEK](https://seek4science.org/) is the underlying platform used by the Workflow Hub
-* [RO Crate](https://w3id.org/ro/crate/1.0/) is a metadata/packaging mechanism, used by Workflow Hub for exchange of workflows
+* [RO-Crate](https://w3id.org/ro/crate/1.0/) is a metadata/packaging mechanism, used by Workflow Hub for exchange of workflows
 * [BioSchemas Workflows](https://bioschemas.org/profiles/Workflow/0.3-DRAFT-2020_03_03/) - a suggested new `schema.org` type for describing computational workflows
 * [Common Workflow Language](https://www.commonwl.org/) (CWL) is an executable workflow language, which Workflow Hub use primarily for descriptive functions
 </details>

@@ -45,6 +45,8 @@ Anyone is welcome to join the weekly _Workflow Hub Club_ calls using Zoom.
 
 * When: Wednesdays 10:00 GMT / 11:00 CET
 * Agenda/telcon details: <https://s.apache.org/workflowhub-minutes>
+
+See the list of club members on the [acknowledgement](acknowledgements) page.
 </details>
 
 ## Events

@@ -33,7 +33,10 @@ This project has a [Code of Conduct](https://github.com/workflowhub-eu/about/blo
 * **Slack chat**:  [#workflows on seek4science.slack.com](https://seek4science.slack.com/archives/CPLLVV94L) ([join](https://join.slack.com/t/seek4science/shared_invite/zt-csqh94qb-kf~kFbZxuHl1Hpxhbc8avw))
 * [Google Drive](https://drive.google.com/drive/folders/1_bZ63W4oRtWL5OnWJNYvE4u3A27VyGGe)
  (to request write-access, ask in Slack channel) 
-* [Workflow Hub Introduction slides](https://drive.google.com/open?id=1hfBAjjRnL9jGoxHEvq66Wo-wuKqouR3C), Carole Goble 2020-03-25
+* Slides/posters:
+  * [WorkflowHub - a registry for workflows](https://doi.org/10.5281/zenodo.4012124), Carole Goble, ECCB 2020, 2020-09-02
+  * [Poster: The Workflow Hub, a registry for Life Science Workflows](https://workflowhub.eu/presentations/1), Ambarish Kumar, ISMB, 2020-07-13
+  * [Workflow Hub Introduction slides](https://drive.google.com/open?id=1hfBAjjRnL9jGoxHEvq66Wo-wuKqouR3C), Carole Goble, 2020-03-25
 * **Weekly meeting**: [Rolling Minutes / call details](https://docs.google.com/document/d/1U2KAlbKviCu-fCX-znncKIBUIUUOeEnuRGdAg-fNd4Q/edit?usp=sharing)
 
 ## Regular meeting

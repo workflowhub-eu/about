@@ -126,4 +126,6 @@ Workflow Hub intends to harvest workflows from existing workflow repositories, i
 
 workflowhub.eu lead development is part of [EOSC-Life](https://eosc-life.eu/), funded by European Union’s [Horizon 2020](https://ec.europa.eu/programmes/horizon2020/) programme under grant agreement [824087](https://cordis.europa.eu/project/id/824087).  We are grateful for contributions funded by [BioExcel-2](https://bioexcel.eu/) ([823830](https://cordis.europa.eu/project/id/823830)), [IBISBA](https://www.ibisba.eu/) ([730976](https://cordis.europa.eu/project/id/730976), [871118](https://cordis.europa.eu/project/id/871118)), [FAIRplus](https://fairplus-project.eu/) ([802750](https://cordis.europa.eu/project/id/802750)), [SYNTHESYS+](https://www.synthesys.info/) ([823827](https://cordis.europa.eu/project/id/823827)), [FAIR Workflows](https://fair-workflows.github.io/project.html) and others. 
 
-The [Workflow Hub codebase](https://github.com/seek4science/seek/tree/workflow) is based on [SEEK](https://seek4science.org/about_us.html) and builds on previous experience with developing [myExperiment](https://www.myexperiment.org/about).
+<!-- NOTE: Always update list above AND the acknowledgements.md page -->
+
+See a complete list on the [acknowledgement](acknowledgements) page.

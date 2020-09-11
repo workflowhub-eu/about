@@ -64,7 +64,7 @@ The Workflow Hub team organized the [Workshop on FAIR Computational Workflows](h
 
 Talks included:
 
-* _A review on the FAIR principles for computational workflows_ (Sarah Cohen-Boulakia)
+* [A review on the FAIR principles for computational workflows](https://doi.org/10.5281/zenodo.4025295) (Sarah Cohen-Boulakia)
 * [Toward defining and implementing FAIR for research software](https://tinyurl.com/y36tmjlc) (Mateusz Kuzak)
 * [WorkflowHub - a registry for workflows](https://doi.org/10.5281/zenodo.4012124) (Carole Goble)
 * [Common Workflow Language and CWLProv](https://tinyurl.com/eccb20-cwl) (Michael R. Crusoe)

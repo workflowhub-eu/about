@@ -4,7 +4,7 @@
 ## Prerequisites
 
 Before you update a registered workflow, you need to ensure that you
-* are [logged into](../Logging-in) the WorkflowHub.
+* are [logged into](../Logging-in) the Workflow Hub.
 * have the rights to change the workflow.
 * are on the workflow page of the workflow.
 

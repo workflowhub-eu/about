@@ -1,10 +1,10 @@
 # How to register
 
-> Which Workflow Hub instance?
+> Which WorkflowHub instance?
 > * Use <https://dev.workflowhub.eu/> for testing - this testing instance may occasionally be wiped
 > * (TODO) Use <http://covid19.workflowhub.eu/> for long-lived workflow registrations - this will become the production instance
 
-In order to register yourself in Workflow Hub, you need to click Register button in the top right hand corner of Workflow Hub.
+In order to register yourself in WorkflowHub, you need to click Register button in the top right hand corner of WorkflowHub.
 
 ![](images/register-1.PNG)
 
@@ -28,7 +28,7 @@ It is recommended that you also add
 
 Information that is required is indicated with a red star.
 
-If your project is already in Workflow Hub please select it from the dropdown menu. If your institute is already in Workflow Hub please select it from the dropdown menu.
+If your project is already in WorkflowHub please select it from the dropdown menu. If your institute is already in WorkflowHub please select it from the dropdown menu.
 
 If you don't join any listed project during registration, you can request to join a project or create your own project after the registration.  
 

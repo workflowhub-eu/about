@@ -1,6 +1,6 @@
-## Workflow Hub project
+## WorkflowHub project
 
-This website describes the project for developing and running the [Workflow Hub](https://workflowhub.eu/).
+This website describes the project for developing and running the [WorkflowHub](https://workflowhub.eu/).
 
 ## Code of conduct
 
@@ -8,12 +8,12 @@ This project has a [Code of Conduct](https://github.com/workflowhub-eu/about/blo
 
 ## User Guide
 
-* [What is Workflow Hub](https://about.workflowhub.eu/About-WorkflowHub)
+* [What is WorkflowHub](https://about.workflowhub.eu/About-WorkflowHub)
 * [How to register](https://about.workflowhub.eu/How-to-register)
 * [Logging-in](https://about.workflowhub.eu/Logging-in)
 * [How to join a project](https://about.workflowhub.eu/How-to-join-a-project)
-* [How to find and retrieve workflows from Workflow Hub](https://about.workflowhub.eu/How-to-find-and-retrieve-workflow(s)-from-WorkflowHub)
-* [How to register your workflow in Workflow Hub](https://about.workflowhub.eu/How-to-register-your-workflow(s)-in-WorkflowHub)
+* [How to find and retrieve workflows from WorkflowHub](https://about.workflowhub.eu/How-to-find-and-retrieve-workflow(s)-from-WorkflowHub)
+* [How to register your workflow in WorkflowHub](https://about.workflowhub.eu/How-to-register-your-workflow(s)-in-WorkflowHub)
 * [Updating a registered workflow](Updating-a-registered-workflow)
 * [Workflow RO Crates](https://about.workflowhub.eu/Workflow-RO-Crate)
 * [How to make a workflow RO-crate](https://about.workflowhub.eu/How-to-make-a-workflow-RO-crate)
@@ -34,7 +34,7 @@ This project has a [Code of Conduct](https://github.com/workflowhub-eu/about/blo
 * [Google Drive](https://drive.google.com/drive/folders/1_bZ63W4oRtWL5OnWJNYvE4u3A27VyGGe)
  (to request write-access, ask in Slack channel) 
 * **Slides/posters**:
-  * [Workflow Hub - a registry for workflows](https://doi.org/10.5281/zenodo.4012124), Carole Goble, ECCB 2020, 2020-09-02
+  * [WorkflowHub - a registry for workflows](https://doi.org/10.5281/zenodo.4012124), Carole Goble, ECCB 2020, 2020-09-02
   * [Poster: The Workflow Hub, a registry for Life Science Workflows](https://workflowhub.eu/presentations/1), Ambarish Kumar, ISMB, 2020-07-13
   * [Workflow Hub Introduction slides](https://drive.google.com/open?id=1hfBAjjRnL9jGoxHEvq66Wo-wuKqouR3C), Carole Goble, 2020-03-25
 * **Weekly meeting**: [Rolling Minutes / call details](https://docs.google.com/document/d/1U2KAlbKviCu-fCX-znncKIBUIUUOeEnuRGdAg-fNd4Q/edit?usp=sharing)
@@ -66,7 +66,7 @@ Talks included:
 
 * [A review on the FAIR principles for computational workflows](https://doi.org/10.5281/zenodo.4025295) (Sarah Cohen-Boulakia)
 * [Toward defining and implementing FAIR for research software](https://tinyurl.com/y36tmjlc) (Mateusz Kuzak)
-* [Workflow Hub - a registry for workflows](https://doi.org/10.5281/zenodo.4012124) (Carole Goble)
+* [WorkflowHub - a registry for workflows](https://doi.org/10.5281/zenodo.4012124) (Carole Goble)
 * [Common Workflow Language and CWLProv](https://tinyurl.com/eccb20-cwl) (Michael R. Crusoe)
 * [Packaging workflows with RO-Crate](https://doi.org/10.5281/zenodo.4011999) (Stian Soiland-Reyes)
 * [Testing workflows: Life Monitor and OpenEBench](https://docs.google.com/presentation/d/15113lwn8_H7ftDF9I650O3rZGeAVr6LVSU4-XDkBgA0/edit#slide=id.g9337569ecf_1_0) (Simone Leo & Salvador Capella-Gutierrez)
@@ -95,7 +95,7 @@ _IWC for Galaxy Workflows_ looked at API for workflow registration and created a
 
 
 More:
- * [Workflow Hub notes during CoFest](https://docs.google.com/document/d/1EC0Z-N9c26qG2aguV_irNLftn_98sX6eaHrBs_ov8Jk/edit#)
+ * [WorkflowHub notes during CoFest](https://docs.google.com/document/d/1EC0Z-N9c26qG2aguV_irNLftn_98sX6eaHrBs_ov8Jk/edit#)
 </details>
 
 
@@ -109,8 +109,8 @@ Thanks to the collaborative effort the Workflow Hub could be launched early at <
 
 More:
  * [ELIXIR: Hacking the pandemic](https://elixir-europe.org/news/hacking-pandemic>)
- * [Workflow Hub topic at COVID-19 BH](https://github.com/virtual-biohackathons/covid-19-bh20/wiki/Workflow-Hub)
- * [Workflow Hub topic notes ](https://docs.google.com/document/d/140QltsC2hPjdTue6COn0w-zo7TYgb68TGW-72SQqWBA/edit#)
+ * [WorkflowHub topic at COVID-19 BH](https://github.com/virtual-biohackathons/covid-19-bh20/wiki/Workflow-Hub)
+ * [WorkflowHub topic notes ](https://docs.google.com/document/d/140QltsC2hPjdTue6COn0w-zo7TYgb68TGW-72SQqWBA/edit#)
  * [FAIR Data topic at COVID-19 BH](https://github.com/virtual-biohackathons/covid-19-bh20/wiki/FairData)
  * [Workflows topic at COVID-19 BH](https://github.com/virtual-biohackathons/covid-19-bh20/wiki/Workflows)
 </details>
@@ -128,7 +128,7 @@ These planning documents are from the [Workflow Hub Google Drive](https://drive.
 * [Workflow Hub User Requirements](https://docs.google.com/document/d/16ARnaWhmONUJROdauHFvmAV_qHGJ_L4dEwM6XWRb6gE/edit#heading=h.bzug3s472cs8)
 * [Minimal Viable Product](https://docs.google.com/document/d/14xlDgezlXr5suzZfbTkLeFj7fhv6YZ4W9AsGwq4-SwQ) - leading to <https://dev.workflowhub.eu/>
 * [Minimum Information for the Registration of a Computational Workflow (MIRCW)](https://docs.google.com/document/d/1v-NPWfVK5hrkoekIoWUMSzk1m8x6yqW6D3waB0QsNJM) lead to _Workflow RO-Crate_
-* [Workflow RO-Crate](https://github.com/workflowhub-eu/about/wiki/Workflow-RO-Crate) a profile of _RO-Crate_ for exchange of workflows with Workflow Hub; based on _BioSchemas Workflows_ profile
+* [Workflow RO-Crate](https://github.com/workflowhub-eu/about/wiki/Workflow-RO-Crate) a profile of _RO-Crate_ for exchange of workflows with WorkflowHub; based on _BioSchemas Workflows_ profile
 * [Primer on standards for workflow packaging and metadata](https://docs.google.com/document/d/1XREgfYNi7l4HbdrnXBs7Uv1tMH2AiR435SKjisu4l30/edit#) _draft_
 </details>
 

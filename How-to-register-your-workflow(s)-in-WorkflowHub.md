@@ -1,16 +1,16 @@
-# How to register your workflow(s) in Workflow Hub?
+# How to register your workflow(s) in WorkflowHub?
 
 ### Prerequisites
 
 Before you register a workflow, you need to ensure that you
-* are [logged into](../Logging-in) the Workflow Hub
+* are [logged into](../Logging-in) the WorkflowHub
 * are part of a suited project for your registration (Find more information on how to join a project [here](../How-to-join-a-project))
 * know the type of the workflow
 * have decided which [projects](../Browsing-projects) to assign the workflow to
 
 ### Get started
 
-To register a workflow, you can either click on the "contribute" icon in the Workflow Hub homepage, or in the "Workflow" option of the "Create" menu from any page of the application.
+To register a workflow, you can either click on the "contribute" icon in the WorkflowHub homepage, or in the "Workflow" option of the "Create" menu from any page of the application.
 
 ![](images/ug_link_to_wf_upload.PNG)
 
@@ -34,10 +34,10 @@ Using the Galaxy workflow editor it is recommended to add tags and/or add for ex
 
   <b>Galaxy to CWL abstract</b><br>
 Galaxy workflows can easily be converted to CWL abstract with 
-[galaxy2cwl](https://github.com/workflowhub-eu/galaxy2cwl). This can be seen as a standardized summary of the workflow that can be interpreted by Workflow Hub. CWL abstract can also be used to generate a diagram.
+[galaxy2cwl](https://github.com/workflowhub-eu/galaxy2cwl). This can be seen as a standardized summary of the workflow that can be interpreted by WorkflowHub. CWL abstract can also be used to generate a diagram.
 
-  <b>Uploading to Workflow Hub</b><br>
-Since it is not possible to reference a workflow in a Galaxy instance, you either have to download the workflow file and upload it to Workflow Hub, or make an RO-crate following the steps below. You can still reference the workflow in the galaxy instance using the source property in the metadata of the registration.
+  <b>Uploading to WorkflowHub</b><br>
+Since it is not possible to reference a workflow in a Galaxy instance, you either have to download the workflow file and upload it to WorkflowHub, or make an RO-crate following the steps below. You can still reference the workflow in the galaxy instance using the source property in the metadata of the registration.
 
   </ol>
 </details>
@@ -70,13 +70,13 @@ It is also possible to upload workflows from another type (for ex. bash scripts)
 
 <br>
 
-### Registering your workflow on Workflow Hub 
+### Registering your workflow on WorkflowHub 
 
 After clicking on the "Contribute" icon or selecting "Create" and then "Workflow" from the navigation menu bar, you have 2 options for registering your workflow. For more information on the these options, please go to the corresponding pages:
 
 #### - [The simple and recommended way: registering a workflow-file](../Registering-a-workflow-with-a-diagram-and-abstract-CWL) 
 
-Using the UI of Workflow Hub you upload or reference a workflow file along with optionally a CWL Description and/or a diagram.
+Using the UI of WorkflowHub you upload or reference a workflow file along with optionally a CWL Description and/or a diagram.
 
 #### - [The advanced way: registering a workflow RO-crate](../Registering-an-existing-Workflow-RO-Crate)
 
@@ -84,4 +84,4 @@ When you have created a workflow RO-crate of your workflow using the [python pac
 
 #### - [In development] Registering a workflow RO-crate using the API
 
-We are working on a Workflow Hub API that will allow the user to automatically register workflow RO-crates. Not all features are yet developed, but a glimpse of the API can be found [here](https://workflowhub.eu/api).
+We are working on a WorkflowHub API that will allow the user to automatically register workflow RO-crates. Not all features are yet developed, but a glimpse of the API can be found [here](https://workflowhub.eu/api).

@@ -41,7 +41,7 @@ See also:
 ## Autumn 2020 and beyond
 
 * One-click execution of workflows using TRS API
-* Tools ecosystem integration of Workflow Hub
+* Tools ecosystem integration of WorkflowHub
 * Implementing assisted registration of workflows from a GitHub repository
 * [Life Monitor](https://github.com/crs4/life_monitor) integration web service is now an application
 * Nextflow -> CWL Abstract (**volunteers needed**, potential research/MsC project?)

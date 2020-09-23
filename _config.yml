@@ -3,7 +3,7 @@ markdown: CommonMarkGhPages
 title: Workflow Hub project
 email: info@esciencelab.org.uk
 description: > # this means to ignore newlines until "baseurl:" 
-  Project pages for developing and running the WorkflowHub, 
+  Project pages for developing and running the Workflow Hub, 
   a registry of scientific workflows.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://about.workflowhub.eu" # the base hostname & protocol for your site

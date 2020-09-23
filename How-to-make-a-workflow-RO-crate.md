@@ -2,9 +2,9 @@
 
 More info about workflow RO-crate specification can be found in our [Workflow-RO-Crate](../Workflow-RO-Crate) section.
 
-### 1. Using the Workflow Hub website
+### 1. Using the WorkflowHub website
 
-The most convenient way to make a workflow RO-crate at this moment is by making use of the Workflow hub capabilities. The website is able to generate RO-crates based on an uploaded/referenced workflow file and some general metadata that is requested through a form.  After the workflow is registered (click [here](../How-to-register-your-workflow%28s%29-in-WorkflowHub) for more info about this topic) it is possible to download the RO-crate with the download button. The generated RO-crate, basically a zip file, will contain these elements:
+The most convenient way to make a workflow RO-crate at this moment is by making use of the WorkflowHub capabilities. The website is able to generate RO-crates based on an uploaded/referenced workflow file and some general metadata that is requested through a form.  After the workflow is registered (click [here](../How-to-register-your-workflow%28s%29-in-WorkflowHub) for more info about this topic) it is possible to download the RO-crate with the download button. The generated RO-crate, basically a zip file, will contain these elements:
 
 - **JSONLD file**\
   JSONLD serving machine readable metadata including: 
@@ -39,5 +39,5 @@ The most convenient way to make a workflow RO-crate at this moment is by making 
 
 ### 2. Making one offline yourself
 
-We are working on a python package at this moment to wrap your own RO-crates. This will allow you to not be bounded by the file limitations of the Workflow Hub website (workflow + CWL abstract and/or diagram), and will make it possible to automate the RO crate generation.
+We are working on a python package at this moment to wrap your own RO-crates. This will allow you to not be bounded by the file limitations of the WorkflowHub website (workflow + CWL abstract and/or diagram), and will make it possible to automate the RO crate generation.
 The python package can be found in this [repo](https://github.com/ResearchObject/ro-crate-py).

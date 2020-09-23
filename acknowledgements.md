@@ -8,12 +8,12 @@ workflowhub.eu lead development is part of [EOSC-Life](https://eosc-life.eu/), f
 
 ## Source code
 
-The main [Workflow Hub codebase](https://github.com/seek4science/seek/tree/workflow) is based on [SEEK](https://seek4science.org/about_us.html) and builds on previous experience with developing [myExperiment](https://www.myexperiment.org/about). SEEK is implemented in [Ruby on Rails](https://rubyonrails.org/) using a wide range of open source [Ruby gems](https://github.com/seek4science/seek/blob/workflowhub/Gemfile.lock).
+The main [WorkflowHub codebase](https://github.com/seek4science/seek/tree/workflow) is based on [SEEK](https://seek4science.org/about_us.html) and builds on previous experience with developing [myExperiment](https://www.myexperiment.org/about). SEEK is implemented in [Ruby on Rails](https://rubyonrails.org/) using a wide range of open source [Ruby gems](https://github.com/seek4science/seek/blob/workflowhub/Gemfile.lock).
 
 
 ## Related projects
 
-Workflow Hub activities are strongly coordinated with [ELIXIR Europe](https://elixir-europe.org/) with participants from:
+WorkflowHub activities are strongly coordinated with [ELIXIR Europe](https://elixir-europe.org/) with participants from:
  
  * [ELIXIR UK](https://elixir-europe.org/about-us/who-we-are/nodes/uk)
  * [ELIXIR Belgium](https://elixir-europe.org/about-us/who-we-are/nodes/belgium)
@@ -24,7 +24,7 @@ Workflow Hub activities are strongly coordinated with [ELIXIR Europe](https://el
  * [ELIXIR Netherlands](https://www.elixir-europe.org/about-us/who-we-are/nodes/netherlands)
  * [ELIXIR Hub](https://elixir-europe.org/about-us/who-we-are/hub)
 
- The Workflow Hub collaborates closely with (at least) these projects:
+ The WorkflowHub collaborates closely with (at least) these projects:
 
  * [EOSC-Life](https://eosc-life.eu/)
  * [Research Object Crate](https://w3id.org/ro/crate) (RO-Crate)
@@ -34,9 +34,9 @@ Workflow Hub activities are strongly coordinated with [ELIXIR Europe](https://el
  * [BioExcel](https://bioexcel.eu/)
  * [SEEK](https://seek4science.org/)
 
-## Workflow Hub Club
+## WorkflowHub Club
 
-The weekly [Workflow Hub Club](https://s.apache.org/workflowhub-minutes) is chaired by **Frederik Coppens**.
+The weekly [WorkflowHub Club](https://s.apache.org/workflowhub-minutes) is chaired by **Frederik Coppens**.
 
 Participants include:
 

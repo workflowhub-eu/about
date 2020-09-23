@@ -1,10 +1,10 @@
-# Workflow Hub Roadmap
+# WorkflowHub Roadmap
 
 _Please feel free to help [contribute](https://github.com/workflowhub-eu/about/edit/master/roadmap.md) to this roadmap!_
 
 See also:
-  * Workflow Hub imlementation <https://github.com/seek4science/seek/projects/3> (SEEK)
-  * General Workflow Hub <https://github.com/workflowhub-eu/about/issues>
+  * WorkflowHub imlementation <https://github.com/seek4science/seek/projects/3> (SEEK)
+  * General WorkflowHub <https://github.com/workflowhub-eu/about/issues>
 
 ## June 2020
 
@@ -14,12 +14,12 @@ See also:
 * ☑ Finalising the Workflow Bioschemas & [Metadata](https://docs.google.com/spreadsheets/d/1ah4GQFlXuZiL6UeWAbHXt1iAlxEIidkC8g8lsSfNfRQ/edit#gid=0) \
 -> Meta-data discussion [notes](https://docs.google.com/document/d/14b7PnZ01PimuZyfE4OZPH_atB_k4qH_xk5gKFzScB2o/edit)
 * ☑ Implementing "Collections" - User-maintained lists of workflows (and other things)
-* ☑ Migrating COVID-19 Workflow Hub to more generic version (and re-directing covid-19 domain to list of covid-19 workflows)
+* ☑ Migrating COVID-19 WorkflowHub to more generic version (and re-directing covid-19 domain to list of covid-19 workflows)
 * Synchronising the current Workflow RO-Crate with bioschemas and ro-crate ([ro-crate #81](https://github.com/ResearchObject/ro-crate/pull/81))
 
 ## July 2020
 
-* **EOSCLife Workflow Hub pre-Beta release**
+* **EOSCLife WorkflowHub pre-Beta release**
 * Overhauling guidance on adding your workflow
 * [RO-Crate Python Library](https://github.com/ResearchObject/ro-crate-py) release
 * Improving user registration experience/flow
@@ -33,7 +33,7 @@ See also:
 
 ## September 2020
 
-* **EOSCLife Workflow Hub Beta release**
+* **EOSCLife WorkflowHub Beta release**
 * Initial GA4GH TRS API implementation
 * Implementing upload/parsing of Workflow RO-Crates through API
 * Linking workflow steps to Bio.tools

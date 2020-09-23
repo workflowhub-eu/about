@@ -45,7 +45,7 @@ If the workflow came from an external repository (i.e. GitHub), you can include 
     This is by default filled in with *No creators*.
     
     2. **Please type creators into the box below - suggestions will be displayed as you type.**\
-    If the creators or contributors to the workflow are registered in workflow hub, please use this field to search and select them.                   
+    If the creators or contributors to the workflow are registered in WorkflowHub, please use this field to search and select them.                   
     
     3. **If anyone not registered with WorkflowHub assisted creating this Workflow, you can specify them below.**\
     Use this field to fill in the remaining creators.

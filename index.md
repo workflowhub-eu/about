@@ -26,25 +26,25 @@ This project has a [Code of Conduct](https://github.com/workflowhub-eu/about/blo
 * **Dev instance** <https://dev.workflowhub.eu/> (use for testing; occasionally wiped)
 * **Source**: [seek4science/seek](https://github.com/seek4science/seek/tree/workflow) branch `workflow`
 * **Tasks**: 
-  * [Workflow Hub roadmap](roadmap)
-  * Workflow Hub imlementation <https://github.com/seek4science/seek/projects/3> (SEEK)
-  * General Workflow Hub <https://github.com/workflowhub-eu/about/issues>
+  * [WorkflowHub roadmap](roadmap)
+  * WorkflowHub imlementation <https://github.com/seek4science/seek/projects/3> (SEEK)
+  * General WorkflowHub <https://github.com/workflowhub-eu/about/issues>
 * **Mailing list**: [`workflowhub😊elixir-europe.org`](https://lists.elixir-europe.org/mailman/listinfo/workflowhub_elixir-europe.org) ([subscribe](https://lists.elixir-europe.org/mailman/listinfo/workflowhub_elixir-europe.org)/[archive](https://mail.elixir-europe.org/pipermail/workflowhub_elixir-europe.org/))
 * **Slack chat**:  [#workflows on seek4science.slack.com](https://seek4science.slack.com/archives/CPLLVV94L) ([join](https://join.slack.com/t/seek4science/shared_invite/zt-csqh94qb-kf~kFbZxuHl1Hpxhbc8avw))
 * [Google Drive](https://drive.google.com/drive/folders/1_bZ63W4oRtWL5OnWJNYvE4u3A27VyGGe)
  (to request write-access, ask in Slack channel) 
 * **Slides/posters**:
   * [WorkflowHub - a registry for workflows](https://doi.org/10.5281/zenodo.4012124), Carole Goble, ECCB 2020, 2020-09-02
-  * [Poster: The Workflow Hub, a registry for Life Science Workflows](https://workflowhub.eu/presentations/1), Ambarish Kumar, ISMB, 2020-07-13
-  * [Workflow Hub Introduction slides](https://drive.google.com/open?id=1hfBAjjRnL9jGoxHEvq66Wo-wuKqouR3C), Carole Goble, 2020-03-25
+  * [Poster: The WorkflowHub, a registry for Life Science Workflows](https://workflowhub.eu/presentations/1), Ambarish Kumar, ISMB, 2020-07-13
+  * [WorkflowHub Introduction slides](https://drive.google.com/open?id=1hfBAjjRnL9jGoxHEvq66Wo-wuKqouR3C), Carole Goble, 2020-03-25
 * **Weekly meeting**: [Rolling Minutes / call details](https://docs.google.com/document/d/1U2KAlbKviCu-fCX-znncKIBUIUUOeEnuRGdAg-fNd4Q/edit?usp=sharing)
 
 ## Regular meeting
 
 <details>
-<summary>Workflow Hub Club - all welcome!</summary>
+<summary>WorkflowHub Club - all welcome!</summary>
 
-Anyone is welcome to join the weekly _Workflow Hub Club_ calls using Zoom.
+Anyone is welcome to join the weekly _WorkflowHub Club_ calls using Zoom.
 
 * When: Wednesdays 10:00 GMT / 11:00 CET
 * Agenda/telcon details: <https://s.apache.org/workflowhub-minutes>
@@ -57,7 +57,7 @@ See the list of club members on the [acknowledgement](acknowledgements) page.
 <details>
 <summary>FAIR Computational Workflows workshop (2020-09-02)</summary>
 
-The Workflow Hub team organized the [Workshop on FAIR Computational Workflows](https://eccb2020.info/ntbew01-workshop-on-fair-computational-workflows/) at the
+The WorkflowHub team organized the [Workshop on FAIR Computational Workflows](https://eccb2020.info/ntbew01-workshop-on-fair-computational-workflows/) at the
 19th European Conference on Computational Biology ([ECCB 2020](https://eccb2020.info/)).
 
 **Organizers**: Ignacio Eguinoa, Björn Grüning, Frederik Coppens, Carole Goble, Stian Soiland-Reyes, Salvador Capella-Gutierrez
@@ -82,7 +82,7 @@ The workshop organizers aim to make all slides available later.
 <details>
 <summary>BCC2020 CollaborationFest (2020-07-22 / 2020-07-23)</summary>
 
-Workflow Hub was one of the working clusters at the [BCC2020 CollaborationFest](https://bcc2020.github.io/cofest/) as part of [Bioinformatics Community Conference 2020](https://bcc2020.github.io/).
+WorkflowHub was one of the working clusters at the [BCC2020 CollaborationFest](https://bcc2020.github.io/cofest/) as part of [Bioinformatics Community Conference 2020](https://bcc2020.github.io/).
 
 Activities included a _Bring your own Workflow_ session to register more workflows at <https://workflowhub.eu/>.
 
@@ -103,9 +103,9 @@ More:
 <details>
 <summary>COVID-19 BioHackathon (2020-04-05 / 2020-04-11)</summary>
 
-Workflow Hub was one of the topics at the [Virtual COVID-19 BioHackathon](https://github.com/virtual-biohackathons/covid-19-bh20/), attracting more than 30 developers. The participants also collaborated with the _Workflows_ and _FAIR Data_ topics.
+WorkflowHub was one of the topics at the [Virtual COVID-19 BioHackathon](https://github.com/virtual-biohackathons/covid-19-bh20/), attracting more than 30 developers. The participants also collaborated with the _Workflows_ and _FAIR Data_ topics.
 
-Thanks to the collaborative effort the Workflow Hub could be launched early at <https://covid19.workflowhub.eu/> in a "pre-beta" stage. The COVID-19 workflows registered at the hackathon now appear as part of <https://workflowhub.eu/> 
+Thanks to the collaborative effort the WorkflowHub could be launched early at <https://covid19.workflowhub.eu/> in a "pre-beta" stage. The COVID-19 workflows registered at the hackathon now appear as part of <https://workflowhub.eu/> 
 
 More:
  * [ELIXIR: Hacking the pandemic](https://elixir-europe.org/news/hacking-pandemic>)
@@ -122,10 +122,10 @@ More:
 <details>
 <summary>Planning documents</summary>
 
-These planning documents are from the [Workflow Hub Google Drive](https://drive.google.com/drive/folders/1_bZ63W4oRtWL5OnWJNYvE4u3A27VyGGe). Check their edit history, these may be incomplete or drafts.
+These planning documents are from the [WorkflowHub Google Drive](https://drive.google.com/drive/folders/1_bZ63W4oRtWL5OnWJNYvE4u3A27VyGGe). Check their edit history, these may be incomplete or drafts.
 
-* [Methods of submitting to Workflow Hub](https://docs.google.com/document/d/1UdjAcnSR3yDepvoY9wA02M9tUB0sTpg3NyijxR-Vago)
-* [Workflow Hub User Requirements](https://docs.google.com/document/d/16ARnaWhmONUJROdauHFvmAV_qHGJ_L4dEwM6XWRb6gE/edit#heading=h.bzug3s472cs8)
+* [Methods of submitting to WorkflowHub](https://docs.google.com/document/d/1UdjAcnSR3yDepvoY9wA02M9tUB0sTpg3NyijxR-Vago)
+* [WorkflowHub User Requirements](https://docs.google.com/document/d/16ARnaWhmONUJROdauHFvmAV_qHGJ_L4dEwM6XWRb6gE/edit#heading=h.bzug3s472cs8)
 * [Minimal Viable Product](https://docs.google.com/document/d/14xlDgezlXr5suzZfbTkLeFj7fhv6YZ4W9AsGwq4-SwQ) - leading to <https://dev.workflowhub.eu/>
 * [Minimum Information for the Registration of a Computational Workflow (MIRCW)](https://docs.google.com/document/d/1v-NPWfVK5hrkoekIoWUMSzk1m8x6yqW6D3waB0QsNJM) lead to _Workflow RO-Crate_
 * [Workflow RO-Crate](https://github.com/workflowhub-eu/about/wiki/Workflow-RO-Crate) a profile of _RO-Crate_ for exchange of workflows with WorkflowHub; based on _BioSchemas Workflows_ profile
@@ -135,18 +135,18 @@ These planning documents are from the [Workflow Hub Google Drive](https://drive.
 <details>
 <summary>Related resources</summary>
 
-* [SEEK](https://seek4science.org/) is the underlying platform used by the Workflow Hub
-* [RO-Crate](https://w3id.org/ro/crate/1.0/) is a metadata/packaging mechanism, used by Workflow Hub for exchange of workflows
+* [SEEK](https://seek4science.org/) is the underlying platform used by the WorkflowHub
+* [RO-Crate](https://w3id.org/ro/crate/1.0/) is a metadata/packaging mechanism, used by WorkflowHub for exchange of workflows
 * [BioSchemas Workflows](https://bioschemas.org/profiles/Workflow/0.3-DRAFT-2020_03_03/) - a suggested new `schema.org` type for describing computational workflows
-* [Common Workflow Language](https://www.commonwl.org/) (CWL) is an executable workflow language, which Workflow Hub use primarily for descriptive functions
+* [Common Workflow Language](https://www.commonwl.org/) (CWL) is an executable workflow language, which WorkflowHub use primarily for descriptive functions
 </details>
 
 <details>
 <summary>Workflow repositories</summary>
 
-Workflow Hub intends to harvest workflows from existing workflow repositories, including:
+WorkflowHub intends to harvest workflows from existing workflow repositories, including:
 
-* [myExperiment](https://myexperiment.org/) was a workflow repository that inspired Workflow Hub
+* [myExperiment](https://myexperiment.org/) was a workflow repository that inspired WorkflowHub
 * [nf-core](https://nf-co.re/) - a community-developed colletions of bioinformatics workflows for [Nextflow](nextflow.io/)
 * <https://usegalaxy.eu/>
 </details>

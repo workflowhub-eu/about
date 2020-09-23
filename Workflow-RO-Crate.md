@@ -6,7 +6,7 @@
 
 _Workflow RO Crates_ are a specialization of [_RO Crate_](https://researchobject.github.io/ro-crate/) for packaging an executable workflow with all necessary documentation. It is aligned with, and intends to strictly extend, the more general [BioSchemas Workflow profile](https://bioschemas.org/profiles/Workflow/0.3-DRAFT-2020_03_03/). 
 
-The Workflow Hub uses _Workflow RO Crates_ as an exchange format for users to upload a packaged workflow. 
+The WorkflowHub uses _Workflow RO Crates_ as an exchange format for users to upload a packaged workflow. 
 
 ## Concepts
 
@@ -42,15 +42,15 @@ The _Crate_ COULD contain a Dataset (directory) data entity of type `["Dataset"]
 
 The _Crate_ COULD contain a Dataset (directory) data entity of type `["Dataset"]` named "examples" to hold examples.
 
-## Workflow Hub-specific Features/Requirements
+## WorkflowHub-specific Features/Requirements
 
 ### File Format
 
-The Workflow RO Crate must be zipped, and have the file extension `.crate.zip` to be recognized by the Workflow Hub.
+The Workflow RO Crate must be zipped, and have the file extension `.crate.zip` to be recognized by the WorkflowHub.
 
 ### Extracted Metadata
 
-The Workflow Hub will extract and expose the following properties from the Crate entity (`./`) in `ro-crate-metadata.jsonld`:
+The WorkflowHub will extract and expose the following properties from the Crate entity (`./`) in `ro-crate-metadata.jsonld`:
 
 * `name` - This will be shown as the title of the workflow.
 * `description` - This will be shown as the description of the workflow. 
@@ -65,7 +65,7 @@ If the _Main Workflow Diagram_ is present, it will also be rendered on the page.
 
 ### Supported Workflow Types
 
-The Workflow Hub currently supports CWL, Galaxy, KNIME and Nextflow workflow types.
+The WorkflowHub currently supports CWL, Galaxy, KNIME and Nextflow workflow types.
 
 To ensure compatibility, please include one of the following in the RO Crate metadata, and refer to it from the _Main Workflow_'s `programmingLanguage`.
 
@@ -144,7 +144,7 @@ To ensure compatibility, please include one of the following in the RO Crate met
 
 ### Supported Licenses
 
-Although the Crate's `license` field should be a URL, the Workflow Hub currently accepts a string of one of the following values (on the left):
+Although the Crate's `license` field should be a URL, the WorkflowHub currently accepts a string of one of the following values (on the left):
 
 * `AFL-3.0` - [Academic Free License 3.0](https://opensource.org/licenses/AFL-3.0)
 * `APL-1.0` - [Adaptive Public License 1.0](https://opensource.org/licenses/APL-1.0)

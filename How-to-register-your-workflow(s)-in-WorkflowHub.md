@@ -17,7 +17,7 @@ To register a workflow, you can either click on the "contribute" icon in the Wor
 
 ### Supported workflow types
 
-Following workflow types are tested to work well with Workflow Hub, click on them to find out more. 
+Following workflow types are tested to work well with WorkflowHub, click on them to find out more. 
 
 <details>
   <summary>Galaxy (.ga)</summary>

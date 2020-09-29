@@ -20,7 +20,7 @@ This project has a [Code of Conduct](https://github.com/workflowhub-eu/about/blo
 
 * [Workflow RO-Crate spec](https://about.workflowhub.eu/Workflow-RO-Crate)
 * [How to make a workflow RO-Crate](https://about.workflowhub.eu/How-to-make-a-workflow-RO-crate)
-* [TRS API](https://about.workflowhub.eu/TRS) 
+* [The Global Alliance for Genomics and Health (GA4GH) Tool Registry Service (TRS) API](https://about.workflowhub.eu/TRS) 
 
 ## Project resources
 

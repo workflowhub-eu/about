@@ -15,10 +15,12 @@ This project has a [Code of Conduct](https://github.com/workflowhub-eu/about/blo
 * [How to find and retrieve workflows from WorkflowHub](https://about.workflowhub.eu/How-to-find-and-retrieve-workflow(s)-from-WorkflowHub)
 * [How to register your workflow in WorkflowHub](https://about.workflowhub.eu/How-to-register-your-workflow(s)-in-WorkflowHub)
 * [Updating a registered workflow](Updating-a-registered-workflow)
-* [Workflow RO Crates](https://about.workflowhub.eu/Workflow-RO-Crate)
-* [How to make a workflow RO-crate](https://about.workflowhub.eu/How-to-make-a-workflow-RO-crate)
-  
 
+### Developers
+
+* [Workflow RO-Crate spec](https://about.workflowhub.eu/Workflow-RO-Crate)
+* [How to make a workflow RO-Crate](https://about.workflowhub.eu/How-to-make-a-workflow-RO-crate)
+* [TRS API](https://about.workflowhub.eu/TRS) 
 
 ## Project resources
 

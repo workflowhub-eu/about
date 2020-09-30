@@ -25,7 +25,7 @@ See also:
 * Implementing improvements to storage mechanism (directories)
 * Implementing versioning of workflows
 * ☑ Allowing claiming ownership/credit for a registered workflows (people associated with a workflow)
-* ☑ Synchronising the current Workflow RO-Crate with bioschemas and ro-crate ([ro-crate #81](https://github.com/ResearchObject/ro-crate/pull/81), [#100](https://github.com/ResearchObject/ro-crate/pull/100))
+* ☑ Synchronising the current Workflow RO-Crate with bioschemas and RO-Crate 1.1 ([ro-crate #81](https://github.com/ResearchObject/ro-crate/pull/81), [#100](https://github.com/ResearchObject/ro-crate/pull/100))
 
 ## August 2020
 

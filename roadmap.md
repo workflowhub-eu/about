@@ -15,17 +15,17 @@ See also:
 -> Meta-data discussion [notes](https://docs.google.com/document/d/14b7PnZ01PimuZyfE4OZPH_atB_k4qH_xk5gKFzScB2o/edit)
 * ☑ Implementing "Collections" - User-maintained lists of workflows (and other things)
 * ☑ Migrating COVID-19 WorkflowHub to more generic version (and re-directing covid-19 domain to list of covid-19 workflows)
-* Synchronising the current Workflow RO-Crate with bioschemas and ro-crate ([ro-crate #81](https://github.com/ResearchObject/ro-crate/pull/81))
 
 ## July 2020
 
 * **EOSCLife WorkflowHub pre-Beta release**
 * Overhauling guidance on adding your workflow
-* [RO-Crate Python Library](https://github.com/ResearchObject/ro-crate-py) release
+* ☑ [RO-Crate Python Library](https://pypi.org/project/rocrate/) released
 * Improving user registration experience/flow
 * Implementing improvements to storage mechanism (directories)
 * Implementing versioning of workflows
-* Allowing claiming ownership/credit for a registered workflows (people associated with a workflow)
+* ☑ Allowing claiming ownership/credit for a registered workflows (people associated with a workflow)
+* ☑ Synchronising the current Workflow RO-Crate with bioschemas and ro-crate ([ro-crate #81](https://github.com/ResearchObject/ro-crate/pull/81), [#100](https://github.com/ResearchObject/ro-crate/pull/100))
 
 ## August 2020
 

@@ -32,6 +32,7 @@ WorkflowHub activities are strongly coordinated with [ELIXIR Europe](https://eli
  * [Common Workflow Language](https://www.commonwl.org/)
  * [Galaxy Europe](https://galaxyproject.eu/)
  * [BioExcel](https://bioexcel.eu/)
+ * [FAIRDOM](https://fair-dom.org)
  * [SEEK](https://seek4science.org/)
 
 ## WorkflowHub Club
@@ -91,7 +92,7 @@ Participants include:
 * Simone Leo (CRS4/BBMRI)
 * Sirarat Sarntivijai (ELIXIR-Hub)
 * Stian Soiland-Reyes (The University of Manchester, ELIXIR-UK, BioExcel, CWL)
-* Stuart Owen (The University of Manchester,, ELIXIR-UK)
+* Stuart Owen (The University of Manchester, FAIRDOM, ELIXIR-UK)
 * Vahid Kiani
 * Vincenzo Laveglia (CIRMMP Florence, EOSC-Life)
 * Wolfgang Müller (HITS GmbH)

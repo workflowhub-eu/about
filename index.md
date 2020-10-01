@@ -149,7 +149,7 @@ These planning documents are from the [WorkflowHub Google Drive](https://drive.g
 WorkflowHub intends to harvest workflows from existing workflow repositories, including:
 
 * [myExperiment](https://myexperiment.org/) was a workflow repository that inspired WorkflowHub
-* [nf-core](https://nf-co.re/) - a community-developed colletions of bioinformatics workflows for [Nextflow](nextflow.io/)
+* [nf-core](https://nf-co.re/) - a community-developed colletions of bioinformatics workflows for [Nextflow](https://www.nextflow.io/)
 * <https://usegalaxy.eu/>
 </details>
 

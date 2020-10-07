@@ -156,10 +156,10 @@ WorkflowHub intends to harvest workflows from existing workflow repositories, in
 ##
 ## Acknowledgements
 
-workflowhub.eu lead development is part of [EOSC-Life](https://eosc-life.eu/), funded by European Union’s [Horizon 2020](https://ec.europa.eu/programmes/horizon2020/) programme under grant agreement [824087](https://cordis.europa.eu/project/id/824087).  
+workflowhub.eu lead development is part of [EOSC-Life](https://www.eosc-life.eu/), funded by European Union’s [Horizon 2020](https://ec.europa.eu/programmes/horizon2020/) programme under grant agreement [824087](https://cordis.europa.eu/project/id/824087).  
 
 <p>
-  <a title="EOSC-Life" href="https://eosc-life.eu/"><img src="/logo/eosc-life.svg" style="max-height: 5em; max-width: 35%" alt="EOSC-Life" /></a>
+  <a title="EOSC-Life" href="https://www.eosc-life.eu/"><img src="/logo/eosc-life.svg" style="max-height: 5em; max-width: 35%" alt="EOSC-Life" /></a>
   <a rel="http://schema.org/funding" title="H2020-INFRAEOSC-2018-2 824087" href="https://cordis.europa.eu/project/id/824087"><img src="/logo/Flag_of_Europe.svg" style="max-height: 5em; max-width: 35%" alt="EU" /></a>
 </p>
 

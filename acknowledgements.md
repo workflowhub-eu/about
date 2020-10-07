@@ -8,6 +8,8 @@
 
 workflowhub.eu lead development is part of [EOSC-Life](https://eosc-life.eu/) ([WP2 Tools Collaboratory](https://github.com/eosc-life/tools-collaboratory-roadmap)), funded by European Union’s [Horizon 2020](https://ec.europa.eu/programmes/horizon2020/) programme under grant agreement [H2020-INFRAEOSC-2018-2 824087](https://cordis.europa.eu/project/id/824087).  
 
+![EOSC-Life](/logo/eosc-life.svg) 
+
 ### Other funding
 
 We are also grateful for contributions funded by [BioExcel-2](https://bioexcel.eu/) ([H2020-INFRAEDI-2018-1 823830](https://cordis.europa.eu/project/id/823830)), [IBISBA](https://www.ibisba.eu/) ([H2020-INFRAIA-2017-1-two-stage 730976](https://cordis.europa.eu/project/id/730976), [H2020-INFRADEV-2019-2 871118](https://cordis.europa.eu/project/id/871118)), [FAIRplus](https://fairplus-project.eu/) ([H2020-JTI-IMI2-2017-12-two-stage 802750](https://cordis.europa.eu/project/id/802750)), [SYNTHESYS+](https://www.synthesys.info/) ([H2020-INFRAIA-2018-1 823827](https://cordis.europa.eu/project/id/823827)), [FAIR Workflows](https://fair-workflows.github.io/project.html) and others. 

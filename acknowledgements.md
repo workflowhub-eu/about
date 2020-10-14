@@ -11,7 +11,7 @@
   <a rel="http://schema.org/funding" title="H2020-INFRAEOSC-2018-2 824087" href="https://cordis.europa.eu/project/id/824087"><img src="/logo/Flag_of_Europe.svg" style="max-height: 10em; max-width: 45%" alt="EU" /></a>
 </p>
 
-workflowhub.eu lead development is part of [EOSC-Life](https://www.eosc-life.eu/) ([WP2 Tools Collaboratory](https://github.com/eosc-life/tools-collaboratory-roadmap)), funded by European Union’s [Horizon 2020](https://ec.europa.eu/programmes/horizon2020/) programme under grant agreement [H2020-INFRAEOSC-2018-2 824087](https://cordis.europa.eu/project/id/824087), in collaboration with the [ELIXIR Tools Platform](https://elixir-europe.org/platforms/tools)
+workflowhub.eu lead development is part of [EOSC-Life](https://www.eosc-life.eu/) ([WP2 Tools Collaboratory](https://github.com/eosc-life/tools-collaboratory-roadmap)), funded by European Union’s [Horizon 2020](https://ec.europa.eu/programmes/horizon2020/) programme under grant agreement [H2020-INFRAEOSC-2018-2 824087](https://cordis.europa.eu/project/id/824087).
 
 ### Other funding
 

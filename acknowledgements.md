@@ -16,10 +16,10 @@ workflowhub.eu lead development is part of [EOSC-Life](https://www.eosc-life.eu/
 ### Other funding
 
 <p class="logos">
-  <a title="BioExcel2" href="https://bioexcel.eu/"><img src="/logo/BioExcel_logo_payoff_cropped.svg" style="max-height: 5em; max-width: 35%; vertical-align: middle" alt="BioExcel" /></a>
-  <a title="IBISBA" href="https://www.ibisba.eu/"><img src="/logo/ibisba-logo.png" style="max-height: 5em; max-width: 35%; vertical-align: middle" alt="IBISBA" /></a>
+  <a title="BioExcel2" href="https://bioexcel.eu/"><img src="/logo/BioExcel_logo_payoff_cropped.svg" style="max-height: 5em; max-width: 35%; vertical-align: middle" alt="BioExcel: Center of Excellence for Computational Biomolecular Research" /></a>
+  <a title="IBISBA 1.0" href="https://www.ibisba.eu/"><img src="/logo/ibisba-logo.png" style="max-height: 5em; max-width: 35%; vertical-align: middle" alt="IBISBA 1.0" /></a>
   <a title="FAIRplus" href="https://fairplus-project.eu/"><img src="/logo/fairplus-logo.png" style="max-height: 5em; max-width: 35%; vertical-align: middle" alt="FAIRplus" /></a>
-  <a title="SYNTHESYS+" href="https://www.synthesys.info/"><img src="/logo/synthesys-plus-logo-white.png" style="max-height: 5em; max-width: 35%; vertical-align: middle" alt="SYNTHESYS+" /></a>
+  <a title="SYNTHESYS+" href="https://www.synthesys.info/"><img src="/logo/synthesys-plus-logo-white.png" style="max-height: 5em; max-width: 35%; vertical-align: middle" alt="SYNTHESYS+: Synthesys of Systematic Resources, a DiSSCo project" /></a>
   <a title="FAIR Workflows" href="https://fair-workflows.github.io/project.html"><img src="/logo/fair-workflows.png" style="max-height: 5em; max-width: 35%; vertical-align: middle" alt="FAIR Workflows" /></a>
 </p>
 

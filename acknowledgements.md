@@ -32,21 +32,22 @@ We are also grateful for contributions funded by:
 * ..and others
 
 
-## Source code: SEEK
+## Source code
 
 <p>
-  <a title="SEEK for Science" href="https://seek4science.org/about_us.html"><img src="/logo/seek.svg" style="max-height: 10em; max-width: 45%" alt="SEEK" /></a>
-  <a title="FAIRDOM" href="https://fair-dom.org/"><img src="/logo/fairdom-logo-fixed-colours.svg" style="max-height: 10em; max-width: 45%" alt="FAIRDOM" /></a>
+  <a title="SEEK for Science" href="https://seek4science.org/about_us.html"><img src="/logo/seek.svg?20201014" style="max-height: 5em; max-width: 35%; vertical-align: middle" alt="SEEK" /></a>
+  <a title="FAIRDOM" href="https://fair-dom.org/"><img src="/logo/fairdom-logo-fixed-colours.svg" style="max-height: 5em; max-width: 35%; vertical-align: middle alt="FAIRDOM" /></a>
 </p>
 
 The main [WorkflowHub codebase](https://github.com/seek4science/seek/tree/workflow) is based on [SEEK](https://seek4science.org/about_us.html) and builds on previous experience with developing [myExperiment](https://www.myexperiment.org/about). SEEK is implemented in [Ruby on Rails](https://rubyonrails.org/) using a wide range of open source [Ruby gems](https://github.com/seek4science/seek/blob/workflowhub/Gemfile.lock).
 
 ## Related projects
 
+### ELIXIR
+
 <p>
   <a title="ELIXIR Europe" href="https://elixir-europe.org/"><img src="/logo/ELIXIR_logo_white_background.png" style="max-height: 10em; max-width: 45%" alt="ELIXIR" /></a>
 </p>
-
 
 WorkflowHub activities are strongly coordinated with [ELIXIR Europe](https://elixir-europe.org/) with participants from:
  
@@ -59,7 +60,9 @@ WorkflowHub activities are strongly coordinated with [ELIXIR Europe](https://eli
  * [ELIXIR Netherlands](https://www.elixir-europe.org/about-us/who-we-are/nodes/netherlands)
  * [ELIXIR Hub](https://elixir-europe.org/about-us/who-we-are/hub)
 
- The WorkflowHub collaborates closely with (at least) these projects:
+### Collaborations
+
+The WorkflowHub community collaborates closely with (at least) these projects:
 
  * [EOSC-Life](https://eosc-life.eu/)
  * [Research Object Crate](https://w3id.org/ro/crate) (RO-Crate)

@@ -6,18 +6,14 @@
 
 ### EOSC-Life
 
-workflowhub.eu lead development is part of [EOSC-Life](https://www.eosc-life.eu/) ([WP2 Tools Collaboratory](https://github.com/eosc-life/tools-collaboratory-roadmap)), funded by European Union’s [Horizon 2020](https://ec.europa.eu/programmes/horizon2020/) programme under grant agreement [H2020-INFRAEOSC-2018-2 824087](https://cordis.europa.eu/project/id/824087).  
-
 <p>
   <a title="EOSC-Life" href="https://www.eosc-life.eu/"><img src="/logo/eosc-life.svg" style="max-height: 10em; max-width: 45%" alt="EOSC-Life" /></a>
   <a rel="http://schema.org/funding" title="H2020-INFRAEOSC-2018-2 824087" href="https://cordis.europa.eu/project/id/824087"><img src="/logo/Flag_of_Europe.svg" style="max-height: 10em; max-width: 45%" alt="EU" /></a>
 </p>
 
+workflowhub.eu lead development is part of [EOSC-Life](https://www.eosc-life.eu/) ([WP2 Tools Collaboratory](https://github.com/eosc-life/tools-collaboratory-roadmap)), funded by European Union’s [Horizon 2020](https://ec.europa.eu/programmes/horizon2020/) programme under grant agreement [H2020-INFRAEOSC-2018-2 824087](https://cordis.europa.eu/project/id/824087).  
 
 ### Other funding
-
-We are also grateful for contributions funded by [BioExcel-2](https://bioexcel.eu/) ([H2020-INFRAEDI-2018-1 823830](https://cordis.europa.eu/project/id/823830)), [IBISBA](https://www.ibisba.eu/) ([H2020-INFRAIA-2017-1-two-stage 730976](https://cordis.europa.eu/project/id/730976), [H2020-INFRADEV-2019-2 871118](https://cordis.europa.eu/project/id/871118)), [FAIRplus](https://fairplus-project.eu/) ([H2020-JTI-IMI2-2017-12-two-stage 802750](https://cordis.europa.eu/project/id/802750)), [SYNTHESYS+](https://www.synthesys.info/) ([H2020-INFRAIA-2018-1 823827](https://cordis.europa.eu/project/id/823827)), [FAIR Workflows](https://fair-workflows.github.io/project.html) and others. 
-
 
 <p class="logos">
   <a title="BioExcel2" href="https://bioexcel.eu/"><img src="/logo/BioExcel_logo_payoff_cropped.svg" style="max-height: 5em; max-width: 35%; vertical-align: middle" alt="BioExcel" /></a>
@@ -27,10 +23,23 @@ We are also grateful for contributions funded by [BioExcel-2](https://bioexcel.e
   <a title="FAIR Workflows" href="https://fair-workflows.github.io/project.html"><img src="/logo/fair-workflows.png" style="max-height: 5em; max-width: 35%; vertical-align: middle" alt="FAIR Workflows" /></a>
 </p>
 
-## Source code
+We are also grateful for contributions funded by:
+* [BioExcel-2](https://bioexcel.eu/) ([H2020-INFRAEDI-2018-1 823830](https://cordis.europa.eu/project/id/823830))
+* [IBISBA](https://www.ibisba.eu/) ([H2020-INFRAIA-2017-1-two-stage 730976](https://cordis.europa.eu/project/id/730976), [H2020-INFRADEV-2019-2 871118](https://cordis.europa.eu/project/id/871118))
+* [FAIRplus](https://fairplus-project.eu/) ([H2020-JTI-IMI2-2017-12-two-stage 802750](https://cordis.europa.eu/project/id/802750))
+* [SYNTHESYS+](https://www.synthesys.info/) ([H2020-INFRAIA-2018-1 823827](https://cordis.europa.eu/project/id/823827))
+* [FAIR Workflows](https://fair-workflows.github.io/project.html)
+* ..and others
+
+
+## Source code: SEEK
+
+<p>
+  <a title="SEEK for Science" href="https://seek4science.org/about_us.html"><img src="/logo/seek.svg" style="max-height: 10em; max-width: 45%" alt="SEEK" /></a>
+  <a title="FAIRDOM" href="https://fair-dom.org/"><img src="/logo/fairdom-logo-fixed-colours.svg" style="max-height: 10em; max-width: 45%" alt="FAIRDOM" /></a>
+</p>
 
 The main [WorkflowHub codebase](https://github.com/seek4science/seek/tree/workflow) is based on [SEEK](https://seek4science.org/about_us.html) and builds on previous experience with developing [myExperiment](https://www.myexperiment.org/about). SEEK is implemented in [Ruby on Rails](https://rubyonrails.org/) using a wide range of open source [Ruby gems](https://github.com/seek4science/seek/blob/workflowhub/Gemfile.lock).
-
 
 ## Related projects
 

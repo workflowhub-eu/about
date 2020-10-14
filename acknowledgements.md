@@ -18,12 +18,26 @@ workflowhub.eu lead development is part of [EOSC-Life](https://www.eosc-life.eu/
 
 We are also grateful for contributions funded by [BioExcel-2](https://bioexcel.eu/) ([H2020-INFRAEDI-2018-1 823830](https://cordis.europa.eu/project/id/823830)), [IBISBA](https://www.ibisba.eu/) ([H2020-INFRAIA-2017-1-two-stage 730976](https://cordis.europa.eu/project/id/730976), [H2020-INFRADEV-2019-2 871118](https://cordis.europa.eu/project/id/871118)), [FAIRplus](https://fairplus-project.eu/) ([H2020-JTI-IMI2-2017-12-two-stage 802750](https://cordis.europa.eu/project/id/802750)), [SYNTHESYS+](https://www.synthesys.info/) ([H2020-INFRAIA-2018-1 823827](https://cordis.europa.eu/project/id/823827)), [FAIR Workflows](https://fair-workflows.github.io/project.html) and others. 
 
+
+<p>
+  <a title="BioExcel2" href="https://bioexcel.eu/"><img src="/logo/BioExcel_logo_payoff_cropped.svg" style="max-height: 5em; max-width: 25%" alt="BioExcel" /></a>
+  <a title="IBISBA" href="https://www.ibisba.eu/"><img src="/logo/ibisba-logo.png" style="max-height: 5em; max-width: 25%" alt="IBISBA" /></a>
+  <a title="FAIRplus" href="https://fairplus-project.eu/"><img src="/logo/fairplus-logo.png" style="max-height: 5em; max-width: 25%" alt="FAIRplus" /></a>
+  <a title="SYNTHESYS+" href="https://www.synthesys.info/"><img src="/logo/synthesys-plus-logo-white.png" style="max-height: 5em; max-width: 25%" alt="SYNTHESYS+" /></a>
+  <a title="FAIR Workflows" href="https://fair-workflows.github.io/project.html"><img src="/logo/BioExcel_logo_payoff_cropped.svg" style="max-height: 5em; max-width: 25%" alt="FAIR Workflows" /></a>
+</p>
+
 ## Source code
 
 The main [WorkflowHub codebase](https://github.com/seek4science/seek/tree/workflow) is based on [SEEK](https://seek4science.org/about_us.html) and builds on previous experience with developing [myExperiment](https://www.myexperiment.org/about). SEEK is implemented in [Ruby on Rails](https://rubyonrails.org/) using a wide range of open source [Ruby gems](https://github.com/seek4science/seek/blob/workflowhub/Gemfile.lock).
 
 
 ## Related projects
+
+<p>
+  <a title="ELIXIR Europe" href="https://elixir-europe.org/"><img src="/logo/ELIXIR_logo_white_background.png" style="max-height: 10em; max-width: 45%" alt="ELIXIR" /></a>
+</p>
+
 
 WorkflowHub activities are strongly coordinated with [ELIXIR Europe](https://elixir-europe.org/) with participants from:
  

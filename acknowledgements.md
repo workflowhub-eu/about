@@ -26,7 +26,7 @@ We are also grateful for contributions funded by:
 * [BioExcel-2](https://bioexcel.eu/) ([H2020-INFRAEDI-2018-1 823830](https://cordis.europa.eu/project/id/823830))
 * [IBISBA](https://www.ibisba.eu/) ([H2020-INFRAIA-2017-1-two-stage 730976](https://cordis.europa.eu/project/id/730976), [H2020-INFRADEV-2019-2 871118](https://cordis.europa.eu/project/id/871118))
 * [SYNTHESYS+](https://www.synthesys.info/) ([H2020-INFRAIA-2018-1 823827](https://cordis.europa.eu/project/id/823827))
-* ..and informal contributions (see WorkflowHub Club below)
+* ..in addition to contributions from [WorkflowHub Club](#workflowhub-club) participants
 
 <!-- * [FAIR Workflows](https://fair-workflows.github.io/project.html) -->
 

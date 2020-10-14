@@ -36,7 +36,7 @@ We are also grateful for contributions funded by:
 
 <p>
   <a title="SEEK for Science" href="https://seek4science.org/about_us.html"><img src="/logo/seek.svg?20201014" style="max-height: 5em; max-width: 35%; vertical-align: middle" alt="SEEK" /></a>
-  <a title="FAIRDOM" href="https://fair-dom.org/"><img src="/logo/fairdom-logo-fixed-colours.svg" style="max-height: 5em; max-width: 35%; vertical-align: middle alt="FAIRDOM" /></a>
+  <a title="FAIRDOM" href="https://fair-dom.org/"><img src="/logo/fairdom-logo-fixed-colours.svg" style="max-height: 5em; max-width: 35%; vertical-align: middle" alt="FAIRDOM" /></a>
 </p>
 
 The main [WorkflowHub codebase](https://github.com/seek4science/seek/tree/workflow) is based on [SEEK](https://seek4science.org/about_us.html) and builds on previous experience with developing [myExperiment](https://www.myexperiment.org/about). SEEK is implemented in [Ruby on Rails](https://rubyonrails.org/) using a wide range of open source [Ruby gems](https://github.com/seek4science/seek/blob/workflowhub/Gemfile.lock).

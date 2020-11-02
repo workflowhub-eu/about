@@ -10,11 +10,11 @@ The WorkflowHub uses _Workflow RO Crates_ as an exchange format for users to upl
 
 ## Concepts
 
-This section uses terminology from the [RO Crate 1.0 specification](https://w3id.org/ro/crate/1.0).
+This section uses terminology from the [RO Crate 1.1 specification](https://w3id.org/ro/crate/1.1).
 
 ### Main Workflow
 
-The _Crate_ MUST contain a data entity of type `["File", "SoftwareSourceCode", "Workflow"]` as the _Main Workflow_.
+The _Crate_ MUST contain a data entity of type `["File", "SoftwareSourceCode", "ComputationalWorkflow"]` as the _Main Workflow_.
 
 The _Crate_ MUST refer to the _Main Workflow_ via `mainEntity`.
 
@@ -22,13 +22,13 @@ The _Main Workflow_ MUST refer to its type via `programmingLanguage`.
 
 ### Main Workflow CWL Description
 
-The _Crate_ COULD contain a data entity of type `["File", "SoftwareSourceCode", "Workflow"]` as the _Main Workflow CWL Description_.
+The _Crate_ COULD contain a data entity of type `["File", "SoftwareSourceCode", "ComputationalWorkflow"]` as the _Main Workflow CWL Description_.
 
 If present the _Main Workflow_ MUST refer to the _Main Workflow CWL Description_ via `subjectOf`.
 
 ### Main Workflow Diagram
 
-The _Crate_ COULD contain a _Main Workflow Diagram_, indicated as a data entity of type `["File", "ImageObject", "WorkflowSketch"]`.
+The _Crate_ COULD contain a _Main Workflow Diagram_, indicated as a data entity of type `["File", "ImageObject"]`.
 
 If  _Main Workflow Diagram_ is present, the _Main Workflow_ MUST refer to it via `image`.
 
@@ -238,10 +238,13 @@ A minimal example of _Workflow RO Crate_ metadata, containing a CWL workflow, an
   "@context": "https://w3id.org/ro/crate/1.0/context",
   "@graph": [
     {
-      "@id": "ro-crate-metadata.jsonld",
+      "@id": "ro-crate-metadata.json",
       "@type": "CreativeWork",
       "about": {
         "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.1"
       }
     },
     {
@@ -277,7 +280,7 @@ A minimal example of _Workflow RO Crate_ metadata, containing a CWL workflow, an
       "@type": [
         "File",
         "SoftwareSourceCode",
-        "Workflow"
+        "ComputationalWorkflow"
       ],
       "programmingLanguage": {
         "@id": "#cwl"
@@ -292,8 +295,7 @@ A minimal example of _Workflow RO Crate_ metadata, containing a CWL workflow, an
       "name": "Example Workflow Diagram",
       "@type": [
         "File",
-        "ImageObject",
-        "WorkflowSketch"
+        "ImageObject"
       ]
     },
     {

@@ -235,7 +235,7 @@ A minimal example of _Workflow RO Crate_ metadata, containing a CWL workflow, an
 
 ```json
 {
-  "@context": "https://w3id.org/ro/crate/1.0/context",
+  "@context": "https://w3id.org/ro/crate/1.1/context",
   "@graph": [
     {
       "@id": "ro-crate-metadata.json",

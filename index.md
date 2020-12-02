@@ -43,16 +43,14 @@ This project has a [Code of Conduct](https://github.com/workflowhub-eu/about/blo
 
 ## Regular meeting
 
-<details>
-<summary>WorkflowHub Club - all welcome!</summary>
+WorkflowHub Club - all welcome!
 
 Anyone is welcome to join the weekly _WorkflowHub Club_ calls using Zoom.
 
-* When: Wednesdays 10:00 GMT / 11:00 CET
+* When: Alternate Wednesdays 10:00 GMT / 11:00 CET - *Next meeting: Wednesday 16th December 2020*
 * Agenda/telcon details: <https://s.apache.org/workflowhub-minutes>
 
 See the list of club members on the [acknowledgement](acknowledgements) page.
-</details>
 
 ## Events
 

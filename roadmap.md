@@ -45,7 +45,7 @@ See also:
 
 * One-click execution of Galaxy workflows using the TRS API
 * Implementing the improved directory storage based upon a git backend
-* User Interface Excperience (UX) Trial
+* User Interface Experience (UX) Trial
 * Additional improvements to User Registration process (following UX Trial)
 * [Bioschemas](https://bioschemas.org/) draft for ComputationWorkflow and related updates 
 * Planning and Design of [Life Monitor](https://github.com/crs4/life_monitor) integration through API's and RO-Crate

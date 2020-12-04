@@ -2,6 +2,10 @@
 
 _Please feel free to help [contribute](https://github.com/workflowhub-eu/about/edit/master/roadmap.md) to this roadmap!_
 
+Please note that the Roadmap isn't a project plan or release schedule. 
+The WorkflowHub Club is a very dynamic and agile team, and the Roadmap is reviewed regularly. 
+It's purpose is to give a general indication of intent and direction of travel. 
+
 See also:
   * WorkflowHub imlementation <https://github.com/seek4science/seek/projects/3> (SEEK)
   * General WorkflowHub <https://github.com/workflowhub-eu/about/issues>
@@ -18,31 +22,45 @@ See also:
 
 ## July 2020
 
-* **EOSCLife WorkflowHub pre-Beta release**
-* Overhauling guidance on adding your workflow
+* ☑ **EOSCLife WorkflowHub pre-Beta release**
+* ☑ Updating guidance on adding your workflow
 * ☑ [RO-Crate Python Library](https://pypi.org/project/rocrate/) released
-* Improving user registration experience/flow
-* Implementing improvements to storage mechanism (directories)
-* Implementing versioning of workflows
+* ☑ Improving user registration experience/flow
+* ☑ Implementing basic versioning of workflows
 * ☑ Allowing claiming ownership/credit for a registered workflows (people associated with a workflow)
 * ☑ Synchronising the current Workflow RO-Crate with bioschemas and RO-Crate 1.1 ([ro-crate #81](https://github.com/ResearchObject/ro-crate/pull/81), [#100](https://github.com/ResearchObject/ro-crate/pull/100))
 
 ## August 2020
 
-*Vacation*
+* _General maintenance during vacation period_
 
 ## September 2020
 
-* **EOSCLife WorkflowHub Beta release**
-* Initial GA4GH TRS API implementation
+* ☑ **EOSCLife WorkflowHub Beta release**
+* ☑ Initial GA4GH TRS API implementation
+* ☑ Analysis and Design of improved directory storage based upon a git backend
+
+
+## Quarter 4 (October to December) 2020
+
+* One-click execution of Galaxy workflows using TRS API
+* Implementing of improved directory storage based upon a git backend
+* User Interface Excperience (UX) Trial
+* Additional improvements to User Registration process (following UX Trial)
+* [Bioschemas](https://bioschemas.org/) draft for ComputationWorkflow and related updates 
+* Planning and Design of [Life Monitor](https://github.com/crs4/life_monitor) integration through API's and RO-Crate
+* Workflow RO-Crate extensions to support testing, and example and test data
+* Contacting Workflow owners to claim ownership
+* Improved license selection
+
+
+## Quarter 1 & 2 (January to June) 2021
+
+* Improved versioning support, with automated versioning of Workflows registered from Github
+* Support for submitting Workflow to LifeMonitor  
 * Implementing upload/parsing of Workflow RO-Crates through API
+* Full suport of the TRS API
+* Assisted registration of Github Workflows  
+* Metadata about tools natively supported by the WfMS more exposed - working with key WfMS
 * Linking workflow steps to Bio.tools
-
-## Autumn 2020 and beyond
-
-* One-click execution of workflows using TRS API
-* Tools ecosystem integration of WorkflowHub
-* Implementing assisted registration of workflows from a GitHub repository
-* [Life Monitor](https://github.com/crs4/life_monitor) integration web service is now an application
 * Nextflow -> CWL Abstract (**volunteers needed**, potential research/MsC project?)
-

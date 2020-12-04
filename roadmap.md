@@ -50,7 +50,6 @@ See also:
 * [Bioschemas](https://bioschemas.org/) draft for ComputationWorkflow and related updates 
 * Planning and Design of [Life Monitor](https://github.com/crs4/life_monitor) integration through API's and RO-Crate
 * Workflow RO-Crate extensions to support testing, and example and test data
-* Contacting Workflow owners to claim ownership
 * Improved license selection
 
 

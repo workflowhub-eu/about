@@ -58,7 +58,7 @@ See also:
 * Improved versioning support, with automated versioning of Workflows registered from Github
 * Support for submitting Workflow to LifeMonitor  
 * Implementing upload/parsing of Workflow RO-Crates through API
-* Full suport of the TRS API
+* TRS request from Galaxy Europe - Full case
 * Assisted registration of Github Workflows  
 * Metadata about tools natively supported by the WfMS more exposed - working with key WfMS
 * Linking workflow steps to Bio.tools

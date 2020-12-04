@@ -2,8 +2,8 @@
 
 _Please feel free to help [contribute](https://github.com/workflowhub-eu/about/edit/master/roadmap.md) to this roadmap!_
 
-Please note that the Roadmap isn't a project plan or release schedule. 
-The WorkflowHub Club is a very dynamic and agile team, and the Roadmap is reviewed regularly. 
+Please note that the roadmap isn't a project plan or release schedule. 
+The WorkflowHub Club is a very dynamic and agile team, and the roadmap is reviewed and updated regularly. 
 It's purpose is to give a general indication of intent and direction of travel. 
 
 See also:
@@ -41,10 +41,10 @@ See also:
 * ☑ Analysis and Design of improved directory storage based upon a git backend
 
 
-## Quarter 4 (October to December) 2020
+## October to December 2020
 
-* One-click execution of Galaxy workflows using TRS API
-* Implementing of improved directory storage based upon a git backend
+* One-click execution of Galaxy workflows using the TRS API
+* Implementing the improved directory storage based upon a git backend
 * User Interface Excperience (UX) Trial
 * Additional improvements to User Registration process (following UX Trial)
 * [Bioschemas](https://bioschemas.org/) draft for ComputationWorkflow and related updates 
@@ -54,7 +54,7 @@ See also:
 * Improved license selection
 
 
-## Quarter 1 & 2 (January to June) 2021
+## January to June 2021
 
 * Improved versioning support, with automated versioning of Workflows registered from Github
 * Support for submitting Workflow to LifeMonitor  

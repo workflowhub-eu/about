@@ -47,23 +47,26 @@ See also:
 
 ## October to December 2020
 
-* One-click execution of Galaxy workflows using the TRS API
-* Implementing the improved directory storage based upon a git backend
-* User Interface Experience (UX) Trial
-* Additional improvements to User Registration process (following UX Trial)
-* [Bioschemas](https://bioschemas.org/) draft for ComputationWorkflow and related updates 
-* Planning and Design of [Life Monitor](https://github.com/crs4/life_monitor) integration through API's and RO-Crate
-* Workflow RO-Crate extensions to support testing, and example and test data
-* Improved license selection
+* ☑ One-click execution of Galaxy workflows using the GA4GH TRS API
+* ☑ User Interface Experience (UX) Trial
+* ☑ Additional improvements to User Registration process (following UX Trial)
+* ☑ [Bioschemas](https://bioschemas.org/) draft for ComputationWorkflow and related updates 
+* ☑ Planning and Design of [Life Monitor](https://github.com/crs4/life_monitor) integration through API's and RO-Crate
+* ☑ Workflow RO-Crate extensions to support testing, and example and test data
+
 
 
 ## January to June 2021
 
+* Implementing the improved directory storage based upon a git backend
+* Improved license selection
 * Improved versioning support, with automated versioning of Workflows registered from Github
 * Support for submitting Workflow to LifeMonitor  
 * Implementing upload/parsing of Workflow RO-Crates through API
-* TRS request from Galaxy Europe - Full case
+* GA4GH TRS request from Galaxy Europe - Full case
 * Assisted registration of Github Workflows  
 * Metadata about tools natively supported by the WfMS more exposed - working with key WfMS
 * Linking workflow steps to Bio.tools
 * Nextflow -> CWL Abstract (**volunteers needed**, potential research/MsC project?)
+* RO-Crate profile to describe Workflow Runs, including provenance and results
+* Better RO-Crate support for additional Workflow Management Systems, beyond Galaxy

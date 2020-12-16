@@ -16,11 +16,15 @@ This project has a [Code of Conduct](https://github.com/workflowhub-eu/about/blo
 * [How to register your workflow in WorkflowHub](https://about.workflowhub.eu/How-to-register-your-workflow(s)-in-WorkflowHub)
 * [Updating a registered workflow](Updating-a-registered-workflow)
 
+For any kind of questions or suggestions on using the Workflow Hub, feel free to join our [community](community.md)!
+
 ### Developers
 
 * [Workflow RO-Crate spec](https://about.workflowhub.eu/Workflow-RO-Crate)
 * [How to make a workflow RO-Crate](https://about.workflowhub.eu/How-to-make-a-workflow-RO-crate)
 * [The Global Alliance for Genomics and Health (GA4GH) Tool Registry Service (TRS) API](https://about.workflowhub.eu/TRS) 
+
+For developer questions such as on REST APIs, RO-Crate, or setting up your own instance of Workflow Hub, feel free to join our [community](community.md)!
 
 ## Project resources
 
@@ -43,11 +47,11 @@ This project has a [Code of Conduct](https://github.com/workflowhub-eu/about/blo
 
 ## Regular meeting
 
-WorkflowHub Club - all welcome!
+**WorkflowHub Club** - all welcome!
 
-Anyone is welcome to join the weekly _WorkflowHub Club_ calls using Zoom.
+Anyone is welcome to join the weekly [WorkflowHub Club](community.md) calls using Zoom.
 
-* When: Alternate Wednesdays 10:00 GMT / 11:00 CET - *Next meeting: Wednesday 16th December 2020*
+* When: Alternate Wednesdays 10:00 GMT / 11:00 CET 
 * Agenda/telcon details: <https://s.apache.org/workflowhub-minutes>
 
 See the list of club members on the [acknowledgement](acknowledgements) page.

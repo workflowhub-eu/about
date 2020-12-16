@@ -22,3 +22,8 @@ The weekly [WorkflowHub Club](https://s.apache.org/workflowhub-minutes) is chair
 Anyone can [join the WorkflowHub club](https://github.com/workflowhub-eu/about/issues/1)! Either sign up on GitHub [issue #1](https://github.com/workflowhub-eu/about/issues/1) or join the [next call](https://s.apache.org/workflowhub-minutes) and introduce yourself.
 
 See [acknowledgements](acknowledgements.md/#workflowhub-club) for a complete list of participants in the WorkflowHub Club.
+
+
+## Code of conduct
+
+This project has a [Code of Conduct](https://github.com/workflowhub-eu/about/blob/master/CODE_OF_CONDUCT.md) to ensure interactions are friendly, respectful and inclusive. You can contact <info@esciencelab.org.uk> if you have any concerns or questions.

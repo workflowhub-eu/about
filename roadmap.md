@@ -1,3 +1,7 @@
+---
+title: WorkflowHub Roadmap
+---
+
 # WorkflowHub Roadmap
 
 _Please feel free to help [contribute](https://github.com/workflowhub-eu/about/edit/master/roadmap.md) to this roadmap!_

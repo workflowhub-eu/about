@@ -45,9 +45,9 @@ For developer questions such as on REST APIs, RO-Crate, or setting up your own i
   * [WorkflowHub Introduction slides](https://drive.google.com/open?id=1hfBAjjRnL9jGoxHEvq66Wo-wuKqouR3C), Carole Goble, 2020-03-25
 * **Weekly meeting**: [Rolling Minutes / call details](https://docs.google.com/document/d/1U2KAlbKviCu-fCX-znncKIBUIUUOeEnuRGdAg-fNd4Q/edit?usp=sharing)
 
-## Regular meeting
+## Community
 
-**WorkflowHub Club** - all welcome!
+Regular meeting: **WorkflowHub Club** - all welcome!
 
 Anyone is welcome to join the weekly [WorkflowHub Club](community.md) calls using Zoom.
 

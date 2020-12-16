@@ -1,3 +1,7 @@
+---
+title: WorkflowHub community
+---
+
 # WorkflowHub community
 
 While WorkflowHub is largely developed as a collaboration between [several projects](acknowledgements.md), any contributors are welcome to join our **open community**.

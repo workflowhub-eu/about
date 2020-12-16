@@ -1,3 +1,7 @@
+---
+title: WorkflowHub Acknowledgements
+---
+
 # Acknowledgements
 
 ## Funding

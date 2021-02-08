@@ -22,7 +22,7 @@ The _Main Workflow_ MUST refer to its type via `programmingLanguage`.
 
 ### Main Workflow CWL Description
 
-The _Crate_ COULD contain a data entity of type `["File", "SoftwareSourceCode", "ComputationalWorkflow"]` as the _Main Workflow CWL Description_.
+The _Crate_ COULD contain a data entity of type `["File", "SoftwareSourceCode", "HowTo"]` as the _Main Workflow CWL Description_.
 
 If present the _Main Workflow_ MUST refer to the _Main Workflow CWL Description_ via `subjectOf`.
 
@@ -280,7 +280,7 @@ A minimal example of _Workflow RO Crate_ metadata, containing a CWL workflow, an
       "@type": [
         "File",
         "SoftwareSourceCode",
-        "ComputationalWorkflow"
+        "HowTo"
       ],
       "programmingLanguage": {
         "@id": "#cwl"

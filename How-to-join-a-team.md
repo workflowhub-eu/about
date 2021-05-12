@@ -1,3 +1,7 @@
+---
+title: Joining and creating WorkflowHub teams
+---
+
 # Terminology
 
 ## What is a Team?

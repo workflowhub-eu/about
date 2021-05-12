@@ -11,7 +11,7 @@ This project has a [Code of Conduct](https://github.com/workflowhub-eu/about/blo
 * [What is WorkflowHub](/About-WorkflowHub)
 * [How to register](https://about.workflowhub.eu/How-to-register)
 * [Logging-in](/Logging-in)
-* [How to join a project](/How-to-join-a-project)
+* [How to join a team](/How-to-join-a-team)
 * [How to find and retrieve workflows from WorkflowHub](/How-to-find-and-retrieve-workflow(s)-from-WorkflowHub)
 * [How to register your workflow in WorkflowHub](/How-to-register-your-workflow(s)-in-WorkflowHub)
 * [Updating a registered workflow](Updating-a-registered-workflow)

@@ -52,4 +52,4 @@ Once submitted, relevant administrators will be notified who will then review an
 
 If you are creating a Team within a Space you administer, then there is no approval step. You will be shown a page to review the details and then can create straight away.
 
-Otherwise, an appropriate administrator will be notified by email about your request. They will also be notified directly within the WorkflowHub. The administrator will be shown a page that allows them to quickly review the details and either accept or reject the request, and in either case you will be notified by email. During the working day (according to the timezone of the member notified) this will normally be a quick process.
+Otherwise, an appropriate administrator will be notified by email about your request. They will also be notified directly within WorkflowHub. The administrator will be shown a page that allows them to quickly review the details and either accept or reject the request, and in either case you will be notified by email. During the working day (according to the timezone of the member notified) this will normally be a quick process.

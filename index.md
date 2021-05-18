@@ -1,6 +1,6 @@
 ## WorkflowHub project
 
-This website describes the project for developing and running the [WorkflowHub](https://workflowhub.eu/).
+This website describes the project for developing and running [WorkflowHub](https://workflowhub.eu/).
 
 ## Code of conduct
 
@@ -16,7 +16,7 @@ This project has a [Code of Conduct](https://github.com/workflowhub-eu/about/blo
 * [How to register your workflow in WorkflowHub](/How-to-register-your-workflow(s)-in-WorkflowHub)
 * [Updating a registered workflow](Updating-a-registered-workflow)
 
-For any kind of questions or suggestions on using the Workflow Hub, feel free to join our [community](community.md)!
+For any kind of questions or suggestions on using WorkflowHub, feel free to join our [community](community.md)!
 
 ### Developers
 
@@ -24,7 +24,7 @@ For any kind of questions or suggestions on using the Workflow Hub, feel free to
 * [How to make a workflow RO-Crate](/How-to-make-a-workflow-RO-crate)
 * [The Global Alliance for Genomics and Health (GA4GH) Tool Registry Service (TRS) API](/TRS) 
 
-For developer questions such as on REST APIs, RO-Crate, or setting up your own instance of Workflow Hub, feel free to join our [community](community.md)!
+For developer questions such as on REST APIs, RO-Crate, or setting up your own instance of WorkflowHub, feel free to join our [community](community.md)!
 
 ## Project resources
 
@@ -109,7 +109,7 @@ More:
 
 WorkflowHub was one of the topics at the [Virtual COVID-19 BioHackathon](https://github.com/virtual-biohackathons/covid-19-bh20/), attracting more than 30 developers. The participants also collaborated with the _Workflows_ and _FAIR Data_ topics.
 
-Thanks to the collaborative effort the WorkflowHub could be launched early at <https://covid19.workflowhub.eu/> in a "pre-beta" stage. The COVID-19 workflows registered at the hackathon now appear as part of <https://workflowhub.eu/> 
+Thanks to the collaborative effort WorkflowHub could be launched early at <https://covid19.workflowhub.eu/> in a "pre-beta" stage. The COVID-19 workflows registered at the hackathon now appear as part of <https://workflowhub.eu/> 
 
 More:
  * [ELIXIR: Hacking the pandemic](https://elixir-europe.org/news/hacking-pandemic>)

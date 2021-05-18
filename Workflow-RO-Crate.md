@@ -6,7 +6,7 @@
 
 _Workflow RO Crates_ are a specialization of [_RO Crate_](https://researchobject.github.io/ro-crate/) for packaging an executable workflow with all necessary documentation. It is aligned with, and intends to strictly extend, the more general [Bioschemas ComputatioonalWorkflow profile](https://bioschemas.org/profiles/ComputationalWorkflow/1.0-RELEASE/). 
 
-The WorkflowHub uses _Workflow RO Crates_ as an exchange format for users to upload a packaged workflow. 
+WorkflowHub uses _Workflow RO Crates_ as an exchange format for users to upload a packaged workflow. 
 
 ## Concepts
 
@@ -46,11 +46,11 @@ The _Crate_ COULD contain a Dataset (directory) data entity of type `["Dataset"]
 
 ### File Format
 
-The Workflow RO Crate must be zipped, and have the file extension `.crate.zip` to be recognized by the WorkflowHub.
+The Workflow RO Crate must be zipped, and have the file extension `.crate.zip` to be recognized by WorkflowHub.
 
 ### Extracted Metadata
 
-The WorkflowHub will extract and expose the following properties from the Crate entity (`./`) in `ro-crate-metadata.jsonld`:
+WorkflowHub will extract and expose the following properties from the Crate entity (`./`) in `ro-crate-metadata.jsonld`:
 
 * `name` - This will be shown as the title of the workflow.
 * `description` - This will be shown as the description of the workflow. 
@@ -65,7 +65,7 @@ If the _Main Workflow Diagram_ is present, it will also be rendered on the page.
 
 ### Supported Workflow Types
 
-The WorkflowHub currently supports CWL, Galaxy, KNIME and Nextflow workflow types.
+WorkflowHub currently supports CWL, Galaxy, KNIME and Nextflow workflow types.
 
 To ensure compatibility, please include one of the following in the RO Crate metadata, and refer to it from the _Main Workflow_'s `programmingLanguage`.
 
@@ -144,7 +144,7 @@ To ensure compatibility, please include one of the following in the RO Crate met
 
 ### Supported Licenses
 
-Although the Crate's `license` field should be a URL, the WorkflowHub currently accepts a string of one of the following values (on the left):
+Although the Crate's `license` field should be a URL, WorkflowHub currently accepts a string of one of the following values (on the left):
 
 * `AFL-3.0` - [Academic Free License 3.0](https://opensource.org/licenses/AFL-3.0)
 * `APL-1.0` - [Adaptive Public License 1.0](https://opensource.org/licenses/APL-1.0)

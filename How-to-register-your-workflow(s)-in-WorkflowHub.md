@@ -3,14 +3,14 @@
 ### Prerequisites
 
 Before you register a workflow, you need to ensure that you
-* are [logged into](../Logging-in) the WorkflowHub
+* are [logged into](../Logging-in) WorkflowHub
 * are part of a suited project for your registration (Find more information on how to join a project [here](../How-to-join-a-project))
 * know the type of the workflow
 * have decided which [projects](../Browsing-projects) to assign the workflow to
 
 ### Get started
 
-To register a workflow, you can either click on the "contribute" icon in the WorkflowHub homepage, or in the "Workflow" option of the "Create" menu from any page of the application.
+To register a workflow, you can either click on the "contribute" icon on the WorkflowHub homepage, or in the "Workflow" option of the "Create" menu from any page of the application.
 
 ![](images/ug_link_to_wf_upload.PNG)
 

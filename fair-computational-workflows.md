@@ -60,6 +60,9 @@ Registries:
 
 Related projects and initiatives supporting FAIR Computational Workflows aims:
 
+* [EOSC-Life](https://www.eosc-life.eu/)
+* [ELIXIR Europe](https://elixir-europe.org/)
+* [BioExcel](https://bioexcel.eu/)
 * [WorkflowsRI](https://workflowsri.org/) – Towards an Infrastructure for Enabling Systematic Development and Research of Scientific Workflow Management Systems
 * [FAIR Workflows](https://fair-workflows.github.io/project.html) – an NWO/eScience Center project
 * [FAIR for Research Software](https://www.rd-alliance.org/groups/fair-research-software-fair4rs-wg) (FAIR4RS) – working group at Research Data Alliance 

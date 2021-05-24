@@ -3,25 +3,24 @@ title: FAIR Computational Workflows
 ---
 
 
-## References
+## References
 
+_To add to this list, please [suggest a change](https://github.com/workflowhub-eu/about/blob/master/fair-computational-workflows.md)._
 
 Carole Goble, Sarah Cohen-Boulakia, Stian Soiland-Reyes, Daniel Garijo, Yolanda Gil, Michael R. Crusoe, Kristian Peters, Daniel Schober (2020):  
 [**FAIR Computational Workflows**](https://doi.org/10.1162/dint_a_00033).  
 _Data Intelligence_  **2**(1):108–121
 <https://doi.org/10.1162/dint_a_00033>
 
-
 Stian Soiland-Reyes, Genís Bayarri, Pau Andrio, Robin Long, Douglas Lowe, Ania Niewielska, Adam Hospital (2021):  
 [**Making Canonical Workflow Building Blocks interoperable across workflow languages**](https://doi.org/10.5281/zenodo.4602855).  
-Extended abstract (submitted), _Zenodo_
+Extended abstract (accepted), _Zenodo_
 <https://doi.org/10.5281/zenodo.4602855>
 
 Carole Goble, Stian Soiland-Reyes, Finn Bacall, Stuart Owen, Alan Williams, Ignacio Eguinoa, Bert Droesbeke, Simone Leo, Luca Pireddu, Laura Rodriguez-Navas, José Mª Fernández, Salvador Capella-Gutierrez, Hervé Ménager, Björn Grüning, Beatriz Serrano-Solano, Philip Ewels, Frederik Coppens (2021):  
 [**Implementing FAIR Digital Objects in the EOSC-Life Workflow Collaboratory**](https://doi.org/10.5281/zenodo.4605654).  
-Extended abstract (submitted), _Zenodo_
+Extended abstract (accepted), _Zenodo_
 <https://doi.org/10.5281/zenodo.4605654>
-
 
 Daniel S. Katz, Morane Gruenpeter, Tom Honeyman, Lorraine Hwang, Mark D. Wilkinson, Vanessa Sochat, Hartwig Anzt, Carole Goble, FAIR4RS Subgroup 1 (2021):  
 [**A Fresh Look at FAIR for Research Software**](https://arxiv.org/ftp/arxiv/papers/2101/2101.10883.pdf).  
@@ -51,19 +50,15 @@ _PLOS Biology._  **16**(12):e3000099
 <https://doi.org/10.1371/journal.pbio.3000099>
 ([bioXriv:191783](https://doi.org/10.1101/191783))
 
-
 Pablo Carbonell, Adrian J. Jervis, Christopher J. Robinson, Cunyu Yan, Mark Dunstan, Neil Swainston, Maria Vinaixa, Katherine A. Hollywood, Andrew Currin, Nicholas J. W. Rattray, Sandra Taylor, Reynard Spiess, Rehana Sung, Alan R. Williams, Donal Fellows, Natalie J. Stanford, Paul Mulherin, Rosalind Le Feuvre, Perdita Barran, Royston Goodacre, Nicholas J. Turner, Carole Goble, George Guoqiang Chen, Douglas B. Kell, Jason Micklefield, Rainer Breitling, Eriko Takano, Jean-Loup Faulon, Nigel S. Scrutton (2018):  
 [**An automated Design-Build-Test-Learn pipeline for enhanced microbial production of fine chemicals**](https://doi.org/10.1038/s42003-018-0076-9).  
 _Communications Biology_ **1**:66
 <https://doi.org/10.1038/s42003-018-0076-9>
 
-
-
 Stephen J Eglen, Ben Marwick, Yaroslav O Halchenko, Michael Hanke, Shoaib Sufi, Padraig Gleeson, R Angus Silver, Andrew P Davison, Linda Lanyon, Mathew Abrams, Thomas Wachtler, David J Willshaw, Christophe Pouzat, Jean-Baptiste Poline (2017):  
 [**Toward standard practices for sharing computer code and programs in neuroscience**](https://doi.org/10.1038/nn.4550).  
 _Nature Neuroscience_ **20**, 770–773.
 [https://doi.org/10.1038/nn.4550](https://doi.org/10.1038/nn.4550) [[bioRxiv preprint]](https://doi.org/10.1101/045104)
-
 
 Steffen Möller, Stuart W. Prescott, Lars Wirzenius; Petter Reinholdtsen, Brad Chapman, Pjotr Prins, Stian Soiland-Reyes, Fabian Klötzl, Andrea Bagnacani, Matúš Kalaš, Andreas Tille, Michael R. Crusoe (2017): 
 [**Robust cross-platform workflows: how technical and scientific communities collaborate to develop, test and share best practices for data analysis.**](https://doi.org/10.1007/s41019-017-0050-4)  

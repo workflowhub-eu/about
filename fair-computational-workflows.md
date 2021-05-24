@@ -18,32 +18,52 @@ This page is a gathering of community resources and literature on FAIR Computati
 
 ## Events and talks
 
-Related events:
+Related past and upcoming events:
 
+* 2021-10-24: [DaMaLOS 2021](https://zbmed.github.io/damalos/) – 2nd Workshop on Data and research objects management for Linked Open Science, co-located with [ISWC 2021](https://iswc2021.semanticweb.org/)
+  - Abstracts due: 2021-08-08
 * 2021-04-07: WorkflowsRI [Workflows Community Summit: Advancing the State-of-the-art of Scientific Workflows Management Systems Research and Development ](https://workflowsri.org/summits/community) 
+* 2021-03-30/2021-04-01: [Collaboration Workshop CW21](https://www.software.ac.uk/cw21) – themes FAIR Research Software, Diversity and Inclusion, Software Sustainability
+  - Michelle Parker: [FAIR for research software](https://www.youtube.com/watch?v=6qNZxho8ib8) [[slides](https://docs.google.com/presentation/d/1eTG57TOeEL79QidUe-m1WVBut5mbJfDBlNSM6kCsIXk/edit#slide=id.p)]
+  - [Implementing FAIR for research software: attitudes, advantages and challenges (part 1)](https://software.ac.uk/blog/2021-05-19-implementing-fair-research-software-attitudes-advantages-and-challenges-part-one) and [part 2](https://www.software.ac.uk/blog/2021-05-20-implementing-fair-research-software-attitudes-advantages-and-challenges-part-two)
 * 2021-01-13: WorkflowsRI [Workflows Community Summit: Bringing the Scientific Workflows Community Together ](https://workflowsri.org/summits/community) 
   - [Carole Goble: FAIR Computational Workflows](https://www.youtube.com/watch?v=VN706j9DTcw&list=PLAtmuqHExRvNf5zmggm2VwDedGoibO69U&index=3) 
   - Report: <https://doi.org/10.5281/zenodo.4606958> section [2.1: FAIR computational workflows](https://arxiv.org/pdf/2103.09181.pdf#subsection.2.1)
-* [DamaLos 2020](https://zbmed.github.io/damalos/docs/2020.html)
+* [DaMaLOS 2020](https://zbmed.github.io/damalos/docs/2020.html) – Workshop on Data and research objects management for Linked Open Science, co-located with [ISWC](https://iswc2021.semanticweb.org/)
 * 2020-09-12: [Workshop on FAIR Computational Workflows](https://eccb2020.info/ntbew01-workshop-on-fair-computational-workflows/), 19th European Conference on Computational Biology ([ECCB 2020](https://eccb2020.info/))
+  - [Combined slide deck](https://doi.org/10.5281/zenodo.4071482)
   - [Video recording](https://www.youtube.com/watch?v=M7C4o0mDZLw) incl. talks:
   - [Carole Goble: Introdicuing FAIR Computational Workflows](https://youtu.be/M7C4o0mDZLw?t=299)
-  - [Sarah Cohen: A Review on the FAIR principles for computational workflows](https://youtu.be/M7C4o0mDZLw?t=562) 
-  - [Mateusz Kuzak: Toward defining and implementing FAIR for research software](https://youtu.be/M7C4o0mDZLw?t=562)
-  - [Carole Goble: WorkflowHub and the Bioschemas profile](https://youtu.be/M7C4o0mDZLw?t=2638)
+  - [Sarah Cohen: A Review on the FAIR principles for computational workflows](https://youtu.be/M7C4o0mDZLw?t=562) [[slides](https://doi.org/10.5281/zenodo.4071482)]
+  - [Mateusz Kuzak: Toward defining and implementing FAIR for research software](https://youtu.be/M7C4o0mDZLw?t=562) [[slides](https://docs.google.com/presentation/d/15113lwn8_H7ftDF9I650O3rZGeAVr6LVSU4-XDkBgA0/edit#slide=id.g9337569ecf_2_123)]
+  - [Carole Goble: WorkflowHub and the Bioschemas profile](https://youtu.be/M7C4o0mDZLw?t=2638) [[slides](https://doi.org/10.5281/zenodo.4012124)]
   - [Michael Crusoe: The Common Workflow Language and CWLProv](https://youtu.be/M7C4o0mDZLw?t=4286)
-  - [Stian Soiland-Reyes: Packaging workflows with RO-Crate](https://youtu.be/M7C4o0mDZLw?t=5105) [slides](https://doi.org/10.5281/zenodo.4011999)
-  - [Simone Leo & Salvador Capella-Gutierrez: Testing workflows: Life Monitor and OpenEBench](https://youtu.be/M7C4o0mDZLw?t=6768)
+  - [Stian Soiland-Reyes: Packaging workflows with RO-Crate](https://youtu.be/M7C4o0mDZLw?t=5105) [[slides](https://doi.org/10.5281/zenodo.4011999)]
+  - [Simone Leo: Testing workflows: Life Monitor and OpenEBench](https://youtu.be/M7C4o0mDZLw?t=6768) [[slides](https://docs.google.com/presentation/d/15113lwn8_H7ftDF9I650O3rZGeAVr6LVSU4-XDkBgA0/edit#slide=id.g9337569ecf_1_0)]
+  - [Salvador Capella-Gutierrez: OpenEBench](https://youtu.be/M7C4o0mDZLw?t=7199) [[slides](https://zenodo.org/record/4071482/preview/ECCB2020_%20Workshop%20on%20FAIR%20Computational%20Workflows%20%282%29.pdf#page=91)]
+  - [Björn Grüning: FAIR computational data analysis with Galaxy](https://youtu.be/M7C4o0mDZLw?t=8039) [[slides](https://zenodo.org/record/4071482/preview/ECCB2020_%20Workshop%20on%20FAIR%20Computational%20Workflows%20%282%29.pdf#page=108)]
+  - [Alexander Peltzer: Nextflow & nf-core](https://youtu.be/M7C4o0mDZLw?t=9722) [[slides](http://slides.com/apeltzer/eccb2020-nf-nf-core)]
+  - [Carole Goble: Wrapup, FAIR for workflows](https://youtu.be/M7C4o0mDZLw?t=10847) [[slides](https://zenodo.org/record/4071482/preview/ECCB2020_%20Workshop%20on%20FAIR%20Computational%20Workflows%20%282%29.pdf#page=141)]
+- 2019-09-24: [Workshop on Research Objects (RO2019)](https://www.researchobject.org/ro2019/proceedings) at [IEEE eScience 2019](https://escience2019.sdsc.edu/)
+- 2018-10-29: [Workshop on Research Objects (RO2018)](https://www.researchobject.org/ro2018/ro2018-proceedings/) at IEEE eScience 2018.
 
 
 ## Projects and initiatives
 
+Registries:
+
 * [WorkflowHub](https://workflowhub.eu/) – a repository and registry of life science workflows
+* [Dockstore](https://dockstore.org/) – sharing Docker Tools and Workflows for the Sciences
+* [bio.tools](https://bio.tools/) – registry of tools in life sciences
+* [nf-core](nf-co.re/) – curated [Nextflow](https://www.nextflow.io/) workflows for bioinformatics
+* Published Galaxy workflows on [usegalaxy.eu](https://usegalaxy.eu/workflows/list_published) and [usegalaxy.org](https://usegalaxy.org/workflows/list_published)
+
+Related projects and initiatives supporting FAIR Computational Workflows aims:
+
 * [WorkflowsRI](https://workflowsri.org/) – Towards an Infrastructure for Enabling Systematic Development and Research of Scientific Workflow Management Systems
 * [FAIR Workflows](https://fair-workflows.github.io/project.html) – an NWO/eScience Center project
-* [Dockstore](https://dockstore.org/) – sharing Docker Tools and Workflows for the Sciences
+* [FAIR for Research Software](https://www.rd-alliance.org/groups/fair-research-software-fair4rs-wg) (FAIR4RS) – working group at Research Data Alliance 
 * [UseGalaxy.eu](https://usegalaxy.eu/) – a European-wide Galaxy workflow platform
-* [bio.tools](https://bio.tools/) – registry of tools in life sciences
 * [BioExcel Building Blocks](http://mmb.irbbarcelona.org/biobb/) (biobb) – software library for interoperable biomolecular simulation workflows
 
 Related standards for FAIR computational workflows:

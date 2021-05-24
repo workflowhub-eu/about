@@ -110,9 +110,18 @@ Daniel S. Katz, Morane Gruenpeter, Tom Honeyman, Lorraine Hwang, Mark D. Wilkins
 [**A Fresh Look at FAIR for Research Software**](https://arxiv.org/ftp/arxiv/papers/2101/2101.10883.pdf).  
 [arXiv:2101.10883](https://arxiv.org/abs/2101.10883) [[pdf](https://arxiv.org/ftp/arxiv/papers/2101/2101.10883.pdf)]
 
+Daniel S. Katz, Morane Gruenpeter, Tom Honeyman, Lorraine Hwang, Mark D. Wilkinson, Vanessa Sochat, Hartwig Anzt, Carole Goble, FAIR4RS Subgroup 1 (2021):  
+[**A Fresh Look at FAIR for Research Software**](https://arxiv.org/pdf/2101.10883).
+[arXiv:2101.10883](https://arxiv.org/abs/2101.10883)
+
 Jeremy Leipzig, Daniel Nüst, Charles Tapley Hoyt, Stian Soiland-Reyes, Karthik Ram, Jane Greenberg (2020):  
 [**The role of metadata in reproducible computational research**](https://arxiv.org/pdf/2006.08589.pdf).   
 [arXiv:2006.08589](https://arxiv.org/abs/2006.08589) [[pdf](https://arxiv.org/pdf/2006.08589.pdf)]
+
+Anna-Lena Lamprecht, Leyla Garcia, Mateusz Kuzak, Carlos Martinez, Ricardo Arcila, Eva Martin Del Pico, Victoria Dominguez Del Angel, Stephanie Van De Sandt, Jon Ison, Paula Andrea Martinez, Peter Mcquilton, Alfonso Valencia, Jennifer Harrow, Fotis Psomopoulos, Josep Ll. Gelpi, Neil Chue Hong, Carole Goble, Salvador Capella-Gutierrez (2020):  
+[**Towards FAIR principles for research software**](https://doi.org/10.3233/DS-190026).  
+_Data Science_ **3**(1) pp. 37–59.  
+<https://doi.org/10.3233/DS-190026>
 
 Farah Zaib Khan, Stian Soiland-Reyes, Richard O. Sinnott, Andrew Lonie, Carole Goble, Michael R. Crusoe (2019):  
 [**Sharing interoperable workflow provenance: A review of best practices and their practical application in CWLProv**](https://doi.org/10.1093/gigascience/giz095).  

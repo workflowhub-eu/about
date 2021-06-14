@@ -33,8 +33,8 @@ Related past and upcoming events:
 * 2020-09-12: [Workshop on FAIR Computational Workflows](https://eccb2020.info/ntbew01-workshop-on-fair-computational-workflows/), 19th European Conference on Computational Biology ([ECCB 2020](https://eccb2020.info/))
   - [Combined slide deck](https://doi.org/10.5281/zenodo.4071482)
   - [Video recording](https://www.youtube.com/watch?v=M7C4o0mDZLw) incl. talks:
-  - [Carole Goble: Introdicuing FAIR Computational Workflows](https://youtu.be/M7C4o0mDZLw?t=299)
-  - [Sarah Cohen: A Review on the FAIR principles for computational workflows](https://youtu.be/M7C4o0mDZLw?t=562) [[slides](https://doi.org/10.5281/zenodo.4071482)]
+  - [Carole Goble: Introducing FAIR Computational Workflows](https://youtu.be/M7C4o0mDZLw?t=299)  [[slides](https://doi.org/10.5281/zenodo.4071482)]
+  - [Sarah Cohen: A Review on the FAIR principles for computational workflows](https://youtu.be/M7C4o0mDZLw?t=562) [[slides](https://doi.org/10.5281/zenodo.4025295)]
   - [Mateusz Kuzak: Toward defining and implementing FAIR for research software](https://youtu.be/M7C4o0mDZLw?t=562) [[slides](https://docs.google.com/presentation/d/15113lwn8_H7ftDF9I650O3rZGeAVr6LVSU4-XDkBgA0/edit#slide=id.g9337569ecf_2_123)]
   - [Carole Goble: WorkflowHub and the Bioschemas profile](https://youtu.be/M7C4o0mDZLw?t=2638) [[slides](https://doi.org/10.5281/zenodo.4012124)]
   - [Michael Crusoe: The Common Workflow Language and CWLProv](https://youtu.be/M7C4o0mDZLw?t=4286)

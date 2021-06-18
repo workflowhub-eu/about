@@ -2,7 +2,7 @@
 
 * [WorkflowHub](https://workflowhub.eu) is a new workflow registry designed around [FAIR principles](https://about.workflowhub.eu/fair-computational-workflows/).
 * WorkflowHub allows workflows to be FAIR, citable, have managed *metadata* profiles, and be openly available for review and analytics.
-* Workflows are packaged, registered, downloaded and exchanged as workflow-centric Research Objects using the [RO-Crate](https://w3id.org/ro/crate) specification, with test and example data, managed metadata profiles, citations and more.
+* Workflows are packaged, registered, downloaded and exchanged as [workflow-centric Research Objects](Workflow-RO-Crate/) using the [RO-Crate](https://w3id.org/ro/crate) specification, with test and example data, managed metadata profiles, citations and more.
 * A [schema.org](https://schema.org/) based Bioschemas profile describes the metadata about a workflow and use of the [Common Workflow Language](https://www.commonwl.org/) is encouraged, providing a canonical description of the workflow itself.
 * Popular workflow management systems such as [Galaxy](https://galaxyproject.org/), [Nextflow](https://nextflow.io/), and [Snakemake](https://snakemake.readthedocs.io/) are working with the Hub to seamlessly and automatically support object packaging, registration and exchange. 
 * WorkflowHub is *workflow management system agnostic*: workflows may remain in their native repositories in their native forms. 

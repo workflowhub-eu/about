@@ -2,6 +2,516 @@
   "@context": "https://w3id.org/ro/crate/1.1/context",
   "@graph": [
     {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.1"
+      },
+      "about": {
+        "@id": "./"
+      },
+      "license": {
+        "@id": "http://spdx.org/licenses/CC0-1.0"
+      }
+    },
+
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-0048-3300"
+      },
+      "contactPoint": {
+        "@id": "https://github.com/seek4science/seek/issues/183"
+      },
+      "datePublished": "2021-06-23T23:00:00.000Z",
+      "description": "Workflow RO-Crates are a specialization of RO-Crate for packaging an executable workflow with all necessary documentation. It is aligned with, and intends to strictly extend, the more general Bioschemas ComputationalWorkflow profile.\n\nWorkflowHub uses Workflow RO Crates as an exchange format for users to upload a packaged workflow.",
+      "hasPart": [
+        {
+          "@id": "index.html"
+        },
+        {
+          "@id": "https://w3id.org/ro/crate/1.1/context"
+        },
+        {
+          "@id": "licenses/"
+        },
+        {
+          "@id": "https://pypi.org/project/rocrate/"
+        },
+        {
+          "@id": "https://github.com/inab/WfExS-backend/"
+        },
+        {
+          "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/263"
+        },
+        {
+          "@id": "https://workflowhub.eu/"
+        },
+        {
+          "@id": "https://bioschemas.org/ComputationalWorkflow"
+        },
+        {
+          "@id": "https://bioschemas.org/FormalParameter"
+        },
+        {
+          "@id": "languages/"
+        },
+        {
+          "@id": "example/"
+        },
+        {
+          "@id": "https://github.com/KockataEPich/CheckMyCrate/blob/master/CheckMyCrate/profile_library/ro_crate_1.1_basic.json"
+        }
+      ],
+      "license": {
+        "@id": "https://spdx.org/licenses/BSD-3-Clause"
+      },
+      "name": "Workflow RO-Crate profile",
+      "publisher": {
+        "@id": "https://about.workflowhub.eu/"
+      },
+      "workExample": {
+        "@id": "example/"
+      }
+    },
+    {
+      "@id": "#cwl",
+      "@type": "ComputerLanguage",
+      "alternateName": "CWL",
+      "identifier": {
+        "@id": "https://w3id.org/cwl/v1.0/"
+      },
+      "name": "Common Workflow Language",
+      "url": {
+        "@id": "https://www.commonwl.org/"
+      }
+    },
+    {
+      "@id": "#galaxy",
+      "@type": "ComputerLanguage",
+      "identifier": {
+        "@id": "https://galaxyproject.org/"
+      },
+      "name": "Galaxy",
+      "url": {
+        "@id": "https://galaxyproject.org/"
+      }
+    },
+    {
+      "@id": "#knime",
+      "@type": "ComputerLanguage",
+      "identifier": {
+        "@id": "https://www.knime.com/"
+      },
+      "name": "KNIME",
+      "url": {
+        "@id": "https://www.knime.com/"
+      }
+    },
+    {
+      "@id": "#nextflow",
+      "@type": "ComputerLanguage",
+      "identifier": {
+        "@id": "https://www.nextflow.io/"
+      },
+      "name": "Nextflow",
+      "url": {
+        "@id": "https://www.nextflow.io/"
+      }
+    },
+    {
+      "@id": "#snakemake",
+      "@type": "ComputerLanguage",
+      "identifier": {
+        "@id": "https://doi.org/10.1093/bioinformatics/bts480"
+      },
+      "name": "Snakemake",
+      "url": {
+        "@id": "https://snakemake.readthedocs.io"
+      }
+    },
+    {
+      "@id": "example/",
+      "@type": "Dataset",
+      "name": "Example RO-Crate following this profile",
+      "subjectOf": {
+        "@id": "example/ro-crate-metadata.json"
+      }
+    },
+    {
+      "@id": "example/ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "conformsTo": "https://w3id.org/ro/crate/1.1",
+      "encodingFormat": "application/json"
+    },
+    {
+      "@id": "index.html",
+      "@type": "File",
+      "about": "./",
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0002-0048-3300"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-3156-2105"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-2130-0865"
+        }
+      ],
+      "dateModified": "2021-06-24T16:09:24.045Z",
+      "name": "Workflow RO-Crate profile description"
+    },
+    {
+      "@id": "languages/",
+      "@type": "Dataset",
+      "description": "WorkflowHub currently supports CWL, Galaxy, KNIME and Nextflow workflow types. \n\n To ensure compatibility, please include one of the following in the RO-Crate metadata, and refer to it from the Main Workflow's 'programmingLanguage' property",
+      "hasPart": [
+        {
+          "@id": "#cwl"
+        },
+        {
+          "@id": "#galaxy"
+        },
+        {
+          "@id": "#knime"
+        },
+        {
+          "@id": "#nextflow"
+        },
+        {
+          "@id": "#snakemake"
+        }
+      ],
+      "name": "languages"
+    },
+    {
+      "@id": "licenses/",
+      "@type": "Dataset",
+      "description": "Although the Crate's license field should be a URL, WorkflowHub currently accepts a string from the 'identifier' field of one of the following licenses:",
+      "hasPart": [
+        {
+          "@id": "http://spdx.org/licenses/AFL-3.0"
+        },
+        {
+          "@id": "http://spdx.org/licenses/APL-1.0"
+        },
+        {
+          "@id": "http://spdx.org/licenses/Apache-1.1"
+        },
+        {
+          "@id": "http://spdx.org/licenses/Apache-2.0"
+        },
+        {
+          "@id": "http://spdx.org/licenses/APSL-2.0"
+        },
+        {
+          "@id": "http://spdx.org/licenses/Artistic-2.0"
+        },
+        {
+          "@id": "http://spdx.org/licenses/AAL"
+        },
+        {
+          "@id": "http://spdx.org/licenses/BSD-2-Clause"
+        },
+        {
+          "@id": "http://spdx.org/licenses/BSD-3-Clause"
+        },
+        {
+          "@id": "http://spdx.org/licenses/BitTorrent-1.1"
+        },
+        {
+          "@id": "http://spdx.org/licenses/BSL-1.0"
+        },
+        {
+          "@id": "http://spdx.org/licenses/CC0-1.0"
+        },
+        {
+          "@id": "http://spdx.org/licenses/CNRI-Python"
+        },
+        {
+          "@id": "http://spdx.org/licenses/CUA-OPL-1.0"
+        },
+        {
+          "@id": "http://spdx.org/licenses/CECILL-2.1"
+        },
+        {
+          "@id": "http://spdx.org/licenses/CDDL-1.0"
+        },
+        {
+          "@id": "http://spdx.org/licenses/CPAL-1.0"
+        },
+        {
+          "@id": "http://spdx.org/licenses/CATOSL-1.1"
+        },
+        {
+          "@id": "http://spdx.org/licenses/EUDatagrid"
+        },
+        {
+          "@id": "http://spdx.org/licenses/EPL-1.0"
+        },
+        {
+          "@id": "http://spdx.org/licenses/ECL-2.0"
+        },
+        {
+          "@id": "http://spdx.org/licenses/EFL-2.0"
+        },
+        {
+          "@id": "http://spdx.org/licenses/Entessa"
+        },
+        {
+          "@id": "http://spdx.org/licenses/EUPL-1.1"
+        },
+        {
+          "@id": "http://spdx.org/licenses/Fair"
+        },
+        {
+          "@id": "http://spdx.org/licenses/Frameworx-1.0"
+        },
+        {
+          "@id": "http://spdx.org/licenses/AGPL-3.0"
+        },
+        {
+          "@id": "http://spdx.org/licenses/GPL-2.0"
+        },
+        {
+          "@id": "http://spdx.org/licenses/GPL-3.0"
+        },
+        {
+          "@id": "http://spdx.org/licenses/LGPL-2.1"
+        },
+        {
+          "@id": "http://spdx.org/licenses/LGPL-3.0"
+        },
+        {
+          "@id": "http://spdx.org/licenses/HPND"
+        },
+        {
+          "@id": "http://spdx.org/licenses/IPL-1.0"
+        },
+        {
+          "@id": "http://spdx.org/licenses/IPA"
+        },
+        {
+          "@id": "http://spdx.org/licenses/ISC"
+        },
+        {
+          "@id": "http://spdx.org/licenses/Intel"
+        },
+        {
+          "@id": "http://spdx.org/licenses/LPPL-1.3c"
+        },
+        {
+          "@id": "http://spdx.org/licenses/LPL-1.0"
+        },
+        {
+          "@id": "http://spdx.org/licenses/LPL-1.02"
+        },
+        {
+          "@id": "http://spdx.org/licenses/MIT"
+        },
+        {
+          "@id": "http://spdx.org/licenses/mitre"
+        },
+        {
+          "@id": "http://spdx.org/licenses/MS-PL"
+        },
+        {
+          "@id": "http://spdx.org/licenses/MS-RL"
+        },
+        {
+          "@id": "http://spdx.org/licenses/MirOS"
+        },
+        {
+          "@id": "http://spdx.org/licenses/Motosoto"
+        },
+        {
+          "@id": "http://spdx.org/licenses/MPL-1.0"
+        },
+        {
+          "@id": "http://spdx.org/licenses/MPL-1.1"
+        },
+        {
+          "@id": "http://spdx.org/licenses/MPL-2.0"
+        },
+        {
+          "@id": "http://spdx.org/licenses/Multics"
+        },
+        {
+          "@id": "http://spdx.org/licenses/NASA-1.3"
+        },
+        {
+          "@id": "http://spdx.org/licenses/NTP"
+        },
+        {
+          "@id": "http://spdx.org/licenses/Naumen"
+        },
+        {
+          "@id": "http://spdx.org/licenses/NGPL"
+        },
+        {
+          "@id": "http://spdx.org/licenses/Nokia"
+        },
+        {
+          "@id": "http://spdx.org/licenses/NPOSL-3.0"
+        },
+        {
+          "@id": "http://spdx.org/licenses/OCLC-2.0"
+        },
+        {
+          "@id": "http://spdx.org/licenses/OFL-1.1"
+        },
+        {
+          "@id": "http://spdx.org/licenses/OGL-UK-1.0"
+        },
+        {
+          "@id": "http://spdx.org/licenses/OGL-UK-2.0"
+        },
+        {
+          "@id": "http://spdx.org/licenses/OGL-UK-3.0"
+        },
+        {
+          "@id": "http://spdx.org/licenses/OGTSL"
+        },
+        {
+          "@id": "http://spdx.org/licenses/OSL-3.0"
+        },
+        {
+          "@id": "http://spdx.org/licenses/PHP-3.0"
+        },
+        {
+          "@id": "http://spdx.org/licenses/PostgreSQL"
+        },
+        {
+          "@id": "http://spdx.org/licenses/Python-2.0"
+        },
+        {
+          "@id": "http://spdx.org/licenses/QPL-1.0"
+        },
+        {
+          "@id": "http://spdx.org/licenses/RPSL-1.0"
+        },
+        {
+          "@id": "http://spdx.org/licenses/RPL-1.5"
+        },
+        {
+          "@id": "http://spdx.org/licenses/RSCPL"
+        },
+        {
+          "@id": "http://spdx.org/licenses/SimPL-2.0"
+        },
+        {
+          "@id": "http://spdx.org/licenses/Sleepycat"
+        },
+        {
+          "@id": "http://spdx.org/licenses/SISSL"
+        },
+        {
+          "@id": "http://spdx.org/licenses/SPL-1.0"
+        },
+        {
+          "@id": "http://spdx.org/licenses/Watcom-1.0"
+        },
+        {
+          "@id": "http://spdx.org/licenses/NCSA"
+        },
+        {
+          "@id": "http://spdx.org/licenses/Unlicense"
+        },
+        {
+          "@id": "http://spdx.org/licenses/VSL-1.0"
+        },
+        {
+          "@id": "http://spdx.org/licenses/W3C"
+        },
+        {
+          "@id": "http://spdx.org/licenses/Xnet"
+        },
+        {
+          "@id": "http://spdx.org/licenses/ZPL-2.0"
+        },
+        {
+          "@id": "http://spdx.org/licenses/WXwindows"
+        },
+        {
+          "@id": "http://spdx.org/licenses/Zlib"
+        },
+        {
+          "@id": "http://spdx.org/licenses/notspecified"
+        }
+      ],
+      "name": "licenses"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-9842-9718",
+      "@type": "Person",
+      "name": "Stian Soiland-Reyes"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-0048-3300",
+      "@type": "Person",
+      "name": "Finn Bacall"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-4806-5140",
+      "@type": "Person",
+      "name": "José María Fernández"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-2130-0865",
+      "@type": "Person",
+      "name": "Stuart Owen"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-3156-2105",
+      "@type": "Person",
+      "name": "Alan R Williams"
+    },
+    {
+      "@id": "https://pypi.org/project/rocrate/",
+      "@type": "SoftwareApplication",
+      "description": "Python library to create/parse RO-Crate (Research Object Crate) metadata.",
+      "identifier": "https://doi.org/10.5281/zenodo.4705143",
+      "name": "ro-crate-py",
+      "url": "https://pypi.org/project/rocrate/",
+      "version": "0.4.0"
+    },
+    {
+      "@id": "https://spdx.org/licenses/BSD-3-Clause",
+      "@type": "CreativeWork",
+      "description": "BSD 3-Clause License\n\nCopyright (c) 2019-2020, The University of Manchester, HITS gGmbH and workflowhub.eu contributors\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n1. Redistributions of source code must retain the above copyright notice, this\n   list of conditions and the following disclaimer.\n\n2. Redistributions in binary form must reproduce the above copyright notice,\n   this list of conditions and the following disclaimer in the documentation\n   and/or other materials provided with the distribution.\n\n3. Neither the name of the copyright holder nor the names of its\n   contributors may be used to endorse or promote products derived from\n   this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n",
+      "identifier": "BSD-3-Clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License"
+    },
+    {
+      "@id": "https://w3id.org/ro/crate/1.1/context",
+      "@type": "CreativeWork",
+      "encodingFormat": [
+        "application/ld+json",
+        {
+          "@id": "http://www.w3.org/ns/json-ld#Context"
+        }
+      ],
+      "name": "RO-Crate JSON-LD Context",
+      "version": "1.1.1"
+    },
+    {
+      "@id": "https://workflowhub.eu/",
+      "@type": "RepositoryCollection",
+      "description": "WorkflowHub is a registry for describing, sharing and publishing scientific computational workflows.",
+      "name": "WorkflowHub",
+      "publisher": {
+        "@id": "https://about.workflowhub.eu/"
+      },
+      "title": "WorkflowHub"
+    },
+    {
+      "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/263",
+      "@type": "WebSite",
+      "name": "ZIP Format"
+    },
+    {
       "@id": "http://spdx.org/licenses/AAL",
       "identifier": "AAL",
       "name": "Attribution Assurance Licenses",
@@ -563,497 +1073,7 @@
       "@type": "ContactPoint",
       "name": "Comments on Workflow RO Crate spec (GitHub)",
       "url": "https://github.com/seek4science/seek/issues/183"
-    },
-    {
-      "@id": "./",
-      "@type": "Dataset",
-      "author": {
-        "@id": "https://orcid.org/0000-0002-0048-3300"
-      },
-      "contactPoint": {
-        "@id": "https://github.com/seek4science/seek/issues/183"
-      },
-      "datePublished": "2021-06-23T23:00:00.000Z",
-      "description": "Workflow RO-Crates are a specialization of RO-Crate for packaging an executable workflow with all necessary documentation. It is aligned with, and intends to strictly extend, the more general Bioschemas ComputationalWorkflow profile.\n\nWorkflowHub uses Workflow RO Crates as an exchange format for users to upload a packaged workflow.",
-      "hasPart": [
-        {
-          "@id": "index.html"
-        },
-        {
-          "@id": "https://w3id.org/ro/crate/1.1/context"
-        },
-        {
-          "@id": "licenses/"
-        },
-        {
-          "@id": "https://pypi.org/project/rocrate/"
-        },
-        {
-          "@id": "https://github.com/inab/WfExS-backend/"
-        },
-        {
-          "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/263"
-        },
-        {
-          "@id": "https://workflowhub.eu/"
-        },
-        {
-          "@id": "https://bioschemas.org/ComputationalWorkflow"
-        },
-        {
-          "@id": "https://bioschemas.org/FormalParameter"
-        },
-        {
-          "@id": "languages/"
-        },
-        {
-          "@id": "https://github.com/KockataEPich/CheckMyCrate/blob/master/CheckMyCrate/profile_library/ro_crate_1.1_basic.json"
-        }
-      ],
-      "license": {
-        "@id": "https://spdx.org/licenses/BSD-3-Clause"
-      },
-      "name": "Workflow RO-Crate profile",
-      "publisher": {
-        "@id": "https://about.workflowhub.eu/"
-      }
-    },
-    {
-      "@id": "#cwl",
-      "@type": "ComputerLanguage",
-      "alternateName": "CWL",
-      "identifier": {
-        "@id": "https://w3id.org/cwl/v1.0/"
-      },
-      "name": "Common Workflow Language",
-      "url": {
-        "@id": "https://www.commonwl.org/"
-      }
-    },
-    {
-      "@id": "#galaxy",
-      "@type": "ComputerLanguage",
-      "identifier": {
-        "@id": "https://galaxyproject.org/"
-      },
-      "name": "Galaxy",
-      "url": {
-        "@id": "https://galaxyproject.org/"
-      }
-    },
-    {
-      "@id": "#knime",
-      "@type": "ComputerLanguage",
-      "identifier": {
-        "@id": "https://www.knime.com/"
-      },
-      "name": "KNIME",
-      "url": {
-        "@id": "https://www.knime.com/"
-      }
-    },
-    {
-      "@id": "#nextflow",
-      "@type": "ComputerLanguage",
-      "identifier": {
-        "@id": "https://www.nextflow.io/"
-      },
-      "name": "Nextflow",
-      "url": {
-        "@id": "https://www.nextflow.io/"
-      }
-    },
-    {
-      "@id": "#snakemake",
-      "@type": "ComputerLanguage",
-      "identifier": {
-        "@id": "https://doi.org/10.1093/bioinformatics/bts480"
-      },
-      "name": "Snakemake",
-      "url": {
-        "@id": "https://snakemake.readthedocs.io"
-      }
-    },
-    {
-      "@id": "index.html",
-      "@type": "File",
-      "about": "./",
-      "author": [
-        {
-          "@id": "https://orcid.org/0000-0002-0048-3300"
-        },
-        {
-          "@id": "https://orcid.org/0000-0003-3156-2105"
-        },
-        {
-          "@id": "https://orcid.org/0000-0003-2130-0865"
-        }
-      ],
-      "dateModified": "2021-06-24T16:09:24.045Z",
-      "name": "Workflow RO-Crate profile description"
-    },
-    {
-      "@id": "languages/",
-      "@type": "Dataset",
-      "description": "WorkflowHub currently supports CWL, Galaxy, KNIME and Nextflow workflow types. \n\n To ensure compatibility, please include one of the following in the RO-Crate metadata, and refer to it from the Main Workflow's 'programmingLanguage' property",
-      "hasPart": [
-        {
-          "@id": "#cwl"
-        },
-        {
-          "@id": "#galaxy"
-        },
-        {
-          "@id": "#knime"
-        },
-        {
-          "@id": "#nextflow"
-        },
-        {
-          "@id": "#snakemake"
-        }
-      ],
-      "name": "languages"
-    },
-    {
-      "@id": "licenses/",
-      "@type": "Dataset",
-      "description": "Although the Crate's license field should be a URL, WorkflowHub currently accepts a string from the 'identifier' field of one of the following licenses:",
-      "hasPart": [
-        {
-          "@id": "http://spdx.org/licenses/AFL-3.0"
-        },
-        {
-          "@id": "http://spdx.org/licenses/APL-1.0"
-        },
-        {
-          "@id": "http://spdx.org/licenses/Apache-1.1"
-        },
-        {
-          "@id": "http://spdx.org/licenses/Apache-2.0"
-        },
-        {
-          "@id": "http://spdx.org/licenses/APSL-2.0"
-        },
-        {
-          "@id": "http://spdx.org/licenses/Artistic-2.0"
-        },
-        {
-          "@id": "http://spdx.org/licenses/AAL"
-        },
-        {
-          "@id": "http://spdx.org/licenses/BSD-2-Clause"
-        },
-        {
-          "@id": "http://spdx.org/licenses/BSD-3-Clause"
-        },
-        {
-          "@id": "http://spdx.org/licenses/BitTorrent-1.1"
-        },
-        {
-          "@id": "http://spdx.org/licenses/BSL-1.0"
-        },
-        {
-          "@id": "http://spdx.org/licenses/CC0-1.0"
-        },
-        {
-          "@id": "http://spdx.org/licenses/CNRI-Python"
-        },
-        {
-          "@id": "http://spdx.org/licenses/CUA-OPL-1.0"
-        },
-        {
-          "@id": "http://spdx.org/licenses/CECILL-2.1"
-        },
-        {
-          "@id": "http://spdx.org/licenses/CDDL-1.0"
-        },
-        {
-          "@id": "http://spdx.org/licenses/CPAL-1.0"
-        },
-        {
-          "@id": "http://spdx.org/licenses/CATOSL-1.1"
-        },
-        {
-          "@id": "http://spdx.org/licenses/EUDatagrid"
-        },
-        {
-          "@id": "http://spdx.org/licenses/EPL-1.0"
-        },
-        {
-          "@id": "http://spdx.org/licenses/ECL-2.0"
-        },
-        {
-          "@id": "http://spdx.org/licenses/EFL-2.0"
-        },
-        {
-          "@id": "http://spdx.org/licenses/Entessa"
-        },
-        {
-          "@id": "http://spdx.org/licenses/EUPL-1.1"
-        },
-        {
-          "@id": "http://spdx.org/licenses/Fair"
-        },
-        {
-          "@id": "http://spdx.org/licenses/Frameworx-1.0"
-        },
-        {
-          "@id": "http://spdx.org/licenses/AGPL-3.0"
-        },
-        {
-          "@id": "http://spdx.org/licenses/GPL-2.0"
-        },
-        {
-          "@id": "http://spdx.org/licenses/GPL-3.0"
-        },
-        {
-          "@id": "http://spdx.org/licenses/LGPL-2.1"
-        },
-        {
-          "@id": "http://spdx.org/licenses/LGPL-3.0"
-        },
-        {
-          "@id": "http://spdx.org/licenses/HPND"
-        },
-        {
-          "@id": "http://spdx.org/licenses/IPL-1.0"
-        },
-        {
-          "@id": "http://spdx.org/licenses/IPA"
-        },
-        {
-          "@id": "http://spdx.org/licenses/ISC"
-        },
-        {
-          "@id": "http://spdx.org/licenses/Intel"
-        },
-        {
-          "@id": "http://spdx.org/licenses/LPPL-1.3c"
-        },
-        {
-          "@id": "http://spdx.org/licenses/LPL-1.0"
-        },
-        {
-          "@id": "http://spdx.org/licenses/LPL-1.02"
-        },
-        {
-          "@id": "http://spdx.org/licenses/MIT"
-        },
-        {
-          "@id": "http://spdx.org/licenses/mitre"
-        },
-        {
-          "@id": "http://spdx.org/licenses/MS-PL"
-        },
-        {
-          "@id": "http://spdx.org/licenses/MS-RL"
-        },
-        {
-          "@id": "http://spdx.org/licenses/MirOS"
-        },
-        {
-          "@id": "http://spdx.org/licenses/Motosoto"
-        },
-        {
-          "@id": "http://spdx.org/licenses/MPL-1.0"
-        },
-        {
-          "@id": "http://spdx.org/licenses/MPL-1.1"
-        },
-        {
-          "@id": "http://spdx.org/licenses/MPL-2.0"
-        },
-        {
-          "@id": "http://spdx.org/licenses/Multics"
-        },
-        {
-          "@id": "http://spdx.org/licenses/NASA-1.3"
-        },
-        {
-          "@id": "http://spdx.org/licenses/NTP"
-        },
-        {
-          "@id": "http://spdx.org/licenses/Naumen"
-        },
-        {
-          "@id": "http://spdx.org/licenses/NGPL"
-        },
-        {
-          "@id": "http://spdx.org/licenses/Nokia"
-        },
-        {
-          "@id": "http://spdx.org/licenses/NPOSL-3.0"
-        },
-        {
-          "@id": "http://spdx.org/licenses/OCLC-2.0"
-        },
-        {
-          "@id": "http://spdx.org/licenses/OFL-1.1"
-        },
-        {
-          "@id": "http://spdx.org/licenses/OGL-UK-1.0"
-        },
-        {
-          "@id": "http://spdx.org/licenses/OGL-UK-2.0"
-        },
-        {
-          "@id": "http://spdx.org/licenses/OGL-UK-3.0"
-        },
-        {
-          "@id": "http://spdx.org/licenses/OGTSL"
-        },
-        {
-          "@id": "http://spdx.org/licenses/OSL-3.0"
-        },
-        {
-          "@id": "http://spdx.org/licenses/PHP-3.0"
-        },
-        {
-          "@id": "http://spdx.org/licenses/PostgreSQL"
-        },
-        {
-          "@id": "http://spdx.org/licenses/Python-2.0"
-        },
-        {
-          "@id": "http://spdx.org/licenses/QPL-1.0"
-        },
-        {
-          "@id": "http://spdx.org/licenses/RPSL-1.0"
-        },
-        {
-          "@id": "http://spdx.org/licenses/RPL-1.5"
-        },
-        {
-          "@id": "http://spdx.org/licenses/RSCPL"
-        },
-        {
-          "@id": "http://spdx.org/licenses/SimPL-2.0"
-        },
-        {
-          "@id": "http://spdx.org/licenses/Sleepycat"
-        },
-        {
-          "@id": "http://spdx.org/licenses/SISSL"
-        },
-        {
-          "@id": "http://spdx.org/licenses/SPL-1.0"
-        },
-        {
-          "@id": "http://spdx.org/licenses/Watcom-1.0"
-        },
-        {
-          "@id": "http://spdx.org/licenses/NCSA"
-        },
-        {
-          "@id": "http://spdx.org/licenses/Unlicense"
-        },
-        {
-          "@id": "http://spdx.org/licenses/VSL-1.0"
-        },
-        {
-          "@id": "http://spdx.org/licenses/W3C"
-        },
-        {
-          "@id": "http://spdx.org/licenses/Xnet"
-        },
-        {
-          "@id": "http://spdx.org/licenses/ZPL-2.0"
-        },
-        {
-          "@id": "http://spdx.org/licenses/WXwindows"
-        },
-        {
-          "@id": "http://spdx.org/licenses/Zlib"
-        },
-        {
-          "@id": "http://spdx.org/licenses/notspecified"
-        }
-      ],
-      "name": "licenses"
-    },
-    {
-      "@id": "ro-crate-metadata.json",
-      "@type": "CreativeWork",
-      "conformsTo": {
-        "@id": "https://w3id.org/ro/crate/1.0"
-      },
-      "about": {
-        "@id": "./"
-      },
-      "description": "Made with Describo: https://uts-eresearch.github.io/describo/",
-      "identifier": "ro-crate-metadata.json",
-      "license": {
-        "@id": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
-      "@id": "https://orcid.org/0000-0001-9842-9718",
-      "@type": "Person",
-      "name": "Stian Soiland-Reyes"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-0048-3300",
-      "@type": "Person",
-      "name": "Finn Bacall"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-4806-5140",
-      "@type": "Person",
-      "name": "José María Fernández"
-    },
-    {
-      "@id": "https://orcid.org/0000-0003-2130-0865",
-      "@type": "Person",
-      "name": "Stuart Owen"
-    },
-    {
-      "@id": "https://orcid.org/0000-0003-3156-2105",
-      "@type": "Person",
-      "name": "Alan R Williams"
-    },
-    {
-      "@id": "https://pypi.org/project/rocrate/",
-      "@type": "SoftwareApplication",
-      "description": "Python library to create/parse RO-Crate (Research Object Crate) metadata.",
-      "identifier": "https://doi.org/10.5281/zenodo.4705143",
-      "name": "ro-crate-py",
-      "url": "https://pypi.org/project/rocrate/",
-      "version": "0.4.0"
-    },
-    {
-      "@id": "https://spdx.org/licenses/BSD-3-Clause",
-      "@type": "CreativeWork",
-      "description": "BSD 3-Clause License\n\nCopyright (c) 2019-2020, The University of Manchester, HITS gGmbH and workflowhub.eu contributors\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n1. Redistributions of source code must retain the above copyright notice, this\n   list of conditions and the following disclaimer.\n\n2. Redistributions in binary form must reproduce the above copyright notice,\n   this list of conditions and the following disclaimer in the documentation\n   and/or other materials provided with the distribution.\n\n3. Neither the name of the copyright holder nor the names of its\n   contributors may be used to endorse or promote products derived from\n   this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n",
-      "identifier": "BSD-3-Clause",
-      "name": "BSD 3-Clause \"New\" or \"Revised\" License"
-    },
-    {
-      "@id": "https://w3id.org/ro/crate/1.1/context",
-      "@type": "CreativeWork",
-      "encodingFormat": [
-        "application/ld+json",
-        {
-          "@id": "http://www.w3.org/ns/json-ld#Context"
-        }
-      ],
-      "name": "RO-Crate JSON-LD Context",
-      "version": "1.1.1"
-    },
-    {
-      "@id": "https://workflowhub.eu/",
-      "@type": "RepositoryCollection",
-      "description": "WorkflowHub is a registry for describing, sharing and publishing scientific computational workflows.",
-      "name": "WorkflowHub",
-      "publisher": {
-        "@id": "https://about.workflowhub.eu/"
-      },
-      "title": "WorkflowHub"
-    },
-    {
-      "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/263",
-      "@type": "WebSite",
-      "name": "ZIP Format"
     }
+
   ]
 }

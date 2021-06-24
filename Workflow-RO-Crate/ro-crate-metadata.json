@@ -153,6 +153,12 @@
       ]
     },
     {
+      "@id": "example/ro-crate-preview.html",
+      "@type": "CreativeWork",
+      "name": "Preview of example RO-Crate"
+    },
+
+    {
       "@id": "example/ro-crate-metadata.json",
       "@type": "CreativeWork",
       "conformsTo": [

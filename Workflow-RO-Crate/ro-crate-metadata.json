@@ -69,6 +69,7 @@
           "@id": "https://github.com/KockataEPich/CheckMyCrate/blob/master/CheckMyCrate/profile_library/ro_crate_1.1_basic.json"
         }
       ],
+      "identifier": "https://about.workflowhub.eu/Workflow-RO-Crate/",
       "license": {
         "@id": "https://spdx.org/licenses/BSD-3-Clause"
       },
@@ -76,6 +77,7 @@
       "publisher": {
         "@id": "https://about.workflowhub.eu/"
       },
+      "version": "0.2.0",
       "workExample": {
         "@id": "example/"
       }

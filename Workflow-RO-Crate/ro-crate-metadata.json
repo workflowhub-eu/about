@@ -57,6 +57,12 @@
         "@id": "https://snakemake.readthedocs.io"
       }
     },
+  {
+      "@id": "http://www.w3.org/ns/json-ld#Context",
+      "@type": "Thing",
+      "name": "JSON-LD Context",
+      "url": "https://www.w3.org/TR/json-ld/"
+  },    
     {
       "@id": "./",
       "@type": "Dataset",
@@ -73,8 +79,62 @@
           "@id": "index.html"
         },
         {
+          "@id": "https://w3id.org/ro/crate/1.1/context",
+          "@type": "CreativeWork",
+          "name": "RO-Crate JSON-LD Context",
+          "encodingFormat": [
+              "application/ld+json",
+              {"@id": "http://www.w3.org/ns/json-ld#Context"}
+          ],
+          "version": "1.1.1"
+      },        
+        {
           "@id": "licenses/"
         },
+        {
+          "@id": "https://pypi.org/project/rocrate/",
+          "@type": "SoftwareApplication",
+          "name": "ro-crate-py",
+          "description": "Python library to create/parse RO-Crate (Research Object Crate) metadata.",
+          "version": "0.4.0",
+          "identifier": "https://doi.org/10.5281/zenodo.4705143",
+          "url": "https://pypi.org/project/rocrate/"
+    },
+    {
+      "@id": "https://github.com/inab/WfExS-backend/",
+      "@type": "SoftwareApplication",
+      "name": "WfExS-backend",
+      "description": "Workflow Execution Service backend",
+      "version": "0.4.2",
+      "url": "https://github.com/inab/WfExS-backend/"
+}, 
+
+        {
+          "@id": "https://workflowhub.eu/",
+          "@type": "RepositoryCollection",
+          "name":  "WorkflowHub",
+          "title":  "WorkflowHub",   
+          "description": "WorkflowHub is a registry for describing, sharing and publishing scientific computational workflows.",
+          "publisher": {"@id": "https://about.workflowhub.eu/"}
+       },
+        {
+          "@id": "https://bioschemas.org/ComputationalWorkflow",
+          "@type": "DefinedTerm",
+          "termCode": "ComputationalWorkflow",
+          "name": "Computational Workflow",
+          "description": "A computational workflow consists of an orchestrated and repeatable pattern of activity enabled by the systematic organization of resources into processes that transform materials, provide services, or process information (source Wikipedia.org). It is executed by a computational process and is thus distinct from laboratory or business workflows.",
+          "version": "1.0-RELEASE",
+          "url": "https://bioschemas.org/types/ComputationalWorkflow/1.0-RELEASE/"
+      },
+      {
+        "@id": "https://bioschemas.org/FormalParameter",
+        "@type": "DefinedTerm",
+        "termCode": "FormalParameter",
+        "name": "Formal Parameter",
+        "description": "A FormalParameter is an identified variable used to stand for the actual value(s) that are consumed/produced by a set of steps.",
+        "version": "1.0-RELEASE",
+        "url": "https://bioschemas.org/types/FormalParameter/1.0-RELEASE/"
+    },
         {
           "@id": "languages/",
           "@type": "Dataset",

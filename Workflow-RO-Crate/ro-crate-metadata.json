@@ -2,185 +2,6 @@
   "@context": "https://w3id.org/ro/crate/1.1/context",
   "@graph": [
     {
-      "@id": "#cwl",
-      "@type": "ComputerLanguage",
-      "alternateName": "CWL",
-      "identifier": {
-        "@id": "https://w3id.org/cwl/v1.0/"
-      },
-      "name": "Common Workflow Language",
-      "url": {
-        "@id": "https://www.commonwl.org/"
-      }
-    },
-    {
-      "@id": "#galaxy",
-      "@type": "ComputerLanguage",
-      "identifier": {
-        "@id": "https://galaxyproject.org/"
-      },
-      "name": "Galaxy",
-      "url": {
-        "@id": "https://galaxyproject.org/"
-      }
-    },
-    {
-      "@id": "#knime",
-      "@type": "ComputerLanguage",
-      "identifier": {
-        "@id": "https://www.knime.com/"
-      },
-      "name": "KNIME",
-      "url": {
-        "@id": "https://www.knime.com/"
-      }
-    },
-    {
-      "@id": "#nextflow",
-      "@type": "ComputerLanguage",
-      "identifier": {
-        "@id": "https://www.nextflow.io/"
-      },
-      "name": "Nextflow",
-      "url": {
-        "@id": "https://www.nextflow.io/"
-      }
-    },
-    {
-      "@id": "#snakemake",
-      "@type": "ComputerLanguage",
-      "identifier": {
-        "@id": "https://doi.org/10.1093/bioinformatics/bts480"
-      },
-      "name": "Snakemake",
-      "url": {
-        "@id": "https://snakemake.readthedocs.io"
-      }
-    },
-  {
-      "@id": "http://www.w3.org/ns/json-ld#Context",
-      "@type": "Thing",
-      "name": "JSON-LD Context",
-      "url": "https://www.w3.org/TR/json-ld/"
-  },    
-    {
-      "@id": "./",
-      "@type": "Dataset",
-      "author": {
-        "@id": "https://orcid.org/0000-0002-0048-3300"
-      },
-      "contactPoint": {
-        "@id": "https://github.com/seek4science/seek/issues/183"
-      },
-      "datePublished": "2021-06-23T23:00:00.000Z",
-      "description": "Workflow RO-Crates are a specialization of RO-Crate for packaging an executable workflow with all necessary documentation. It is aligned with, and intends to strictly extend, the more general Bioschemas ComputationalWorkflow profile.\n\nWorkflowHub uses Workflow RO Crates as an exchange format for users to upload a packaged workflow.",
-      "hasPart": [
-        {
-          "@id": "index.html"
-        },
-        {
-          "@id": "https://w3id.org/ro/crate/1.1/context",
-          "@type": "CreativeWork",
-          "name": "RO-Crate JSON-LD Context",
-          "encodingFormat": [
-              "application/ld+json",
-              {"@id": "http://www.w3.org/ns/json-ld#Context"}
-          ],
-          "version": "1.1.1"
-      },        
-        {
-          "@id": "licenses/"
-        },
-        {
-          "@id": "https://pypi.org/project/rocrate/",
-          "@type": "SoftwareApplication",
-          "name": "ro-crate-py",
-          "description": "Python library to create/parse RO-Crate (Research Object Crate) metadata.",
-          "version": "0.4.0",
-          "identifier": "https://doi.org/10.5281/zenodo.4705143",
-          "url": "https://pypi.org/project/rocrate/"
-    },
-    {
-      "@id": "https://github.com/inab/WfExS-backend/",
-      "@type": "SoftwareApplication",
-      "name": "WfExS-backend",
-      "description": "Workflow Execution Service backend",
-      "version": "0.4.2",
-      "url": "https://github.com/inab/WfExS-backend/"
-}, 
-
-        {
-          "@id": "https://workflowhub.eu/",
-          "@type": "RepositoryCollection",
-          "name":  "WorkflowHub",
-          "title":  "WorkflowHub",   
-          "description": "WorkflowHub is a registry for describing, sharing and publishing scientific computational workflows.",
-          "publisher": {"@id": "https://about.workflowhub.eu/"}
-       },
-        {
-          "@id": "https://bioschemas.org/ComputationalWorkflow",
-          "@type": "DefinedTerm",
-          "termCode": "ComputationalWorkflow",
-          "name": "Computational Workflow",
-          "description": "A computational workflow consists of an orchestrated and repeatable pattern of activity enabled by the systematic organization of resources into processes that transform materials, provide services, or process information (source Wikipedia.org). It is executed by a computational process and is thus distinct from laboratory or business workflows.",
-          "version": "1.0-RELEASE",
-          "url": "https://bioschemas.org/types/ComputationalWorkflow/1.0-RELEASE/"
-      },
-      {
-        "@id": "https://bioschemas.org/FormalParameter",
-        "@type": "DefinedTerm",
-        "termCode": "FormalParameter",
-        "name": "Formal Parameter",
-        "description": "A FormalParameter is an identified variable used to stand for the actual value(s) that are consumed/produced by a set of steps.",
-        "version": "1.0-RELEASE",
-        "url": "https://bioschemas.org/types/FormalParameter/1.0-RELEASE/"
-    },
-        {
-          "@id": "languages/",
-          "@type": "Dataset",
-          "name": "languages",
-          "description": "WorkflowHub currently supports CWL, Galaxy, KNIME and Nextflow workflow types. \n\n To ensure compatibility, please include one of the following in the RO-Crate metadata, and refer to it from the Main Workflow's 'programmingLanguage' property",
-          "hasPart": [
-            {
-              "@id": "#cwl"
-            },
-            {
-              "@id": "#galaxy"
-            },
-            {
-              "@id": "#knime"
-            },
-            {
-              "@id": "#nextflow"
-            },
-            {
-              "@id": "#snakemake"
-            }    
-          ]
-        },
-
-        {
-          "@id": "https://github.com/KockataEPich/CheckMyCrate/blob/master/CheckMyCrate/profile_library/ro_crate_1.1_basic.json",
-          "@type": "File",
-          "name": "CheckMyCrate profile for Workflow RO-Crate",
-          "encodingFormat": [
-              "application/json", 
-              {"@id": "https://github.com/KockataEPich/CheckMyCrate#profiles",
-                "@type": "WebPage",
-                "name": "CheckMyCrate"
-              }
-          ]
-      },
-      ],
-      "license": {
-        "@id": "https://spdx.org/licenses/BSD-3-Clause"
-      },
-      "name": "Workflow RO-Crate profile",
-      "publisher": {
-        "@id": "https://about.workflowhub.eu/"
-      }
-    },
-    {
       "@id": "http://spdx.org/licenses/AAL",
       "identifier": "AAL",
       "name": "Attribution Assurance Licenses",
@@ -679,9 +500,33 @@
       "url": "https://choosealicense.com/no-permission/"
     },
     {
+      "@id": "http://www.w3.org/ns/json-ld#Context",
+      "@type": "Thing",
+      "name": "JSON-LD Context",
+      "url": "https://www.w3.org/TR/json-ld/"
+    },
+    {
       "@id": "https://about.workflowhub.eu/",
       "@type": "Organization",
       "name": "WorkflowHub project"
+    },
+    {
+      "@id": "https://bioschemas.org/ComputationalWorkflow",
+      "@type": "DefinedTerm",
+      "description": "A computational workflow consists of an orchestrated and repeatable pattern of activity enabled by the systematic organization of resources into processes that transform materials, provide services, or process information (source Wikipedia.org). It is executed by a computational process and is thus distinct from laboratory or business workflows.",
+      "name": "Computational Workflow",
+      "termCode": "ComputationalWorkflow",
+      "url": "https://bioschemas.org/types/ComputationalWorkflow/1.0-RELEASE/",
+      "version": "1.0-RELEASE"
+    },
+    {
+      "@id": "https://bioschemas.org/FormalParameter",
+      "@type": "DefinedTerm",
+      "description": "A FormalParameter is an identified variable used to stand for the actual value(s) that are consumed/produced by a set of steps.",
+      "name": "Formal Parameter",
+      "termCode": "FormalParameter",
+      "url": "https://bioschemas.org/types/FormalParameter/1.0-RELEASE/",
+      "version": "1.0-RELEASE"
     },
     {
       "@id": "https://bioschemas.org/profiles/ComputationalWorkflow/1.0-RELEASE/",
@@ -690,42 +535,144 @@
       "name": "ComputationalWorkflow Profile"
     },
     {
+      "@id": "https://github.com/KockataEPich/CheckMyCrate#profiles",
+      "@type": "WebPage",
+      "name": "CheckMyCrate"
+    },
+    {
+      "@id": "https://github.com/KockataEPich/CheckMyCrate/blob/master/CheckMyCrate/profile_library/ro_crate_1.1_basic.json",
+      "@type": "File",
+      "encodingFormat": [
+        "application/json",
+        {
+          "@id": "https://github.com/KockataEPich/CheckMyCrate#profiles"
+        }
+      ],
+      "name": "CheckMyCrate profile for Workflow RO-Crate"
+    },
+    {
+      "@id": "https://github.com/inab/WfExS-backend/",
+      "@type": "SoftwareApplication",
+      "description": "Workflow Execution Service backend",
+      "name": "WfExS-backend",
+      "url": "https://github.com/inab/WfExS-backend/",
+      "version": "0.4.2"
+    },
+    {
       "@id": "https://github.com/seek4science/seek/issues/183",
       "@type": "ContactPoint",
       "name": "Comments on Workflow RO Crate spec (GitHub)",
       "url": "https://github.com/seek4science/seek/issues/183"
     },
     {
-      "@id": "https://orcid.org/0000-0001-9842-9718",
-      "@type": "Person",
-      "name": "Stian Soiland-Reyes"
+      "@id": "./",
+      "@type": "Dataset",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-0048-3300"
+      },
+      "contactPoint": {
+        "@id": "https://github.com/seek4science/seek/issues/183"
+      },
+      "datePublished": "2021-06-23T23:00:00.000Z",
+      "description": "Workflow RO-Crates are a specialization of RO-Crate for packaging an executable workflow with all necessary documentation. It is aligned with, and intends to strictly extend, the more general Bioschemas ComputationalWorkflow profile.\n\nWorkflowHub uses Workflow RO Crates as an exchange format for users to upload a packaged workflow.",
+      "hasPart": [
+        {
+          "@id": "index.html"
+        },
+        {
+          "@id": "https://w3id.org/ro/crate/1.1/context"
+        },
+        {
+          "@id": "licenses/"
+        },
+        {
+          "@id": "https://pypi.org/project/rocrate/"
+        },
+        {
+          "@id": "https://github.com/inab/WfExS-backend/"
+        },
+        {
+          "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/263"
+        },
+        {
+          "@id": "https://workflowhub.eu/"
+        },
+        {
+          "@id": "https://bioschemas.org/ComputationalWorkflow"
+        },
+        {
+          "@id": "https://bioschemas.org/FormalParameter"
+        },
+        {
+          "@id": "languages/"
+        },
+        {
+          "@id": "https://github.com/KockataEPich/CheckMyCrate/blob/master/CheckMyCrate/profile_library/ro_crate_1.1_basic.json"
+        }
+      ],
+      "license": {
+        "@id": "https://spdx.org/licenses/BSD-3-Clause"
+      },
+      "name": "Workflow RO-Crate profile",
+      "publisher": {
+        "@id": "https://about.workflowhub.eu/"
+      }
     },
     {
-      "@id": "https://orcid.org/0000-0002-0048-3300",
-      "@type": "Person",
-      "name": "Finn Bacall"
+      "@id": "#cwl",
+      "@type": "ComputerLanguage",
+      "alternateName": "CWL",
+      "identifier": {
+        "@id": "https://w3id.org/cwl/v1.0/"
+      },
+      "name": "Common Workflow Language",
+      "url": {
+        "@id": "https://www.commonwl.org/"
+      }
     },
     {
-      "@id": "https://orcid.org/0000-0002-4806-5140",
-      "@type": "Person",
-      "name": "José María Fernández"
+      "@id": "#galaxy",
+      "@type": "ComputerLanguage",
+      "identifier": {
+        "@id": "https://galaxyproject.org/"
+      },
+      "name": "Galaxy",
+      "url": {
+        "@id": "https://galaxyproject.org/"
+      }
     },
     {
-      "@id": "https://orcid.org/0000-0003-2130-0865",
-      "@type": "Person",
-      "name": "Stuart Owen"
+      "@id": "#knime",
+      "@type": "ComputerLanguage",
+      "identifier": {
+        "@id": "https://www.knime.com/"
+      },
+      "name": "KNIME",
+      "url": {
+        "@id": "https://www.knime.com/"
+      }
     },
     {
-      "@id": "https://orcid.org/0000-0003-3156-2105",
-      "@type": "Person",
-      "name": "Alan R Williams"
+      "@id": "#nextflow",
+      "@type": "ComputerLanguage",
+      "identifier": {
+        "@id": "https://www.nextflow.io/"
+      },
+      "name": "Nextflow",
+      "url": {
+        "@id": "https://www.nextflow.io/"
+      }
     },
     {
-      "@id": "https://spdx.org/licenses/BSD-3-Clause",
-      "@type": "CreativeWork",
-      "description": "BSD 3-Clause License\n\nCopyright (c) 2019-2020, The University of Manchester, HITS gGmbH and workflowhub.eu contributors\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n1. Redistributions of source code must retain the above copyright notice, this\n   list of conditions and the following disclaimer.\n\n2. Redistributions in binary form must reproduce the above copyright notice,\n   this list of conditions and the following disclaimer in the documentation\n   and/or other materials provided with the distribution.\n\n3. Neither the name of the copyright holder nor the names of its\n   contributors may be used to endorse or promote products derived from\n   this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n",
-      "identifier": "BSD-3-Clause",
-      "name": "BSD 3-Clause \"New\" or \"Revised\" License"
+      "@id": "#snakemake",
+      "@type": "ComputerLanguage",
+      "identifier": {
+        "@id": "https://doi.org/10.1093/bioinformatics/bts480"
+      },
+      "name": "Snakemake",
+      "url": {
+        "@id": "https://snakemake.readthedocs.io"
+      }
     },
     {
       "@id": "index.html",
@@ -744,6 +691,29 @@
       ],
       "dateModified": "2021-06-24T16:09:24.045Z",
       "name": "Workflow RO-Crate profile description"
+    },
+    {
+      "@id": "languages/",
+      "@type": "Dataset",
+      "description": "WorkflowHub currently supports CWL, Galaxy, KNIME and Nextflow workflow types. \n\n To ensure compatibility, please include one of the following in the RO-Crate metadata, and refer to it from the Main Workflow's 'programmingLanguage' property",
+      "hasPart": [
+        {
+          "@id": "#cwl"
+        },
+        {
+          "@id": "#galaxy"
+        },
+        {
+          "@id": "#knime"
+        },
+        {
+          "@id": "#nextflow"
+        },
+        {
+          "@id": "#snakemake"
+        }
+      ],
+      "name": "languages"
     },
     {
       "@id": "licenses/",
@@ -1016,6 +986,74 @@
       "license": {
         "@id": "https://creativecommons.org/licenses/by-sa/3.0"
       }
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-9842-9718",
+      "@type": "Person",
+      "name": "Stian Soiland-Reyes"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-0048-3300",
+      "@type": "Person",
+      "name": "Finn Bacall"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-4806-5140",
+      "@type": "Person",
+      "name": "José María Fernández"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-2130-0865",
+      "@type": "Person",
+      "name": "Stuart Owen"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-3156-2105",
+      "@type": "Person",
+      "name": "Alan R Williams"
+    },
+    {
+      "@id": "https://pypi.org/project/rocrate/",
+      "@type": "SoftwareApplication",
+      "description": "Python library to create/parse RO-Crate (Research Object Crate) metadata.",
+      "identifier": "https://doi.org/10.5281/zenodo.4705143",
+      "name": "ro-crate-py",
+      "url": "https://pypi.org/project/rocrate/",
+      "version": "0.4.0"
+    },
+    {
+      "@id": "https://spdx.org/licenses/BSD-3-Clause",
+      "@type": "CreativeWork",
+      "description": "BSD 3-Clause License\n\nCopyright (c) 2019-2020, The University of Manchester, HITS gGmbH and workflowhub.eu contributors\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n1. Redistributions of source code must retain the above copyright notice, this\n   list of conditions and the following disclaimer.\n\n2. Redistributions in binary form must reproduce the above copyright notice,\n   this list of conditions and the following disclaimer in the documentation\n   and/or other materials provided with the distribution.\n\n3. Neither the name of the copyright holder nor the names of its\n   contributors may be used to endorse or promote products derived from\n   this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n",
+      "identifier": "BSD-3-Clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License"
+    },
+    {
+      "@id": "https://w3id.org/ro/crate/1.1/context",
+      "@type": "CreativeWork",
+      "encodingFormat": [
+        "application/ld+json",
+        {
+          "@id": "http://www.w3.org/ns/json-ld#Context"
+        }
+      ],
+      "name": "RO-Crate JSON-LD Context",
+      "version": "1.1.1"
+    },
+    {
+      "@id": "https://workflowhub.eu/",
+      "@type": "RepositoryCollection",
+      "description": "WorkflowHub is a registry for describing, sharing and publishing scientific computational workflows.",
+      "name": "WorkflowHub",
+      "publisher": {
+        "@id": "https://about.workflowhub.eu/"
+      },
+      "title": "WorkflowHub"
+    },
+    {
+      "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/263",
+      "@type": "WebSite",
+      "name": "ZIP Format"
     }
   ]
 }

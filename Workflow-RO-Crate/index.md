@@ -37,7 +37,7 @@
 ![Workflow RO-Crate](logo/ro-crate-workflow.svg)
 
 * Permalink: `TODO`
-* Version: 0.2.0
+* Version: [0.2.0](https://github.com/workflowhub-eu/about/releases/tag/workflow-ro-crate-0.2.0)
 * [Profile Crate `ro-crate-metadata.json`](ro-crate-metadata.json)
   - [Profile Crate preview](ro-crate-preview.html)
 * [Example RO-Crate `ro-crate-metadata.json`](example/ro-crate-metadata.json)

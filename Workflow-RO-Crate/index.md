@@ -33,10 +33,6 @@
 <link href="http://schema.org/ImageObject" rel="item" />
 <link href="https://github.com/KockataEPich/CheckMyCrate/blob/master/CheckMyCrate/profile_library/ro_crate_1.1_basic.json" rel="item" />
 
-
-
-
-
 ![Workflow RO-Crate](logo/ro-crate-workflow.svg)
 
 *Please note* this is a draft spec and subject to change. Please leave any suggestions and comments here: [https://github.com/seek4science/seek/issues/183](https://github.com/seek4science/seek/issues/183)

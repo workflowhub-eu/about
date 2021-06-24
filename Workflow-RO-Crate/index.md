@@ -1,5 +1,42 @@
 # Workflow RO-Crate (DRAFT)
 
+<!--  https://signposting.org/FAIR/  markup --->
+
+<!--  <link href="https://about.workflowhub.eu/Workflow-RO-Crate/" rel="cite-as" /> SHOULD be w3id or DOI -->
+
+<link href="https://github.com/ResearchObject/ro-crate/blob/profiles/docs/1.2-DRAFT/profiles.md" rel="type"  />
+<link href="http://purl.org/dc/terms/Standard" rel="type"  />
+<link href="https://schema.org/CreativeWork" rel="type"  />
+
+<link href="https://spdx.org/licenses/BSD-3-Clause" rel="license"  />
+
+<link href="https://orcid.org/0000-0002-0048-3300" rel="author"  />
+<link href="https://orcid.org/0000-0003-3156-2105" rel="author"  />
+<link href="https://orcid.org/0000-0003-2130-0865" rel="author"  />
+
+<link href="ro-crate-metadata.json" rel="describedby" type='application/ld+json; profile="https://w3id.org/ro/crate"'  />
+<link href="ro-crate-preview.html" rel="describedby" type='text/html'  />
+
+<!-- repeat of hasPart in RO-Crate -->
+<link href="index.html" rel="item"  />
+<link href="licenses/" rel="item" />
+<link href="languages/" rel="item" />
+<link href="example/" rel="item" />
+<link href="https://w3id.org/ro/crate/1.1/context" rel="item" />
+<link href="https://pypi.org/project/rocrate/" rel="item" />
+<link href="https://github.com/inab/WfExS-backend/" rel="item" />
+<link href="https://www.nationalarchives.gov.uk/PRONOM/x-fmt/263" rel="item" />
+<link href="https://workflowhub.eu/" rel="item" />
+<link href="https://bioschemas.org/ComputationalWorkflow" rel="item" />
+<link href="https://bioschemas.org/FormalParameter" rel="item" />
+<link href="http://schema.org/HowTo" rel="item" />
+<link href="http://schema.org/ImageObject" rel="item" />
+<link href="https://github.com/KockataEPich/CheckMyCrate/blob/master/CheckMyCrate/profile_library/ro_crate_1.1_basic.json" rel="item" />
+
+
+
+
+
 ![Workflow RO-Crate](logo/ro-crate-workflow.svg)
 
 *Please note* this is a draft spec and subject to change. Please leave any suggestions and comments here: [https://github.com/seek4science/seek/issues/183](https://github.com/seek4science/seek/issues/183)

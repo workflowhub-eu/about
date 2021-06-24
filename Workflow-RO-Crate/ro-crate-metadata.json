@@ -1,0 +1,179 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.0/context",
+    {
+      "@vocab": "https://schema.org/"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "identifier": "ro-crate-metadata.json",
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.0"
+      },
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "description": "Made with Describo: https://uts-eresearch.github.io/describo/"
+    },
+    {
+      "@type": "Dataset",
+      "name": "Workflow RO-Crate profile",
+      "description": "Workflow RO-Crates are a specialization of RO-Crate for packaging an executable workflow with all necessary documentation. It is aligned with, and intends to strictly extend, the more general Bioschemas ComputationalWorkflow profile.\n\nWorkflowHub uses Workflow RO Crates as an exchange format for users to upload a packaged workflow.",
+      "license": {
+        "@id": "https://spdx.org/licenses/BSD-3-Clause"
+      },
+      "datePublished": "2021-06-23T23:00:00.000Z",
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0002-0048-3300"
+        }
+      ],
+      "publisher": [
+        {
+          "@id": "https://about.workflowhub.eu/"
+        }
+      ],
+      "contactPoint": {
+        "@id": "https://github.com/seek4science/seek/issues/183"
+      },
+      "hasPart": [
+        {
+          "@id": "index.md"
+        }
+      ],
+      "@id": "./"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://spdx.org/licenses/BSD-3-Clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "description": "BSD 3-Clause License\n\nCopyright (c) 2019-2020, The University of Manchester, HITS gGmbH and workflowhub.eu contributors\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n1. Redistributions of source code must retain the above copyright notice, this\n   list of conditions and the following disclaimer.\n\n2. Redistributions in binary form must reproduce the above copyright notice,\n   this list of conditions and the following disclaimer in the documentation\n   and/or other materials provided with the distribution.\n\n3. Neither the name of the copyright holder nor the names of its\n   contributors may be used to endorse or promote products derived from\n   this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n",
+      "identifier": [
+        "BSD-3-Clause"
+      ],
+      "@reverse": {
+        "license": [
+          {
+            "@id": "./"
+          },
+          {
+            "@id": "index.md"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Finn Bacall",
+      "@id": "https://orcid.org/0000-0002-0048-3300",
+      "@reverse": {
+        "author": [
+          {
+            "@id": "./"
+          },
+          {
+            "@id": "index.md"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://about.workflowhub.eu/",
+      "name": "WorkflowHub project",
+      "@reverse": {
+        "publisher": [
+          {
+            "@id": "./"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ContactPoint",
+      "url": "https://github.com/seek4science/seek/issues/183",
+      "name": "Comments on Workflow RO Crate spec (GitHub)",
+      "@id": "https://github.com/seek4science/seek/issues/183",
+      "@reverse": {
+        "contactPoint": [
+          {
+            "@id": "./"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Workflow RO-Crate profile description",
+      "@type": "File",
+      "dateModified": "2021-06-24T16:09:24.045Z",
+      "@reverse": {
+        "hasPart": [
+          {
+            "@id": "./"
+          }
+        ]
+      },
+      "license": {
+        "@id": "https://spdx.org/licenses/BSD-3-Clause"
+      },
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0002-0048-3300"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-3156-2105"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-2130-0865"
+        }
+      ],
+      "@id": "index.md"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9842-9718",
+      "name": "Stian Soiland-Reyes"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2130-0865",
+      "name": "Stuart Owen",
+      "@reverse": {
+        "author": [
+          {
+            "@id": "index.md"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "José María Fernández",
+      "@id": "https://orcid.org/0000-0002-4806-5140"
+    },
+    {
+      "@type": "Person",
+      "name": "Alan R Williams",
+      "@id": "https://orcid.org/0000-0003-3156-2105",
+      "@reverse": {
+        "author": [
+          {
+            "@id": "index.md"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://bioschemas.org/profiles/ComputationalWorkflow/1.0-RELEASE/",
+      "name": "ComputationalWorkflow Profile",
+      "description": "Bioschemas specification for describing a Computational Workflow"
+    }
+  ]
+}

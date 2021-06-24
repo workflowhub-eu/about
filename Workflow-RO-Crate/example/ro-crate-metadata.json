@@ -7,9 +7,19 @@
       "about": {
         "@id": "./"
       },
-      "conformsTo": {
-        "@id": "https://w3id.org/ro/crate/1.1"
-      }
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/crate/1.1"
+        },
+        {
+          "@id": "https://about.workflowhub.eu/Workflow-RO-Crate/"
+        }
+      ]
+    },
+    {
+      "@id": "https://about.workflowhub.eu/Workflow-RO-Crate/",
+      "@type": "CreativeWork",
+      "name": "Workflow RO-Crate profile"      
     },
     {
       "@id": "ro-crate-preview.html",

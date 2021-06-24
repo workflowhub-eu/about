@@ -14,8 +14,25 @@
       "about": {
         "@id": "./"
       },
-      "conformsTo": {
-        "@id": "https://w3id.org/ro/crate/1.1"
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/crate/1.1"
+        },
+        {
+          "@id": "https://about.workflowhub.eu/Workflow-RO-Crate/"
+        }
+      ]
+    },
+    {
+      "@id": "https://about.workflowhub.eu/Workflow-RO-Crate/",
+      "@type": "CreativeWork",
+      "name": "Workflow RO-Crate profile",
+      "@reverse": {
+        "conformsTo": [
+          {
+            "@id": "ro-crate-metadata.jsonld"
+          }
+        ]
       }
     },
     {
@@ -333,7 +350,7 @@ table.table {
 </div>
 
 
-<p>This file was created at 1624553816320 by
+<p>This file was created at 1624555305310 by
 <a href='https://code.research.uts.edu.au/eresearch/calcytejs'>
 Calcyte</a> which implements the <a href=''>
 Draft RO-Crate format</a>, version 

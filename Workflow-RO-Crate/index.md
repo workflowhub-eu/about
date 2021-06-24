@@ -14,7 +14,8 @@
 <link href="https://orcid.org/0000-0003-3156-2105" rel="author"  />
 <link href="https://orcid.org/0000-0003-2130-0865" rel="author"  />
 
-<link href="ro-crate-metadata.json" rel="describedby" type='application/ld+json; profile="https://w3id.org/ro/crate"'  />
+<link href="ro-crate-metadata.json" rel="describedby" type='application/ld+json; profile="https://w3id.org/ro/crate"' />
+<link href="ro-crate-metadata.jsonld" rel="describedby" type='application/ld+json; profile="https://w3id.org/ro/crate"'  />
 <link href="ro-crate-preview.html" rel="describedby" type='text/html'  />
 
 <!-- repeat of hasPart in RO-Crate -->
@@ -34,6 +35,13 @@
 <link href="https://github.com/KockataEPich/CheckMyCrate/blob/master/CheckMyCrate/profile_library/ro_crate_1.1_basic.json" rel="item" />
 
 ![Workflow RO-Crate](logo/ro-crate-workflow.svg)
+
+* Permalink: `TODO`
+* Version: 0.2.0
+* [Crate profile `ro-crate-metadata.json`](ro-crate-metadata.json)
+  - [Crate profile preview](ro-crate-preview.html)
+* [Example RO-Crate `ro-crate-metadata.json`](example/ro-crate-metadata.json)
+  - [Example RO-Crate profile preview](example/ro-crate-preview.html)
 
 *Please note* this is a draft spec and subject to change. Please leave any suggestions and comments here: [https://github.com/seek4science/seek/issues/183](https://github.com/seek4science/seek/issues/183)
 

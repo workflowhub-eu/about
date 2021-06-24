@@ -61,6 +61,12 @@
           "@id": "https://bioschemas.org/FormalParameter"
         },
         {
+          "@id": "http://schema.org/HowTo"
+        },
+        {
+          "@id": "http://schema.org/ImageObject"
+        },
+        {
           "@id": "languages/"
         },
         {
@@ -84,6 +90,11 @@
         "about": [
           {
             "@id": "ro-crate-metadata.json"
+          }
+        ],
+        "conformsTo": [
+          {
+            "@id": "example/ro-crate-metadata.json"
           }
         ]
       }
@@ -183,9 +194,17 @@
       "@id": "example/",
       "@type": "Dataset",
       "name": "Example RO-Crate following this profile",
-      "subjectOf": {
-        "@id": "example/ro-crate-metadata.json"
+      "license": {
+        "@id": "http://spdx.org/licenses/CC0-1.0"
       },
+      "subjectOf": [
+        {
+          "@id": "example/ro-crate-metadata.json"
+        },
+        {
+          "@id": "example/ro-crate-preview.html"
+        }
+      ],
       "@reverse": {
         "hasPart": [
           {
@@ -202,8 +221,18 @@
     {
       "@id": "example/ro-crate-metadata.json",
       "@type": "CreativeWork",
-      "conformsTo": "https://w3id.org/ro/crate/1.1",
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/crate/1.1"
+        },
+        {
+          "@id": "./"
+        }
+      ],
       "encodingFormat": "application/json",
+      "license": {
+        "@id": "http://spdx.org/licenses/CC0-1.0"
+      },
       "@reverse": {
         "subjectOf": [
           {
@@ -659,6 +688,36 @@
       }
     },
     {
+      "@id": "http://schema.org/HowTo",
+      "@type": "DefinedTerm",
+      "conditionsOfAccess": "The Crate COULD contain a data entity of type [\"File\", \"SoftwareSourceCode\", \"HowTo\"] as the Main Workflow CWL Description.\n\nIf present the Main Workflow MUST refer to the Main Workflow CWL Description via subjectOf.",
+      "description": "Instructions that explain how to achieve a result by performing a sequence of steps.",
+      "name": "HowTo",
+      "termCode": "HowTo",
+      "@reverse": {
+        "hasPart": [
+          {
+            "@id": "./"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "http://schema.org/ImageObject",
+      "@type": "DefinedTerm",
+      "conditionsOfAccess": "The Crate COULD contain a Main Workflow Diagram. If Main Workflow Diagram is present, the Main Workflow MUST refer to it via image.",
+      "description": "An image file.",
+      "name": "ImageObject",
+      "termCode": "ImageObject",
+      "@reverse": {
+        "hasPart": [
+          {
+            "@id": "./"
+          }
+        ]
+      }
+    },
+    {
       "@id": "http://spdx.org/licenses/AAL",
       "identifier": "AAL",
       "name": "Attribution Assurance Licenses",
@@ -836,6 +895,12 @@
         "license": [
           {
             "@id": "ro-crate-metadata.json"
+          },
+          {
+            "@id": "example/"
+          },
+          {
+            "@id": "example/ro-crate-metadata.json"
           }
         ],
         "hasPart": [
@@ -1773,8 +1838,9 @@
     {
       "@id": "https://bioschemas.org/ComputationalWorkflow",
       "@type": "DefinedTerm",
+      "conditionsOfAccess": "The Crate MUST contain a data entity of type [\"File\", \"SoftwareSourceCode\", \"ComputationalWorkflow\"] as the Main Workflow.\n\nThe Crate MUST refer to the Main Workflow via mainEntity.\n\nThe Main Workflow MUST refer to its type via programmingLanguage.",
       "description": "A computational workflow consists of an orchestrated and repeatable pattern of activity enabled by the systematic organization of resources into processes that transform materials, provide services, or process information (source Wikipedia.org). It is executed by a computational process and is thus distinct from laboratory or business workflows.",
-      "name": "Computational Workflow",
+      "name": "ComputationalWorkflow",
       "termCode": "ComputationalWorkflow",
       "url": "https://bioschemas.org/types/ComputationalWorkflow/1.0-RELEASE/",
       "version": "1.0-RELEASE",
@@ -1963,9 +2029,13 @@ WorkflowHub uses Workflow RO Crates as an exchange format for users to upload a 
                         
                         <li><a href="#https%3A//workflowhub.eu/">WorkflowHub</a></li>
                         
-                        <li><a href="#https%3A//bioschemas.org/ComputationalWorkflow">Computational Workflow</a></li>
+                        <li><a href="#https%3A//bioschemas.org/ComputationalWorkflow">ComputationalWorkflow</a></li>
                         
                         <li><a href="#https%3A//bioschemas.org/FormalParameter">Formal Parameter</a></li>
+                        
+                        <li><a href="#http%3A//schema.org/HowTo">HowTo</a></li>
+                        
+                        <li><a href="#http%3A//schema.org/ImageObject">ImageObject</a></li>
                         
                         <li><a href="#languages/">languages</a></li>
                         
@@ -1985,6 +2055,9 @@ WorkflowHub uses Workflow RO Crates as an exchange format for users to upload a 
             </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
             <th style="text-align:left;" class="prop">about<span>&nbsp;</span><a href="http://schema.org/about">[?]</a></th>
             <td style='text-align:left'><a href="#ro-crate-metadata.json">ro-crate-metadata.json</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">conformsTo<span>&nbsp;</span><a href="http://purl.org/dc/terms/conformsTo">[?]</a></th>
+            <td style='text-align:left'><a href="#example/ro-crate-metadata.json">example/ro-crate-metadata.json</a></td>
             </tr></tbody>
             </table>
         </div>
@@ -2483,7 +2556,7 @@ WorkflowHub uses Workflow RO Crates as an exchange format for users to upload a 
         </div>
         <hr/><br/><br/>
            <div>
-            <h3><a href="https://bioschemas.org/ComputationalWorkflow">Go to: </a> Computational Workflow</h3>
+            <h3><a href="https://bioschemas.org/ComputationalWorkflow">Go to: </a> ComputationalWorkflow</h3>
             
             
             
@@ -2496,13 +2569,20 @@ WorkflowHub uses Workflow RO Crates as an exchange format for users to upload a 
             <td style='text-align:left'></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
-            <td style='text-align:left'><span>Computational Workflow</span></td>
+            <td style='text-align:left'><span>ComputationalWorkflow</span></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">@type</th>
             <td style='text-align:left'><span>DefinedTerm</span></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">description<span>&nbsp;</span><a href="http://schema.org/description">[?]</a></th>
             <td style='text-align:left'><span>A computational workflow consists of an orchestrated and repeatable pattern of activity enabled by the systematic organization of resources into processes that transform materials, provide services, or process information (source Wikipedia.org). It is executed by a computational process and is thus distinct from laboratory or business workflows.</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">conditionsOfAccess<span>&nbsp;</span><a href="http://schema.org/conditionsOfAccess">[?]</a></th>
+            <td style='text-align:left'><span>The Crate MUST contain a data entity of type ["File", "SoftwareSourceCode", "ComputationalWorkflow"] as the Main Workflow.
+
+The Crate MUST refer to the Main Workflow via mainEntity.
+
+The Main Workflow MUST refer to its type via programmingLanguage.</span></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">termCode<span>&nbsp;</span><a href="http://schema.org/termCode">[?]</a></th>
             <td style='text-align:left'><span>ComputationalWorkflow</span></td>
@@ -2551,6 +2631,80 @@ WorkflowHub uses Workflow RO Crates as an exchange format for users to upload a 
             </tr><tr>
             <th style="text-align:left;" class="prop">version<span>&nbsp;</span><a href="http://schema.org/version">[?]</a></th>
             <td style='text-align:left'><span>1.0-RELEASE</span></td>
+            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
+            <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
+            <td style='text-align:left'><a href="#./">Workflow RO-Crate profile</a></td>
+            </tr></tbody>
+            </table>
+        </div>
+
+        </div>
+        <hr/><br/><br/>
+           <div>
+            <h3><a href="http://schema.org/HowTo">Go to: </a> HowTo</h3>
+            
+            
+            
+            
+        <div id="http://schema.org/HowTo">
+            
+            <table class="table metadata table-striped" >
+                <tbody><tr>
+            <th style="text-align:left;" class="prop">@id</th>
+            <td style='text-align:left'></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
+            <td style='text-align:left'><span>HowTo</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">@type</th>
+            <td style='text-align:left'><span>DefinedTerm</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">description<span>&nbsp;</span><a href="http://schema.org/description">[?]</a></th>
+            <td style='text-align:left'><span>Instructions that explain how to achieve a result by performing a sequence of steps.</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">conditionsOfAccess<span>&nbsp;</span><a href="http://schema.org/conditionsOfAccess">[?]</a></th>
+            <td style='text-align:left'><span>The Crate COULD contain a data entity of type ["File", "SoftwareSourceCode", "HowTo"] as the Main Workflow CWL Description.
+
+If present the Main Workflow MUST refer to the Main Workflow CWL Description via subjectOf.</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">termCode<span>&nbsp;</span><a href="http://schema.org/termCode">[?]</a></th>
+            <td style='text-align:left'><span>HowTo</span></td>
+            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
+            <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
+            <td style='text-align:left'><a href="#./">Workflow RO-Crate profile</a></td>
+            </tr></tbody>
+            </table>
+        </div>
+
+        </div>
+        <hr/><br/><br/>
+           <div>
+            <h3><a href="http://schema.org/ImageObject">Go to: </a> ImageObject</h3>
+            
+            
+            
+            
+        <div id="http://schema.org/ImageObject">
+            
+            <table class="table metadata table-striped" >
+                <tbody><tr>
+            <th style="text-align:left;" class="prop">@id</th>
+            <td style='text-align:left'></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
+            <td style='text-align:left'><span>ImageObject</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">@type</th>
+            <td style='text-align:left'><span>DefinedTerm</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">description<span>&nbsp;</span><a href="http://schema.org/description">[?]</a></th>
+            <td style='text-align:left'><span>An image file.</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">conditionsOfAccess<span>&nbsp;</span><a href="http://schema.org/conditionsOfAccess">[?]</a></th>
+            <td style='text-align:left'><span>The Crate COULD contain a Main Workflow Diagram. If Main Workflow Diagram is present, the Main Workflow MUST refer to it via image.</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">termCode<span>&nbsp;</span><a href="http://schema.org/termCode">[?]</a></th>
+            <td style='text-align:left'><span>ImageObject</span></td>
             </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
             <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
             <td style='text-align:left'><a href="#./">Workflow RO-Crate profile</a></td>
@@ -2624,8 +2778,15 @@ WorkflowHub uses Workflow RO Crates as an exchange format for users to upload a 
             <th style="text-align:left;" class="prop">@type</th>
             <td style='text-align:left'><span>Dataset</span></td>
             </tr><tr>
+            <th style="text-align:left;" class="prop">license<span>&nbsp;</span><a href="http://schema.org/license">[?]</a></th>
+            <td style='text-align:left'><a href="#http%3A//spdx.org/licenses/CC0-1.0">CC0 1.0</a></td>
+            </tr><tr>
             <th style="text-align:left;" class="prop">subjectOf<span>&nbsp;</span><a href="http://schema.org/subjectOf">[?]</a></th>
-            <td style='text-align:left'><a href="#example/ro-crate-metadata.json">example/ro-crate-metadata.json</a></td>
+            <td style='text-align:left'><ul>
+                        <li><a href="#example/ro-crate-metadata.json">example/ro-crate-metadata.json</a></li>
+                        
+                        <li>undefined</li>
+                        </ul></td>
             </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
             <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
             <td style='text-align:left'><a href="#./">Workflow RO-Crate profile</a></td>
@@ -2768,7 +2929,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 </div>
 
 
-<p>This file was created at 1624554221146 by
+<p>This file was created at 1624555042034 by
 <a href='https://code.research.uts.edu.au/eresearch/calcytejs'>
 Calcyte</a> which implements the <a href=''>
 Draft RO-Crate format</a>, version 

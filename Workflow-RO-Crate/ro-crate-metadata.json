@@ -14,7 +14,6 @@
         "@id": "http://spdx.org/licenses/CC0-1.0"
       }
     },
-
     {
       "@id": "./",
       "@type": "Dataset",
@@ -53,6 +52,12 @@
         },
         {
           "@id": "https://bioschemas.org/FormalParameter"
+        },
+        {
+          "@id": "http://schema.org/HowTo"
+        },
+        {
+          "@id": "http://schema.org/ImageObject"
         },
         {
           "@id": "languages/"
@@ -135,15 +140,29 @@
       "@id": "example/",
       "@type": "Dataset",
       "name": "Example RO-Crate following this profile",
-      "subjectOf": {
-        "@id": "example/ro-crate-metadata.json"
-      }
+      "license": {
+        "@id": "http://spdx.org/licenses/CC0-1.0"
+      },
+      "subjectOf": [
+        {
+          "@id": "example/ro-crate-metadata.json"
+        },
+        {
+          "@id": "example/ro-crate-preview.html"
+        }
+      ]
     },
     {
       "@id": "example/ro-crate-metadata.json",
       "@type": "CreativeWork",
-      "conformsTo": "https://w3id.org/ro/crate/1.1",
-      "encodingFormat": "application/json"
+      "conformsTo": [
+        {"@id": "https://w3id.org/ro/crate/1.1"}, 
+        {"@id": "./"}
+      ],
+      "encodingFormat": "application/json",
+      "license": {
+        "@id": "http://spdx.org/licenses/CC0-1.0"
+      }
     },
     {
       "@id": "index.html",
@@ -510,6 +529,22 @@
       "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/263",
       "@type": "WebSite",
       "name": "ZIP Format"
+    },
+    {
+      "@id": "http://schema.org/HowTo",
+      "@type": "DefinedTerm",
+      "conditionsOfAccess": "The Crate COULD contain a data entity of type [\"File\", \"SoftwareSourceCode\", \"HowTo\"] as the Main Workflow CWL Description.\n\nIf present the Main Workflow MUST refer to the Main Workflow CWL Description via subjectOf.",
+      "description": "Instructions that explain how to achieve a result by performing a sequence of steps.",
+      "name": "HowTo",
+      "termCode": "HowTo"
+    },
+    {
+      "@id": "http://schema.org/ImageObject",
+      "@type": "DefinedTerm",
+      "conditionsOfAccess": "The Crate COULD contain a Main Workflow Diagram. If Main Workflow Diagram is present, the Main Workflow MUST refer to it via image.",
+      "description": "An image file.",
+      "name": "ImageObject",
+      "termCode": "ImageObject"
     },
     {
       "@id": "http://spdx.org/licenses/AAL",
@@ -1023,8 +1058,9 @@
     {
       "@id": "https://bioschemas.org/ComputationalWorkflow",
       "@type": "DefinedTerm",
+      "conditionsOfAccess": "The Crate MUST contain a data entity of type [\"File\", \"SoftwareSourceCode\", \"ComputationalWorkflow\"] as the Main Workflow.\n\nThe Crate MUST refer to the Main Workflow via mainEntity.\n\nThe Main Workflow MUST refer to its type via programmingLanguage.",
       "description": "A computational workflow consists of an orchestrated and repeatable pattern of activity enabled by the systematic organization of resources into processes that transform materials, provide services, or process information (source Wikipedia.org). It is executed by a computational process and is thus distinct from laboratory or business workflows.",
-      "name": "Computational Workflow",
+      "name": "ComputationalWorkflow",
       "termCode": "ComputationalWorkflow",
       "url": "https://bioschemas.org/types/ComputationalWorkflow/1.0-RELEASE/",
       "version": "1.0-RELEASE"

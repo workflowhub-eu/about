@@ -45,7 +45,64 @@
       "hasPart": [
         {
           "@id": "index.md"
-        }
+        },
+        {
+          "@id": "#cwl",
+          "@type": "ComputerLanguage",
+          "name": "Common Workflow Language",
+          "alternateName": "CWL",
+          "identifier": {
+            "@id": "https://w3id.org/cwl/v1.0/"
+          },
+          "url": {
+            "@id": "https://www.commonwl.org/"
+          }
+        },
+        {
+          "@id": "#galaxy",
+          "@type": "ComputerLanguage",
+          "name": "Galaxy",
+          "identifier": {
+            "@id": "https://galaxyproject.org/"
+          },
+          "url": {
+            "@id": "https://galaxyproject.org/"
+          }
+        },
+        {
+          "@id": "#knime",
+          "@type": "ComputerLanguage",
+          "name": "KNIME",
+          "identifier": {
+            "@id": "https://www.knime.com/"
+          },
+          "url": {
+            "@id": "https://www.knime.com/"
+          }
+        },
+        {
+          "@id": "#nextflow",
+          "@type": "ComputerLanguage",
+          "name": "Nextflow",
+          "identifier": {
+            "@id": "https://www.nextflow.io/"
+          },
+          "url": {
+            "@id": "https://www.nextflow.io/"
+          }
+        },
+        {
+  "@id": "#snakemake",
+  "@type": "ComputerLanguage",
+  "name": "Snakemake",
+  "identifier": {
+    "@id": "https://doi.org/10.1093/bioinformatics/bts480"
+  },
+  "url": {
+    "@id": "https://snakemake.readthedocs.io"
+  }
+}        
+
       ],
       "@id": "./"
     },
@@ -56,17 +113,7 @@
       "description": "BSD 3-Clause License\n\nCopyright (c) 2019-2020, The University of Manchester, HITS gGmbH and workflowhub.eu contributors\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n1. Redistributions of source code must retain the above copyright notice, this\n   list of conditions and the following disclaimer.\n\n2. Redistributions in binary form must reproduce the above copyright notice,\n   this list of conditions and the following disclaimer in the documentation\n   and/or other materials provided with the distribution.\n\n3. Neither the name of the copyright holder nor the names of its\n   contributors may be used to endorse or promote products derived from\n   this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n",
       "identifier": [
         "BSD-3-Clause"
-      ],
-      "@reverse": {
-        "license": [
-          {
-            "@id": "./"
-          },
-          {
-            "@id": "index.md"
-          }
-        ]
-      }
+      ]
     },
     {
       "@type": "Person",

@@ -19,7 +19,8 @@
     {
       "@id": "https://about.workflowhub.eu/Workflow-RO-Crate/",
       "@type": "CreativeWork",
-      "name": "Workflow RO-Crate profile"      
+      "name": "Workflow RO-Crate profile",
+      "version": "0.2.0"
     },
     {
       "@id": "ro-crate-preview.html",

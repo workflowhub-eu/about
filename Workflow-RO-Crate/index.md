@@ -38,8 +38,8 @@
 
 * Permalink: `TODO`
 * Version: 0.2.0
-* [Crate profile `ro-crate-metadata.json`](ro-crate-metadata.json)
-  - [Crate profile preview](ro-crate-preview.html)
+* [Profile Crate `ro-crate-metadata.json`](ro-crate-metadata.json)
+  - [Profile Crate preview](ro-crate-preview.html)
 * [Example RO-Crate `ro-crate-metadata.json`](example/ro-crate-metadata.json)
   - [Example RO-Crate profile preview](example/ro-crate-preview.html)
 

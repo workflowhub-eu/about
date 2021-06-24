@@ -70,26 +70,47 @@
       "description": "Workflow RO-Crates are a specialization of RO-Crate for packaging an executable workflow with all necessary documentation. It is aligned with, and intends to strictly extend, the more general Bioschemas ComputationalWorkflow profile.\n\nWorkflowHub uses Workflow RO Crates as an exchange format for users to upload a packaged workflow.",
       "hasPart": [
         {
-          "@id": "index.md"
+          "@id": "index.html"
         },
         {
           "@id": "licenses/"
         },
         {
-          "@id": "#cwl"
+          "@id": "languages/",
+          "@type": "Dataset",
+          "name": "languages",
+          "description": "WorkflowHub currently supports CWL, Galaxy, KNIME and Nextflow workflow types. \n\n To ensure compatibility, please include one of the following in the RO-Crate metadata, and refer to it from the Main Workflow's 'programmingLanguage' property",
+          "hasPart": [
+            {
+              "@id": "#cwl"
+            },
+            {
+              "@id": "#galaxy"
+            },
+            {
+              "@id": "#knime"
+            },
+            {
+              "@id": "#nextflow"
+            },
+            {
+              "@id": "#snakemake"
+            }    
+          ]
         },
+
         {
-          "@id": "#galaxy"
-        },
-        {
-          "@id": "#knime"
-        },
-        {
-          "@id": "#nextflow"
-        },
-        {
-          "@id": "#snakemake"
-        }
+          "@id": "https://github.com/KockataEPich/CheckMyCrate/blob/master/CheckMyCrate/profile_library/ro_crate_1.1_basic.json",
+          "@type": "File",
+          "name": "CheckMyCrate profile for Workflow RO-Crate",
+          "encodingFormat": [
+              "application/json", 
+              {"@id": "https://github.com/KockataEPich/CheckMyCrate#profiles",
+                "@type": "WebPage",
+                "name": "CheckMyCrate"
+              }
+          ]
+      },
       ],
       "license": {
         "@id": "https://spdx.org/licenses/BSD-3-Clause"
@@ -647,8 +668,9 @@
       "name": "BSD 3-Clause \"New\" or \"Revised\" License"
     },
     {
-      "@id": "index.md",
+      "@id": "index.html",
       "@type": "File",
+      "about": "./",
       "author": [
         {
           "@id": "https://orcid.org/0000-0002-0048-3300"
@@ -661,9 +683,6 @@
         }
       ],
       "dateModified": "2021-06-24T16:09:24.045Z",
-      "license": {
-        "@id": "https://spdx.org/licenses/BSD-3-Clause"
-      },
       "name": "Workflow RO-Crate profile description"
     },
     {

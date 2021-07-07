@@ -27,6 +27,7 @@ For any kind of questions or suggestions on using WorkflowHub, feel free to join
 * [Workflow RO-Crate spec](/Workflow-RO-Crate)
 * [How to make a workflow RO-Crate](/How-to-make-a-workflow-RO-crate)
 * [The Global Alliance for Genomics and Health (GA4GH) Tool Registry Service (TRS) API](/TRS) 
+* [RO-Crate Submission API](/ro-crate-api) 
 
 For developer questions such as on REST APIs, RO-Crate, or setting up your own instance of WorkflowHub, feel free to join our [community](community.md)!
 

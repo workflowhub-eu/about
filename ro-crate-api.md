@@ -1,8 +1,8 @@
 ---
-title: RO-Crate API
+title: RO-Crate Submission API
 ---
 
-# RO-Crate API
+# RO-Crate Submission API
 
 # Submitting Workflows
 

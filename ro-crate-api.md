@@ -13,11 +13,11 @@ To submit a new workflow to WorkflowHub as an RO-Crate, POST a multipart request
 
 To add a new version to an existing workflow, POST to e.g. `/workflows/123/create_version` where `123` is the workflow ID.
 
-To change the policy and other metadata of the workflow, see the JSON API docs: https://workflowhub.eu/api#operation/updateWorkflow
+To change the policy and other metadata of the workflow, see [the JSON API docs](https://workflowhub.eu/api#operation/updateWorkflow)
 
 ### Examples
 
-The following examples assume authentication via API token. See: https://workflowhub.eu/api#section/Authentication for details on other authentication methods.
+The following examples assume authentication via API token. See [the docs for details on other authentication methods](https://workflowhub.eu/api#section/Authentication).
 
 They also assume your RO-Crate is in a file named `my_ro_crate.crate.zip`, and you want to add it to a Team with ID `1234`.
 

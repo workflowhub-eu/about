@@ -137,7 +137,8 @@ Participants include:
 * Vahid Kiani (VIB-UGent Center for Plant Systems Biology, ELIXIR-BE)
 * Vincenzo Laveglia (CIRMMP Florence, EOSC-Life)
 * Wolfgang Müller (HITS GmbH, ELIXIR-DE)
-* Xiaoming Hu (HITS GmbH, ELIXIR-DE))
+* Xiaoming Hu (HITS GmbH, ELIXIR-DE)
+* Philip Ewels (SciLifeLab, nf-core, nextflow)
 
 We are also grateful for contributions through hackathons/codefests and other events from:
 
@@ -146,22 +147,21 @@ We are also grateful for contributions through hackathons/codefests and other ev
 * Assunta DeSanto
 * Boï Kone
 * Charles Hadley King (George Washington University)
-* Chris Child (The University of Manchester)
+* Chris Child (The University of Manchester, TeSS)
 * Daniel Garijo 
 * Eoghan Ó Carragáin 
 * Festus Nyasimi
 * Ivan Topolsky
 * Janisha Patel (George Washington University)
-* Jasper Koehorst
+* Jasper Koehorst (EU-IBISBA, UNLOCK)
 * Jennifer Chang
 * Maciek Bak
 * Marius van den Beek (PennState University, Galaxy project)
 * Melanie Föll
 * Nicola Soranzo
-* Oscar Corcho 
+* Oscar Corcho (UPM)
 * Peter Sefton 
-* Philip Ewels (SciLifeLab, nf-core)
-* Raul Palma 
+* Raul Palma (Poznan Supercomputing Centre, RELIANCE)
 * Sheeba Samuel
 * Shivani Sharma
 * Victoria Dominguez Del Angel

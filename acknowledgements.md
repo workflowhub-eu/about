@@ -91,7 +91,7 @@ Participants include:
 * Bert Droesbeke (VIB-UGent Center for Plant Systems Biology, ELIXIR-BE)
 * Björn Grüning (University of Freiburg, ELIXIR-DE, Galaxy Project)
 * Carole Goble (The University of Manchester, ELIXIR-UK, EOSC-Life, EU-IBISBA, Bioschemas)
-* Carlos Oscar Sorzano (CNB CSIC)
+* Carlos Oscar Sorzano (CNB CSIC, SCIPION, EOSC-Life)
 * Castrense Savojardo (ELIXIR-IT)
 * Dan Fornika
 * Decruw Cedric
@@ -111,7 +111,7 @@ Participants include:
 * José Mª Fernández (BSC, ELIXIR-ES, EOSC-Life)
 * Kiran K Telukunta
 * Lars Ridder (Netherlands eScience Center)
-* Laura del Caño (CNB-CSIC, INSTRUCT, EOSC-Life)
+* Laura del Caño (CNB-CSIC, SCIPION, INSTRUCT, EOSC-Life)
 * Laura Rodriguez-Navas (BSC, ELIXIR-ES, EOSC-Life)
 * Leyla Garcia (ELIXIR-DE, Bioschemas)
 * Luca Pireddu (CRS4/BBMRI)

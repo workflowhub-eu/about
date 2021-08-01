@@ -82,15 +82,15 @@ The weekly [WorkflowHub Club](community.md) is chaired by **Frederik Coppens**.
 
 Participants include:
 
-* Alan R Williams (The University of Manchester)
+* Alan R Williams (The University of Manchester, EU-IBISBA, Bioschemas)
 * Alexander Vasilenko (VKM IBPM RAS, MIRRI)
-* Alexander Kanitz
-* Alban Gaignard
+* Alexander Kanitz (University of Basel, Galaxy Project)
+* Alban Gaignard (ELIXIR-FR)
 * Ambarish Kumar (Jawaharlal Nehru University, New Delhi, India)
-* Antonio Rosato
-* Bert Droesbeke (ELIXIR-BE, VIB-UGent Center for Plant Systems Biology)
+* Antonio Rosato (INSTRUCT)
+* Bert Droesbeke (VIB-UGent Center for Plant Systems Biology, ELIXIR-BE)
 * Björn Grüning (University of Freiburg, ELIXIR-DE, Galaxy Project)
-* Carole Goble (The University of Manchester, ELIXIR-UK)
+* Carole Goble (The University of Manchester, ELIXIR-UK, EOSC-Life, EU-IBISBA, Bioschemas)
 * Carlos Oscar Sorzano (CNB CSIC)
 * Castrense Savojardo (ELIXIR-IT)
 * Dan Fornika
@@ -98,46 +98,46 @@ Participants include:
 * Djura Smits (Netherlands eScience Center)
 * Emidio Capriotti (UNIBO, Italy)
 * Emmy Tsang
-* Finn Bacall (The University of Manchester, ELIXIR-UK)
-* Flora D’Anna
+* Finn Bacall (The University of Manchester, ELIXIR-UK, EOSC-Life)
+* Flora D’Anna (VIB-UGent Center for Plant Systems Biology, ELIXIR-BE)
 * Frédéric Lemoine (Institut Pasteur, Paris)
-* Frederik Coppens (ELIXIR-BE, VIB-UGent Center for Plant Systems Biology, EOSC-Life)
+* Frederik Coppens (VIB-UGent Center for Plant Systems Biology, ELIXIR-BE, EOSC-Life)
 * Georg Peiter
 * Giacomo Tartari (ELIXIR-IT)
 * Hervé Ménager (Institut Pasteur, ELIXIR-FR, bio.tools)
-* Ignacio Eguinoa (ELIXIR-BE, VIB-UGent Center for Plant Systems Biology)
+* Ignacio Eguinoa (VIB-UGent Center for Plant Systems Biology, ELIXIR-BE)
 * Jennifer Harrow (ELIXIR-Hub, tools platform coordinator)
 * Jon Ison (Institut Pasteur, ELIXIR-FR, bio.tools)
-* José Mª Fernández (BSC, ELIXIR-ES)
+* José Mª Fernández (BSC, ELIXIR-ES, EOSC-Life)
 * Kiran K Telukunta
 * Lars Ridder (Netherlands eScience Center)
 * Laura del Caño (CNB-CSIC, INSTRUCT, EOSC-Life)
-* Laura Rodriguez-Navas (BSC, ELIXIR-ES)
-* Leyla Garcia
+* Laura Rodriguez-Navas (BSC, ELIXIR-ES, EOSC-Life)
+* Leyla Garcia (ELIXIR-DE, Bioschemas)
 * Luca Pireddu (CRS4/BBMRI)
 * Magnus Palmblad (LUMC, ELIXIR-NL)
 * Marco Tangaro (ELIXIR-IT)
 * Michael R. Crusoe (ELIXIR-NL, CWL, standards developer, interop cheerleader)
-* Miguel Vazquez (BSC)
+* Miguel Vazquez (BSC, ELIXIR-ES)
 * Miriam Payá Milans (CBGP, Madrid)
-* Munazah Andrabi
+* Munazah Andrabi (The University of Manchester, ELIXIR-UK)
 * Nick Juty (The University of Manchester, ELIXIR-UK)
-* Paolo Romano
+* Paolo Romano (MIRRI)
 * Pier Luigi Martelli (ELIXIR-IT)
 * Philipp G.
 * Rena Bakhshi (Netherlands eScience Center)
-* Rob Hooft
+* Rob Hooft (ELIXIR-NL)
 * Robin Richardson (Netherlands eScience Center)
 * Romain Dallet (EMBRC)
 * Salvador Capella-Gutierrez (BSC, ELIXIR-ES)
-* Simone Leo (CRS4/BBMRI)
+* Simone Leo (CRS4/BBMRI, EOSC-Life)
 * Sirarat Sarntivijai (ELIXIR-Hub)
 * Stian Soiland-Reyes (The University of Manchester, ELIXIR-UK, BioExcel, CWL)
 * Stuart Owen (The University of Manchester, FAIRDOM, ELIXIR-UK)
-* Vahid Kiani
+* Vahid Kiani (VIB-UGent Center for Plant Systems Biology, ELIXIR-BE)
 * Vincenzo Laveglia (CIRMMP Florence, EOSC-Life)
-* Wolfgang Müller (HITS GmbH)
-* Xiaoming Hu (HITS GmbH)
+* Wolfgang Müller (HITS GmbH, ELIXIR-DE)
+* Xiaoming Hu (HITS GmbH, ELIXIR-DE))
 
 We are also grateful for contributions through hackathons/codefests and other events from:
 

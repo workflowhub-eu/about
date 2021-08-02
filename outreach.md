@@ -51,10 +51,10 @@ _FAIR Digital Object Forum_, [CWFR & FDO SEM meeting](https://osf.io/v8xjz/), 20
 
 Carole Goble (2021):
 [**FAIR Computational Workflows: the what, why how and who**](https://www.slideshare.net/carolegoble/fair-computational-workflows).
-[ICTESSH 2021](http://ictessh.uns.ac.rs/) (International Conference on ICT enhanced Social Sciences and Humanities 2021), 2021-06-30
+_[ICTESSH 2021](http://ictessh.uns.ac.rs/)_ (International Conference on ICT enhanced Social Sciences and Humanities 2021), 2021-06-30
 
 Carole Goble (2021):
-[**The EOSC-Life Workflow Collaboratory**](https://https://repository.eoscsecretariat.eu/index.php/s/ERebmpJcyjFRqcx/download?path=%2F17%20June%2F0900%20-%20Engagement%20and%20cross-fertilisation%20between%20RIs%20and%20the%20EOSC%20ecosystem&files=06%20-%20Carole%20Goble%20-%20EOSC-Life%20Workflow%20Collaboratory.pdf&downloadStartSecret=vosdn62bqb) [EOSC Symposium 2021](https://www.eoscsecretariat.eu/eosc-symposium-2021-programme), 2021-06-17 
+[**The EOSC-Life Workflow Collaboratory**](https://https://repository.eoscsecretariat.eu/index.php/s/ERebmpJcyjFRqcx/download?path=%2F17%20June%2F0900%20-%20Engagement%20and%20cross-fertilisation%20between%20RIs%20and%20the%20EOSC%20ecosystem&files=06%20-%20Carole%20Goble%20-%20EOSC-Life%20Workflow%20Collaboratory.pdf&downloadStartSecret=vosdn62bqb). _[EOSC Symposium 2021](https://www.eoscsecretariat.eu/eosc-symposium-2021-programme)_, 2021-06-17 
 
 Stian Soiland-Reyes (2021):
 [**Capturing Just Enough Data, Software and Metadata with RO-Crate**](http://slides.com/soilandreyes/2021-06-17-capturing-just-enough-with-ro-crate).

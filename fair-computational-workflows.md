@@ -22,6 +22,10 @@ Related past and upcoming events:
 
 * 2021-10-24: [DaMaLOS 2021](https://zbmed.github.io/damalos/) – 2nd Workshop on Data and research objects management for Linked Open Science, co-located with [ISWC 2021](https://iswc2021.semanticweb.org/)
   - Abstracts due: 2021-08-08
+* 2021-06-16: [**GO FAIR US webinar: FAIR Workflows**](https://gofair.us/events/2021-06-16-FAIR-Workflows.html)
+  - Carole Goble (2021): [**Towards FAIR Workflows**](https://gofair.us/assets/slides/2021-06-16-towards-FAIR-workflows.pdf)
+  - Denis Yuen (2021): [**Dockstore and FAIR**](https://gofair.us/assets/slides/2021-06-16-dockstore-and-FAIR.pdf)
+  - [[Video recording](https://www.youtube.com/watch?v=eaObgNzxsqw)]
 * 2021-04-07: WorkflowsRI [Workflows Community Summit: Advancing the State-of-the-art of Scientific Workflows Management Systems Research and Development ](https://workflowsri.org/summits/community) 
 * 2021-03-30/2021-04-01: [Collaboration Workshop CW21](https://www.software.ac.uk/cw21) – themes FAIR Research Software, Diversity and Inclusion, Software Sustainability
   - Michelle Parker: [FAIR for research software](https://www.youtube.com/watch?v=6qNZxho8ib8) [[slides](https://docs.google.com/presentation/d/1eTG57TOeEL79QidUe-m1WVBut5mbJfDBlNSM6kCsIXk/edit#slide=id.p)]

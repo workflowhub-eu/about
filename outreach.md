@@ -54,10 +54,10 @@ Carole Goble (2021):
 _[ICTESSH 2021](http://ictessh.uns.ac.rs/)_ (International Conference on ICT enhanced Social Sciences and Humanities 2021), 2021-06-30
 
 Carole Goble (2021):
-[**The EOSC-Life Workflow Collaboratory**]. _[EOSC Symposium 2021](https://www.eoscsecretariat.eu/eosc-symposium-2021-programme)_, 2021-06-17 
+**The EOSC-Life Workflow Collaboratory**. _[EOSC Symposium 2021](https://www.eoscsecretariat.eu/eosc-symposium-2021-programme)_, 2021-06-17 
 
 Laura Rodríguez-Navas (2021):
-[**WfExS: a software component to enable the use of RO-Crate in the EOSC-Life tools collaboratory**]. _[EOSC Symposium 2021](https://www.eoscsecretariat.eu/eosc-symposium-2021-programme)_, 2021-06-17
+**WfExS: a software component to enable the use of RO-Crate in the EOSC-Life tools collaboratory**. _[EOSC Symposium 2021](https://www.eoscsecretariat.eu/eosc-symposium-2021-programme)_, 2021-06-17
 
 Stian Soiland-Reyes (2021):
 [**Capturing Just Enough Data, Software and Metadata with RO-Crate**](http://slides.com/soilandreyes/2021-06-17-capturing-just-enough-with-ro-crate).

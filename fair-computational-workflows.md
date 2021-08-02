@@ -30,6 +30,9 @@ Related past and upcoming events:
   - [Carole Goble: FAIR Computational Workflows](https://www.youtube.com/watch?v=VN706j9DTcw&list=PLAtmuqHExRvNf5zmggm2VwDedGoibO69U&index=3) 
   - Report: <https://doi.org/10.5281/zenodo.4606958> section [2.1: FAIR computational workflows](https://arxiv.org/pdf/2103.09181.pdf#subsection.2.1)
 * [DaMaLOS 2020](https://zbmed.github.io/damalos/docs/2020.html) – Workshop on Data and research objects management for Linked Open Science, co-located with [ISWC](https://iswc2021.semanticweb.org/)
+* 2020-11-30: _FAIR Workflows_ workshop at [International FAIR Convergence Symposium](https://www.go-fair.org/events/international-fair-convergence-symposium/)_, 2020-11-27 / 2020-12-04. 
+  - [Video recording](https://vimeo.com/499270810) 
+  - [Slides](https://drive.google.com/file/d/1lYAdqm7RESqA9zplTXd4JFJUmome66ui/view?usp=sharing)
 * 2020-09-12: [Workshop on FAIR Computational Workflows](https://eccb2020.info/ntbew01-workshop-on-fair-computational-workflows/), 19th European Conference on Computational Biology ([ECCB 2020](https://eccb2020.info/))
   - [Combined slide deck](https://doi.org/10.5281/zenodo.4071482)
   - [Video recording](https://www.youtube.com/watch?v=M7C4o0mDZLw) incl. talks:

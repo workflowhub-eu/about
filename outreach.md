@@ -3,13 +3,6 @@ title: Outreach and Publications
 ---
 
 # WorkflowHub Outreach and Publications 
-{: .no_toc }
-
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
 
 _Feel free to add to this page, either [edit and raise pull request](https://github.com/workflowhub-eu/about/new/master/outreach.md) or
 [raise issue](https://github.com/workflowhub-eu/about/issues/new) using your GitHub account._

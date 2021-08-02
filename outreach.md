@@ -54,10 +54,14 @@ Carole Goble (2021):
 _[ICTESSH 2021](http://ictessh.uns.ac.rs/)_ (International Conference on ICT enhanced Social Sciences and Humanities 2021), 2021-06-30
 
 Carole Goble (2021):
-**The EOSC-Life Workflow Collaboratory**. _[EOSC Symposium 2021](https://www.eoscsecretariat.eu/eosc-symposium-2021-programme)_, 2021-06-17 
+[**The EOSC-Life Workflow Collaboratory**](https://repository.eoscsecretariat.eu/index.php/s/ERebmpJcyjFRqcx/download?path=%2F17%20June%2F0900%20-%20Engagement%20and%20cross-fertilisation%20between%20RIs%20and%20the%20EOSC%20ecosystem&files=06%20-%20Carole%20Goble%20-%20EOSC-Life%20Workflow%20Collaboratory.pdf&downloadStartSecret=vosdn62bqb).
+_[EOSC Symposium 2021](https://www.eoscsecretariat.eu/eosc-symposium-2021-programme)_, 2021-06-17 
+[[video recording](https://youtu.be/Uml2KRwTcgA?list=PLbISfqJh3Tstmx6CgrBmYI7lyyVXiY5VE&t=3180)] [[slides]](https://drive.google.com/file/d/1Ske-MRfA_fycsYaGI4oYXzZYFElld18c/view?usp=sharing)
 
 Laura Rodríguez-Navas (2021):
-**WfExS: a software component to enable the use of RO-Crate in the EOSC-Life tools collaboratory**. _[EOSC Symposium 2021](https://www.eoscsecretariat.eu/eosc-symposium-2021-programme)_, 2021-06-17
+[**WfExS: a software component to enable the use of RO-Crate in the EOSC-Life tools collaboratory**](https://repository.eoscsecretariat.eu/index.php/s/ERebmpJcyjFRqcx/download?path=%2F17%20June%2F1400%20-%20Technical%20challenges%20on%20EOSC%2FBreakout%203%20-%20Interoperability%20challenges%20for%20thematic%20communities&files=05%20-%20Laura%20Rodr%C3%ADguez-Navas%20-%20WfExS.pdf&downloadStartSecret=zwwx23xrow). _[EOSC Symposium 2021](https://www.eoscsecretariat.eu/eosc-symposium-2021-programme)_, 2021-06-17
+[[video recording](https://youtu.be/x5lLEym-gug?list=PLbISfqJh3Tstmx6CgrBmYI7lyyVXiY5VE&t=3238)]
+[[slides](https://drive.google.com/file/d/1LJkmI_gyl9VnuQ2_ZHBGeFkt_QTWFieg/view)
 
 Stian Soiland-Reyes (2021):
 [**Capturing Just Enough Data, Software and Metadata with RO-Crate**](http://slides.com/soilandreyes/2021-06-17-capturing-just-enough-with-ro-crate).

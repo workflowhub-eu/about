@@ -15,9 +15,9 @@
 
 ## Development
 
-Created as part of the [EOSC-Life](https://www.eosc-life.eu) WP2 [Tools Collaboratory](https://github.com/eosc-life/tools-collaboratory-roadmap), WorkflowHub is under development.
+Created as part of the [EOSC-Life](https://www.eosc-life.eu) WP2 [Tools Collaboratory](https://github.com/eosc-life/tools-collaboratory-roadmap), WorkflowHub is in beta, and still under active development.
 
-See a complete list on the [acknowledgement](/acknowledgements) page.
+See a complete list of contributors on the [acknowledgement](/acknowledgements) page.
 
 Aims of the project include:
 
@@ -26,7 +26,12 @@ Aims of the project include:
 * Workflow snapshot preservation, publishing, citation and monitoring, credit claiming and workflows part of the scholarly communication landscape partnering with platforms like [DataCite](https://datacite.org/) and EOSC’s [OpenAIRE](https://www.openaire.eu/) and their Research Community Dashboards linking publications with workflows, associated datasets, software, etc.
 * The workflow registry is planned to be based on the [SEEK platform](https://seek4science.org/) using [Common Workflow Language](https://www.commonwl.org/) and [Research Objects](http://www.researchobject.org/) to glue in federated workflow and tool descriptions across the research infrastructures.
 
+### WfCommons and WorkflowHub
+
+Note that the US-based [WfCommons](https://wfcommons.org/), a framework for enabling scientific workflow research and development, was previously [called "WorkflowHub"](https://doi.org/10.1109/WORKS51914.2020.00012). While that framework is not related to the registry workflowhub.eu, this name collision could cause some confusion, so in common agreement with Rafael Ferreira da Silva, their former domain name `workflowhub.org` 
+now redirect to our workflow registry <https://workflowhub.eu/> while their framework was renamed to "WfCommons" and moved to <https://wfcommons.org/> 
+
+
 ## Mission Statement
 
 WorkflowHub has a sustainability plan that ensures the availability of its contributions and metadata up to and beyond 2026. If and when it reaches its end of service then the published contributions and metadata will be archived as RO-Crates and made available through a public repository, such as Zenodo, Figshare or another appropriate resource at that time.
-

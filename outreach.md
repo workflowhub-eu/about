@@ -1,0 +1,100 @@
+---
+title: Outreach and Publications
+---
+
+# WorkflowHub Outreach and Publications 
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+_Feel free to add to this page, either [edit and raise pull request](https://github.com/workflowhub-eu/about/new/master/outreach.md) or
+[raise issue](https://github.com/workflowhub-eu/about/issues/new) using your GitHub account._
+
+
+## Cite WorkflowHub
+
+Carole Goble; Stian Soiland-Reyes; Finn Bacall; Stuart Owen; Alan Williams; Ignacio Eguinoa; Bert Droesbeke; Simone Leo; Luca Pireddu; Laura Rodríguez-Navas; José Mª Fernández; Salvador Capella-Gutierrez; Hervé Ménager; Björn Grüning; Beatriz Serrano-Solano; Philip Ewels; Frederik Coppens (2021):  
+[**Implementing FAIR Digital Objects in the EOSC-Life Workflow Collaboratory**](https://doi.org/10.5281/zenodo.4605654).  
+_Manuscript in preparation_
+<https://doi.org/10.5281/zenodo.4605654>
+
+
+## Recent publications, presentations, citations
+
+Carole Goble (2021):
+[**FAIR Computational Workflows**](https://www.slideshare.net/carolegoble/fair-computational-workflows-249721518).
+_[JOBIM 2021](https://jobim2021.sciencesconf.org/)_ (Journées Ouvertes en Biologie, Informatique et Mathématiques), 2021-07-08
+
+Stian Soiland-Reyes (2021):
+[**RO-Crate, workflows and FAIR Digital Objects**](http://slides.com/soilandreyes/2021-07-02-ro-crate-workflows-fdo)
+_FAIR Digital Object Forum_, [CWFR & FDO SEM meeting](https://osf.io/v8xjz/), 2021-07-02
+[[video recording](https://youtu.be/gTT0m_zQsPU)], [[slides](http://slides.com/soilandreyes/2021-07-02-ro-crate-workflows-fdo)]
+<https://doi.org/10.5281/zenodo.5060283>
+
+Laura Rodríguez-Navas (2021):
+[**WfExS: a software component to enable the use of RO-Crate in the EOSC-Life collaboratory**](https://osf.io/tb5ku/).
+_FAIR Digital Object Forum_, [CWFR & FDO SEM meeting](https://osf.io/v8xjz/), 2021-07-02
+[[video recording](https://osf.io/wna42/)], [[slides](https://osf.io/tb5ku/)]
+
+Carole Goble (2021):
+[**FAIR Computational Workflows: the what, why how and who**](https://www.slideshare.net/carolegoble/fair-computational-workflows).
+_[ICTESSH 2021](http://ictessh.uns.ac.rs/) (International Conference on ICT enhanced Social Sciences and Humanities 2022)_, 2021-06-30
+
+Stian Soiland-Reyes (2021):
+[**Capturing Just Enough Data, Software and Metadata with RO-Crate**](http://slides.com/soilandreyes/2021-06-17-capturing-just-enough-with-ro-crate).
+_[Dataverse community meeting 2021](https://projects.iq.harvard.edu/dcm2021)_, Software Metadata and Containerization, 2021-06-17.
+<https://doi.org/10.5281/zenodo.4973678>
+
+Carole Goble (2021):
+[**FAIR Workflows and Research Objects get a Workout**](https://www.slideshare.net/carolegoble/fair-workflows-and-research-objects-get-a-workout-249369204).
+_[Dataverse community meeting 2021](https://projects.iq.harvard.edu/dcm2021)_, keynote, 2021-06-15
+
+Stian Soiland-Reyes (2021):
+[**Capturing workflow life cycle with RO-Crate**](http://slides.com/soilandreyes/2021-06-11-ro-crate-workflows).
+_ELIXIR All Hands 2021_, Workshop: Workflow Life Cycle, 2021-06-11
+<https://doi.org/10.5281/zenodo.4926088>
+
+Stian Soiland-Reyes (2021):
+[**Data provenance with RO-Crate**](http://slides.com/soilandreyes/2021-05-19-recording-provenance-with-ro-crate).
+_EOSC-Life retreat 2021_, Provenance of tools and workflows; FAIRification of workflows, 2021-05-19.
+
+Carole Goble, Stian Soiland-Reyes (2021):
+[**RO-Crate: A framework for packaging research products into FAIR Research Objects**](https://www.slideshare.net/carolegoble/rocrate-a-framework-for-packaging-research-products-into-fair-research-objects).  
+[_RDA IG Data Fabric: FAIR Digital Objects_](https://www.rd-alliance.org/group/data-fabric-ig/wiki/rda-ig-data-fabric-fair-digital-objects) 2021-02-25.
+[[Video recording](https://www.youtube.com/watch?v=pz-MLdI7GLA)] [[slides](https://www.slideshare.net/carolegoble/rocrate-a-framework-for-packaging-research-products-into-fair-research-objects)]
+
+Stian Soiland-Reyes, Ignacio Eguinoa (2020):  
+[**Packaging workflows with RO-Crate**](https://doi.org/10.5281/zenodo.4011999).  
+[_Workshop on FAIR Computational Workflows_](https://eccb2020.info/ntbew01-workshop-on-fair-computational-workflows/), 19th European Conference on Computational Biology ([ECCB 2020](https://eccb2020.info/)).  
+<https://doi.org/10.5281/zenodo.4011999>
+
+Simone Leo, Salvador Capella-Gutierrez (2020):  
+[**Testing workflows: Life Monitor and OpenEBench**](https://docs.google.com/presentation/d/15113lwn8_H7ftDF9I650O3rZGeAVr6LVSU4-XDkBgA0/edit#slide=id.g9337569ecf_1_0).  
+[_Workshop on FAIR Computational Workflows_](https://eccb2020.info/ntbew01-workshop-on-fair-computational-workflows/), 19th European Conference on Computational Biology ([ECCB 2020](https://eccb2020.info/)).
+
+
+
+### Related publications
+
+See also [publications about RO-Crate](https://www.researchobject.org/ro-crate/), [FAIR computational workflows](https://about.workflowhub.eu/fair-computational-workflows/).
+
+
+## WorkflowHub logo
+
+The below logos can be used by for application, websites, posters, slides etc. for work that use, implement or support WorkflowHub and Workflow RO-Crate, linking to <https://workflowhub.eu/>. To ask permission for any other use, raise an [issue](https://github.com/ResearchObject/ro-crate/issues).
+
+<p style="vertical-align: bottom">
+  <img src="/logo/workflowhub.svg" style="max-width: 30%; max-height: 5em; vertical-align: middle" /> 
+    [<a href="/logo/workflowhub.svg">svg</a>]
+    [<a href="/logo/workflowhub.png">png</a>]
+  <img src="/logo/workflowhub-square.svg" style="margin-left: 1em; max-width: 30%; max-height: 5em; vertical-align: middle" />
+    [<a href="/logo/workflowhub-square.svg">svg</a>]
+    [<a href="/logo/workflowhub-square.png">png</a>]
+  <img src="/logo/ro-crate-workflow.svg" style="margin-left: 1em; max-width: 30%; max-height: 5em; vertical-align: middle" />
+    [<a href="/logo/ro-crate-workflow.svg">svg</a>]
+    [<a href="/logo/ro-crate-workflow.png">png</a>]
+</p>

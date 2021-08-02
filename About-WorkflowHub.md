@@ -29,7 +29,7 @@ Aims of the project include:
 ### WfCommons and WorkflowHub
 
 Note that the US-based [WfCommons](https://wfcommons.org/), a framework for enabling scientific workflow research and development, was previously [called "WorkflowHub"](https://doi.org/10.1109/WORKS51914.2020.00012). While that framework is not related to the registry workflowhub.eu, this name collision could cause some confusion, so in common agreement with Rafael Ferreira da Silva, their former domain name `workflowhub.org` 
-now redirect to our workflow registry <https://workflowhub.eu/> while their framework was renamed to "WfCommons" and moved to <https://wfcommons.org/> 
+now kindly redirect to our workflow registry <https://workflowhub.eu/> while their framework was renamed to "WfCommons" and moved to <https://wfcommons.org/> 
 
 
 ## Mission Statement

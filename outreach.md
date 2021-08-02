@@ -54,7 +54,10 @@ Carole Goble (2021):
 _[ICTESSH 2021](http://ictessh.uns.ac.rs/)_ (International Conference on ICT enhanced Social Sciences and Humanities 2021), 2021-06-30
 
 Carole Goble (2021):
-[**The EOSC-Life Workflow Collaboratory**](https://https://repository.eoscsecretariat.eu/index.php/s/ERebmpJcyjFRqcx/download?path=%2F17%20June%2F0900%20-%20Engagement%20and%20cross-fertilisation%20between%20RIs%20and%20the%20EOSC%20ecosystem&files=06%20-%20Carole%20Goble%20-%20EOSC-Life%20Workflow%20Collaboratory.pdf&downloadStartSecret=vosdn62bqb). _[EOSC Symposium 2021](https://www.eoscsecretariat.eu/eosc-symposium-2021-programme)_, 2021-06-17 
+[**The EOSC-Life Workflow Collaboratory**]. _[EOSC Symposium 2021](https://www.eoscsecretariat.eu/eosc-symposium-2021-programme)_, 2021-06-17 
+
+Laura Rodríguez-Navas (2021):
+[**WfExS: a software component to enable the use of RO-Crate in the EOSC-Life tools collaboratory**]. _[EOSC Symposium 2021](https://www.eoscsecretariat.eu/eosc-symposium-2021-programme)_, 2021-06-17
 
 Stian Soiland-Reyes (2021):
 [**Capturing Just Enough Data, Software and Metadata with RO-Crate**](http://slides.com/soilandreyes/2021-06-17-capturing-just-enough-with-ro-crate).
@@ -78,18 +81,6 @@ Carole Goble, Stian Soiland-Reyes (2021):
 [**RO-Crate: A framework for packaging research products into FAIR Research Objects**](https://www.slideshare.net/carolegoble/rocrate-a-framework-for-packaging-research-products-into-fair-research-objects).  
 [_RDA IG Data Fabric: FAIR Digital Objects_](https://www.rd-alliance.org/group/data-fabric-ig/wiki/rda-ig-data-fabric-fair-digital-objects) 2021-02-25.
 [[Video recording](https://www.youtube.com/watch?v=pz-MLdI7GLA)] [[slides](https://www.slideshare.net/carolegoble/rocrate-a-framework-for-packaging-research-products-into-fair-research-objects)]
-
-Carole Goble (2020):
-[**The WorkflowHub.eu FAIR workflow registry**](https://docs.google.com/presentation/d/1lYAdqm7RESqA9zplTXd4JFJUmome66ui/edit#slide=id.p6)
-_FAIR Workflows_ workshop at [International FAIR Convergence Symposium](https://www.go-fair.org/events/international-fair-convergence-symposium/)_, 2020-11-30.
-[Video recording](https://vimeo.com/499270810) 
-[Slides](https://drive.google.com/file/d/1lYAdqm7RESqA9zplTXd4JFJUmome66ui/view?usp=sharing)
-
-Stian Soiland-Reyes (2020):
-[**Packaging workflows with RO-Crate**](https://docs.google.com/presentation/d/1lYAdqm7RESqA9zplTXd4JFJUmome66ui/edit#slide=id.p18)
-_FAIR Workflows_ workshop at [International FAIR Convergence Symposium](https://www.go-fair.org/events/international-fair-convergence-symposium/)_, 2020-11-30.
-[Video recording](https://vimeo.com/499270810) 
-[Slides](https://drive.google.com/file/d/1lYAdqm7RESqA9zplTXd4JFJUmome66ui/view?usp=sharing)
 
 Stian Soiland-Reyes, Ignacio Eguinoa (2020):  
 [**Packaging workflows with RO-Crate**](https://doi.org/10.5281/zenodo.4011999).  

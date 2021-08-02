@@ -70,7 +70,7 @@ _[Dataverse community meeting 2021](https://projects.iq.harvard.edu/dcm2021)_, S
 
 Carole Goble (2021):
 [**Towards FAIR Workflows**](https://gofair.us/assets/slides/2021-06-16-towards-FAIR-workflows.pdf).
-_[GO FAIR US webinar: FAIR Workflows](https://www.go-fair.org/events/go-fair-us-webinar-fair-workflows/), 2021-06-16
+_[GO FAIR US webinar: FAIR Workflows](https://gofair.us/events/2021-06-16-FAIR-Workflows.html), 2021-06-16
 [[video recording](https://www.youtube.com/watch?v=eaObgNzxsqw)]
 [[slides](https://gofair.us/assets/slides/2021-06-16-towards-FAIR-workflows.pdf)]
 

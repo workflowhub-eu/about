@@ -4,7 +4,7 @@
 
 This website describes the open source **project** for developing and running [WorkflowHub](https://workflowhub.eu/).
 
-For more details, see [About WorkflowHub](/About-WorkflowHub) and [FAIR Computational Workflows](/fair-computational-workflows)
+For more details, see [About WorkflowHub](/About-WorkflowHub), [FAIR Computational Workflows](/fair-computational-workflows), [Outreach and Publications](/outreach).
 
 ## Code of conduct
 
@@ -37,6 +37,7 @@ For developer questions such as on REST APIs, RO-Crate, or setting up your own i
 * **Dev instance** <https://dev.workflowhub.eu/> (use for testing; occasionally wiped)
 * **Source**: [seek4science/seek](https://github.com/seek4science/seek/tree/workflow) branch `workflow`
 * **API documentation**: <https://workflowhub.eu/api>
+* **[Outreach and Publications](/outreach/)**
 * **Tasks**: 
   * [WorkflowHub roadmap](roadmap)
   * WorkflowHub implementation <https://github.com/seek4science/seek/projects/3> (SEEK)

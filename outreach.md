@@ -68,7 +68,7 @@ Stian Soiland-Reyes (2021):
 _[Dataverse community meeting 2021](https://projects.iq.harvard.edu/dcm2021)_, Software Metadata and Containerization, 2021-06-17.
 <https://doi.org/10.5281/zenodo.4973678>
 
-Carole Goble (2021):
+Carole Goble, Stian Soiland-Reyes, Stuart Owen, Frederik Coppens (2021):
 [**Towards FAIR Workflows**](https://gofair.us/assets/slides/2021-06-16-towards-FAIR-workflows.pdf).
 _[GO FAIR US webinar: FAIR Workflows](https://gofair.us/events/2021-06-16-FAIR-Workflows.html), 2021-06-16
 [[video recording](https://www.youtube.com/watch?v=eaObgNzxsqw)]

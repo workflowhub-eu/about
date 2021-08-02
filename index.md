@@ -4,7 +4,7 @@
 
 This website describes the open source **project** for developing and running [WorkflowHub](https://workflowhub.eu/).
 
-For more details, see [About WorkflowHub](/About-WorkflowHub).
+For more details, see [About WorkflowHub](/About-WorkflowHub) and [FAIR Computational Workflows](/fair-computational-workflows)
 
 ## Code of conduct
 

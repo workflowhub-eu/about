@@ -61,15 +61,17 @@ See also:
 * ☑ Integration support for Workflow testing with LifeMonitor  
 * ☑ Implementing upload/parsing of Workflow RO-Crates through API
 * ☑ GA4GH TRS request from Galaxy Europe - Full case
+* ☑ Improved versioning support
+* ☑ Metadata about tools natively supported by the WfMS more exposed - working with key WfMS _(PARTIALLY)_
   
 ## July to December 2021
 
 * Implementing the improved directory storage based upon a git backend
 * Improved license selection
 * Displaying Lifemonitor results for Workflow entries
-* Improved versioning support, with automated versioning of Workflows registered from Github
+* Further versioning support, with automated versioning of Workflows registered from Github
 * Assisted registration of Github Workflows  
-* Metadata about tools natively supported by the WfMS more exposed - working with key WfMS
+* Continued Metadata about tools natively supported by the WfMS more exposed - working with key WfMS
 * Linking workflow steps to Bio.tools
 * Nextflow -> CWL Abstract (**volunteers needed**, potential research/MsC project?)
 * RO-Crate profile to describe Workflow Runs, including provenance and results

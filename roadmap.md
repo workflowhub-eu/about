@@ -58,12 +58,16 @@ See also:
 
 ## January to June 2021
 
+* ☑ Integration support for Workflow testing with LifeMonitor  
+* ☑ Implementing upload/parsing of Workflow RO-Crates through API
+* ☑ GA4GH TRS request from Galaxy Europe - Full case
+  
+## July to December 2021
+
 * Implementing the improved directory storage based upon a git backend
 * Improved license selection
+* Displaying Lifemonitor results for Workflow entries
 * Improved versioning support, with automated versioning of Workflows registered from Github
-* Support for submitting Workflow to LifeMonitor  
-* Implementing upload/parsing of Workflow RO-Crates through API
-* GA4GH TRS request from Galaxy Europe - Full case
 * Assisted registration of Github Workflows  
 * Metadata about tools natively supported by the WfMS more exposed - working with key WfMS
 * Linking workflow steps to Bio.tools

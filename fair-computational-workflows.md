@@ -105,6 +105,19 @@ Jeremy Leipzig, Daniel Nüst, Charles Tapley Hoyt, Karthik Ram, Jane Greenberg (
 _Patterns_ **2**(1):100322
 <https://doi.org/10.1016/j.patter.2021.100322>
 
+Anna-Lena Lamprecht, Magnus Palmblad, Jon Ison, Veit Schwämmle,
+Mohammad Sadnan Al Manir, Ilkay Altintas, Christopher J. O. Baker, Ammar Ben Hadj Amor, Salvador Capella-Gutierrez,
+Paulos Charonyktakis, Michael R. Crusoe,
+Yolanda Gil, Carole Goble, Timothy J. Griffin,
+Paul Groth, Hans Ienasescu, Pratik Jagtap,
+Matúš Kalaš, Vedran Kasalica, Alireza Khanteymoori,
+Tobias Kuhn, Hailiang Mei, Hervé Ménager, Steffen Möller, Robin A. Richardson,
+Vincent Robert, Stian Soiland-Reyes, Robert Stevens, Szoke Szaniszlo, 
+Suzan Verberne, Aswin Verhoeven, Katherine Wolstencroft (2021):  
+[**Perspectives on automated composition of workflows in the life sciences** [version 1; peer review: awaiting peer review]](https://doi.org/10.12688/f1000research.54159.1).  
+_F1000Research_ **10**:897  
+<https://doi.org/10.12688/f1000research.54159.1>
+
 Rafael Ferreira da Silva, Henri Casanova, Kyle Chard, Dan Laney, Dong Ahn, Shantenu Jha, Carole Goble, Lavanya Ramakrishnan, Luc Peterson, Bjoern Enders, Douglas Thain, Ilkay Altintas, Yadu Babuji, Rosa Badia, Vivien Bonazzi, Taina Coleman, Michael Crusoe, Ewa Deelman, Frank Di Natale & Paolo Di Tommaso (2021):  
 [**Workflows Community Summit: Bringing the Scientific Workflows Community Together**](https://arxiv.org/pdf/2103.09181.pdf). 
 _Workflows RI_ Technical Report. [arXiv:2103.09181](https://arxiv.org/abs/2103.09181)

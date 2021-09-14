@@ -84,19 +84,26 @@ Related standards for FAIR computational workflows:
 * [Biocompute Objects](https://www.biocomputeobject.org/) and [IEEE 2791-2020](https://doi.org/10.1109/IEEESTD.2020.9094416): standard for describing workflows in regulatory sciences.
 
 
-## References
-
-_Articles below are published as [Open Access](https://www.library.manchester.ac.uk/using-the-library/staff/research/open-research/access/), or with [green open access preprints](https://www.library.manchester.ac.uk/using-the-library/staff/research/open-research/access/understanding/) where gold open access is not possible. Please [let us know](https://github.com/workflowhub-eu/about/issues) if you are unable to access any of our publications. To add to this list, please [suggest a change](https://github.com/workflowhub-eu/about/blob/master/fair-computational-workflows.md)._
+## Cite FAIR Computational Workflows
 
 Carole Goble, Sarah Cohen-Boulakia, Stian Soiland-Reyes, Daniel Garijo, Yolanda Gil, Michael R. Crusoe, Kristian Peters, Daniel Schober (2020):  
 [**FAIR Computational Workflows**](https://doi.org/10.1162/dint_a_00033).  
 _Data Intelligence_  **2**(1):108–121
 <https://doi.org/10.1162/dint_a_00033>
 
-Janno Harjes, Anton Link, Tanja Weibulat, Dagmar Triebel, Gerhard Rambold (2020):  
-[**FAIR digital objects in environmental and life sciences should comprise workflow operation design data and method information for repeatability of study setups and reproducibility of results**](https://doi.org/10.1093/database/baaa059)
-_Database_ **2020**:baaa059   
-<https://doi.org/10.1093/database/baaa059
+## References
+
+_Articles below are published as [Open Access](https://www.library.manchester.ac.uk/using-the-library/staff/research/open-research/access/), or with [green open access preprints](https://www.library.manchester.ac.uk/using-the-library/staff/research/open-research/access/understanding/) where gold open access is not possible. Please [let us know](https://github.com/workflowhub-eu/about/issues) if you are unable to access any of our publications. To add to this list, please [suggest a change](https://github.com/workflowhub-eu/about/blob/master/fair-computational-workflows.md)._
+
+Stian Soiland-Reyes, Peter Sefton, Mercè Crosas, Leyla Jael Castro, Frederik Coppens, José M. Fernández, Daniel Garijo, Björn Grüning, Marco La Rosa, Simone Leo, Eoghan Ó Carragáin, Marc Portier, Ana Trisovic, RO-Crate Community, Paul Groth, Carole Goble (2021):  
+[**Packaging research artefacts with RO-Crate**](https://stain.github.io/ro-crate-paper/).  
+[arXiv:2108.06503v1](https://arxiv.org/abs/arXiv:2108.06503v1) [cs.DL]
+<https://doi.org/10.5281/zenodo.5146228> 
+
+Jeremy Leipzig, Daniel Nüst, Charles Tapley Hoyt, Karthik Ram, Jane Greenberg (2021):  
+[**The role of metadata in reproducible computational research**](https://arxiv.org/pdf/2006.08589.pdf)  
+_Patterns_ **2**(1):100322
+<https://doi.org/10.1016/j.patter.2021.100322>
 
 Rafael Ferreira da Silva, Henri Casanova, Kyle Chard, Dan Laney, Dong Ahn, Shantenu Jha, Carole Goble, Lavanya Ramakrishnan, Luc Peterson, Bjoern Enders, Douglas Thain, Ilkay Altintas, Yadu Babuji, Rosa Badia, Vivien Bonazzi, Taina Coleman, Michael Crusoe, Ewa Deelman, Frank Di Natale & Paolo Di Tommaso (2021):  
 [**Workflows Community Summit: Bringing the Scientific Workflows Community Together**](https://arxiv.org/pdf/2103.09181.pdf). 
@@ -121,9 +128,16 @@ Daniel S. Katz, Morane Gruenpeter, Tom Honeyman, Lorraine Hwang, Mark D. Wilkins
 [**A Fresh Look at FAIR for Research Software**](https://arxiv.org/pdf/2101.10883).
 [arXiv:2101.10883](https://arxiv.org/abs/2101.10883)
 
-Jeremy Leipzig, Daniel Nüst, Charles Tapley Hoyt, Stian Soiland-Reyes, Karthik Ram, Jane Greenberg (2020):  
-[**The role of metadata in reproducible computational research**](https://arxiv.org/pdf/2006.08589.pdf).   
-[arXiv:2006.08589](https://arxiv.org/abs/2006.08589) [[pdf](https://arxiv.org/pdf/2006.08589.pdf)]
+Carole Goble, Sarah Cohen-Boulakia, Stian Soiland-Reyes, Daniel Garijo, Yolanda Gil, Michael R. Crusoe, Kristian Peters, Daniel Schober (2020):  
+[**FAIR Computational Workflows**](https://doi.org/10.1162/dint_a_00033).  
+_Data Intelligence_  **2**(1):108–121
+<https://doi.org/10.1162/dint_a_00033>
+
+Janno Harjes, Anton Link, Tanja Weibulat, Dagmar Triebel, Gerhard Rambold (2020):  
+[**FAIR digital objects in environmental and life sciences should comprise workflow operation design data and method information for repeatability of study setups and reproducibility of results**](https://doi.org/10.1093/database/baaa059)
+_Database_ **2020**:baaa059   
+<https://doi.org/10.1093/database/baaa059
+
 
 Anna-Lena Lamprecht, Leyla Garcia, Mateusz Kuzak, Carlos Martinez, Ricardo Arcila, Eva Martin Del Pico, Victoria Dominguez Del Angel, Stephanie Van De Sandt, Jon Ison, Paula Andrea Martinez, Peter Mcquilton, Alfonso Valencia, Jennifer Harrow, Fotis Psomopoulos, Josep Ll. Gelpi, Neil Chue Hong, Carole Goble, Salvador Capella-Gutierrez (2020):  
 [**Towards FAIR principles for research software**](https://doi.org/10.3233/DS-190026).  

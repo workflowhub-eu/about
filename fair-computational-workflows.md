@@ -105,7 +105,7 @@ Jeremy Leipzig, Daniel Nüst, Charles Tapley Hoyt, Karthik Ram, Jane Greenberg (
 _Patterns_ **2**(1):100322
 <https://doi.org/10.1016/j.patter.2021.100322>
 
-Sveinung Gundersen, Sanjay Boddu, Salvador Capella-Gutierrez, Finn Drabløs, José M. Fernández, Radmila Kompova1, Kieron Taylor, Dmytro Titov1, Daniel Zerbino, Eivind Hovig (2021):  
+Sveinung Gundersen, Sanjay Boddu, Salvador Capella-Gutierrez, Finn Drabløs, José M. Fernández, Radmila Kompova, Kieron Taylor, Dmytro Titov, Daniel Zerbino, Eivind Hovig (2021):  
 [**Recommendations for the FAIRification of genomic track metadata** [version 1; peer review: 2 approved]](https://doi.org/10.12688/f1000research.28449.1)
 _F1000Research_ **10**(ELIXIR):268 
 <https://doi.org/10.12688/f1000research.28449.1>

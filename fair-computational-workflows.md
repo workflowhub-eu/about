@@ -16,6 +16,15 @@ Adapted from the article **FAIR Computational Workflows** <https://doi.org/10.11
 
 This page is a gathering of community resources and literature on FAIR Computational Workflows. Feel free to [suggest a change](https://github.com/workflowhub-eu/about/blob/master/fair-computational-workflows.md) to help improve this page!
 
+
+## Cite FAIR Computational Workflows
+
+Carole Goble, Sarah Cohen-Boulakia, Stian Soiland-Reyes, Daniel Garijo, Yolanda Gil, Michael R. Crusoe, Kristian Peters, Daniel Schober (2020):  
+[**FAIR Computational Workflows**](https://doi.org/10.1162/dint_a_00033).  
+_Data Intelligence_  **2**(1):108–121
+<https://doi.org/10.1162/dint_a_00033>
+
+
 ## Events and talks
 
 Related past and upcoming events:
@@ -83,13 +92,6 @@ Related standards for FAIR computational workflows:
 * [Bioschemas](https://bioschemas.org/) – improve findability of FAIR life science resources on the Web, including [computational workflows](https://bioschemas.org/profiles/ComputationalWorkflow/) and [computational tools](https://bioschemas.org/profiles/ComputationalTool/)
 * [Biocompute Objects](https://www.biocomputeobject.org/) and [IEEE 2791-2020](https://doi.org/10.1109/IEEESTD.2020.9094416): standard for describing workflows in regulatory sciences.
 
-
-## Cite FAIR Computational Workflows
-
-Carole Goble, Sarah Cohen-Boulakia, Stian Soiland-Reyes, Daniel Garijo, Yolanda Gil, Michael R. Crusoe, Kristian Peters, Daniel Schober (2020):  
-[**FAIR Computational Workflows**](https://doi.org/10.1162/dint_a_00033).  
-_Data Intelligence_  **2**(1):108–121
-<https://doi.org/10.1162/dint_a_00033>
 
 ## References
 

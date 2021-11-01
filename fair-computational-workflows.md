@@ -30,8 +30,8 @@ _Data Intelligence_  **2**(1):108–121
 Related past and upcoming events:
 
 * 2022-01-10/--13: [Semantic Web Infrastructures and Resources in Healthcare and Life Science](http://www.swat4ls.org/workshops/leiden2022/call-for-papers/) (SWAT4LS), Leiden, The Netherlands
-* 2021-11-03/--11: [Research Data Alliance (RDA) 18th Plenary Meeting](https://www.rd-alliance.org/plenaries/rda-18th-plenary-meeting-virtual)
-* 2021-12-07/--09: [FORCE2021](https://www.force11.org/meetings/force2021), FORCE11 annual conference
+* 2021-11-03/--11: [Research Data Alliance (RDA) 18th Plenary Meeting](https://www.rd-alliance.org/plenaries/rda-18th-plenary-meeting-virtual) (virtual)
+* 2021-12-07/--09: [FORCE2021](https://www.force11.org/meetings/force2021), FORCE11 annual conference (virtual)
 * 2021-11-15: [16th Workshop on Workflows in Support of Large-Scale Science](https://works-workshop.org/), SC21: The International Conference for High Performance Computing (Virtual)
 * 2021-10-24: [DaMaLOS 2021](https://zbmed.github.io/damalos/) – 2nd Workshop on Data and research objects management for Linked Open Science, co-located with [ISWC 2021](https://iswc2021.semanticweb.org/)
   - [Programme](https://zbmed.github.io/damalos/docs/schedule.html) (proceedings to appear)

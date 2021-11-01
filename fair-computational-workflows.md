@@ -102,8 +102,14 @@ Related standards for FAIR computational workflows:
 
 _Articles below are published as [Open Access](https://www.library.manchester.ac.uk/using-the-library/staff/research/open-research/access/), or with [green open access preprints](https://www.library.manchester.ac.uk/using-the-library/staff/research/open-research/access/understanding/) where gold open access is not possible. Please [let us know](https://github.com/workflowhub-eu/about/issues) if you are unable to access any of our publications. To add to this list, please [suggest a change](https://github.com/workflowhub-eu/about/blob/master/fair-computational-workflows.md)._
 
+Paul Brack, Peter Crowther, Stian Soiland-Reyes, Stuart Owen, Douglas Lowe, Alan R Williams, Quentin Groom, Mathias Dillen, Frederik Coppens, Björn Grüning, Ignacio Eguinoa, Philip Ewels, Carole Goble (2021):  
+[**10 Simple Rules for making a software tool workflow-ready**](https://zenodo.org/record/5636487/preview/10_simple_rules_for_making_a_software_tool_workflow-ready--PREPRINT.pdf)  
+(submitted) _Zenodo_  
+<https://doi.org/10.5281/zenodo.5636487>
+
 Stian Soiland-Reyes, Peter Sefton, Mercè Crosas, Leyla Jael Castro, Frederik Coppens, José M. Fernández, Daniel Garijo, Björn Grüning, Marco La Rosa, Simone Leo, Eoghan Ó Carragáin, Marc Portier, Ana Trisovic, RO-Crate Community, Paul Groth, Carole Goble (2021):  
 [**Packaging research artefacts with RO-Crate**](https://stain.github.io/ro-crate-paper/).  
+_Data Science_ (accepted)
 [arXiv:2108.06503v1](https://arxiv.org/abs/arXiv:2108.06503v1) [cs.DL]
 <https://doi.org/10.5281/zenodo.5146228> 
 

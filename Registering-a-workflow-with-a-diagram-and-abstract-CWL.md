@@ -63,6 +63,6 @@ If the workflow came from an external repository (i.e. GitHub), you can include 
 ##  Check the uploaded workflow
 
 Make sure that all the metadata you filled in previously is showed properly and is correct.  WorkflowHub generates an RO-crate based on these files and the metadata you filled in while registering the workflow.
-Click **Download RO crate** to check wether all metadata files (JSONLD and HTML) are correctly generated.
+Click **Download RO-Crate** to check wether all metadata files (JSONLD and HTML) are correctly generated.
 
 ![](images/result_diagram_CWLabstract.PNG)

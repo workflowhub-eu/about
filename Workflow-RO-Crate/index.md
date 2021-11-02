@@ -45,13 +45,13 @@
 
 *Please note* this is a draft spec and subject to change. Please leave any suggestions and comments here: [https://github.com/seek4science/seek/issues/183](https://github.com/seek4science/seek/issues/183)
 
-_Workflow RO Crates_ are a specialization of [_RO Crate_](https://researchobject.github.io/ro-crate/) for packaging an executable workflow with all necessary documentation. It is aligned with, and intends to strictly extend, the more general [Bioschemas ComputatioonalWorkflow profile](https://bioschemas.org/profiles/ComputationalWorkflow/1.0-RELEASE/). 
+_Workflow RO-Crates_ are a specialization of [_RO-Crate_](https://researchobject.github.io/ro-crate/) for packaging an executable workflow with all necessary documentation. It is aligned with, and intends to strictly extend, the more general [Bioschemas ComputatioonalWorkflow profile](https://bioschemas.org/profiles/ComputationalWorkflow/1.0-RELEASE/). 
 
-WorkflowHub uses _Workflow RO Crates_ as an exchange format for users to upload a packaged workflow. 
+WorkflowHub uses _Workflow RO-Crates_ as an exchange format for users to upload a packaged workflow. 
 
 ## Concepts
 
-This section uses terminology from the [RO Crate 1.1 specification](https://w3id.org/ro/crate/1.1).
+This section uses terminology from the [RO-Crate 1.1 specification](https://w3id.org/ro/crate/1.1).
 
 ### Main Workflow
 
@@ -87,7 +87,7 @@ The _Crate_ COULD contain a Dataset (directory) data entity of type `["Dataset"]
 
 ### File Format
 
-The Workflow RO Crate must be zipped, and have the file extension `.crate.zip` to be recognized by WorkflowHub.
+The Workflow RO-Crate must be zipped, and have the file extension `.crate.zip` to be recognized by WorkflowHub.
 
 ### Extracted Metadata
 
@@ -108,7 +108,7 @@ If the _Main Workflow Diagram_ is present, it will also be rendered on the page.
 
 WorkflowHub currently supports CWL, Galaxy, KNIME and Nextflow workflow types.
 
-To ensure compatibility, please include one of the following in the RO Crate metadata, and refer to it from the _Main Workflow_'s `programmingLanguage`.
+To ensure compatibility, please include one of the following in the RO-Crate metadata, and refer to it from the _Main Workflow_'s `programmingLanguage`.
 
 #### CWL
 ```json
@@ -272,7 +272,7 @@ Although the Crate's `license` field should be a URL, WorkflowHub currently acce
 * `notspecified` - [No license - no permission to use unless the owner grants a licence](https://choosealicense.com/no-permission/)
 
 ### ro-crate-metadata.jsonld Example
-A minimal example of _Workflow RO Crate_ metadata, containing a CWL workflow, an SVG diagram of that workflow and a README file.
+A minimal example of _Workflow RO-Crate_ metadata, containing a CWL workflow, an SVG diagram of that workflow and a README file.
 
 ```json
 {
@@ -299,7 +299,7 @@ A minimal example of _Workflow RO Crate_ metadata, containing a CWL workflow, an
       "@id": "./",
       "@type": "Dataset",
       "name": "Example Workflow",
-      "description": "An example workflow RO Crate",
+      "description": "An example workflow RO-Crate",
       "license": "Apache-2.0",
       "mainEntity": {
         "@id": "example_workflow.cwl"

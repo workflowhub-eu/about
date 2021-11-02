@@ -33,7 +33,7 @@
       "@id": "./",
       "@type": "Dataset",
       "name": "Example Workflow",
-      "description": "An example workflow RO Crate",
+      "description": "An example workflow RO-Crate",
       "license": "Apache-2.0",
       "mainEntity": {
         "@id": "example_workflow.cwl"

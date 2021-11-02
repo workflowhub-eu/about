@@ -2,7 +2,7 @@
 
 Creating workflow RO-crates can be done using the [ro-crate-py ](https://github.com/ResearchObject/ro-crate-py) package. This gives you the advantage that you are not bound by the file limitations the workflow registration can give you. 
 
-## Referring or uploading the RO crate
+## Referring or uploading the RO-Crate
 
 The workflow RO-crate can be registered in two ways, uploading through the **Local file** tab or referencing through the **Remote URL** tab. We recommend referencing the files, for example towards a github repo. 
 

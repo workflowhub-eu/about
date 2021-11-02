@@ -24,7 +24,7 @@
         "@id": "https://github.com/seek4science/seek/issues/183"
       },
       "datePublished": "2021-06-23T18:43:00.000Z",
-      "description": "This is the Profile Crate for Workflow RO-Crate. Workflow RO-Crates are a specialization of RO-Crate for packaging an executable workflow with all necessary documentation. It is aligned with, and intends to strictly extend, the more general Bioschemas ComputationalWorkflow profile.\n\nWorkflowHub uses Workflow RO Crates as an exchange format for users to upload a packaged workflow.",
+      "description": "This is the Profile Crate for Workflow RO-Crate. Workflow RO-Crates are a specialization of RO-Crate for packaging an executable workflow with all necessary documentation. It is aligned with, and intends to strictly extend, the more general Bioschemas ComputationalWorkflow profile.\n\nWorkflowHub uses Workflow RO-Crates as an exchange format for users to upload a packaged workflow.",
       "hasPart": [
         {
           "@id": "index.html"
@@ -537,7 +537,7 @@
       "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/263",
       "@type": "WebSite",
       "name": "ZIP Format",
-      "conditionsOfAccess": "The Workflow RO Crate must be zipped, and have the file extension .crate.zip to be recognized by WorkflowHub."
+      "conditionsOfAccess": "The Workflow RO-Crate must be zipped, and have the file extension .crate.zip to be recognized by WorkflowHub."
     },
     {
       "@id": "http://schema.org/HowTo",
@@ -1116,7 +1116,7 @@
     {
       "@id": "https://github.com/seek4science/seek/issues/183",
       "@type": "ContactPoint",
-      "name": "Comments on Workflow RO Crate spec (GitHub)",
+      "name": "Comments on Workflow RO-Crate spec (GitHub)",
       "url": "https://github.com/seek4science/seek/issues/183"
     }
 

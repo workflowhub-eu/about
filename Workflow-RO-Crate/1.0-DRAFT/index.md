@@ -91,7 +91,7 @@ If  _Main Workflow Diagram_ is present, the _Main Workflow_ MUST refer to it via
 
 The _Crate_ MUST specify a `license`. The license is assumed to apply to any content of the crate, unless overriden by `license` on individual `File` entities.
 
-The _Crate_ SHOULD contain README.md at the root level.
+The _Crate_ SHOULD contain a File `README.md` at the root level. If present, it SHOULD be `about` the _Crate_ `./` and SHOULD have `text/markdown` as its `encodingFormat`.
 
 The _Crate_ COULD contain a Dataset (directory) data entity of type `["Dataset"]` named "test" to hold tests.
 

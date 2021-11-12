@@ -89,7 +89,7 @@ If  _Main Workflow Diagram_ is present, the _Main Workflow_ MUST refer to it via
 
 ### Crate
 
-The _Crate_ MUST specify a `license`.
+The _Crate_ MUST specify a `license`. The license is assumed to apply to any content of the crate, unless overriden by `license` on individual `File` entities.
 
 The _Crate_ SHOULD contain README.md at the root level.
 

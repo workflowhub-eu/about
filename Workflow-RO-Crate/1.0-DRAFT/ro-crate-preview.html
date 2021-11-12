@@ -11,26 +11,31 @@
     {
       "@id": "ro-crate-metadata.json",
       "@type": "CreativeWork",
-      "conformsTo": {
-        "@id": "https://w3id.org/ro/crate/1.1"
-      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/crate/1.1"
+        },
+        {
+          "@id": "https://www.researchobject.org/ro-crate/1.2-DRAFT/profiles"
+        }
+      ],
       "about": {
-        "@id": "./"
+        "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"
       },
       "license": {
         "@id": "http://spdx.org/licenses/CC0-1.0"
       }
     },
     {
-      "@id": "./",
+      "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0",
       "@type": "Dataset",
       "author": {
-        "@id": "https://orcid.org/0000-01.0.0048-3300"
+        "@id": "https://orcid.org/0000-0002-0048-3300"
       },
       "contactPoint": {
         "@id": "https://github.com/seek4science/seek/issues/183"
       },
-      "datePublished": "2021-06-23T18:43:00.000Z",
+      "datePublished": "2021-11-11T18:30:00.000Z",
       "description": "This is the Profile Crate for Workflow RO-Crate. Workflow RO-Crates are a specialization of RO-Crate for packaging an executable workflow with all necessary documentation. It is aligned with, and intends to strictly extend, the more general Bioschemas ComputationalWorkflow profile.\n\nWorkflowHub uses Workflow RO-Crates as an exchange format for users to upload a packaged workflow.",
       "hasPart": [
         {
@@ -76,13 +81,16 @@
           "@id": "https://github.com/KockataEPich/CheckMyCrate/blob/master/CheckMyCrate/profile_library/ro_crate_1.1_basic.json"
         }
       ],
-      "identifier": "https://about.workflowhub.eu/Workflow-RO-Crate/",
+      "identifier": "https://w3id.org/workflowhub/workflow-ro-crate/1.0",
       "license": {
         "@id": "https://spdx.org/licenses/BSD-3-Clause"
       },
       "name": "Workflow RO-Crate profile",
       "publisher": {
-        "@id": "https://about.workflowhub.eu/"
+        "@id": "https://w3id.org/workflowhub/"
+      },
+      "subjectOf": {
+        "@id": "ro-crate-preview.html"
       },
       "version": "1.0.0",
       "workExample": {
@@ -210,12 +218,12 @@
       "@reverse": {
         "hasPart": [
           {
-            "@id": "./"
+            "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"
           }
         ],
         "workExample": [
           {
-            "@id": "./"
+            "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"
           }
         ]
       }
@@ -224,10 +232,38 @@
       "@id": "example/ro-crate-preview.html",
       "@type": "CreativeWork",
       "name": "Preview of example RO-Crate",
+      "encodingFormat": "text/html",
       "@reverse": {
         "subjectOf": [
           {
             "@id": "example/"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "ro-crate-preview.html",
+      "@type": "CreativeWork",
+      "name": "Preview of Workflow RO-Crate",
+      "encodingFormat": "text/html",
+      "about": "./",
+      "@reverse": {
+        "subjectOf": [
+          {
+            "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "https://www.researchobject.org/ro-crate/1.2-DRAFT/profiles",
+      "@type": "CreativeWork",
+      "name": "Profile Crate",
+      "version": "1.2-DRAFT",
+      "@reverse": {
+        "conformsTo": [
+          {
+            "@id": "ro-crate-metadata.json"
           }
         ]
       }
@@ -240,7 +276,7 @@
           "@id": "https://w3id.org/ro/crate/1.1"
         },
         {
-          "@id": "./"
+          "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"
         }
       ],
       "encodingFormat": "application/json",
@@ -258,10 +294,10 @@
     {
       "@id": "index.html",
       "@type": "File",
-      "about": "./",
+      "about": "https://w3id.org/workflowhub/workflow-ro-crate/1.0",
       "author": [
         {
-          "@id": "https://orcid.org/0000-01.0.0048-3300"
+          "@id": "https://orcid.org/0000-0002-0048-3300"
         },
         {
           "@id": "https://orcid.org/0000-0003-3156-2105"
@@ -270,12 +306,12 @@
           "@id": "https://orcid.org/0000-0003-2130-0865"
         }
       ],
-      "dateModified": "2021-06-24T16:09:24.045Z",
+      "dateModified": "2021-11-11T18:30:00.000Z",
       "name": "Workflow RO-Crate profile description",
       "@reverse": {
         "hasPart": [
           {
-            "@id": "./"
+            "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"
           }
         ]
       }
@@ -305,7 +341,7 @@
       "@reverse": {
         "hasPart": [
           {
-            "@id": "./"
+            "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"
           }
         ]
       }
@@ -569,7 +605,7 @@
       "@reverse": {
         "hasPart": [
           {
-            "@id": "./"
+            "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"
           }
         ]
       }
@@ -580,13 +616,13 @@
       "name": "Stian Soiland-Reyes"
     },
     {
-      "@id": "https://orcid.org/0000-01.0.0048-3300",
+      "@id": "https://orcid.org/0000-0002-0048-3300",
       "@type": "Person",
       "name": "Finn Bacall",
       "@reverse": {
         "author": [
           {
-            "@id": "./"
+            "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"
           },
           {
             "@id": "index.html"
@@ -627,14 +663,14 @@
       "@id": "https://pypi.org/project/rocrate/",
       "@type": "SoftwareApplication",
       "description": "Python library to create/parse RO-Crate (Research Object Crate) metadata.",
-      "identifier": "https://doi.org/10.5281/zenodo.4705143",
+      "identifier": "https://doi.org/10.5281/zenodo.5653266",
       "name": "ro-crate-py",
       "url": "https://pypi.org/project/rocrate/",
-      "version": "0.4.0",
+      "version": "0.5.0",
       "@reverse": {
         "hasPart": [
           {
-            "@id": "./"
+            "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"
           }
         ]
       }
@@ -648,7 +684,7 @@
       "@reverse": {
         "license": [
           {
-            "@id": "./"
+            "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"
           }
         ]
       }
@@ -667,7 +703,7 @@
       "@reverse": {
         "hasPart": [
           {
-            "@id": "./"
+            "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"
           }
         ]
       }
@@ -678,13 +714,13 @@
       "description": "WorkflowHub is a registry for describing, sharing and publishing scientific computational workflows.",
       "name": "WorkflowHub",
       "publisher": {
-        "@id": "https://about.workflowhub.eu/"
+        "@id": "https://w3id.org/workflowhub/"
       },
       "title": "WorkflowHub",
       "@reverse": {
         "hasPart": [
           {
-            "@id": "./"
+            "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"
           }
         ]
       }
@@ -693,11 +729,11 @@
       "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/263",
       "@type": "WebSite",
       "name": "ZIP Format",
-      "conditionsOfAccess": "The Workflow RO-Crate must be zipped, and have the file extension .crate.zip to be recognized by WorkflowHub.",
+      "conditionsOfAccess": "The Workflow RO-Crate must be zipped, and have the file extension .crate.zip to be recognized by WorkflowHub. The ro-crate-metadata.json file should be directly in the root of the zip archive.",
       "@reverse": {
         "hasPart": [
           {
-            "@id": "./"
+            "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"
           }
         ]
       }
@@ -712,7 +748,7 @@
       "@reverse": {
         "hasPart": [
           {
-            "@id": "./"
+            "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"
           }
         ]
       }
@@ -727,7 +763,7 @@
       "@reverse": {
         "hasPart": [
           {
-            "@id": "./"
+            "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"
           }
         ]
       }
@@ -1836,13 +1872,13 @@
       }
     },
     {
-      "@id": "https://about.workflowhub.eu/",
+      "@id": "https://w3id.org/workflowhub/",
       "@type": "Organization",
       "name": "WorkflowHub project",
       "@reverse": {
         "publisher": [
           {
-            "@id": "./"
+            "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"
           },
           {
             "@id": "https://workflowhub.eu/"
@@ -1862,7 +1898,7 @@
       "@reverse": {
         "hasPart": [
           {
-            "@id": "./"
+            "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"
           }
         ]
       }
@@ -1878,7 +1914,7 @@
       "@reverse": {
         "hasPart": [
           {
-            "@id": "./"
+            "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"
           }
         ]
       }
@@ -1914,7 +1950,7 @@
       "@reverse": {
         "hasPart": [
           {
-            "@id": "./"
+            "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"
           }
         ]
       }
@@ -1929,7 +1965,7 @@
       "@reverse": {
         "hasPart": [
           {
-            "@id": "./"
+            "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"
           }
         ]
       }
@@ -1942,7 +1978,7 @@
       "@reverse": {
         "contactPoint": [
           {
-            "@id": "./"
+            "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"
           }
         ]
       }
@@ -1955,12 +1991,9 @@
 <!-- script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script -->
 <script src="https://unpkg.com/ro-crate-html-js/dist/ro-crate-dynamic.js"></script>
 
-<link rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-      crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <meta charset='utf-8'/>
 <style>
@@ -1988,7 +2021,11 @@ table.table {
 
 
 <a href="./ro-crate-metadata.json">⬇️🏷️ Download all the metadata for <span class='name'>Workflow RO-Crate profile</span> in JSON-LD format</a>
+
+
 <div id="check"></div>
+
+
 </div>
 
 
@@ -1996,17 +2033,17 @@ table.table {
 <div id="summary">
 <div class='all-meta'>
            <div>
-            <h3> Workflow RO-Crate profile</h3>
+            <h3><a href="https://w3id.org/workflowhub/workflow-ro-crate/1.0">Go to: </a> Workflow RO-Crate profile</h3>
             
             
             
             
-        <div id="./">
+        <div id="https://w3id.org/workflowhub/workflow-ro-crate/1.0">
             
             <table class="table metadata table-striped" >
                 <tbody><tr>
             <th style="text-align:left;" class="prop">@id</th>
-            <td style='text-align:left'><span>./</span></td>
+            <td style='text-align:left'><a href="https://w3id.org/workflowhub/workflow-ro-crate/1.0">https://w3id.org/workflowhub/workflow-ro-crate/1.0</a></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
             <td style='text-align:left'><span>Workflow RO-Crate profile</span></td>
@@ -2020,10 +2057,10 @@ table.table {
 WorkflowHub uses Workflow RO-Crates as an exchange format for users to upload a packaged workflow.</span></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">datePublished<span>&nbsp;</span><a href="http://schema.org/datePublished">[?]</a></th>
-            <td style='text-align:left'><span>2021-06-23T18:43:00.000Z</span></td>
+            <td style='text-align:left'><span>2021-11-11T18:30:00.000Z</span></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">author<span>&nbsp;</span><a href="http://schema.org/author">[?]</a></th>
-            <td style='text-align:left'><a href="#https%3A//orcid.org/0000-01.0.0048-3300">Finn Bacall</a></td>
+            <td style='text-align:left'><a href="#https%3A//orcid.org/0000-0002-0048-3300">Finn Bacall</a></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">contactPoint<span>&nbsp;</span><a href="http://schema.org/contactPoint">[?]</a></th>
             <td style='text-align:left'><a href="#https%3A//github.com/seek4science/seek/issues/183">Comments on Workflow RO-Crate spec (GitHub)</a></td>
@@ -2060,13 +2097,16 @@ WorkflowHub uses Workflow RO-Crates as an exchange format for users to upload a 
                         </ul></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">identifier<span>&nbsp;</span><a href="http://schema.org/identifier">[?]</a></th>
-            <td style='text-align:left'></td>
+            <td style='text-align:left'><a href="https://w3id.org/workflowhub/workflow-ro-crate/1.0">https://w3id.org/workflowhub/workflow-ro-crate/1.0</a></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">license<span>&nbsp;</span><a href="http://schema.org/license">[?]</a></th>
             <td style='text-align:left'><a href="#https%3A//spdx.org/licenses/BSD-3-Clause">BSD 3-Clause "New" or "Revised" License</a></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">publisher<span>&nbsp;</span><a href="http://schema.org/publisher">[?]</a></th>
-            <td style='text-align:left'><a href="#https%3A//about.workflowhub.eu/">WorkflowHub project</a></td>
+            <td style='text-align:left'><a href="#https%3A//w3id.org/workflowhub/">WorkflowHub project</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">subjectOf<span>&nbsp;</span><a href="http://schema.org/subjectOf">[?]</a></th>
+            <td style='text-align:left'><a href="#ro-crate-preview.html">Preview of Workflow RO-Crate</a></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">version<span>&nbsp;</span><a href="http://schema.org/version">[?]</a></th>
             <td style='text-align:left'><span>1.0.0</span></td>
@@ -2086,17 +2126,17 @@ WorkflowHub uses Workflow RO-Crates as an exchange format for users to upload a 
         </div>
         <hr/><br/><br/>
            <div>
-            <h3><a href="https://orcid.org/0000-01.0.0048-3300">Go to: </a> Finn Bacall</h3>
+            <h3><a href="https://orcid.org/0000-0002-0048-3300">Go to: </a> Finn Bacall</h3>
             
             
             
             
-        <div id="https://orcid.org/0000-01.0.0048-3300">
+        <div id="https://orcid.org/0000-0002-0048-3300">
             
             <table class="table metadata table-striped" >
                 <tbody><tr>
             <th style="text-align:left;" class="prop">@id</th>
-            <td style='text-align:left'></td>
+            <td style='text-align:left'><a href="https://orcid.org/0000-0002-0048-3300">https://orcid.org/0000-0002-0048-3300</a></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
             <td style='text-align:left'><span>Finn Bacall</span></td>
@@ -2106,7 +2146,7 @@ WorkflowHub uses Workflow RO-Crates as an exchange format for users to upload a 
             </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
             <th style="text-align:left;" class="prop">author<span>&nbsp;</span><a href="http://schema.org/author">[?]</a></th>
             <td style='text-align:left'><ul>
-                        <li><a href="#./">Workflow RO-Crate profile</a></li>
+                        <li><a href="#https%3A//w3id.org/workflowhub/workflow-ro-crate/1.0">Workflow RO-Crate profile</a></li>
                         
                         <li><a href="#index.html">Workflow RO-Crate profile description</a></li>
                         </ul></td>
@@ -2127,7 +2167,7 @@ WorkflowHub uses Workflow RO-Crates as an exchange format for users to upload a 
             <table class="table metadata table-striped" >
                 <tbody><tr>
             <th style="text-align:left;" class="prop">@id</th>
-            <td style='text-align:left'></td>
+            <td style='text-align:left'><a href="https://github.com/seek4science/seek/issues/183">https://github.com/seek4science/seek/issues/183</a></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
             <td style='text-align:left'><span>Comments on Workflow RO-Crate spec (GitHub)</span></td>
@@ -2136,10 +2176,10 @@ WorkflowHub uses Workflow RO-Crates as an exchange format for users to upload a 
             <td style='text-align:left'><span>ContactPoint</span></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">url<span>&nbsp;</span><a href="http://schema.org/url">[?]</a></th>
-            <td style='text-align:left'></td>
+            <td style='text-align:left'><a href="https://github.com/seek4science/seek/issues/183">https://github.com/seek4science/seek/issues/183</a></td>
             </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
             <th style="text-align:left;" class="prop">contactPoint<span>&nbsp;</span><a href="http://schema.org/contactPoint">[?]</a></th>
-            <td style='text-align:left'><a href="#./">Workflow RO-Crate profile</a></td>
+            <td style='text-align:left'><a href="#https%3A//w3id.org/workflowhub/workflow-ro-crate/1.0">Workflow RO-Crate profile</a></td>
             </tr></tbody>
             </table>
         </div>
@@ -2167,7 +2207,7 @@ WorkflowHub uses Workflow RO-Crates as an exchange format for users to upload a 
             </tr><tr>
             <th style="text-align:left;" class="prop">author<span>&nbsp;</span><a href="http://schema.org/author">[?]</a></th>
             <td style='text-align:left'><ul>
-                        <li><a href="#https%3A//orcid.org/0000-01.0.0048-3300">Finn Bacall</a></li>
+                        <li><a href="#https%3A//orcid.org/0000-0002-0048-3300">Finn Bacall</a></li>
                         
                         <li><a href="#https%3A//orcid.org/0000-0003-3156-2105">Alan R Williams</a></li>
                         
@@ -2175,13 +2215,13 @@ WorkflowHub uses Workflow RO-Crates as an exchange format for users to upload a 
                         </ul></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">about<span>&nbsp;</span><a href="http://schema.org/about">[?]</a></th>
-            <td style='text-align:left'><span>./</span></td>
+            <td style='text-align:left'><a href="https://w3id.org/workflowhub/workflow-ro-crate/1.0">https://w3id.org/workflowhub/workflow-ro-crate/1.0</a></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">dateModified<span>&nbsp;</span><a href="http://schema.org/dateModified">[?]</a></th>
-            <td style='text-align:left'><span>2021-06-24T16:09:24.045Z</span></td>
+            <td style='text-align:left'><span>2021-11-11T18:30:00.000Z</span></td>
             </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
             <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
-            <td style='text-align:left'><a href="#./">Workflow RO-Crate profile</a></td>
+            <td style='text-align:left'><a href="#https%3A//w3id.org/workflowhub/workflow-ro-crate/1.0">Workflow RO-Crate profile</a></td>
             </tr></tbody>
             </table>
         </div>
@@ -2199,7 +2239,7 @@ WorkflowHub uses Workflow RO-Crates as an exchange format for users to upload a 
             <table class="table metadata table-striped" >
                 <tbody><tr>
             <th style="text-align:left;" class="prop">@id</th>
-            <td style='text-align:left'></td>
+            <td style='text-align:left'><a href="https://w3id.org/ro/crate/1.1/context">https://w3id.org/ro/crate/1.1/context</a></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
             <td style='text-align:left'><span>RO-Crate JSON-LD Context</span></td>
@@ -2218,7 +2258,7 @@ WorkflowHub uses Workflow RO-Crates as an exchange format for users to upload a 
             <td style='text-align:left'><span>1.1.1</span></td>
             </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
             <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
-            <td style='text-align:left'><a href="#./">Workflow RO-Crate profile</a></td>
+            <td style='text-align:left'><a href="#https%3A//w3id.org/workflowhub/workflow-ro-crate/1.0">Workflow RO-Crate profile</a></td>
             </tr></tbody>
             </table>
         </div>
@@ -2431,7 +2471,7 @@ WorkflowHub uses Workflow RO-Crates as an exchange format for users to upload a 
                 </td>
             </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
             <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
-            <td style='text-align:left'><a href="#./">Workflow RO-Crate profile</a></td>
+            <td style='text-align:left'><a href="#https%3A//w3id.org/workflowhub/workflow-ro-crate/1.0">Workflow RO-Crate profile</a></td>
             </tr></tbody>
             </table>
         </div>
@@ -2449,7 +2489,7 @@ WorkflowHub uses Workflow RO-Crates as an exchange format for users to upload a 
             <table class="table metadata table-striped" >
                 <tbody><tr>
             <th style="text-align:left;" class="prop">@id</th>
-            <td style='text-align:left'></td>
+            <td style='text-align:left'><a href="https://pypi.org/project/rocrate/">https://pypi.org/project/rocrate/</a></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
             <td style='text-align:left'><span>ro-crate-py</span></td>
@@ -2461,16 +2501,16 @@ WorkflowHub uses Workflow RO-Crates as an exchange format for users to upload a 
             <td style='text-align:left'><span>Python library to create/parse RO-Crate (Research Object Crate) metadata.</span></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">identifier<span>&nbsp;</span><a href="http://schema.org/identifier">[?]</a></th>
-            <td style='text-align:left'></td>
+            <td style='text-align:left'><a href="https://doi.org/10.5281/zenodo.5653266">https://doi.org/10.5281/zenodo.5653266</a></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">url<span>&nbsp;</span><a href="http://schema.org/url">[?]</a></th>
-            <td style='text-align:left'></td>
+            <td style='text-align:left'><a href="https://pypi.org/project/rocrate/">https://pypi.org/project/rocrate/</a></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">version<span>&nbsp;</span><a href="http://schema.org/version">[?]</a></th>
-            <td style='text-align:left'><span>0.4.0</span></td>
+            <td style='text-align:left'><span>0.5.0</span></td>
             </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
             <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
-            <td style='text-align:left'><a href="#./">Workflow RO-Crate profile</a></td>
+            <td style='text-align:left'><a href="#https%3A//w3id.org/workflowhub/workflow-ro-crate/1.0">Workflow RO-Crate profile</a></td>
             </tr></tbody>
             </table>
         </div>
@@ -2488,7 +2528,7 @@ WorkflowHub uses Workflow RO-Crates as an exchange format for users to upload a 
             <table class="table metadata table-striped" >
                 <tbody><tr>
             <th style="text-align:left;" class="prop">@id</th>
-            <td style='text-align:left'></td>
+            <td style='text-align:left'><a href="https://github.com/inab/WfExS-backend/">https://github.com/inab/WfExS-backend/</a></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
             <td style='text-align:left'><span>WfExS-backend</span></td>
@@ -2500,13 +2540,13 @@ WorkflowHub uses Workflow RO-Crates as an exchange format for users to upload a 
             <td style='text-align:left'><span>Workflow Execution Service backend</span></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">url<span>&nbsp;</span><a href="http://schema.org/url">[?]</a></th>
-            <td style='text-align:left'></td>
+            <td style='text-align:left'><a href="https://github.com/inab/WfExS-backend/">https://github.com/inab/WfExS-backend/</a></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">version<span>&nbsp;</span><a href="http://schema.org/version">[?]</a></th>
             <td style='text-align:left'><span>0.4.2</span></td>
             </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
             <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
-            <td style='text-align:left'><a href="#./">Workflow RO-Crate profile</a></td>
+            <td style='text-align:left'><a href="#https%3A//w3id.org/workflowhub/workflow-ro-crate/1.0">Workflow RO-Crate profile</a></td>
             </tr></tbody>
             </table>
         </div>
@@ -2524,7 +2564,7 @@ WorkflowHub uses Workflow RO-Crates as an exchange format for users to upload a 
             <table class="table metadata table-striped" >
                 <tbody><tr>
             <th style="text-align:left;" class="prop">@id</th>
-            <td style='text-align:left'></td>
+            <td style='text-align:left'><a href="https://www.nationalarchives.gov.uk/PRONOM/x-fmt/263">https://www.nationalarchives.gov.uk/PRONOM/x-fmt/263</a></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
             <td style='text-align:left'><span>ZIP Format</span></td>
@@ -2533,10 +2573,10 @@ WorkflowHub uses Workflow RO-Crates as an exchange format for users to upload a 
             <td style='text-align:left'><span>WebSite</span></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">conditionsOfAccess<span>&nbsp;</span><a href="http://schema.org/conditionsOfAccess">[?]</a></th>
-            <td style='text-align:left'><span>The Workflow RO-Crate must be zipped, and have the file extension .crate.zip to be recognized by WorkflowHub.</span></td>
+            <td style='text-align:left'><span>The Workflow RO-Crate must be zipped, and have the file extension .crate.zip to be recognized by WorkflowHub. The ro-crate-metadata.json file should be directly in the root of the zip archive.</span></td>
             </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
             <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
-            <td style='text-align:left'><a href="#./">Workflow RO-Crate profile</a></td>
+            <td style='text-align:left'><a href="#https%3A//w3id.org/workflowhub/workflow-ro-crate/1.0">Workflow RO-Crate profile</a></td>
             </tr></tbody>
             </table>
         </div>
@@ -2554,7 +2594,7 @@ WorkflowHub uses Workflow RO-Crates as an exchange format for users to upload a 
             <table class="table metadata table-striped" >
                 <tbody><tr>
             <th style="text-align:left;" class="prop">@id</th>
-            <td style='text-align:left'></td>
+            <td style='text-align:left'><a href="https://workflowhub.eu/">https://workflowhub.eu/</a></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
             <td style='text-align:left'><span>WorkflowHub</span></td>
@@ -2566,13 +2606,13 @@ WorkflowHub uses Workflow RO-Crates as an exchange format for users to upload a 
             <td style='text-align:left'><span>WorkflowHub is a registry for describing, sharing and publishing scientific computational workflows.</span></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">publisher<span>&nbsp;</span><a href="http://schema.org/publisher">[?]</a></th>
-            <td style='text-align:left'><a href="#https%3A//about.workflowhub.eu/">WorkflowHub project</a></td>
+            <td style='text-align:left'><a href="#https%3A//w3id.org/workflowhub/">WorkflowHub project</a></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">title<span>&nbsp;</span><a href="http://schema.org/title">[?]</a></th>
             <td style='text-align:left'><span>WorkflowHub</span></td>
             </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
             <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
-            <td style='text-align:left'><a href="#./">Workflow RO-Crate profile</a></td>
+            <td style='text-align:left'><a href="#https%3A//w3id.org/workflowhub/workflow-ro-crate/1.0">Workflow RO-Crate profile</a></td>
             </tr></tbody>
             </table>
         </div>
@@ -2590,7 +2630,7 @@ WorkflowHub uses Workflow RO-Crates as an exchange format for users to upload a 
             <table class="table metadata table-striped" >
                 <tbody><tr>
             <th style="text-align:left;" class="prop">@id</th>
-            <td style='text-align:left'></td>
+            <td style='text-align:left'><a href="https://bioschemas.org/ComputationalWorkflow">https://bioschemas.org/ComputationalWorkflow</a></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
             <td style='text-align:left'><span>ComputationalWorkflow</span></td>
@@ -2612,13 +2652,13 @@ The Main Workflow MUST refer to its type via programmingLanguage.</span></td>
             <td style='text-align:left'><span>ComputationalWorkflow</span></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">url<span>&nbsp;</span><a href="http://schema.org/url">[?]</a></th>
-            <td style='text-align:left'></td>
+            <td style='text-align:left'><a href="https://bioschemas.org/types/ComputationalWorkflow/1.0-RELEASE/">https://bioschemas.org/types/ComputationalWorkflow/1.0-RELEASE/</a></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">version<span>&nbsp;</span><a href="http://schema.org/version">[?]</a></th>
             <td style='text-align:left'><span>1.0-RELEASE</span></td>
             </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
             <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
-            <td style='text-align:left'><a href="#./">Workflow RO-Crate profile</a></td>
+            <td style='text-align:left'><a href="#https%3A//w3id.org/workflowhub/workflow-ro-crate/1.0">Workflow RO-Crate profile</a></td>
             </tr></tbody>
             </table>
         </div>
@@ -2636,7 +2676,7 @@ The Main Workflow MUST refer to its type via programmingLanguage.</span></td>
             <table class="table metadata table-striped" >
                 <tbody><tr>
             <th style="text-align:left;" class="prop">@id</th>
-            <td style='text-align:left'></td>
+            <td style='text-align:left'><a href="https://bioschemas.org/FormalParameter">https://bioschemas.org/FormalParameter</a></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
             <td style='text-align:left'><span>Formal Parameter</span></td>
@@ -2651,13 +2691,13 @@ The Main Workflow MUST refer to its type via programmingLanguage.</span></td>
             <td style='text-align:left'><span>FormalParameter</span></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">url<span>&nbsp;</span><a href="http://schema.org/url">[?]</a></th>
-            <td style='text-align:left'></td>
+            <td style='text-align:left'><a href="https://bioschemas.org/types/FormalParameter/1.0-RELEASE/">https://bioschemas.org/types/FormalParameter/1.0-RELEASE/</a></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">version<span>&nbsp;</span><a href="http://schema.org/version">[?]</a></th>
             <td style='text-align:left'><span>1.0-RELEASE</span></td>
             </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
             <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
-            <td style='text-align:left'><a href="#./">Workflow RO-Crate profile</a></td>
+            <td style='text-align:left'><a href="#https%3A//w3id.org/workflowhub/workflow-ro-crate/1.0">Workflow RO-Crate profile</a></td>
             </tr></tbody>
             </table>
         </div>
@@ -2675,7 +2715,7 @@ The Main Workflow MUST refer to its type via programmingLanguage.</span></td>
             <table class="table metadata table-striped" >
                 <tbody><tr>
             <th style="text-align:left;" class="prop">@id</th>
-            <td style='text-align:left'></td>
+            <td style='text-align:left'><a href="http://schema.org/HowTo">http://schema.org/HowTo</a></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
             <td style='text-align:left'><span>HowTo</span></td>
@@ -2695,7 +2735,7 @@ If present the Main Workflow MUST refer to the Main Workflow CWL Description via
             <td style='text-align:left'><span>HowTo</span></td>
             </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
             <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
-            <td style='text-align:left'><a href="#./">Workflow RO-Crate profile</a></td>
+            <td style='text-align:left'><a href="#https%3A//w3id.org/workflowhub/workflow-ro-crate/1.0">Workflow RO-Crate profile</a></td>
             </tr></tbody>
             </table>
         </div>
@@ -2713,7 +2753,7 @@ If present the Main Workflow MUST refer to the Main Workflow CWL Description via
             <table class="table metadata table-striped" >
                 <tbody><tr>
             <th style="text-align:left;" class="prop">@id</th>
-            <td style='text-align:left'></td>
+            <td style='text-align:left'><a href="http://schema.org/ImageObject">http://schema.org/ImageObject</a></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
             <td style='text-align:left'><span>ImageObject</span></td>
@@ -2731,7 +2771,7 @@ If present the Main Workflow MUST refer to the Main Workflow CWL Description via
             <td style='text-align:left'><span>ImageObject</span></td>
             </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
             <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
-            <td style='text-align:left'><a href="#./">Workflow RO-Crate profile</a></td>
+            <td style='text-align:left'><a href="#https%3A//w3id.org/workflowhub/workflow-ro-crate/1.0">Workflow RO-Crate profile</a></td>
             </tr></tbody>
             </table>
         </div>
@@ -2776,7 +2816,7 @@ If present the Main Workflow MUST refer to the Main Workflow CWL Description via
                         </ul></td>
             </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
             <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
-            <td style='text-align:left'><a href="#./">Workflow RO-Crate profile</a></td>
+            <td style='text-align:left'><a href="#https%3A//w3id.org/workflowhub/workflow-ro-crate/1.0">Workflow RO-Crate profile</a></td>
             </tr></tbody>
             </table>
         </div>
@@ -2813,10 +2853,10 @@ If present the Main Workflow MUST refer to the Main Workflow CWL Description via
                         </ul></td>
             </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
             <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
-            <td style='text-align:left'><a href="#./">Workflow RO-Crate profile</a></td>
+            <td style='text-align:left'><a href="#https%3A//w3id.org/workflowhub/workflow-ro-crate/1.0">Workflow RO-Crate profile</a></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">workExample<span>&nbsp;</span><a href="http://schema.org/workExample">[?]</a></th>
-            <td style='text-align:left'><a href="#./">Workflow RO-Crate profile</a></td>
+            <td style='text-align:left'><a href="#https%3A//w3id.org/workflowhub/workflow-ro-crate/1.0">Workflow RO-Crate profile</a></td>
             </tr></tbody>
             </table>
         </div>
@@ -2834,7 +2874,7 @@ If present the Main Workflow MUST refer to the Main Workflow CWL Description via
             <table class="table metadata table-striped" >
                 <tbody><tr>
             <th style="text-align:left;" class="prop">@id</th>
-            <td style='text-align:left'></td>
+            <td style='text-align:left'><a href="https://github.com/KockataEPich/CheckMyCrate/blob/master/CheckMyCrate/profile_library/ro_crate_1.1_basic.json">https://github.com/KockataEPich/CheckMyCrate/blob/master/CheckMyCrate/profile_library/ro_crate_1.1_basic.json</a></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
             <td style='text-align:left'><span>CheckMyCrate profile for Workflow RO-Crate</span></td>
@@ -2850,7 +2890,7 @@ If present the Main Workflow MUST refer to the Main Workflow CWL Description via
                         </ul></td>
             </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
             <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
-            <td style='text-align:left'><a href="#./">Workflow RO-Crate profile</a></td>
+            <td style='text-align:left'><a href="#https%3A//w3id.org/workflowhub/workflow-ro-crate/1.0">Workflow RO-Crate profile</a></td>
             </tr></tbody>
             </table>
         </div>
@@ -2868,7 +2908,7 @@ If present the Main Workflow MUST refer to the Main Workflow CWL Description via
             <table class="table metadata table-striped" >
                 <tbody><tr>
             <th style="text-align:left;" class="prop">@id</th>
-            <td style='text-align:left'></td>
+            <td style='text-align:left'><a href="https://spdx.org/licenses/BSD-3-Clause">https://spdx.org/licenses/BSD-3-Clause</a></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
             <td style='text-align:left'><span>BSD 3-Clause "New" or "Revised" License</span></td>
@@ -2912,7 +2952,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             <td style='text-align:left'><span>BSD-3-Clause</span></td>
             </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
             <th style="text-align:left;" class="prop">license<span>&nbsp;</span><a href="http://schema.org/license">[?]</a></th>
-            <td style='text-align:left'><a href="#./">Workflow RO-Crate profile</a></td>
+            <td style='text-align:left'><a href="#https%3A//w3id.org/workflowhub/workflow-ro-crate/1.0">Workflow RO-Crate profile</a></td>
             </tr></tbody>
             </table>
         </div>
@@ -2920,17 +2960,17 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         </div>
         <hr/><br/><br/>
            <div>
-            <h3><a href="https://about.workflowhub.eu/">Go to: </a> WorkflowHub project</h3>
+            <h3><a href="https://w3id.org/workflowhub/">Go to: </a> WorkflowHub project</h3>
             
             
             
             
-        <div id="https://about.workflowhub.eu/">
+        <div id="https://w3id.org/workflowhub/">
             
             <table class="table metadata table-striped" >
                 <tbody><tr>
             <th style="text-align:left;" class="prop">@id</th>
-            <td style='text-align:left'></td>
+            <td style='text-align:left'><a href="https://w3id.org/workflowhub/">https://w3id.org/workflowhub/</a></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
             <td style='text-align:left'><span>WorkflowHub project</span></td>
@@ -2940,10 +2980,43 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
             <th style="text-align:left;" class="prop">publisher<span>&nbsp;</span><a href="http://schema.org/publisher">[?]</a></th>
             <td style='text-align:left'><ul>
-                        <li><a href="#./">Workflow RO-Crate profile</a></li>
+                        <li><a href="#https%3A//w3id.org/workflowhub/workflow-ro-crate/1.0">Workflow RO-Crate profile</a></li>
                         
                         <li><a href="#https%3A//workflowhub.eu/">WorkflowHub</a></li>
                         </ul></td>
+            </tr></tbody>
+            </table>
+        </div>
+
+        </div>
+        <hr/><br/><br/>
+           <div>
+            <h3> Preview of Workflow RO-Crate</h3>
+            
+            
+            
+            
+        <div id="ro-crate-preview.html">
+            
+            <table class="table metadata table-striped" >
+                <tbody><tr>
+            <th style="text-align:left;" class="prop">@id</th>
+            <td style='text-align:left'><span>ro-crate-preview.html</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
+            <td style='text-align:left'><span>Preview of Workflow RO-Crate</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">@type</th>
+            <td style='text-align:left'><span>CreativeWork</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">encodingFormat<span>&nbsp;</span><a href="http://schema.org/encodingFormat">[?]</a></th>
+            <td style='text-align:left'><span>text/html</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">about<span>&nbsp;</span><a href="http://schema.org/about">[?]</a></th>
+            <td style='text-align:left'><span>./</span></td>
+            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
+            <th style="text-align:left;" class="prop">subjectOf<span>&nbsp;</span><a href="http://schema.org/subjectOf">[?]</a></th>
+            <td style='text-align:left'><a href="#https%3A//w3id.org/workflowhub/workflow-ro-crate/1.0">Workflow RO-Crate profile</a></td>
             </tr></tbody>
             </table>
         </div>
@@ -2953,11 +3026,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 </div>
 
 
-<p>This file was created at 1624556708258 by
-<a href='https://code.research.uts.edu.au/eresearch/calcytejs'>
-Calcyte</a> which implements the <a href=''>
-Draft RO-Crate format</a>, version 
- </p>
+
 
 
 </body>

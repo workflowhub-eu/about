@@ -4,34 +4,12 @@
 <head>
 
 
-<!--  https://signposting.org/FAIR/  markup --->
-
-<link href="https://about.workflowhub.eu/Workflow-RO-Crate/example" rel="cite-as" /> <!-- SHOULD be w3id or DOI -->
-<link href="https://about.workflowhub.eu/Workflow-RO-Crate/" rel="type" /> <!-- SHOULD be w3id or DOI -->
-<link href="http://purl.org/dc/terms/Standard" rel="type"  />
-<link href="https://schema.org/CreativeWork" rel="type"  />
-
-<link href="https://spdx.org/licenses/CC0-1.0" rel="license"  />
-
-<link href="https://orcid.org/0000-0001-9842-9718" rel="author"  />
-
-<link href="ro-crate-metadata.json" rel="describedby" type='application/ld+json; profile="https://w3id.org/ro/crate"' />
-<link href="ro-crate-metadata.jsonld" rel="describedby" type='application/ld+json; profile="https://w3id.org/ro/crate"'  />
-<link href="ro-crate-preview.html" rel="describedby" type='text/html'  />
-
-<!-- repeat of hasPart in RO-Crate although these do not currently exist in example/
-<link href="example_workflow.cwl" rel="item"  />
-<link href="diagram.svg" rel="item"  />
-<link href="README.md" rel="item"  />
--->
-
-
 <script type="application/ld+json"> 
   {
   "@context": "https://w3id.org/ro/crate/1.1/context",
   "@graph": [
     {
-      "@id": "ro-crate-metadata.jsonld",
+      "@id": "ro-crate-metadata.json",
       "@type": "CreativeWork",
       "about": {
         "@id": "./"
@@ -41,19 +19,19 @@
           "@id": "https://w3id.org/ro/crate/1.1"
         },
         {
-          "@id": "https://about.workflowhub.eu/Workflow-RO-Crate/"
+          "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"
         }
       ]
     },
     {
-      "@id": "https://about.workflowhub.eu/Workflow-RO-Crate/",
+      "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0",
       "@type": "CreativeWork",
       "name": "Workflow RO-Crate profile",
-      "version": "0.2.0",
+      "version": "1.0.0",
       "@reverse": {
         "conformsTo": [
           {
-            "@id": "ro-crate-metadata.jsonld"
+            "@id": "ro-crate-metadata.json"
           }
         ]
       }
@@ -88,7 +66,7 @@
       "@reverse": {
         "about": [
           {
-            "@id": "ro-crate-metadata.jsonld"
+            "@id": "ro-crate-metadata.json"
           },
           {
             "@id": "ro-crate-preview.html"
@@ -181,12 +159,9 @@
 <!-- script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script -->
 <script src="https://unpkg.com/ro-crate-html-js/dist/ro-crate-dynamic.js"></script>
 
-<link rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-      crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <meta charset='utf-8'/>
 <style>
@@ -214,7 +189,11 @@ table.table {
 
 
 <a href="./ro-crate-metadata.json">⬇️🏷️ Download all the metadata for <span class='name'>Example Workflow</span> in JSON-LD format</a>
+
+
 <div id="check"></div>
+
+
 </div>
 
 
@@ -260,7 +239,7 @@ table.table {
             </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
             <th style="text-align:left;" class="prop">about<span>&nbsp;</span><a href="http://schema.org/about">[?]</a></th>
             <td style='text-align:left'><ul>
-                        <li><a href="#ro-crate-metadata.jsonld">ro-crate-metadata.jsonld</a></li>
+                        <li><a href="#ro-crate-metadata.json">ro-crate-metadata.json</a></li>
                         
                         <li><a href="#ro-crate-preview.html">ro-crate-preview.html</a></li>
                         </ul></td>
@@ -373,11 +352,7 @@ table.table {
 </div>
 
 
-<p>This file was created at 1624556553066 by
-<a href='https://code.research.uts.edu.au/eresearch/calcytejs'>
-Calcyte</a> which implements the <a href=''>
-Draft RO-Crate format</a>, version 
- </p>
+
 
 
 </body>

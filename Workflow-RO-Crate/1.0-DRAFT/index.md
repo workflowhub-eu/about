@@ -97,6 +97,14 @@ The _Crate_ COULD contain a Dataset (directory) data entity of type `["Dataset"]
 
 The _Crate_ COULD contain a Dataset (directory) data entity of type `["Dataset"]` named "examples" to hold examples.
 
+### Bioschemas Computational Workflow profile
+
+The `ComputationalWorkflow` description of the _Main Workflow_ SHOULD comply with [Bioschemas ComputationalWorkflow profile](https://bioschemas.org/profiles/ComputationalWorkflow/1.0-RELEASE) version 1.0 or later.  
+
+Conformance with the Bioschemas SHOULD be indicated with a `conformsTo` on the _Main Workflow_ entity.
+
+**Tip**: See [RO-Crate 1.1: Complying with Bioschemas Computational Workflow profile](https://www.researchobject.org/ro-crate/1.1/workflows.html#complying-with-bioschemas-computational-workflow-profile)
+
 ## WorkflowHub-specific Features/Requirements
 
 ### File Format

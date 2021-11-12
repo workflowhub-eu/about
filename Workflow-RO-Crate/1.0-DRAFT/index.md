@@ -309,9 +309,10 @@ A minimal example of _Workflow RO-Crate_ metadata, containing a CWL workflow, an
       "about": {
         "@id": "./"
       },
-      "conformsTo": {
-        "@id": "https://w3id.org/ro/crate/1.1"
-      }
+      "conformsTo": [
+        { "@id": "https://w3id.org/ro/crate/1.1"},
+        { "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"}
+      ]
     },
     {
       "@id": "ro-crate-preview.html",

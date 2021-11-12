@@ -109,11 +109,13 @@ Conformance with the Bioschemas SHOULD be indicated with a `conformsTo` on the _
 
 ### File Format
 
-The Workflow RO-Crate must be zipped, and have the file extension `.crate.zip` to be recognized by WorkflowHub.
+The Workflow RO-Crate MUST be zipped, and SHOULD have the file extension `.crate.zip` to be recognized by WorkflowHub. 
+
+The `ro-crate-metadata.json` file SHOULD be directly in the root of the zip archive, making the whole Zip archive the _RO-Crate Root_.
 
 ### Extracted Metadata
 
-WorkflowHub will extract and expose the following properties from the Crate entity (`./`) in `ro-crate-metadata.jsonld`:
+WorkflowHub will extract and expose the following properties from the Crate entity (`./`) in `ro-crate-metadata.json`:
 
 * `name` - This will be shown as the title of the workflow.
 * `description` - This will be shown as the description of the workflow. 
@@ -302,7 +304,7 @@ A minimal example of _Workflow RO-Crate_ metadata, containing a CWL workflow, an
   "@context": "https://w3id.org/ro/crate/1.1/context",
   "@graph": [
     {
-      "@id": "ro-crate-metadata.jsonld",
+      "@id": "ro-crate-metadata.json",
       "@type": "CreativeWork",
       "about": {
         "@id": "./"

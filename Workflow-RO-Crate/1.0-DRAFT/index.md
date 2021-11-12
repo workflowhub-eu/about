@@ -54,6 +54,15 @@ WorkflowHub uses _Workflow RO-Crates_ as an exchange format for users to upload 
 
 This section uses terminology from the [RO-Crate 1.1 specification](https://w3id.org/ro/crate/1.1).
 
+### Context
+
+The _Crate_ JSON-LD MUST be valid according to [RO-Crate 1.1](https://w3id.org/ro/crate/1.1) and SHOULD use the RO-Crate 1.1 `@context` <https://w3id.org/ro/crate/1.1/context>
+
+### Metadata File Descriptor
+
+The [Metadata File Descriptor](https://www.researchobject.org/ro-crate/1.1/root-data-entity.html#ro-crate-metadata-file-descriptor) `conformsTo` SHOULD be an array that contains at least <https://w3id.org/ro/crate/1.1> and <https://w3id.org/workflowhub/workflow-ro-crate/1.0>
+
+
 ### Main Workflow
 
 The _Crate_ MUST contain a data entity of type `["File", "SoftwareSourceCode", "ComputationalWorkflow"]` as the _Main Workflow_.
@@ -272,7 +281,8 @@ Although the Crate's `license` field should be a URL, WorkflowHub currently acce
 * `Zlib` - [zlib/libpng license](https://opensource.org/licenses/Zlib)
 * `notspecified` - [No license - no permission to use unless the owner grants a licence](https://choosealicense.com/no-permission/)
 
-### ro-crate-metadata.jsonld Example
+### ro-crate-metadata.json Example
+
 A minimal example of _Workflow RO-Crate_ metadata, containing a CWL workflow, an SVG diagram of that workflow and a README file.
 
 ```json

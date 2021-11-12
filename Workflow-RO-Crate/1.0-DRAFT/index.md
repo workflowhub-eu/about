@@ -71,11 +71,15 @@ The _Crate_ MUST refer to the _Main Workflow_ via `mainEntity`.
 
 The _Main Workflow_ MUST refer to its type via `programmingLanguage`.
 
+**Tip**: See [RO-Crate specification on Workflows and Scripts](https://www.researchobject.org/ro-crate/1.1/workflows.html) for details.
+
 ### Main Workflow CWL Description
 
-The _Crate_ COULD contain a data entity of type `["File", "SoftwareSourceCode", "HowTo"]` as the _Main Workflow CWL Description_.
+The _Crate_ COULD contain a data entity of type `["File", "SoftwareSourceCode", "HowTo"]` as the _Main Workflow CWL Description_. 
 
-If present the _Main Workflow_ MUST refer to the _Main Workflow CWL Description_ via `subjectOf`.
+A _Main Workflow CWL Description_ SHOULD have `#cwl` as its `programmingLanguage`.
+
+If _Main Workflow CWL Description_ is present, the _Main Workflow_ MUST refer to it the via `subjectOf`.
 
 ### Main Workflow Diagram
 
@@ -128,7 +132,7 @@ To ensure compatibility, please include one of the following in the RO-Crate met
   "name": "Common Workflow Language",
   "alternateName": "CWL",
   "identifier": {
-    "@id": "https://w3id.org/cwl/v1.0/"
+    "@id": "https://w3id.org/cwl/v1.2/"
   },
   "url": {
     "@id": "https://www.commonwl.org/"

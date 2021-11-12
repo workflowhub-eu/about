@@ -4,18 +4,23 @@
     {
       "@id": "ro-crate-metadata.json",
       "@type": "CreativeWork",
-      "conformsTo": {
-        "@id": "https://w3id.org/ro/crate/1.1"
-      },
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/crate/1.1"
+        },
+        {
+          "@id": "https://www.researchobject.org/ro-crate/1.2-DRAFT/profiles"
+        }
+      ],
       "about": {
-        "@id": "./"
+        "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"
       },
       "license": {
         "@id": "http://spdx.org/licenses/CC0-1.0"
       }
     },
     {
-      "@id": "./",
+      "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0",
       "@type": "Dataset",
       "author": {
         "@id": "https://orcid.org/0000-0002-0048-3300"
@@ -23,7 +28,7 @@
       "contactPoint": {
         "@id": "https://github.com/seek4science/seek/issues/183"
       },
-      "datePublished": "2021-06-23T18:43:00.000Z",
+      "datePublished": "2021-11-11T18:30:00.000Z",
       "description": "This is the Profile Crate for Workflow RO-Crate. Workflow RO-Crates are a specialization of RO-Crate for packaging an executable workflow with all necessary documentation. It is aligned with, and intends to strictly extend, the more general Bioschemas ComputationalWorkflow profile.\n\nWorkflowHub uses Workflow RO-Crates as an exchange format for users to upload a packaged workflow.",
       "hasPart": [
         {
@@ -69,15 +74,18 @@
           "@id": "https://github.com/KockataEPich/CheckMyCrate/blob/master/CheckMyCrate/profile_library/ro_crate_1.1_basic.json"
         }
       ],
-      "identifier": "https://about.workflowhub.eu/Workflow-RO-Crate/",
+      "identifier": "https://w3id.org/workflowhub/workflow-ro-crate/1.0",
       "license": {
         "@id": "https://spdx.org/licenses/BSD-3-Clause"
       },
       "name": "Workflow RO-Crate profile",
       "publisher": {
-        "@id": "https://about.workflowhub.eu/"
+        "@id": "https://w3id.org/workflowhub/"
       },
-      "version": "0.2.0",
+      "subjectOf": {
+        "@id": "ro-crate-preview.html"
+      },
+      "version": "1.0.0",
       "workExample": {
         "@id": "example/"
       }
@@ -157,15 +165,28 @@
     {
       "@id": "example/ro-crate-preview.html",
       "@type": "CreativeWork",
-      "name": "Preview of example RO-Crate"
+      "name": "Preview of example RO-Crate",
+      "encodingFormat": "text/html"
     },
-
+    {
+      "@id": "ro-crate-preview.html",
+      "@type": "CreativeWork",
+      "name": "Preview of Workflow RO-Crate",
+      "encodingFormat": "text/html",
+      "about": "./"
+    },
+    {
+      "@id": "https://www.researchobject.org/ro-crate/1.2-DRAFT/profiles",
+      "@type": "CreativeWork",
+      "name": "Profile Crate",
+      "version": "1.2-DRAFT"
+    },
     {
       "@id": "example/ro-crate-metadata.json",
       "@type": "CreativeWork",
       "conformsTo": [
         {"@id": "https://w3id.org/ro/crate/1.1"}, 
-        {"@id": "./"}
+        {"@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"}
       ],
       "encodingFormat": "application/json",
       "license": {
@@ -175,7 +196,7 @@
     {
       "@id": "index.html",
       "@type": "File",
-      "about": "./",
+      "about": "https://w3id.org/workflowhub/workflow-ro-crate/1.0",
       "author": [
         {
           "@id": "https://orcid.org/0000-0002-0048-3300"
@@ -187,7 +208,7 @@
           "@id": "https://orcid.org/0000-0003-2130-0865"
         }
       ],
-      "dateModified": "2021-06-24T16:09:24.045Z",
+      "dateModified": "2021-11-11T18:30:00.000Z",
       "name": "Workflow RO-Crate profile description"
     },
     {
@@ -499,10 +520,10 @@
       "@id": "https://pypi.org/project/rocrate/",
       "@type": "SoftwareApplication",
       "description": "Python library to create/parse RO-Crate (Research Object Crate) metadata.",
-      "identifier": "https://doi.org/10.5281/zenodo.4705143",
+      "identifier": "https://doi.org/10.5281/zenodo.5653266",
       "name": "ro-crate-py",
       "url": "https://pypi.org/project/rocrate/",
-      "version": "0.4.0"
+      "version": "0.5.0"
     },
     {
       "@id": "https://spdx.org/licenses/BSD-3-Clause",
@@ -529,7 +550,7 @@
       "description": "WorkflowHub is a registry for describing, sharing and publishing scientific computational workflows.",
       "name": "WorkflowHub",
       "publisher": {
-        "@id": "https://about.workflowhub.eu/"
+        "@id": "https://w3id.org/workflowhub/"
       },
       "title": "WorkflowHub"
     },
@@ -537,7 +558,7 @@
       "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/263",
       "@type": "WebSite",
       "name": "ZIP Format",
-      "conditionsOfAccess": "The Workflow RO-Crate must be zipped, and have the file extension .crate.zip to be recognized by WorkflowHub."
+      "conditionsOfAccess": "The Workflow RO-Crate must be zipped, and have the file extension .crate.zip to be recognized by WorkflowHub. The ro-crate-metadata.json file should be directly in the root of the zip archive."
     },
     {
       "@id": "http://schema.org/HowTo",
@@ -1060,7 +1081,7 @@
       "url": "https://www.w3.org/TR/json-ld/"
     },
     {
-      "@id": "https://about.workflowhub.eu/",
+      "@id": "https://w3id.org/workflowhub/",
       "@type": "Organization",
       "name": "WorkflowHub project"
     },

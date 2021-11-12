@@ -367,7 +367,9 @@ A minimal example of _Workflow RO-Crate_ metadata, containing a CWL workflow, an
     },
     {
       "@id": "README.md",
-      "@type": "File"
+      "@type": "File",
+      "about": "./",
+      "encodingFormat": "text/markdown"
     },
     {
       "@id": "#cwl",

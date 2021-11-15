@@ -36,6 +36,12 @@
 
 ![Workflow RO-Crate](logo/ro-crate-workflow.svg)
 
+* Authors:
+  - Finn Bacall <https://orcid.org/0000-0002-0048-3300>
+  - Alan R Williams <https://orcid.org/0000-0003-3156-2105>
+  - Stian Soiland-Reyes <https://orcid.org/0000-0003-2130-0865>
+* Title: Workflow RO-Crate profile 1.0
+* Publisher: [WorkflowHub community](https://w3id.org/workflowhub/)
 * Permalink: <https://w3id.org/workflowhub/workflow-ro-crate/1.0> (this version)  
   <https://w3id.org/workflowhub/workflow-ro-crate/> (latest version)
 * Version: [1.0.0](https://github.com/workflowhub-eu/about/releases/tag/workflow-ro-crate-1.0.0)

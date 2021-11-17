@@ -71,8 +71,12 @@ See also:
 * Displaying Lifemonitor results for Workflow entries
 * Further versioning support, with automated versioning of Workflows registered from Github
 * Assisted registration of Github Workflows  
+* Nextflow -> CWL Abstract (**volunteers needed**, potential research/MsC project?)
+* Better RO-Crate support for additional Workflow Management Systems, beyond Galaxy
+
+## January to June 2022
+
 * Continued Metadata about tools natively supported by the WfMS more exposed - working with key WfMS
 * Linking workflow steps to Bio.tools
-* Nextflow -> CWL Abstract (**volunteers needed**, potential research/MsC project?)
 * RO-Crate profile to describe Workflow Runs, including provenance and results
-* Better RO-Crate support for additional Workflow Management Systems, beyond Galaxy
+

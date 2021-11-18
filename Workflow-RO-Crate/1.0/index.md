@@ -13,6 +13,7 @@
 <link href="https://orcid.org/0000-0002-0048-3300" rel="author"  />
 <link href="https://orcid.org/0000-0003-3156-2105" rel="author"  />
 <link href="https://orcid.org/0000-0003-2130-0865" rel="author"  />
+<link href="https://orcid.org/0000-0003-2130-0865" rel="author"  />
 
 <link href="ro-crate-metadata.json" rel="describedby" type='application/ld+json; profile="https://w3id.org/ro/crate"' />
 <link href="ro-crate-metadata.jsonld" rel="describedby" type='application/ld+json; profile="https://w3id.org/ro/crate"'  />
@@ -39,12 +40,13 @@
 * Authors:
   - Finn Bacall <https://orcid.org/0000-0002-0048-3300>
   - Alan R Williams <https://orcid.org/0000-0003-3156-2105>
+  - Stuart Owen <https://orcid.org/0000-0003-2130-0865>
   - Stian Soiland-Reyes <https://orcid.org/0000-0003-2130-0865>
 * Title: Workflow RO-Crate profile 1.0
 * Publisher: [WorkflowHub community](https://w3id.org/workflowhub/)
 * Permalink: <https://w3id.org/workflowhub/workflow-ro-crate/1.0> (this version)  
   <https://w3id.org/workflowhub/workflow-ro-crate/> (latest version)
-* Version: [1.0.0](https://github.com/workflowhub-eu/about/releases/tag/workflow-ro-crate-1.0.0)
+* Version: [1.0.1](https://github.com/workflowhub-eu/about/releases/tag/workflow-ro-crate-1.0.1)
 * [Profile Crate `ro-crate-metadata.json`](ro-crate-metadata.json)
   - [Profile Crate preview](ro-crate-preview.html)
 * [Example RO-Crate `ro-crate-metadata.json`](example/ro-crate-metadata.json)

@@ -15,6 +15,9 @@
       "about": {
         "@id": "./"
       },
+      "creator": {
+        "@id": "https://orcid.org/0000-0001-9842-9718"
+      },
       "license": {
         "@id": "http://spdx.org/licenses/CC0-1.0"
       }
@@ -22,10 +25,21 @@
     {
       "@id": "./",
       "@type": "Dataset",
-      "author": {
-        "@id": "https://orcid.org/0000-0002-0048-3300"
-      },
-      "datePublished": "2021-11-18T12:03:00Z",
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0002-0048-3300"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-3156-2105"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-2130-0865"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-9842-9718"
+        }
+      ],
+      "datePublished": "2021-11-18T14:17:00Z",
       "description": "This is the Profile Crate for Workflow RO-Crate. Workflow RO-Crates are a specialization of RO-Crate for packaging an executable workflow with all necessary documentation. It is aligned with, and intends to strictly extend, the more general Bioschemas ComputationalWorkflow profile.\n\nWorkflowHub uses Workflow RO-Crates as an exchange format for users to upload a packaged workflow.",
       "hasPart": [
         {
@@ -84,7 +98,7 @@
       "subjectOf": {
         "@id": "ro-crate-preview.html"
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "workExample": {
         "@id": "example/"
       }
@@ -279,7 +293,10 @@
         },
         {
           "@id": "https://orcid.org/0000-0003-2130-0865"
-        }
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-9842-9718"
+        }        
       ],
       "dateModified": "2021-11-11T18:30:00.000Z",
       "name": "Workflow RO-Crate profile description"
@@ -574,11 +591,6 @@
       "@id": "https://orcid.org/0000-0002-0048-3300",
       "@type": "Person",
       "name": "Finn Bacall"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-4806-5140",
-      "@type": "Person",
-      "name": "José María Fernández"
     },
     {
       "@id": "https://orcid.org/0000-0003-2130-0865",

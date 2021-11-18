@@ -32,25 +32,19 @@
           "@id": "index.html"
         },
         {
-          "@id": "#use-zip"
-        },
-        {
-          "@id": "#include-ComputationalWorkflow"
-        },
-        {
-          "@id": "#comply-ComputationalWorkflow"
-        },
-        {
-          "@id": "#include-HowTo"
-        },
-        {
-          "@id": "#include-ImageObject"
-        },
-        {
           "@id": "https://w3id.org/ro/crate/1.1/context"
         },
         {
+          "@id": "https://bioschemas.org/ComputationalWorkflow"
+        },
+        {
           "@id": "https://bioschemas.org/FormalParameter"
+        },
+        {
+          "@id": "http://schema.org/ImageObject"
+        },
+        {
+          "@id": "http://schema.org/HowTo"
         },
         {
           "@id": "licenses/"
@@ -98,7 +92,24 @@
     {
       "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0",
       "@type": "Guide",
-      "name": "Workflow RO-Crate profile (PID)"
+      "name": "Workflow RO-Crate profile recommendations",
+      "hasPart": [
+        {
+          "@id": "#use-zip"
+        },
+        {
+          "@id": "#include-ComputationalWorkflow"
+        },
+        {
+          "@id": "#comply-ComputationalWorkflow"
+        },
+        {
+          "@id": "#include-HowTo"
+        },
+        {
+          "@id": "#include-ImageObject"
+        }
+      ]
     },
     {
       "@id": "#cwl",
@@ -165,6 +176,46 @@
         "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/263"
       },
       "reviewBody": "The Workflow RO-Crate MUST be zipped, and SHOULD have the file extension .crate.zip to be recognized by WorkflowHub. The ro-crate-metadata.json file SHOULD be directly in the root of the zip archive, so that the whole Zip becomes the RO-Crate Root"
+    },
+    {
+      "@id": "#comply-ComputationalWorkflow",
+      "@type": "Recommendation",
+      "name": "Comply with ComputationalWorkflow profile",
+      "category": "SHOULD",
+      "itemReviewed": {
+        "@id": "https://bioschemas.org/profiles/ComputationalWorkflow/1.0-RELEASE"
+      },
+      "reviewBody": "The ComputationalWorkflow description of the Main Workflow SHOULD comply with Bioschemas ComputationalWorkflow profile version 1.0 or later.\n\nConformance with the Bioschemas profile SHOULD be indicated with a \"conformsTo\" on the Main Workflow entity."
+    },
+    {
+      "@id": "#include-ComputationalWorkflow",
+      "@type": "Recommendation",
+      "category": "MUST",
+      "name": "Include Main Workflow",
+      "reviewBody": "The Crate MUST contain a data entity of type [\"File\", \"SoftwareSourceCode\", \"ComputationalWorkflow\"] as the Main Workflow.\n\nThe Crate MUST refer to the Main Workflow via \"mainEntity\".\n\nThe Main Workflow MUST refer to its type via \"programmingLanguage\".",
+      "itemReviewed": {
+        "@id": "https://bioschemas.org/ComputationalWorkflow"
+      }
+    },
+    {
+      "@id": "#include-HowTo",
+      "@type": "Recommendation",
+      "name": "Include Main Workflow CWL description",
+      "category": "COULD",
+      "itemReviewed": {
+        "@id": "http://schema.org/HowTo"
+      },
+      "reviewBody": "The Crate COULD contain a data entity of type [\"File\", \"SoftwareSourceCode\", \"HowTo\"] as the Main Workflow CWL Description.\n\nIf present the Main Workflow MUST refer to the Main Workflow CWL Description via \"subjectOf\"."
+    },
+    {
+      "@id": "#include-ImageObject",
+      "@type": "Recommendation",
+      "name": "Include Main Workflow Diagram",
+      "category": "COULD",
+      "itemReviewed": {
+        "@id": "http://schema.org/ImageObject"
+      },
+      "reviewBody": "The Crate COULD contain a Main Workflow Diagram. If Main Workflow Diagram is present, the Main Workflow MUST refer to it via \"image\"."
     },
     {
       "@id": "example/",
@@ -237,7 +288,7 @@
       "@id": "languages/",
       "@type": "Dataset",
       "category": "SHOULD",
-      "description": "WorkflowHub currently supports CWL, Galaxy, KNIME and Nextflow workflow types. \n\n To ensure compatibility, please include one of the following in the RO-Crate metadata, and refer to it from the Main Workflow's 'programmingLanguage' property",
+      "description": "WorkflowHub currently supports CWL, Galaxy, KNIME and Nextflow workflow types. \n\n To ensure compatibility, please include one of the following in the RO-Crate metadata, and refer to it from the Main Workflow's programmingLanguage property",
       "hasPart": [
         {
           "@id": "#cwl"
@@ -260,7 +311,7 @@
     {
       "@id": "licenses/",
       "@type": "Dataset",
-      "description": "Although the Crate's license field should be a URL, WorkflowHub currently accepts a string from the 'identifier' field of one of the following licenses:",
+      "description": "Although the Crate's license field should be a URL, WorkflowHub currently accepts a string from the \"identifier\" field of one of the following licenses:",
       "hasPart": [
         {
           "@id": "http://spdx.org/licenses/AFL-3.0"
@@ -589,31 +640,11 @@
       "name": "ZIP Format"
     },
     {
-      "@id": "#include-HowTo",
-      "@type": "Recommendation",
-      "name": "Include Main Workflow CWL description",
-      "category": "COULD",
-      "itemReviewed": {
-        "@id": "http://schema.org/HowTo"
-      },
-      "reviewBody": "The Crate COULD contain a data entity of type [\"File\", \"SoftwareSourceCode\", \"HowTo\"] as the Main Workflow CWL Description.\n\nIf present the Main Workflow MUST refer to the Main Workflow CWL Description via subjectOf."
-    },
-    {
       "@id": "http://schema.org/HowTo",
       "@type": "DefinedTerm",
       "description": "Instructions that explain how to achieve a result by performing a sequence of steps.",
       "name": "HowTo",
       "termCode": "HowTo"
-    },
-    {
-      "@id": "#include-ImageObject",
-      "@type": "Recommendation",
-      "name": "Include Main Workflow Diagram",
-      "category": "COULD",
-      "itemReviewed": {
-        "@id": "http://schema.org/ImageObject"
-      },
-      "reviewBody": "The Crate COULD contain a Main Workflow Diagram. If Main Workflow Diagram is present, the Main Workflow MUST refer to it via property 'image'."
     },
     {
       "@id": "http://schema.org/ImageObject",
@@ -1300,16 +1331,7 @@
         "@id": "https://github.com/seek4science/seek/issues/183"
       }
     },
-    {
-      "@id": "#include-ComputationalWorkflow",
-      "@type": "Recommendation",
-      "category": "MUST",
-      "name": "Include Main Workflow",
-      "reviewBody": "The Crate MUST contain a data entity of type [\"File\", \"SoftwareSourceCode\", \"ComputationalWorkflow\"] as the Main Workflow.\n\nThe Crate MUST refer to the Main Workflow via mainEntity.\n\nThe Main Workflow MUST refer to its type via programmingLanguage.",
-      "itemReviewed": {
-        "@id": "https://bioschemas.org/ComputationalWorkflow"
-      }
-    },    
+
     {
       "@id": "https://bioschemas.org/ComputationalWorkflow",
       "@type": "DefinedTerm",
@@ -1333,16 +1355,6 @@
         "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
       },
       "version": "1.0-RELEASE"
-    },
-    {
-      "@id": "#comply-ComputationalWorkflow",
-      "@type": "Recommendation",
-      "name": "Comply with ComputationalWorkflow profile",
-      "category": "SHOULD",
-      "itemReviewed": {
-        "@id": "https://bioschemas.org/profiles/ComputationalWorkflow/1.0-RELEASE"
-      },
-      "reviewBody": "The ComputationalWorkflow description of the Main Workflow SHOULD comply with Bioschemas ComputationalWorkflow profile version 1.0 or later.\n\nConformance with the Bioschemas profile SHOULD be indicated with a conformsTo on the Main Workflow entity."
     },
     {
       "@id": "https://bioschemas.org/profiles/ComputationalWorkflow/1.0-RELEASE",

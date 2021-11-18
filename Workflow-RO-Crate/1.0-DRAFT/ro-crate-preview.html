@@ -39,25 +39,19 @@
           "@id": "index.html"
         },
         {
-          "@id": "#use-zip"
-        },
-        {
-          "@id": "#include-ComputationalWorkflow"
-        },
-        {
-          "@id": "#comply-ComputationalWorkflow"
-        },
-        {
-          "@id": "#include-HowTo"
-        },
-        {
-          "@id": "#include-ImageObject"
-        },
-        {
           "@id": "https://w3id.org/ro/crate/1.1/context"
         },
         {
+          "@id": "https://bioschemas.org/ComputationalWorkflow"
+        },
+        {
           "@id": "https://bioschemas.org/FormalParameter"
+        },
+        {
+          "@id": "http://schema.org/ImageObject"
+        },
+        {
+          "@id": "http://schema.org/HowTo"
         },
         {
           "@id": "licenses/"
@@ -112,7 +106,24 @@
     {
       "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0",
       "@type": "Guide",
-      "name": "Workflow RO-Crate profile (PID)",
+      "name": "Workflow RO-Crate profile recommendations",
+      "hasPart": [
+        {
+          "@id": "#use-zip"
+        },
+        {
+          "@id": "#include-ComputationalWorkflow"
+        },
+        {
+          "@id": "#comply-ComputationalWorkflow"
+        },
+        {
+          "@id": "#include-HowTo"
+        },
+        {
+          "@id": "#include-ImageObject"
+        }
+      ],
       "@reverse": {
         "sameAs": [
           {
@@ -234,7 +245,7 @@
       "@reverse": {
         "hasPart": [
           {
-            "@id": "./"
+            "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"
           }
         ]
       }
@@ -807,7 +818,7 @@
       "@reverse": {
         "hasPart": [
           {
-            "@id": "./"
+            "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"
           }
         ]
       }
@@ -819,6 +830,11 @@
       "name": "HowTo",
       "termCode": "HowTo",
       "@reverse": {
+        "hasPart": [
+          {
+            "@id": "./"
+          }
+        ],
         "itemReviewed": [
           {
             "@id": "#include-HowTo"
@@ -838,7 +854,7 @@
       "@reverse": {
         "hasPart": [
           {
-            "@id": "./"
+            "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"
           }
         ]
       }
@@ -850,6 +866,11 @@
       "name": "ImageObject",
       "termCode": "ImageObject",
       "@reverse": {
+        "hasPart": [
+          {
+            "@id": "./"
+          }
+        ],
         "itemReviewed": [
           {
             "@id": "#include-ImageObject"
@@ -2156,7 +2177,7 @@
       "@reverse": {
         "hasPart": [
           {
-            "@id": "./"
+            "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"
           }
         ]
       }
@@ -2173,6 +2194,11 @@
       "url": "https://bioschemas.org/types/ComputationalWorkflow/1.0-RELEASE/",
       "version": "1.0-RELEASE",
       "@reverse": {
+        "hasPart": [
+          {
+            "@id": "./"
+          }
+        ],
         "itemReviewed": [
           {
             "@id": "#include-ComputationalWorkflow"
@@ -2211,7 +2237,7 @@
       "@reverse": {
         "hasPart": [
           {
-            "@id": "./"
+            "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"
           }
         ]
       }
@@ -2390,19 +2416,15 @@ WorkflowHub uses Workflow RO-Crates as an exchange format for users to upload a 
             <td style='text-align:left'><ul>
                         <li><a href="#index.html">Workflow RO-Crate profile description</a></li>
                         
-                        <li><a href="#%23use-zip">Use ZIP format</a></li>
-                        
-                        <li><a href="#%23include-ComputationalWorkflow">Include Main Workflow</a></li>
-                        
-                        <li><a href="#%23comply-ComputationalWorkflow">Comply with ComputationalWorkflow profile</a></li>
-                        
-                        <li><a href="#%23include-HowTo">Include Main Workflow CWL description</a></li>
-                        
-                        <li><a href="#%23include-ImageObject">Include Main Workflow Diagram</a></li>
-                        
                         <li><a href="#https%3A//w3id.org/ro/crate/1.1/context">RO-Crate JSON-LD Context</a></li>
                         
+                        <li><a href="#https%3A//bioschemas.org/ComputationalWorkflow">ComputationalWorkflow</a></li>
+                        
                         <li><a href="#https%3A//bioschemas.org/FormalParameter">Formal Parameter</a></li>
+                        
+                        <li><a href="#http%3A//schema.org/ImageObject">ImageObject</a></li>
+                        
+                        <li><a href="#http%3A//schema.org/HowTo">HowTo</a></li>
                         
                         <li><a href="#licenses/">licenses</a></li>
                         
@@ -2432,7 +2454,7 @@ WorkflowHub uses Workflow RO-Crates as an exchange format for users to upload a 
             <td style='text-align:left'><a href="#https%3A//w3id.org/workflowhub/">WorkflowHub project</a></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">sameAs<span>&nbsp;</span><a href="http://schema.org/sameAs">[?]</a></th>
-            <td style='text-align:left'><a href="#https%3A//w3id.org/workflowhub/workflow-ro-crate/1.0">Workflow RO-Crate profile (PID)</a></td>
+            <td style='text-align:left'><a href="#https%3A//w3id.org/workflowhub/workflow-ro-crate/1.0">Workflow RO-Crate profile recommendations</a></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">subjectOf<span>&nbsp;</span><a href="http://schema.org/subjectOf">[?]</a></th>
             <td style='text-align:left'><a href="#ro-crate-preview.html">Preview of Workflow RO-Crate</a></td>
@@ -2511,198 +2533,10 @@ WorkflowHub uses Workflow RO-Crates as an exchange format for users to upload a 
                         </ul></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">mainEntity<span>&nbsp;</span><a href="http://schema.org/mainEntity">[?]</a></th>
-            <td style='text-align:left'><a href="#https%3A//w3id.org/workflowhub/workflow-ro-crate/1.0">Workflow RO-Crate profile (PID)</a></td>
+            <td style='text-align:left'><a href="#https%3A//w3id.org/workflowhub/workflow-ro-crate/1.0">Workflow RO-Crate profile recommendations</a></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">dateModified<span>&nbsp;</span><a href="http://schema.org/dateModified">[?]</a></th>
             <td style='text-align:left'><span>2021-11-11T18:30:00.000Z</span></td>
-            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
-            <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
-            <td style='text-align:left'><a href="#./">Workflow RO-Crate profile</a></td>
-            </tr></tbody>
-            </table>
-        </div>
-
-        </div>
-        <hr/><br/><br/>
-           <div>
-            <h3> Use ZIP format</h3>
-            
-            
-            
-            
-        <div id="#use-zip">
-            
-            <table class="table metadata table-striped" >
-                <tbody><tr>
-            <th style="text-align:left;" class="prop">@id</th>
-            <td style='text-align:left'><span>#use-zip</span></td>
-            </tr><tr>
-            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
-            <td style='text-align:left'><span>Use ZIP format</span></td>
-            </tr><tr>
-            <th style="text-align:left;" class="prop">@type</th>
-            <td style='text-align:left'><span>Recommendation</span></td>
-            </tr><tr>
-            <th style="text-align:left;" class="prop">category<span>&nbsp;</span><a href="http://schema.org/category">[?]</a></th>
-            <td style='text-align:left'><span>MUST</span></td>
-            </tr><tr>
-            <th style="text-align:left;" class="prop">itemReviewed<span>&nbsp;</span><a href="http://schema.org/itemReviewed">[?]</a></th>
-            <td style='text-align:left'><a href="#https%3A//www.nationalarchives.gov.uk/PRONOM/x-fmt/263">ZIP Format</a></td>
-            </tr><tr>
-            <th style="text-align:left;" class="prop">reviewBody<span>&nbsp;</span><a href="http://schema.org/reviewBody">[?]</a></th>
-            <td style='text-align:left'><span>The Workflow RO-Crate MUST be zipped, and SHOULD have the file extension .crate.zip to be recognized by WorkflowHub. The ro-crate-metadata.json file SHOULD be directly in the root of the zip archive, so that the whole Zip becomes the RO-Crate Root</span></td>
-            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
-            <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
-            <td style='text-align:left'><a href="#./">Workflow RO-Crate profile</a></td>
-            </tr></tbody>
-            </table>
-        </div>
-
-        </div>
-        <hr/><br/><br/>
-           <div>
-            <h3> Include Main Workflow</h3>
-            
-            
-            
-            
-        <div id="#include-ComputationalWorkflow">
-            
-            <table class="table metadata table-striped" >
-                <tbody><tr>
-            <th style="text-align:left;" class="prop">@id</th>
-            <td style='text-align:left'><span>#include-ComputationalWorkflow</span></td>
-            </tr><tr>
-            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
-            <td style='text-align:left'><span>Include Main Workflow</span></td>
-            </tr><tr>
-            <th style="text-align:left;" class="prop">@type</th>
-            <td style='text-align:left'><span>Recommendation</span></td>
-            </tr><tr>
-            <th style="text-align:left;" class="prop">category<span>&nbsp;</span><a href="http://schema.org/category">[?]</a></th>
-            <td style='text-align:left'><span>MUST</span></td>
-            </tr><tr>
-            <th style="text-align:left;" class="prop">reviewBody<span>&nbsp;</span><a href="http://schema.org/reviewBody">[?]</a></th>
-            <td style='text-align:left'><span>The Crate MUST contain a data entity of type ["File", "SoftwareSourceCode", "ComputationalWorkflow"] as the Main Workflow.
-
-The Crate MUST refer to the Main Workflow via mainEntity.
-
-The Main Workflow MUST refer to its type via programmingLanguage.</span></td>
-            </tr><tr>
-            <th style="text-align:left;" class="prop">itemReviewed<span>&nbsp;</span><a href="http://schema.org/itemReviewed">[?]</a></th>
-            <td style='text-align:left'><a href="#https%3A//bioschemas.org/ComputationalWorkflow">ComputationalWorkflow</a></td>
-            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
-            <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
-            <td style='text-align:left'><a href="#./">Workflow RO-Crate profile</a></td>
-            </tr></tbody>
-            </table>
-        </div>
-
-        </div>
-        <hr/><br/><br/>
-           <div>
-            <h3> Comply with ComputationalWorkflow profile</h3>
-            
-            
-            
-            
-        <div id="#comply-ComputationalWorkflow">
-            
-            <table class="table metadata table-striped" >
-                <tbody><tr>
-            <th style="text-align:left;" class="prop">@id</th>
-            <td style='text-align:left'><span>#comply-ComputationalWorkflow</span></td>
-            </tr><tr>
-            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
-            <td style='text-align:left'><span>Comply with ComputationalWorkflow profile</span></td>
-            </tr><tr>
-            <th style="text-align:left;" class="prop">@type</th>
-            <td style='text-align:left'><span>Recommendation</span></td>
-            </tr><tr>
-            <th style="text-align:left;" class="prop">category<span>&nbsp;</span><a href="http://schema.org/category">[?]</a></th>
-            <td style='text-align:left'><span>SHOULD</span></td>
-            </tr><tr>
-            <th style="text-align:left;" class="prop">itemReviewed<span>&nbsp;</span><a href="http://schema.org/itemReviewed">[?]</a></th>
-            <td style='text-align:left'><a href="#https%3A//bioschemas.org/profiles/ComputationalWorkflow/1.0-RELEASE">ComputationalWorkflow Profile</a></td>
-            </tr><tr>
-            <th style="text-align:left;" class="prop">reviewBody<span>&nbsp;</span><a href="http://schema.org/reviewBody">[?]</a></th>
-            <td style='text-align:left'><span>The ComputationalWorkflow description of the Main Workflow SHOULD comply with Bioschemas ComputationalWorkflow profile version 1.0 or later.
-
-Conformance with the Bioschemas profile SHOULD be indicated with a conformsTo on the Main Workflow entity.</span></td>
-            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
-            <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
-            <td style='text-align:left'><a href="#./">Workflow RO-Crate profile</a></td>
-            </tr></tbody>
-            </table>
-        </div>
-
-        </div>
-        <hr/><br/><br/>
-           <div>
-            <h3> Include Main Workflow CWL description</h3>
-            
-            
-            
-            
-        <div id="#include-HowTo">
-            
-            <table class="table metadata table-striped" >
-                <tbody><tr>
-            <th style="text-align:left;" class="prop">@id</th>
-            <td style='text-align:left'><span>#include-HowTo</span></td>
-            </tr><tr>
-            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
-            <td style='text-align:left'><span>Include Main Workflow CWL description</span></td>
-            </tr><tr>
-            <th style="text-align:left;" class="prop">@type</th>
-            <td style='text-align:left'><span>Recommendation</span></td>
-            </tr><tr>
-            <th style="text-align:left;" class="prop">category<span>&nbsp;</span><a href="http://schema.org/category">[?]</a></th>
-            <td style='text-align:left'><span>COULD</span></td>
-            </tr><tr>
-            <th style="text-align:left;" class="prop">itemReviewed<span>&nbsp;</span><a href="http://schema.org/itemReviewed">[?]</a></th>
-            <td style='text-align:left'><a href="#http%3A//schema.org/HowTo">HowTo</a></td>
-            </tr><tr>
-            <th style="text-align:left;" class="prop">reviewBody<span>&nbsp;</span><a href="http://schema.org/reviewBody">[?]</a></th>
-            <td style='text-align:left'><span>The Crate COULD contain a data entity of type ["File", "SoftwareSourceCode", "HowTo"] as the Main Workflow CWL Description.
-
-If present the Main Workflow MUST refer to the Main Workflow CWL Description via subjectOf.</span></td>
-            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
-            <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
-            <td style='text-align:left'><a href="#./">Workflow RO-Crate profile</a></td>
-            </tr></tbody>
-            </table>
-        </div>
-
-        </div>
-        <hr/><br/><br/>
-           <div>
-            <h3> Include Main Workflow Diagram</h3>
-            
-            
-            
-            
-        <div id="#include-ImageObject">
-            
-            <table class="table metadata table-striped" >
-                <tbody><tr>
-            <th style="text-align:left;" class="prop">@id</th>
-            <td style='text-align:left'><span>#include-ImageObject</span></td>
-            </tr><tr>
-            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
-            <td style='text-align:left'><span>Include Main Workflow Diagram</span></td>
-            </tr><tr>
-            <th style="text-align:left;" class="prop">@type</th>
-            <td style='text-align:left'><span>Recommendation</span></td>
-            </tr><tr>
-            <th style="text-align:left;" class="prop">category<span>&nbsp;</span><a href="http://schema.org/category">[?]</a></th>
-            <td style='text-align:left'><span>COULD</span></td>
-            </tr><tr>
-            <th style="text-align:left;" class="prop">itemReviewed<span>&nbsp;</span><a href="http://schema.org/itemReviewed">[?]</a></th>
-            <td style='text-align:left'><a href="#http%3A//schema.org/ImageObject">ImageObject</a></td>
-            </tr><tr>
-            <th style="text-align:left;" class="prop">reviewBody<span>&nbsp;</span><a href="http://schema.org/reviewBody">[?]</a></th>
-            <td style='text-align:left'><span>The Crate COULD contain a Main Workflow Diagram. If Main Workflow Diagram is present, the Main Workflow MUST refer to it via property 'image'.</span></td>
             </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
             <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
             <td style='text-align:left'><a href="#./">Workflow RO-Crate profile</a></td>
@@ -2750,6 +2584,51 @@ If present the Main Workflow MUST refer to the Main Workflow CWL Description via
         </div>
         <hr/><br/><br/>
            <div>
+            <h3><a href="https://bioschemas.org/ComputationalWorkflow">Go to: </a> ComputationalWorkflow</h3>
+            
+            
+            
+            
+        <div id="https://bioschemas.org/ComputationalWorkflow">
+            
+            <table class="table metadata table-striped" >
+                <tbody><tr>
+            <th style="text-align:left;" class="prop">@id</th>
+            <td style='text-align:left'><a href="https://bioschemas.org/ComputationalWorkflow">https://bioschemas.org/ComputationalWorkflow</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
+            <td style='text-align:left'><span>ComputationalWorkflow</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">@type</th>
+            <td style='text-align:left'><span>DefinedTerm</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">description<span>&nbsp;</span><a href="http://schema.org/description">[?]</a></th>
+            <td style='text-align:left'><span>A computational workflow consists of an orchestrated and repeatable pattern of activity enabled by the systematic organization of resources into processes that transform materials, provide services, or process information (source Wikipedia.org). It is executed by a computational process and is thus distinct from laboratory or business workflows.</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">termCode<span>&nbsp;</span><a href="http://schema.org/termCode">[?]</a></th>
+            <td style='text-align:left'><span>ComputationalWorkflow</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">subjectOf<span>&nbsp;</span><a href="http://schema.org/subjectOf">[?]</a></th>
+            <td style='text-align:left'><a href="#https%3A//bioschemas.org/profiles/ComputationalWorkflow/1.0-RELEASE">ComputationalWorkflow Profile</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">url<span>&nbsp;</span><a href="http://schema.org/url">[?]</a></th>
+            <td style='text-align:left'><a href="https://bioschemas.org/types/ComputationalWorkflow/1.0-RELEASE/">https://bioschemas.org/types/ComputationalWorkflow/1.0-RELEASE/</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">version<span>&nbsp;</span><a href="http://schema.org/version">[?]</a></th>
+            <td style='text-align:left'><span>1.0-RELEASE</span></td>
+            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
+            <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
+            <td style='text-align:left'><a href="#./">Workflow RO-Crate profile</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">itemReviewed<span>&nbsp;</span><a href="http://schema.org/itemReviewed">[?]</a></th>
+            <td style='text-align:left'><a href="#%23include-ComputationalWorkflow">Include Main Workflow</a></td>
+            </tr></tbody>
+            </table>
+        </div>
+
+        </div>
+        <hr/><br/><br/>
+           <div>
             <h3><a href="https://bioschemas.org/FormalParameter">Go to: </a> Formal Parameter</h3>
             
             
@@ -2785,6 +2664,78 @@ If present the Main Workflow MUST refer to the Main Workflow CWL Description via
             </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
             <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
             <td style='text-align:left'><a href="#./">Workflow RO-Crate profile</a></td>
+            </tr></tbody>
+            </table>
+        </div>
+
+        </div>
+        <hr/><br/><br/>
+           <div>
+            <h3><a href="http://schema.org/ImageObject">Go to: </a> ImageObject</h3>
+            
+            
+            
+            
+        <div id="http://schema.org/ImageObject">
+            
+            <table class="table metadata table-striped" >
+                <tbody><tr>
+            <th style="text-align:left;" class="prop">@id</th>
+            <td style='text-align:left'><a href="http://schema.org/ImageObject">http://schema.org/ImageObject</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
+            <td style='text-align:left'><span>ImageObject</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">@type</th>
+            <td style='text-align:left'><span>DefinedTerm</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">description<span>&nbsp;</span><a href="http://schema.org/description">[?]</a></th>
+            <td style='text-align:left'><span>An image file</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">termCode<span>&nbsp;</span><a href="http://schema.org/termCode">[?]</a></th>
+            <td style='text-align:left'><span>ImageObject</span></td>
+            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
+            <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
+            <td style='text-align:left'><a href="#./">Workflow RO-Crate profile</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">itemReviewed<span>&nbsp;</span><a href="http://schema.org/itemReviewed">[?]</a></th>
+            <td style='text-align:left'><a href="#%23include-ImageObject">Include Main Workflow Diagram</a></td>
+            </tr></tbody>
+            </table>
+        </div>
+
+        </div>
+        <hr/><br/><br/>
+           <div>
+            <h3><a href="http://schema.org/HowTo">Go to: </a> HowTo</h3>
+            
+            
+            
+            
+        <div id="http://schema.org/HowTo">
+            
+            <table class="table metadata table-striped" >
+                <tbody><tr>
+            <th style="text-align:left;" class="prop">@id</th>
+            <td style='text-align:left'><a href="http://schema.org/HowTo">http://schema.org/HowTo</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
+            <td style='text-align:left'><span>HowTo</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">@type</th>
+            <td style='text-align:left'><span>DefinedTerm</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">description<span>&nbsp;</span><a href="http://schema.org/description">[?]</a></th>
+            <td style='text-align:left'><span>Instructions that explain how to achieve a result by performing a sequence of steps.</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">termCode<span>&nbsp;</span><a href="http://schema.org/termCode">[?]</a></th>
+            <td style='text-align:left'><span>HowTo</span></td>
+            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
+            <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
+            <td style='text-align:left'><a href="#./">Workflow RO-Crate profile</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">itemReviewed<span>&nbsp;</span><a href="http://schema.org/itemReviewed">[?]</a></th>
+            <td style='text-align:left'><a href="#%23include-HowTo">Include Main Workflow CWL description</a></td>
             </tr></tbody>
             </table>
         </div>
@@ -3334,7 +3285,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         </div>
         <hr/><br/><br/>
            <div>
-            <h3><a href="https://w3id.org/workflowhub/workflow-ro-crate/1.0">Go to: </a> Workflow RO-Crate profile (PID)</h3>
+            <h3><a href="https://w3id.org/workflowhub/workflow-ro-crate/1.0">Go to: </a> Workflow RO-Crate profile recommendations</h3>
             
             
             
@@ -3347,10 +3298,23 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             <td style='text-align:left'><a href="https://w3id.org/workflowhub/workflow-ro-crate/1.0">https://w3id.org/workflowhub/workflow-ro-crate/1.0</a></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
-            <td style='text-align:left'><span>Workflow RO-Crate profile (PID)</span></td>
+            <td style='text-align:left'><span>Workflow RO-Crate profile recommendations</span></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">@type</th>
             <td style='text-align:left'><span>Guide</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
+            <td style='text-align:left'><ul>
+                        <li><a href="#%23use-zip">Use ZIP format</a></li>
+                        
+                        <li><a href="#%23include-ComputationalWorkflow">Include Main Workflow</a></li>
+                        
+                        <li><a href="#%23comply-ComputationalWorkflow">Comply with ComputationalWorkflow profile</a></li>
+                        
+                        <li><a href="#%23include-HowTo">Include Main Workflow CWL description</a></li>
+                        
+                        <li><a href="#%23include-ImageObject">Include Main Workflow Diagram</a></li>
+                        </ul></td>
             </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
             <th style="text-align:left;" class="prop">sameAs<span>&nbsp;</span><a href="http://schema.org/sameAs">[?]</a></th>
             <td style='text-align:left'><a href="#./">Workflow RO-Crate profile</a></td>

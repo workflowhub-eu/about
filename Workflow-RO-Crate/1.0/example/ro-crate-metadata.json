@@ -22,7 +22,7 @@
       "author": {
         "@id": "https://orcid.org/0000-0001-9842-9718"
       },
-      "datePublished": "2021-11-18T01:03:15Z",
+      "datePublished": "2021-11-18T12:03:00Z",
       "description": "An example Workflow RO-Crate, showing a Galaxy workflow with an abstract CWL description and diagram. This Crate is deliberately excessively populated to show the exensible possibilities (e.g. including a BioCompute Object and a Planemo test), refer to the Workflow RO-Crate profile for minimal requirements.",
       "hasPart": [
         {

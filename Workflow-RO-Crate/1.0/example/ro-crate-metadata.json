@@ -111,7 +111,7 @@
         { "@id": "#last_lines" }
       ],
       "programmingLanguage": {
-        "@id": "#galaxy"
+        "@id": "https://w3id.org/workflowhub/workflow-ro-crate#galaxy"
       },
       "sdPublisher": {
         "@id": "https://w3id.org/workflowhub/"
@@ -137,7 +137,7 @@
       ],
       "name": "Abstract CWL of Hello World",
       "programmingLanguage": {
-        "@id": "#cwl"
+        "@id": "https://w3id.org/workflowhub/workflow-ro-crate#cwl"
       },
       "url": "https://w3id.org/cwl/view/git/7269c76837f12b248d3a255efe6edbc6915d77bc/Workflow-RO-Crate/1.0-DRAFT/example/abstract_workflow.cwl"
     },
@@ -247,7 +247,7 @@
       "name": "Planemo Test Results (JSON)"
     },
     {
-      "@id": "#cwl",
+      "@id": "https://w3id.org/workflowhub/workflow-ro-crate#cwl",
       "@type": "ComputerLanguage",
       "alternateName": "CWL",
       "identifier": "https://w3id.org/cwl/v1.2/",
@@ -256,7 +256,7 @@
       "version": "1.2"
     },
     {
-      "@id": "#galaxy",
+      "@id": "https://w3id.org/workflowhub/workflow-ro-crate#galaxy",
       "@type": "ComputerLanguage",
       "identifier": "https://galaxyproject.org/",
       "name": "Galaxy",

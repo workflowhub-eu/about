@@ -83,7 +83,7 @@ The _Main Workflow_ MUST refer to its type via `programmingLanguage`.
 
 The _Crate_ COULD contain a data entity of type `["File", "SoftwareSourceCode", "HowTo"]` as the _Main Workflow CWL Description_. 
 
-A _Main Workflow CWL Description_ SHOULD have `#cwl` as its `programmingLanguage` with a corresponding [contextual entity](#cwl).
+A _Main Workflow CWL Description_ SHOULD have `https://w3id.org/workflowhub/workflow-ro-crate#cwl` as its `programmingLanguage` with a corresponding [contextual entity](#cwl).
 
 If _Main Workflow CWL Description_ is present, the _Main Workflow_ MUST refer to it the via `subjectOf`.
 
@@ -143,7 +143,7 @@ To ensure compatibility, please include one of the following in the RO-Crate met
 #### CWL
 ```json
 {
-  "@id": "#cwl",
+  "@id": "https://w3id.org/workflowhub/workflow-ro-crate#cwl",
   "@type": "ComputerLanguage",
   "name": "Common Workflow Language",
   "alternateName": "CWL",
@@ -159,7 +159,7 @@ To ensure compatibility, please include one of the following in the RO-Crate met
 #### Galaxy
 ```json
 {
-  "@id": "#galaxy",
+  "@id": "https://w3id.org/workflowhub/workflow-ro-crate#galaxy",
   "@type": "ComputerLanguage",
   "name": "Galaxy",
   "identifier": {
@@ -173,7 +173,7 @@ To ensure compatibility, please include one of the following in the RO-Crate met
 #### KNIME
 ```json
 {
-  "@id": "#knime",
+  "@id": "https://w3id.org/workflowhub/workflow-ro-crate#knime",
   "@type": "ComputerLanguage",
   "name": "KNIME",
   "identifier": {
@@ -187,7 +187,7 @@ To ensure compatibility, please include one of the following in the RO-Crate met
 #### Nextflow
 ```json
 {
-  "@id": "#nextflow",
+  "@id": "https://w3id.org/workflowhub/workflow-ro-crate#nextflow",
   "@type": "ComputerLanguage",
   "name": "Nextflow",
   "identifier": {
@@ -201,7 +201,7 @@ To ensure compatibility, please include one of the following in the RO-Crate met
 #### Snakemake
 ```json
 {
-  "@id": "#snakemake",
+  "@id": "https://w3id.org/workflowhub/workflow-ro-crate#snakemake",
   "@type": "ComputerLanguage",
   "name": "Snakemake",
   "identifier": {
@@ -356,7 +356,7 @@ A minimal example of _Workflow RO-Crate_ metadata, containing a CWL workflow, an
         "HowTo"
       ],
       "programmingLanguage": {
-        "@id": "#cwl"
+        "@id": "https://w3id.org/workflowhub/workflow-ro-crate#cwl"
       },
       "name": "Example Workflow",
       "image": {
@@ -378,16 +378,12 @@ A minimal example of _Workflow RO-Crate_ metadata, containing a CWL workflow, an
       "encodingFormat": "text/markdown"
     },
     {
-      "@id": "#cwl",
+      "@id": "https://w3id.org/workflowhub/workflow-ro-crate#cwl",
       "@type": "ComputerLanguage",
       "name": "Common Workflow Language",
       "alternateName": "CWL",
-      "identifier": {
-        "@id": "https://w3id.org/cwl/v1.2/"
-      },
-      "url": {
-        "@id": "https://www.commonwl.org/"
-      }
+      "identifier": "https://w3id.org/cwl/v1.2/",
+      "url": "https://www.commonwl.org/"
     }
   ]
 }

@@ -112,7 +112,7 @@
       ]
     },
     {
-      "@id": "#cwl",
+      "@id": "https://w3id.org/workflowhub/workflow-ro-crate#cwl",
       "@type": "ComputerLanguage",
       "alternateName": "CWL",
       "identifier": {
@@ -124,7 +124,7 @@
       }
     },
     {
-      "@id": "#galaxy",
+      "@id": "https://w3id.org/workflowhub/workflow-ro-crate#galaxy",
       "@type": "ComputerLanguage",
       "identifier": {
         "@id": "https://galaxyproject.org/"
@@ -135,7 +135,7 @@
       }
     },
     {
-      "@id": "#knime",
+      "@id": "https://w3id.org/workflowhub/workflow-ro-crate#knime",
       "@type": "ComputerLanguage",
       "identifier": {
         "@id": "https://www.knime.com/"
@@ -146,7 +146,7 @@
       }
     },
     {
-      "@id": "#nextflow",
+      "@id": "https://w3id.org/workflowhub/workflow-ro-crate#nextflow",
       "@type": "ComputerLanguage",
       "identifier": {
         "@id": "https://www.nextflow.io/"
@@ -157,7 +157,7 @@
       }
     },
     {
-      "@id": "#snakemake",
+      "@id": "https://w3id.org/workflowhub/workflow-ro-crate#snakemake",
       "@type": "ComputerLanguage",
       "identifier": {
         "@id": "https://doi.org/10.1093/bioinformatics/bts480"
@@ -291,19 +291,19 @@
       "description": "WorkflowHub currently supports CWL, Galaxy, KNIME and Nextflow workflow types. \n\n To ensure compatibility, please include one of the following in the RO-Crate metadata, and refer to it from the Main Workflow's programmingLanguage property",
       "hasPart": [
         {
-          "@id": "#cwl"
+          "@id": "https://w3id.org/workflowhub/workflow-ro-crate#cwl"
         },
         {
-          "@id": "#galaxy"
+          "@id": "https://w3id.org/workflowhub/workflow-ro-crate#galaxy"
         },
         {
-          "@id": "#knime"
+          "@id": "https://w3id.org/workflowhub/workflow-ro-crate#knime"
         },
         {
-          "@id": "#nextflow"
+          "@id": "https://w3id.org/workflowhub/workflow-ro-crate#nextflow"
         },
         {
-          "@id": "#snakemake"
+          "@id": "https://w3id.org/workflowhub/workflow-ro-crate#snakemake"
         }
       ],
       "name": "languages"

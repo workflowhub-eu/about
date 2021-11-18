@@ -1,0 +1,13 @@
+---
+- doc: Rudimentary test for Hello World workflow
+  job:
+    simple_input:
+      class: File
+      path: examples/abcdef.txt
+      filetype: txt
+  outputs:
+    last_lines:
+        has_line:
+          text: "E"
+    reversed:
+      file: examples/tac_on_data_360_1.txt

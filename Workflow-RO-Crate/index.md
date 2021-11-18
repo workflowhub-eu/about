@@ -1,1 +1,1 @@
-0.2/index.md
+1.0/index.md

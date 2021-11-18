@@ -114,7 +114,8 @@
       "name": "Abstract CWL of Hello World",
       "programmingLanguage": {
         "@id": "#cwl"
-      }
+      },
+      "url": "https://w3id.org/cwl/view/git/7269c76837f12b248d3a255efe6edbc6915d77bc/Workflow-RO-Crate/1.0-DRAFT/example/abstract_workflow.cwl"
     },
     {
       "@id": "examples/",

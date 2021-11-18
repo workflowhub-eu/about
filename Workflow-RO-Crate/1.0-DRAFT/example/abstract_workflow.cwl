@@ -1,21 +1,28 @@
 class: Workflow
 cwlVersion: v1.2
-doc: 'Abstract CWL Automatically generated from the Galaxy workflow file: Hello World'
+label: Hello World
+doc: From https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-editor/tutorial.html#creating-a-new-workflow
 inputs:
   simple_input:
-    doc: A simple text input dataset
+    label: Simple input
+    doc: A simple set of lines in a text file
     format: data
     type: File
 outputs:
   reversed:
+    label: Reversed lines
+    doc: All the lines, reversed
     outputSource: 1_tac/outfile
     type: File
   last_lines:
+    label: Last lines
+    doc: Only the last few lines of input, that is the first of the reversed lines
     outputSource: 2_Select_first/out_file1
     type: File
 steps:
   1_tac:
-    doc: Reverse dataset
+    label: Reverse dataset
+    doc: Return all the lines of a text file reversed, last to first
     in:
       infile: simple_input
     out:
@@ -23,7 +30,6 @@ steps:
     run:
       class: Operation
       id: toolshed_g2_bx_psu_edu_repos_bgruening_text_processing_tp_tac_1_1_0
-      s:identifier: "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_tac/1.1.0"
       inputs:
         infile:
           format: Any
@@ -33,7 +39,8 @@ steps:
           doc: input
           type: File
   2_Select_first:
-    doc: "Select first lines"
+    label: Select last lines
+    doc: "The last lines of workflow input are the first lines of the reversed input"
     in:
       input: 1_tac/outfile
     out:

@@ -58,6 +58,9 @@
         "@id": "Galaxy-Workflow-Hello_World.ga"
       },
       "name": "Hello World",
+      "publisher": {
+        "@id": "https://w3id.org/workflowhub/"
+      },
       "subjectOf": {
         "@id": "ro-crate-preview.html"
       }
@@ -82,21 +85,42 @@
       "author": {
         "@id": "https://orcid.org/0000-0001-9842-9718"
       },
+      "conformsTo": {
+        "@id": "https://bioschemas.org/profiles/ComputationalWorkflow/1.0-RELEASE"
+      },
+      "creator": {
+        "@id": "https://orcid.org/0000-0001-9842-9718"
+      },
+      "dateCreated": "2021-11-18T01:03:15Z",
       "encodingFormat": "application/json",
       "image": {
         "@id": "hello_world.png"
       },
+      "input": [
+        { "@id": "#simple_input" }
+      ],
       "isBasedOn": {
         "@id": "https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-editor/tutorial.html"
       },
+      "license": {
+        "@id": "http://spdx.org/licenses/CC0-1.0"
+      },
       "name": "Hello World (Galaxy Workflow)",
+      "output": [
+        { "@id": "#reversed" },
+        { "@id": "#last_lines" }
+      ],
       "programmingLanguage": {
         "@id": "#galaxy"
+      },
+      "sdPublisher": {
+        "@id": "https://w3id.org/workflowhub/"
       },
       "subjectOf": {
         "@id": "abstract_workflow.cwl"
       },
-      "url": "https://usegalaxy.eu/u/5dbf7f05329e49c98b31243b5f35045c/w/hello-world"
+      "url": "https://usegalaxy.eu/u/5dbf7f05329e49c98b31243b5f35045c/w/hello-world",
+      "version": "0.1.0"
     },
     {
       "@id": "README.md",
@@ -239,6 +263,88 @@
       "url": "https://galaxyproject.org/"
     },
     {
+      "@id": "#simple_input",
+      "@type": "FormalParameter",
+      "additionalType": {
+        "@id": "http://edamontology.org/data_3671"
+      },
+      "conformsTo": { 
+          "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+      },
+      "description": "A simple set of lines in a text file",
+      "encodingFormat": [
+        "text/plain",
+        { "@id": "http://edamontology.org/format_2330" }
+      ],
+      "workExample": {
+        "@id": "examples/abcdef.txt"
+      },
+      "name": "Simple input",
+      "valueRequired": true
+    },
+    {
+      "@id": "#reversed",
+      "@type": "FormalParameter",
+      "additionalType": {
+        "@id": "http://edamontology.org/data_3671"
+      },
+      "conformsTo": { 
+          "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+      },
+      "description": "All the lines, reversed",
+      "encodingFormat": [
+        "text/plain",
+        { "@id": "http://edamontology.org/format_2330" }
+      ],
+      "name": "Reversed lines",
+      "workExample": {
+        "@id": "examples/tac_on_data_360_1.txt"
+      }
+    },
+    {
+      "@id": "#last_lines",
+      "@type": "FormalParameter",
+      "additionalType": {
+        "@id": "http://edamontology.org/data_3671"
+      },
+      "conformsTo": { 
+          "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+      },
+      "description": "The last lines of workflow input are the first lines of the reversed input",
+      "encodingFormat": [
+        "text/plain",
+        { "@id": "http://edamontology.org/format_2330" }
+      ],
+      "name": "Last lines",
+      "workExample": {
+        "@id": "examples/Select_first_on_data_1_2.txt"
+      }
+    },
+    {
+      "@id": "https://bioschemas.org/profiles/ComputationalWorkflow/1.0-RELEASE",
+      "@type": "Guide",
+      "name": "ComputationalWorkflow Profile",
+      "version": "1.0-RELEASE",
+      "description": "Bioschemas specification for describing a Computational Workflow"
+    },    
+    {
+      "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE",
+      "@type": "Guide",
+      "name": "FormalParameter Profile",
+      "version": "1.0-RELEASE",
+      "description": "Bioschemas specification for describing a formal parameter in the Life Sciences"
+    },   
+    {
+      "@id": "http://edamontology.org/data_3671",
+      "@type": "DefinedTerm",
+      "name": "Text"
+    },
+    {
+      "@id": "http://edamontology.org/format_2330",
+      "@type": "DefinedTerm",
+      "name": "Textual format"
+    },    
+    {
       "@id": "https://orcid.org/0000-0001-9842-9718",
       "@type": "Person",
       "name": "Stian Soiland-Reyes"
@@ -276,7 +382,7 @@
     },
     {
       "@id": "https://w3id.org/ieee/ieee-2791-schema/",
-      "@type": "CreativeWork",
+      "@type": "Guide",
       "name": "IEEE 2791 Object Schema",
       "version": "1.4"
     },
@@ -286,6 +392,11 @@
       "name": "RO-Crate specification",
       "version": "1.1.1"
     },
+    {
+      "@id": "https://w3id.org/workflowhub/",
+      "@type": "Organization",
+      "name": "WorkflowHub project"
+    },    
     {
       "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0",
       "@type": "Guide",

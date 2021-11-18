@@ -6,317 +6,767 @@
 
 <script type="application/ld+json"> 
   {
-    "@context": "https://w3id.org/ro/crate/1.1/context",
-    "@graph": [
-      {
-        "@id": "ro-crate-metadata.json",
-        "@type": "CreativeWork",
-        "conformsTo": [
+  "@context": "https://w3id.org/ro/crate/1.1/context",
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/crate/1.1"
+        },
+        {
+          "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"
+        }
+      ],
+      "about": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-9842-9718"
+      },
+      "datePublished": "2021-11-18T01:03:15Z",
+      "description": "An example Workflow RO-Crate, showing a Galaxy workflow with an abstract CWL description and diagram. This Crate is deliberately excessively populated to show the exensible possibilities (e.g. including a BioCompute Object and a Planemo test), refer to the Workflow RO-Crate profile for minimal requirements.",
+      "hasPart": [
+        {
+          "@id": "Galaxy-Workflow-Hello_World.ga"
+        },
+        {
+          "@id": "Galaxy-Workflow-Hello_World-test.yml"
+        },
+        {
+          "@id": "abstract_workflow.cwl"
+        },
+        {
+          "@id": "hello_world.png"
+        },
+        {
+          "@id": "README.md"
+        },
+        {
+          "@id": "test/"
+        },
+        {
+          "@id": "examples/"
+        },
+        {
+          "@id": "https://usegalaxy.eu/u/5dbf7f05329e49c98b31243b5f35045c/p/invocation-report-a3a1d27edb703e5c"
+        }
+      ],
+      "keywords": "example,reverse",
+      "license": {
+        "@id": "http://spdx.org/licenses/CC0-1.0"
+      },
+      "mainEntity": {
+        "@id": "Galaxy-Workflow-Hello_World.ga"
+      },
+      "name": "Hello World",
+      "publisher": {
+        "@id": "https://w3id.org/workflowhub/"
+      },
+      "subjectOf": {
+        "@id": "ro-crate-preview.html"
+      },
+      "@reverse": {
+        "about": [
           {
-            "@id": "https://w3id.org/ro/crate/1.1"
+            "@id": "ro-crate-metadata.json"
           },
           {
-            "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"
+            "@id": "ro-crate-preview.html"
           }
-        ],
-        "about": {
-          "@id": "./"
-        }
+        ]
+      }
+    },
+    {
+      "@id": "Galaxy-Workflow-Hello_World-test.yml",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "https://planemo.readthedocs.io/en/latest/test_format.html"
       },
-      {
-        "@id": "./",
-        "@type": "Dataset",
-        "author": {
-          "@id": "https://orcid.org/0000-0001-9842-9718"
-        },
-        "datePublished": "2021-11-18T01:03:15Z",
-        "description": "An example Workflow RO-Crate, showing a Galaxy workflow with an abstract CWL description and diagram. This Crate is deliberately excessively populated to show the exensible possibilities (e.g. including a BioCompute Object and a Planemo test), refer to the Workflow RO-Crate profile for minimal requirements.",
+      "description": "Run with: planemo test --biocontainers Galaxy-Workflow-Hello_World.ga",
+      "encodingFormat": "application/x-yaml",
+      "name": "Galaxy-Workflow-Hello_World-test",
+      "@reverse": {
         "hasPart": [
           {
-            "@id": "Galaxy-Workflow-Hello_World.ga"
-          },
-          {
-            "@id": "Galaxy-Workflow-Hello_World-test.yml"
-          },
-          {
-            "@id": "abstract_workflow.cwl"
-          },
-          {
-            "@id": "hello_world.png"
-          },
-          {
-            "@id": "README.md"
-          },
+            "@id": "./"
+          }
+        ],
+        "mainEntity": [
           {
             "@id": "test/"
-          },
+          }
+        ]
+      }
+    },
+    {
+      "@id": "Galaxy-Workflow-Hello_World.ga",
+      "@type": [
+        "File",
+        "SoftwareSourceCode",
+        "ComputationalWorkflow"
+      ],
+      "author": {
+        "@id": "https://orcid.org/0000-0001-9842-9718"
+      },
+      "conformsTo": {
+        "@id": "https://bioschemas.org/profiles/ComputationalWorkflow/1.0-RELEASE"
+      },
+      "creator": {
+        "@id": "https://orcid.org/0000-0001-9842-9718"
+      },
+      "dateCreated": "2021-11-18T01:03:15Z",
+      "encodingFormat": "application/json",
+      "image": {
+        "@id": "hello_world.png"
+      },
+      "input": [
+        {
+          "@id": "#simple_input"
+        }
+      ],
+      "isBasedOn": {
+        "@id": "https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-editor/tutorial.html"
+      },
+      "license": {
+        "@id": "http://spdx.org/licenses/CC0-1.0"
+      },
+      "name": "Hello World (Galaxy Workflow)",
+      "output": [
+        {
+          "@id": "#reversed"
+        },
+        {
+          "@id": "#last_lines"
+        }
+      ],
+      "programmingLanguage": {
+        "@id": "#galaxy"
+      },
+      "sdPublisher": {
+        "@id": "https://w3id.org/workflowhub/"
+      },
+      "subjectOf": {
+        "@id": "abstract_workflow.cwl"
+      },
+      "url": "https://usegalaxy.eu/u/5dbf7f05329e49c98b31243b5f35045c/w/hello-world",
+      "version": "0.1.0",
+      "@reverse": {
+        "hasPart": [
+          {
+            "@id": "./"
+          }
+        ],
+        "mainEntity": [
+          {
+            "@id": "./"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "README.md",
+      "@type": "File",
+      "encodingFormat": "text/markdown",
+      "name": "README",
+      "@reverse": {
+        "hasPart": [
+          {
+            "@id": "./"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "abstract_workflow.cwl",
+      "@type": [
+        "File",
+        "SoftwareSourceCode",
+        "HowTo"
+      ],
+      "name": "Abstract CWL of Hello World",
+      "programmingLanguage": {
+        "@id": "#cwl"
+      },
+      "url": "https://w3id.org/cwl/view/git/7269c76837f12b248d3a255efe6edbc6915d77bc/Workflow-RO-Crate/1.0-DRAFT/example/abstract_workflow.cwl",
+      "@reverse": {
+        "hasPart": [
+          {
+            "@id": "./"
+          }
+        ],
+        "subjectOf": [
+          {
+            "@id": "Galaxy-Workflow-Hello_World.ga"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "examples/",
+      "@type": "Dataset",
+      "hasPart": [
+        {
+          "@id": "examples/abcdef.txt"
+        },
+        {
+          "@id": "examples/Galaxy-History-Hello-World.tar.gz"
+        },
+        {
+          "@id": "examples/tac_on_data_360_1.txt"
+        },
+        {
+          "@id": "examples/Select_first_on_data_1_2.txt"
+        },
+        {
+          "@id": "examples/bco_a3a1d27edb703e5c.json"
+        }
+      ],
+      "name": "Example input and outputs",
+      "@reverse": {
+        "hasPart": [
+          {
+            "@id": "./"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "examples/Galaxy-History-Hello-World.tar.gz",
+      "@type": "File",
+      "name": "Galaxy History of Hello World example run",
+      "@reverse": {
+        "hasPart": [
           {
             "@id": "examples/"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "examples/Select_first_on_data_1_2.txt",
+      "@type": "File",
+      "description": "Example output of the last (aka first of reversed) lines",
+      "encodingFormat": "text/plain",
+      "name": "Select_first_on_data_1_2 (output)",
+      "@reverse": {
+        "hasPart": [
+          {
+            "@id": "examples/"
+          }
+        ],
+        "workExample": [
+          {
+            "@id": "#last_lines"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "examples/abcdef.txt",
+      "@type": "File",
+      "description": "Example input, a simple text file",
+      "encodingFormat": "text/plain",
+      "name": "abcdef (input)",
+      "@reverse": {
+        "hasPart": [
+          {
+            "@id": "examples/"
+          }
+        ],
+        "workExample": [
+          {
+            "@id": "#simple_input"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "examples/bco_a3a1d27edb703e5c.json",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "https://w3id.org/ieee/ieee-2791-schema/"
+      },
+      "description": "Alternative representation of the Galaxy workflow execution using IEEE Std 2791-2020",
+      "encodingFormat": "application/json",
+      "name": "BioCompute Object a3a1d27edb703e5c",
+      "@reverse": {
+        "hasPart": [
+          {
+            "@id": "examples/"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "examples/tac_on_data_360_1.txt",
+      "@type": "File",
+      "description": "Example output of the reversed lines",
+      "encodingFormat": "text/plain",
+      "name": "tac_on_data_360_1 (output)",
+      "@reverse": {
+        "hasPart": [
+          {
+            "@id": "examples/"
+          }
+        ],
+        "workExample": [
+          {
+            "@id": "#reversed"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "hello_world.png",
+      "@type": [
+        "File",
+        "ImageObject"
+      ],
+      "description": "Screenshot from usegalaxy.eu",
+      "encodingFormat": "image/png",
+      "name": "Diagram of the Hello World workflow",
+      "@reverse": {
+        "hasPart": [
+          {
+            "@id": "./"
+          }
+        ],
+        "image": [
+          {
+            "@id": "Galaxy-Workflow-Hello_World.ga"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "ro-crate-preview.html",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "encodingFormat": "text/html",
+      "@reverse": {
+        "subjectOf": [
+          {
+            "@id": "./"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "test/",
+      "@type": "Dataset",
+      "description": "Note that Planemo has strict path expectations for its job file vs the tested workflow, therefore the -test.yml is in the root rather than under test/",
+      "hasPart": [
+        {
+          "@id": "test/tool_test_output.html"
+        },
+        {
+          "@id": "test/tool_test_output.json"
+        }
+      ],
+      "mainEntity": {
+        "@id": "Galaxy-Workflow-Hello_World-test.yml"
+      },
+      "name": "Planemo tests for workflow",
+      "@reverse": {
+        "hasPart": [
+          {
+            "@id": "./"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "test/tool_test_output.html",
+      "@type": "File",
+      "encodingFormat": "text/html",
+      "name": "Planemo Test Results (HTML)",
+      "@reverse": {
+        "hasPart": [
+          {
+            "@id": "test/"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "test/tool_test_output.json",
+      "@type": "File",
+      "encodingFormat": "application/json",
+      "name": "Planemo Test Results (JSON)",
+      "@reverse": {
+        "hasPart": [
+          {
+            "@id": "test/"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "#cwl",
+      "@type": "ComputerLanguage",
+      "alternateName": "CWL",
+      "identifier": "https://w3id.org/cwl/v1.2/",
+      "name": "Common Workflow Language",
+      "url": "https://www.commonwl.org/",
+      "version": "1.2",
+      "@reverse": {
+        "programmingLanguage": [
+          {
+            "@id": "abstract_workflow.cwl"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "#galaxy",
+      "@type": "ComputerLanguage",
+      "identifier": "https://galaxyproject.org/",
+      "name": "Galaxy",
+      "url": "https://galaxyproject.org/",
+      "@reverse": {
+        "programmingLanguage": [
+          {
+            "@id": "Galaxy-Workflow-Hello_World.ga"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "#simple_input",
+      "@type": "FormalParameter",
+      "additionalType": {
+        "@id": "http://edamontology.org/data_3671"
+      },
+      "conformsTo": {
+        "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+      },
+      "description": "A simple set of lines in a text file",
+      "encodingFormat": [
+        "text/plain",
+        {
+          "@id": "http://edamontology.org/format_2330"
+        }
+      ],
+      "workExample": {
+        "@id": "examples/abcdef.txt"
+      },
+      "name": "Simple input",
+      "valueRequired": true,
+      "@reverse": {
+        "input": [
+          {
+            "@id": "Galaxy-Workflow-Hello_World.ga"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "#reversed",
+      "@type": "FormalParameter",
+      "additionalType": {
+        "@id": "http://edamontology.org/data_3671"
+      },
+      "conformsTo": {
+        "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+      },
+      "description": "All the lines, reversed",
+      "encodingFormat": [
+        "text/plain",
+        {
+          "@id": "http://edamontology.org/format_2330"
+        }
+      ],
+      "name": "Reversed lines",
+      "workExample": {
+        "@id": "examples/tac_on_data_360_1.txt"
+      },
+      "@reverse": {
+        "output": [
+          {
+            "@id": "Galaxy-Workflow-Hello_World.ga"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "#last_lines",
+      "@type": "FormalParameter",
+      "additionalType": {
+        "@id": "http://edamontology.org/data_3671"
+      },
+      "conformsTo": {
+        "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+      },
+      "description": "The last lines of workflow input are the first lines of the reversed input",
+      "encodingFormat": [
+        "text/plain",
+        {
+          "@id": "http://edamontology.org/format_2330"
+        }
+      ],
+      "name": "Last lines",
+      "workExample": {
+        "@id": "examples/Select_first_on_data_1_2.txt"
+      },
+      "@reverse": {
+        "output": [
+          {
+            "@id": "Galaxy-Workflow-Hello_World.ga"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "https://bioschemas.org/profiles/ComputationalWorkflow/1.0-RELEASE",
+      "@type": "Guide",
+      "name": "ComputationalWorkflow Profile",
+      "version": "1.0-RELEASE",
+      "description": "Bioschemas specification for describing a Computational Workflow",
+      "@reverse": {
+        "conformsTo": [
+          {
+            "@id": "Galaxy-Workflow-Hello_World.ga"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE",
+      "@type": "Guide",
+      "name": "FormalParameter Profile",
+      "version": "1.0-RELEASE",
+      "description": "Bioschemas specification for describing a formal parameter in the Life Sciences",
+      "@reverse": {
+        "conformsTo": [
+          {
+            "@id": "#simple_input"
+          },
+          {
+            "@id": "#reversed"
+          },
+          {
+            "@id": "#last_lines"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "http://edamontology.org/data_3671",
+      "@type": "DefinedTerm",
+      "name": "Text",
+      "@reverse": {
+        "additionalType": [
+          {
+            "@id": "#simple_input"
+          },
+          {
+            "@id": "#reversed"
+          },
+          {
+            "@id": "#last_lines"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "http://edamontology.org/format_2330",
+      "@type": "DefinedTerm",
+      "name": "Textual format",
+      "@reverse": {
+        "encodingFormat": [
+          {
+            "@id": "#simple_input"
+          },
+          {
+            "@id": "#reversed"
+          },
+          {
+            "@id": "#last_lines"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-9842-9718",
+      "@type": "Person",
+      "name": "Stian Soiland-Reyes",
+      "@reverse": {
+        "author": [
+          {
+            "@id": "./"
+          },
+          {
+            "@id": "Galaxy-Workflow-Hello_World.ga"
           },
           {
             "@id": "https://usegalaxy.eu/u/5dbf7f05329e49c98b31243b5f35045c/p/invocation-report-a3a1d27edb703e5c"
           }
         ],
-        "keywords": "example,reverse",
-        "license": {
-          "@id": "http://spdx.org/licenses/CC0-1.0"
-        },
-        "mainEntity": {
-          "@id": "Galaxy-Workflow-Hello_World.ga"
-        },
-        "name": "Hello World",
-        "subjectOf": {
-          "@id": "ro-crate-preview.html"
-        }
+        "creator": [
+          {
+            "@id": "Galaxy-Workflow-Hello_World.ga"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-9676-7032",
+      "@type": "Person",
+      "name": "Marius van den Beek",
+      "@reverse": {
+        "author": [
+          {
+            "@id": "https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-editor/tutorial.html"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "https://planemo.readthedocs.io/en/latest/test_format.html",
+      "@type": "WebPage",
+      "name": "Planemo Test Format (YAML)",
+      "@reverse": {
+        "conformsTo": [
+          {
+            "@id": "Galaxy-Workflow-Hello_World-test.yml"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-editor/tutorial.html",
+      "@type": "LearningResource",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-9676-7032"
       },
-      {
-        "@id": "Galaxy-Workflow-Hello_World-test.yml",
-        "@type": "File",
-        "conformsTo": {
-          "@id": "https://planemo.readthedocs.io/en/latest/test_format.html"
-        },
-        "description": "Run with: planemo test --biocontainers Galaxy-Workflow-Hello_World.ga",
-        "encodingFormat": "application/x-yaml",
-        "name": "Galaxy-Workflow-Hello_World-test"
+      "datePublished": "2021-11-02",
+      "license": {
+        "@id": "http://spdx.org/licenses/CC-BY-4.0"
       },
-      {
-        "@id": "Galaxy-Workflow-Hello_World.ga",
-        "@type": [
-          "File",
-          "SoftwareSourceCode",
-          "ComputationalWorkflow"
-        ],
-        "author": {
-          "@id": "https://orcid.org/0000-0001-9842-9718"
-        },
-        "encodingFormat": "application/json",
-        "image": {
-          "@id": "hello_world.png"
-        },
-        "isBasedOn": {
-          "@id": "https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-editor/tutorial.html"
-        },
-        "name": "Hello World (Galaxy Workflow)",
-        "programmingLanguage": {
-          "@id": "#galaxy"
-        },
-        "subjectOf": {
-          "@id": "abstract_workflow.cwl"
-        },
-        "url": "https://usegalaxy.eu/u/5dbf7f05329e49c98b31243b5f35045c/w/hello-world"
+      "name": "Creating, Editing and Importing Galaxy Workflows (Galaxy Training Materials)",
+      "@reverse": {
+        "isBasedOn": [
+          {
+            "@id": "Galaxy-Workflow-Hello_World.ga"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "https://usegalaxy.eu/u/5dbf7f05329e49c98b31243b5f35045c/p/invocation-report-a3a1d27edb703e5c",
+      "@type": "CreativeWork",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-9842-9718"
       },
-      {
-        "@id": "README.md",
-        "@type": "File",
-        "encodingFormat": "text/markdown",
-        "name": "README"
-      },
-      {
-        "@id": "abstract_workflow.cwl",
-        "@type": [
-          "File",
-          "SoftwareSourceCode",
-          "HowTo"
-        ],
-        "name": "Abstract CWL of Hello World",
-        "programmingLanguage": {
-          "@id": "#cwl"
-        },
-        "url": "https://w3id.org/cwl/view/git/7269c76837f12b248d3a255efe6edbc6915d77bc/Workflow-RO-Crate/1.0-DRAFT/example/abstract_workflow.cwl"
-      },
-      {
-        "@id": "examples/",
-        "@type": "Dataset",
+      "datePublished": "2021-11-18T02:02:00Z",
+      "name": "Workflow Execution Summary of Hello World",
+      "@reverse": {
         "hasPart": [
           {
-            "@id": "examples/abcdef.txt"
-          },
-          {
-            "@id": "examples/Galaxy-History-Hello-World.tar.gz"
-          },
-          {
-            "@id": "examples/tac_on_data_360_1.txt"
-          },
-          {
-            "@id": "examples/Select_first_on_data_1_2.txt"
-          },
+            "@id": "./"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "https://w3id.org/ieee/ieee-2791-schema/",
+      "@type": "Guide",
+      "name": "IEEE 2791 Object Schema",
+      "version": "1.4",
+      "@reverse": {
+        "conformsTo": [
           {
             "@id": "examples/bco_a3a1d27edb703e5c.json"
           }
-        ],
-        "name": "Example input and outputs"
-      },
-      {
-        "@id": "examples/Galaxy-History-Hello-World.tar.gz",
-        "@type": "File",
-        "name": "Galaxy History of Hello World example run"
-      },
-      {
-        "@id": "examples/Select_first_on_data_1_2.txt",
-        "@type": "File",
-        "description": "Example output of the last (aka first of reversed) lines",
-        "encodingFormat": "text/plain",
-        "name": "Select_first_on_data_1_2 (output)"
-      },
-      {
-        "@id": "examples/abcdef.txt",
-        "@type": "File",
-        "description": "Example input, a simple text file",
-        "encodingFormat": "text/plain",
-        "name": "abcdef (input)"
-      },
-      {
-        "@id": "examples/bco_a3a1d27edb703e5c.json",
-        "@type": "File",
-        "conformsTo": {
-          "@id": "https://w3id.org/ieee/ieee-2791-schema/"
-        },
-        "description": "Alternative representation of the Galaxy workflow execution using IEEE Std 2791-2020",
-        "encodingFormat": "application/json",
-        "name": "BioCompute Object a3a1d27edb703e5c"
-      },
-      {
-        "@id": "examples/tac_on_data_360_1.txt",
-        "@type": "File",
-        "description": "Example output of the reversed lines",
-        "encodingFormat": "text/plain",
-        "name": "tac_on_data_360_1 (output)"
-      },
-      {
-        "@id": "hello_world.png",
-        "@type": [
-          "File",
-          "ImageObject"
-        ],
-        "description": "Screenshot from usegalaxy.eu",
-        "encodingFormat": "image/png",
-        "name": "Diagram of the Hello World workflow"
-      },
-      {
-        "@id": "ro-crate-preview.html",
-        "@type": "CreativeWork",
-        "about": {
-          "@id": "./"
-        },
-        "encodingFormat": "text/html"
-      },
-      {
-        "@id": "test/",
-        "@type": "Dataset",
-        "description": "Note that Planemo has strict path expectations for its job file vs the tested workflow, therefore the -test.yml is in the root rather than under test/",
-        "hasPart": [
+        ]
+      }
+    },
+    {
+      "@id": "https://w3id.org/ro/crate/1.1",
+      "@type": "Guide",
+      "name": "RO-Crate specification",
+      "version": "1.1.1",
+      "@reverse": {
+        "conformsTo": [
           {
-            "@id": "test/tool_test_output.html"
-          },
+            "@id": "ro-crate-metadata.json"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "https://w3id.org/workflowhub/",
+      "@type": "Organization",
+      "name": "WorkflowHub project",
+      "@reverse": {
+        "publisher": [
           {
-            "@id": "test/tool_test_output.json"
+            "@id": "./"
           }
         ],
-        "mainEntity": {
-          "@id": "Galaxy-Workflow-Hello_World-test.yml"
-        },
-        "name": "Planemo tests for workflow"
-      },
-      {
-        "@id": "test/tool_test_output.html",
-        "@type": "File",
-        "encodingFormat": "text/html",
-        "name": "Planemo Test Results (HTML)"
-      },
-      {
-        "@id": "test/tool_test_output.json",
-        "@type": "File",
-        "encodingFormat": "application/json",
-        "name": "Planemo Test Results (JSON)"
-      },
-      {
-        "@id": "#cwl",
-        "@type": "ComputerLanguage",
-        "alternateName": "CWL",
-        "identifier": "https://w3id.org/cwl/v1.2/",
-        "name": "Common Workflow Language",
-        "url": "https://www.commonwl.org/",
-        "version": "1.2"
-      },
-      {
-        "@id": "#galaxy",
-        "@type": "ComputerLanguage",
-        "identifier": "https://galaxyproject.org/",
-        "name": "Galaxy",
-        "url": "https://galaxyproject.org/"
-      },
-      {
-        "@id": "https://orcid.org/0000-0001-9842-9718",
-        "@type": "Person",
-        "name": "Stian Soiland-Reyes"
-      },
-      {
-        "@id": "https://orcid.org/0000-0002-9676-7032",
-        "@type": "Person",
-        "name": "Marius van den Beek"
-      },
-      {
-        "@id": "https://planemo.readthedocs.io/en/latest/test_format.html",
-        "@type": "WebPage",
-        "name": "Planemo Test Format (YAML)"
-      },
-      {
-        "@id": "https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-editor/tutorial.html",
-        "@type": "LearningResource",
-        "author": {
-          "@id": "https://orcid.org/0000-0002-9676-7032"
-        },
-        "datePublished": "2021-11-02",
-        "license": {
-          "@id": "http://spdx.org/licenses/CC-BY-4.0"
-        },
-        "name": "Creating, Editing and Importing Galaxy Workflows (Galaxy Training Materials)"
-      },
-      {
-        "@id": "https://usegalaxy.eu/u/5dbf7f05329e49c98b31243b5f35045c/p/invocation-report-a3a1d27edb703e5c",
-        "@type": "CreativeWork",
-        "author": {
-          "@id": "https://orcid.org/0000-0001-9842-9718"
-        },
-        "datePublished": "2021-11-18T02:02:00Z",
-        "name": "Workflow Execution Summary of Hello World"
-      },
-      {
-        "@id": "https://w3id.org/ieee/ieee-2791-schema/",
-        "@type": "CreativeWork",
-        "name": "IEEE 2791 Object Schema",
-        "version": "1.4"
-      },
-      {
-        "@id": "https://w3id.org/ro/crate/1.1",
-        "@type": "Guide",
-        "name": "RO-Crate specification",
-        "version": "1.1.1"
-      },
-      {
-        "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0",
-        "@type": "Guide",
-        "name": "Workflow RO-Crate profile",
-        "version": "1.0.0"
-      },
-      {
-        "@id": "http://spdx.org/licenses/CC-BY-4.0",
-        "@type": "CreativeWork",
-        "description": "This is a human-readable summary of (and not a substitute for) the license.\nYou are free to:\n\n    Share — copy and redistribute the material in any medium or format\n    Adapt — remix, transform, and build upon the material\n    for any purpose, even commercially.\n\nThis license is acceptable for Free Cultural Works.\n    The licensor cannot revoke these freedoms as long as you follow the license terms.\n\nUnder the following terms:\n    Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.\n    No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.\n\nNotices:\n    You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.\n    No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.",
-        "identifier": "CC-BY-4.0",
-        "name": "Creative Commons Attribution 4.0 International",
-        "url": "https://creativecommons.org/licenses/by/4.0/"
-      },
-      {
-        "@id": "http://spdx.org/licenses/CC0-1.0",
-        "@type": "CreativeWork",
-        "description": "This is a human-readable summary of the Legal Code (read the full text).\n\nNo Copyright\n\n    The person who associated a work with this deed has dedicated the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law.\n\n    You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission. See Other Information below.\n\nThis license is acceptable for Free Cultural Works.\nOther Information\n\n    In no way are the patent or trademark rights of any person affected by CC0, nor are the rights that other persons may have in the work or in how the work is used, such as publicity or privacy rights.\n    Unless expressly stated otherwise, the person who associated a work with this deed makes no warranties about the work, and disclaims liability for all uses of the work, to the fullest extent permitted by applicable law.\n    When using or citing the work, you should not imply endorsement by the author or the affirmer.\n",
-        "identifier": "CC0-1.0",
-        "name": "Creative Commons Zero v1.0 Universal",
-        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+        "sdPublisher": [
+          {
+            "@id": "Galaxy-Workflow-Hello_World.ga"
+          }
+        ]
       }
-    ]
-  }  
+    },
+    {
+      "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0",
+      "@type": "Guide",
+      "name": "Workflow RO-Crate profile",
+      "version": "1.0.0",
+      "@reverse": {
+        "conformsTo": [
+          {
+            "@id": "ro-crate-metadata.json"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "http://spdx.org/licenses/CC-BY-4.0",
+      "@type": "CreativeWork",
+      "description": "This is a human-readable summary of (and not a substitute for) the license.\nYou are free to:\n\n    Share — copy and redistribute the material in any medium or format\n    Adapt — remix, transform, and build upon the material\n    for any purpose, even commercially.\n\nThis license is acceptable for Free Cultural Works.\n    The licensor cannot revoke these freedoms as long as you follow the license terms.\n\nUnder the following terms:\n    Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.\n    No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.\n\nNotices:\n    You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.\n    No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.",
+      "identifier": "CC-BY-4.0",
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "@reverse": {
+        "license": [
+          {
+            "@id": "https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-editor/tutorial.html"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "http://spdx.org/licenses/CC0-1.0",
+      "@type": "CreativeWork",
+      "description": "This is a human-readable summary of the Legal Code (read the full text).\n\nNo Copyright\n\n    The person who associated a work with this deed has dedicated the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law.\n\n    You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission. See Other Information below.\n\nThis license is acceptable for Free Cultural Works.\nOther Information\n\n    In no way are the patent or trademark rights of any person affected by CC0, nor are the rights that other persons may have in the work or in how the work is used, such as publicity or privacy rights.\n    Unless expressly stated otherwise, the person who associated a work with this deed makes no warranties about the work, and disclaims liability for all uses of the work, to the fullest extent permitted by applicable law.\n    When using or citing the work, you should not imply endorsement by the author or the affirmer.\n",
+      "identifier": "CC0-1.0",
+      "name": "Creative Commons Zero v1.0 Universal",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "@reverse": {
+        "license": [
+          {
+            "@id": "./"
+          },
+          {
+            "@id": "Galaxy-Workflow-Hello_World.ga"
+          }
+        ]
+      }
+    }
+  ]
+}
 </script>
 
     
@@ -420,6 +870,9 @@ table.table {
             <th style="text-align:left;" class="prop">mainEntity<span>&nbsp;</span><a href="http://schema.org/mainEntity">[?]</a></th>
             <td style='text-align:left'><a href="#Galaxy-Workflow-Hello_World.ga">Hello World (Galaxy Workflow)</a></td>
             </tr><tr>
+            <th style="text-align:left;" class="prop">publisher<span>&nbsp;</span><a href="http://schema.org/publisher">[?]</a></th>
+            <td style='text-align:left'><a href="#https%3A//w3id.org/workflowhub/">WorkflowHub project</a></td>
+            </tr><tr>
             <th style="text-align:left;" class="prop">subjectOf<span>&nbsp;</span><a href="http://schema.org/subjectOf">[?]</a></th>
             <td style='text-align:left'><a href="#ro-crate-preview.html">ro-crate-preview.html</a></td>
             </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
@@ -462,6 +915,9 @@ table.table {
                         
                         <li><a href="#https%3A//usegalaxy.eu/u/5dbf7f05329e49c98b31243b5f35045c/p/invocation-report-a3a1d27edb703e5c">Workflow Execution Summary of Hello World</a></li>
                         </ul></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">creator<span>&nbsp;</span><a href="http://schema.org/creator">[?]</a></th>
+            <td style='text-align:left'><a href="#Galaxy-Workflow-Hello_World.ga">Hello World (Galaxy Workflow)</a></td>
             </tr></tbody>
             </table>
         </div>
@@ -499,20 +955,48 @@ table.table {
             <th style="text-align:left;" class="prop">encodingFormat<span>&nbsp;</span><a href="http://schema.org/encodingFormat">[?]</a></th>
             <td style='text-align:left'><span>application/json</span></td>
             </tr><tr>
+            <th style="text-align:left;" class="prop">conformsTo<span>&nbsp;</span><a href="http://purl.org/dc/terms/conformsTo">[?]</a></th>
+            <td style='text-align:left'><a href="#https%3A//bioschemas.org/profiles/ComputationalWorkflow/1.0-RELEASE">ComputationalWorkflow Profile</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">creator<span>&nbsp;</span><a href="http://schema.org/creator">[?]</a></th>
+            <td style='text-align:left'><a href="#https%3A//orcid.org/0000-0001-9842-9718">Stian Soiland-Reyes</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">dateCreated<span>&nbsp;</span><a href="http://schema.org/dateCreated">[?]</a></th>
+            <td style='text-align:left'><span>2021-11-18T01:03:15Z</span></td>
+            </tr><tr>
             <th style="text-align:left;" class="prop">image<span>&nbsp;</span><a href="http://schema.org/image">[?]</a></th>
             <td style='text-align:left'><a href="#hello_world.png">Diagram of the Hello World workflow</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">input<span>&nbsp;</span><a href="https://bioschemas.org/ComputationalWorkflow#input">[?]</a></th>
+            <td style='text-align:left'><a href="#%23simple_input">Simple input</a></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">isBasedOn<span>&nbsp;</span><a href="http://schema.org/isBasedOn">[?]</a></th>
             <td style='text-align:left'><a href="#https%3A//training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-editor/tutorial.html">Creating, Editing and Importing Galaxy Workflows (Galaxy Training Materials)</a></td>
             </tr><tr>
+            <th style="text-align:left;" class="prop">license<span>&nbsp;</span><a href="http://schema.org/license">[?]</a></th>
+            <td style='text-align:left'><a href="#http%3A//spdx.org/licenses/CC0-1.0">Creative Commons Zero v1.0 Universal</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">output<span>&nbsp;</span><a href="https://bioschemas.org/ComputationalWorkflow#output">[?]</a></th>
+            <td style='text-align:left'><ul>
+                        <li><a href="#%23reversed">Reversed lines</a></li>
+                        
+                        <li><a href="#%23last_lines">Last lines</a></li>
+                        </ul></td>
+            </tr><tr>
             <th style="text-align:left;" class="prop">programmingLanguage<span>&nbsp;</span><a href="http://schema.org/programmingLanguage">[?]</a></th>
             <td style='text-align:left'><a href="#%23galaxy">Galaxy</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">sdPublisher<span>&nbsp;</span><a href="http://schema.org/sdPublisher">[?]</a></th>
+            <td style='text-align:left'><a href="#https%3A//w3id.org/workflowhub/">WorkflowHub project</a></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">subjectOf<span>&nbsp;</span><a href="http://schema.org/subjectOf">[?]</a></th>
             <td style='text-align:left'><a href="#abstract_workflow.cwl">Abstract CWL of Hello World</a></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">url<span>&nbsp;</span><a href="http://schema.org/url">[?]</a></th>
             <td style='text-align:left'><a href="https://usegalaxy.eu/u/5dbf7f05329e49c98b31243b5f35045c/w/hello-world">https://usegalaxy.eu/u/5dbf7f05329e49c98b31243b5f35045c/w/hello-world</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">version<span>&nbsp;</span><a href="http://schema.org/version">[?]</a></th>
+            <td style='text-align:left'><span>0.1.0</span></td>
             </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
             <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
             <td style='text-align:left'><a href="#./">Hello World</a></td>
@@ -832,7 +1316,41 @@ Other Information
             <td style='text-align:left'><a href="https://creativecommons.org/publicdomain/zero/1.0/">https://creativecommons.org/publicdomain/zero/1.0/</a></td>
             </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
             <th style="text-align:left;" class="prop">license<span>&nbsp;</span><a href="http://schema.org/license">[?]</a></th>
+            <td style='text-align:left'><ul>
+                        <li><a href="#./">Hello World</a></li>
+                        
+                        <li><a href="#Galaxy-Workflow-Hello_World.ga">Hello World (Galaxy Workflow)</a></li>
+                        </ul></td>
+            </tr></tbody>
+            </table>
+        </div>
+
+        </div>
+        <hr/><br/><br/>
+           <div>
+            <h3><a href="https://w3id.org/workflowhub/">Go to: </a> WorkflowHub project</h3>
+            
+            
+            
+            
+        <div id="https://w3id.org/workflowhub/">
+            
+            <table class="table metadata table-striped" >
+                <tbody><tr>
+            <th style="text-align:left;" class="prop">@id</th>
+            <td style='text-align:left'><a href="https://w3id.org/workflowhub/">https://w3id.org/workflowhub/</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
+            <td style='text-align:left'><span>WorkflowHub project</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">@type</th>
+            <td style='text-align:left'><span>Organization</span></td>
+            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
+            <th style="text-align:left;" class="prop">publisher<span>&nbsp;</span><a href="http://schema.org/publisher">[?]</a></th>
             <td style='text-align:left'><a href="#./">Hello World</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">sdPublisher<span>&nbsp;</span><a href="http://schema.org/sdPublisher">[?]</a></th>
+            <td style='text-align:left'><a href="#Galaxy-Workflow-Hello_World.ga">Hello World (Galaxy Workflow)</a></td>
             </tr></tbody>
             </table>
         </div>

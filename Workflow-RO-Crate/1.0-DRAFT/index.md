@@ -83,7 +83,7 @@ The _Main Workflow_ MUST refer to its type via `programmingLanguage`.
 
 The _Crate_ COULD contain a data entity of type `["File", "SoftwareSourceCode", "HowTo"]` as the _Main Workflow CWL Description_. 
 
-A _Main Workflow CWL Description_ SHOULD have `#cwl` as its `programmingLanguage`.
+A _Main Workflow CWL Description_ SHOULD have `#cwl` as its `programmingLanguage` with a corresponding [contextual entity](#cwl).
 
 If _Main Workflow CWL Description_ is present, the _Main Workflow_ MUST refer to it the via `subjectOf`.
 
@@ -99,15 +99,15 @@ The _Crate_ MUST specify a `license`. The license is assumed to apply to any con
 
 The _Crate_ SHOULD contain a File `README.md` at the root level. If present, it SHOULD be `about` the _Crate_ `./` and SHOULD have `text/markdown` as its `encodingFormat`.
 
-The _Crate_ COULD contain a Dataset (directory) data entity of type `["Dataset"]` named "test" to hold tests.
+The _Crate_ COULD contain a Dataset (directory) data entity of type `["Dataset"]` with identifier `test/` to hold tests.
 
-The _Crate_ COULD contain a Dataset (directory) data entity of type `["Dataset"]` named "examples" to hold examples.
+The _Crate_ COULD contain a Dataset (directory) data entity of type `["Dataset"]` with identifier `examples/` to hold examples.
 
 ### Bioschemas Computational Workflow profile
 
 The `ComputationalWorkflow` description of the _Main Workflow_ SHOULD comply with [Bioschemas ComputationalWorkflow profile](https://bioschemas.org/profiles/ComputationalWorkflow/1.0-RELEASE) version 1.0 or later.  
 
-Conformance with the Bioschemas SHOULD be indicated with a `conformsTo` on the _Main Workflow_ entity.
+Conformance with the Bioschemas profile SHOULD be indicated with a `conformsTo` on the _Main Workflow_ entity.
 
 **Tip**: See [RO-Crate 1.1: Complying with Bioschemas Computational Workflow profile](https://www.researchobject.org/ro-crate/1.1/workflows.html#complying-with-bioschemas-computational-workflow-profile)
 
@@ -117,7 +117,7 @@ Conformance with the Bioschemas SHOULD be indicated with a `conformsTo` on the _
 
 The Workflow RO-Crate MUST be zipped, and SHOULD have the file extension `.crate.zip` to be recognized by WorkflowHub. 
 
-The `ro-crate-metadata.json` file SHOULD be directly in the root of the zip archive, making the whole Zip archive the _RO-Crate Root_.
+The `ro-crate-metadata.json` file SHOULD be directly in the root of the zip archive, so that the whole Zip becomes the _RO-Crate Root_.
 
 ### Extracted Metadata
 
@@ -383,7 +383,7 @@ A minimal example of _Workflow RO-Crate_ metadata, containing a CWL workflow, an
       "name": "Common Workflow Language",
       "alternateName": "CWL",
       "identifier": {
-        "@id": "https://w3id.org/cwl/v1.0/"
+        "@id": "https://w3id.org/cwl/v1.2/"
       },
       "url": {
         "@id": "https://www.commonwl.org/"

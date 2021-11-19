@@ -74,7 +74,7 @@ The WorkflowHub community collaborates closely with (at least) these projects:
  * [Galaxy Europe](https://galaxyproject.eu/)
  * [BioExcel](https://bioexcel.eu/)
  * [FAIRDOM](https://fair-dom.org)
- * [SEEK](https://seek4science.org/)
+ * [FAIRDOM-SEEK](https://fairdomseek.org/)
 
 ## WorkflowHub Club
 

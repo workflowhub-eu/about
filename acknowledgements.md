@@ -75,6 +75,7 @@ The WorkflowHub community collaborates closely with (at least) these projects:
  * [BioExcel](https://bioexcel.eu/)
  * [FAIRDOM](https://fair-dom.org)
  * [FAIRDOM-SEEK](https://fairdomseek.org/)
+ * [Australian BioCommons](https://www.biocommons.org.au/)
 
 ## WorkflowHub Club
 
@@ -107,6 +108,7 @@ Participants include:
 * Hervé Ménager (Institut Pasteur, ELIXIR-FR, bio.tools)
 * Ignacio Eguinoa (VIB-UGent Center for Plant Systems Biology, ELIXIR-BE)
 * Jennifer Harrow (ELIXIR-Hub, tools platform coordinator)
+* Johan Gustafsson (Australian BioCommons)  
 * Jon Ison (Institut Pasteur, ELIXIR-FR, bio.tools)
 * José Mª Fernández (BSC, ELIXIR-ES, EOSC-Life)
 * Kiran K Telukunta

@@ -102,6 +102,11 @@ Related standards for FAIR computational workflows:
 
 _Articles below are published as [Open Access](https://www.library.manchester.ac.uk/using-the-library/staff/research/open-research/access/), or with [green open access preprints](https://www.library.manchester.ac.uk/using-the-library/staff/research/open-research/access/understanding/) where gold open access is not possible. Please [let us know](https://github.com/workflowhub-eu/about/issues) if you are unable to access any of our publications. To add to this list, please [suggest a change](https://github.com/workflowhub-eu/about/blob/master/fair-computational-workflows.md)._
 
+Robin A Richardson, Remzi Celebi, Sven van der Burg, Djura Smits, Lars Ridder, Michel Dumontier, Tobias Kuhn (2021):  
+[**User-friendly Composition of FAIR Workflows in a Notebook Environment**](https://arxiv.org/pdf/2111.00831)
+_The Eleventh International Conference on Knowledge Capture ([K-Cap2021](https://www.k-cap.org/2021/))_.
+<https://arxiv.org/abs/2111.00831>
+
 Paul Brack, Peter Crowther, Stian Soiland-Reyes, Stuart Owen, Douglas Lowe, Alan R Williams, Quentin Groom, Mathias Dillen, Frederik Coppens, Björn Grüning, Ignacio Eguinoa, Philip Ewels, Carole Goble (2021):  
 [**10 Simple Rules for making a software tool workflow-ready**](https://zenodo.org/record/5636487/preview/10_simple_rules_for_making_a_software_tool_workflow-ready--PREPRINT.pdf)  
 (submitted) _Zenodo_  

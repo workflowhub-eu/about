@@ -35,7 +35,7 @@ Related past and upcoming events:
 * 2021-11-03/--11: [Research Data Alliance (RDA) 18th Plenary Meeting](https://www.rd-alliance.org/plenaries/rda-18th-plenary-meeting-virtual) (virtual)
 * 2021-12-07/--09: [FORCE2021](https://www.force11.org/meetings/force2021), FORCE11 annual conference (virtual)
 * 2021-11-15: [16th Workshop on Workflows in Support of Large-Scale Science](https://works-workshop.org/), SC21: The International Conference for High Performance Computing (Virtual)
-  - Carole Goble: FAIR Computational Workflows (keynote)(https://www.slideshare.net/carolegoble/fair-computational-workflows-250656159)
+  - Carole Goble: FAIR Computational Workflows [(keynote)](https://www.slideshare.net/carolegoble/fair-computational-workflows-250656159)
 * 2021-10-24: [DaMaLOS 2021](https://zbmed.github.io/damalos/) – 2nd Workshop on Data and research objects management for Linked Open Science, co-located with [ISWC 2021](https://iswc2021.semanticweb.org/)
   - [Programme](https://zbmed.github.io/damalos/docs/schedule.html) (proceedings to appear)
 * 2021-06-16: [**GO FAIR US webinar: FAIR Workflows**](https://gofair.us/events/2021-06-16-FAIR-Workflows.html)

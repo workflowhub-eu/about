@@ -27,6 +27,8 @@ _Data Intelligence_  **2**(1):108–121
 
 ## Events and talks
 
+Events, presentations and activities are available in WorkflowHub in the [**FAIR Computational Workflows Team**](https://workflowhub.eu/projects/76)
+
 Related past and upcoming events:
 
 * 2022-01-10/--13: [Semantic Web Infrastructures and Resources in Healthcare and Life Science](http://www.swat4ls.org/workshops/leiden2022/call-for-papers/) (SWAT4LS), Leiden, The Netherlands

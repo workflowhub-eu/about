@@ -162,7 +162,10 @@ WorkflowHub intends to harvest workflows from existing workflow repositories, in
 * <https://usegalaxy.eu/>
 </details>
 
-##
+## Citation
+
+If you would like to cite the WorkflowHub, please see our pre-print 'Implementing FAIR Digital Objects in the EOSC-Life Workflow Collaboratory' on Zenodo: https://zenodo.org/record/4605654
+
 ## Acknowledgements
 
 workflowhub.eu lead development is part of [EOSC-Life](https://www.eosc-life.eu/), funded by European Union’s [Horizon 2020](https://ec.europa.eu/programmes/horizon2020/) programme under grant agreement [824087](https://cordis.europa.eu/project/id/824087).  

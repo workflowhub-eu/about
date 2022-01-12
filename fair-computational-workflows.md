@@ -88,11 +88,13 @@ Related projects and initiatives supporting FAIR Computational Workflows aims:
 * [EOSC-Life](https://www.eosc-life.eu/)
 * [ELIXIR Europe](https://elixir-europe.org/)
 * [BioExcel](https://bioexcel.eu/)
+  - [BioExcel Building Blocks](http://mmb.irbbarcelona.org/biobb/) (biobb) – software library for interoperable biomolecular simulation workflows
 * [WorkflowsRI](https://workflowsri.org/) – Towards an Infrastructure for Enabling Systematic Development and Research of Scientific Workflow Management Systems
 * [FAIR Workflows](https://fair-workflows.github.io/project.html) – an NWO/eScience Center project
 * [FAIR for Research Software](https://www.rd-alliance.org/groups/fair-research-software-fair4rs-wg) (FAIR4RS) – working group at Research Data Alliance 
 * [UseGalaxy.eu](https://usegalaxy.eu/) – a European-wide Galaxy workflow platform
-* [BioExcel Building Blocks](http://mmb.irbbarcelona.org/biobb/) (biobb) – software library for interoperable biomolecular simulation workflows
+
+_Note that the similarly named project [Implementing FAIR Workflows](https://www.stage.datacite.org/fair-workflows.html) is about making the overall research process FAIR, not necessarily related to computational workflows._
 
 Related standards for FAIR computational workflows:
 
@@ -106,21 +108,24 @@ Related standards for FAIR computational workflows:
 
 _Articles below are published as [Open Access](https://www.library.manchester.ac.uk/using-the-library/staff/research/open-research/access/), or with [green open access preprints](https://www.library.manchester.ac.uk/using-the-library/staff/research/open-research/access/understanding/) where gold open access is not possible. Please [let us know](https://github.com/workflowhub-eu/about/issues) if you are unable to access any of our publications. To add to this list, please [suggest a change](https://github.com/workflowhub-eu/about/blob/master/fair-computational-workflows.md)._
 
+Stian Soiland-Reyes, Peter Sefton, Mercè Crosas, Leyla Jael Castro, Frederik Coppens, José M. Fernández, Daniel Garijo, Björn Grüning, Marco La Rosa, Simone Leo, Eoghan Ó Carragáin, Marc Portier, Ana Trisovic, RO-Crate Community, Paul Groth, Carole Goble (2022):  
+[**Packaging research artefacts with RO-Crate**](https://www.researchobject.org/2021-packaging-research-artefacts-with-ro-crate/manuscript.html).  
+_Data Science_ (in press)
+<https://doi.org/10.3233/DS-210053> 
+
+Paul Brack, Peter Crowther, Stian Soiland-Reyes, Stuart Owen, Douglas Lowe, Alan R Williams, Quentin Groom, Mathias Dillen, Frederik Coppens, Björn Grüning, Ignacio Eguinoa, Philip Ewels, Carole Goble (2022):  
+[**10 Simple Rules for making a software tool workflow-ready**](https://zenodo.org/record/5636487/preview/10_simple_rules_for_making_a_software_tool_workflow-ready--PREPRINT.pdf)  
+_PLOS Computational Biology_ (accepted) 
+<https://doi.org/10.5281/zenodo.5636487>
+
+Stian Soiland-Reyes, Genís Bayarri, Pau Andrio, Robin Long, Douglas Lowe, Ania Niewielska, Adam Hospital, Paul Groth (2022):  
+[**Making Canonical Workflow Building Blocks interoperable across workflow languages**](https://zenodo.org/record/5542553/preview/canonical-workflow-building-blocks--submitted.pdf.pdf).
+_Data Intelligence_ (accepted) [[preprint](https://doi.org/10.5281/zenodo.5542553)]
+
 Robin A Richardson, Remzi Celebi, Sven van der Burg, Djura Smits, Lars Ridder, Michel Dumontier, Tobias Kuhn (2021):  
 [**User-friendly Composition of FAIR Workflows in a Notebook Environment**](https://arxiv.org/pdf/2111.00831).  
 _The Eleventh International Conference on Knowledge Capture ([K-Cap2021](https://www.k-cap.org/2021/))_.  
 <https://arxiv.org/abs/2111.00831>
-
-Paul Brack, Peter Crowther, Stian Soiland-Reyes, Stuart Owen, Douglas Lowe, Alan R Williams, Quentin Groom, Mathias Dillen, Frederik Coppens, Björn Grüning, Ignacio Eguinoa, Philip Ewels, Carole Goble (2021):  
-[**10 Simple Rules for making a software tool workflow-ready**](https://zenodo.org/record/5636487/preview/10_simple_rules_for_making_a_software_tool_workflow-ready--PREPRINT.pdf)  
-(submitted) _Zenodo_  
-<https://doi.org/10.5281/zenodo.5636487>
-
-Stian Soiland-Reyes, Peter Sefton, Mercè Crosas, Leyla Jael Castro, Frederik Coppens, José M. Fernández, Daniel Garijo, Björn Grüning, Marco La Rosa, Simone Leo, Eoghan Ó Carragáin, Marc Portier, Ana Trisovic, RO-Crate Community, Paul Groth, Carole Goble (2021):  
-[**Packaging research artefacts with RO-Crate**](https://stain.github.io/ro-crate-paper/).  
-_Data Science_ (accepted)
-[arXiv:2108.06503v1](https://arxiv.org/abs/arXiv:2108.06503v1) [cs.DL]
-<https://doi.org/10.5281/zenodo.5146228> 
 
 Jeremy Leipzig, Daniel Nüst, Charles Tapley Hoyt, Karthik Ram, Jane Greenberg (2021):  
 [**The role of metadata in reproducible computational research**](https://arxiv.org/pdf/2006.08589.pdf)  
@@ -141,7 +146,7 @@ Matúš Kalaš, Vedran Kasalica, Alireza Khanteymoori,
 Tobias Kuhn, Hailiang Mei, Hervé Ménager, Steffen Möller, Robin A. Richardson,
 Vincent Robert, Stian Soiland-Reyes, Robert Stevens, Szoke Szaniszlo, 
 Suzan Verberne, Aswin Verhoeven, Katherine Wolstencroft (2021):  
-[**Perspectives on automated composition of workflows in the life sciences** [version 1; peer review: awaiting peer review]](https://doi.org/10.12688/f1000research.54159.1).  
+[**Perspectives on automated composition of workflows in the life sciences** [version 1; peer review: 2 approved]](https://doi.org/10.12688/f1000research.54159.1).  
 _F1000Research_ **10**:897  
 <https://doi.org/10.12688/f1000research.54159.1>
 
@@ -150,14 +155,9 @@ Rafael Ferreira da Silva, Henri Casanova, Kyle Chard, Dan Laney, Dong Ahn, Shant
 _Workflows RI_ Technical Report. [arXiv:2103.09181](https://arxiv.org/abs/2103.09181)
 <https://doi.org/10.5281/zenodo.4606958>
 
-Stian Soiland-Reyes, Genís Bayarri, Pau Andrio, Robin Long, Douglas Lowe, Ania Niewielska, Adam Hospital (2021):  
-[**Making Canonical Workflow Building Blocks interoperable across workflow languages**](https://doi.org/10.5281/zenodo.4602855).  
-Extended abstract (in prep for _Data Intelligence_), _Zenodo_. 
-<https://doi.org/10.5281/zenodo.4602855>
-
 Carole Goble, Stian Soiland-Reyes, Finn Bacall, Stuart Owen, Alan Williams, Ignacio Eguinoa, Bert Droesbeke, Simone Leo, Luca Pireddu, Laura Rodriguez-Navas, José Mª Fernández, Salvador Capella-Gutierrez, Hervé Ménager, Björn Grüning, Beatriz Serrano-Solano, Philip Ewels, Frederik Coppens (2021):  
 [**Implementing FAIR Digital Objects in the EOSC-Life Workflow Collaboratory**](https://doi.org/10.5281/zenodo.4605654).  
-Extended abstract (in prep for _Data Intelligence_), _Zenodo_  
+_Zenodo_  
 <https://doi.org/10.5281/zenodo.4605654>
 
 Daniel S. Katz, Morane Gruenpeter, Tom Honeyman, Lorraine Hwang, Mark D. Wilkinson, Vanessa Sochat, Hartwig Anzt, Carole Goble, FAIR4RS Subgroup 1 (2021):  

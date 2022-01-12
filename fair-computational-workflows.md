@@ -83,6 +83,8 @@ Registries:
 
 Related projects and initiatives supporting FAIR Computational Workflows aims:
 
+* [Workflows Community Initiative](https://workflows.community/)
+  - [FAIR Compuational Workflows working group](https://workflows.community/groups/fair/)
 * [EOSC-Life](https://www.eosc-life.eu/)
 * [ELIXIR Europe](https://elixir-europe.org/)
 * [BioExcel](https://bioexcel.eu/)

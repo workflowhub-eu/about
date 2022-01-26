@@ -107,6 +107,8 @@ This tutorial aims to illustrate the process of setting up a simulation system c
 </resource>
 ```
 
+**Tip**: You can access these citations programmatically using DataCite's [content negotiation](https://support.datacite.org/docs/datacite-content-resolver) on resolving the DOI.
+
 ### Citing a Workflow without a DOI
 
 Note that if a workflow has not got a DOI, you can still cite it using the versioned WorkflowHub _SEEK ID_, e.g. <https://workflowhub.eu/workflows/263?version=1>

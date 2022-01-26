@@ -3,6 +3,8 @@ title: Usability Review
 date: 2022-01-26
 ---
 
+# Usability Review
+
 The WorkflowHub Usability study is finally here! We would appreciate if you would pass this onto any and all colleagues.
 
 We are seeking your help with a study to investigate the usability of WorkflowHub, a registry for scientific computational workflows (https://workflowhub.eu/). we aim to improve the interface of WorkflowHub in accordance with the feedback and information provided by users.
@@ -19,7 +21,7 @@ All participants will be provided with a Participant Information Sheet, Instruct
 
 The whole process takes around 60 minutes. 
 
-For bookings, use <https://alexandra-has.youcanbook.me>
+We will be running this study until April 2022. For bookings, use <https://alexandra-has.youcanbook.me>
 
 We would be really grateful if you could share this with anyone you think might be interested. This is an opportunity to steer the development of a major resource that will help Life Scientists in Europe.
 

@@ -10,6 +10,11 @@ For more details, see [About WorkflowHub](/About-WorkflowHub), [FAIR Computation
 
 This project has a [Code of Conduct](https://github.com/workflowhub-eu/about/blob/master/CODE_OF_CONDUCT.md) to ensure interactions are friendly, respectful and inclusive. You can contact <info@esciencelab.org.uk> if you have any concerns or questions.
 
+## News
+
+* 2022-01-26: The [WorkflowHub Usability study](WorkflowUsability.md) is looking for volunteers to help improve the usability of WorkflowHub
+* 2022-01-22: WorkflowHub now has deeper Git support, when making a _New Version_ it is possible to link an entry to a GitHub repository
+
 ## User Guide
 
 * [What is WorkflowHub](/About-WorkflowHub)
@@ -65,6 +70,7 @@ Anyone is welcome to join the weekly [WorkflowHub Club](community.md) calls usin
 See the list of club members on the [acknowledgement](acknowledgements) page.
 
 ## Events
+
 
 <details>
 <summary>FAIR Computational Workflows workshop (2020-09-02)</summary>

@@ -1,9 +1,9 @@
 The WorkflowHub Usability study is finally here! We would appreciate if you would pass this onto any and all colleagues
 
-We are seeking your help with a study to investigate the usability of WorkflowHub, a registry for scientific computational workflows (https://workflowhub.eu/). This study is part of Alexandra’s 3rd-year project at the University of Manchester. The project’s aim is to improve the interface of WorkflowHub in accordance with the feedback and information provided by users.
+We are seeking your help with a study to investigate the usability of WorkflowHub, a registry for scientific computational workflows (https://workflowhub.eu/). we aim to improve the interface of WorkflowHub in accordance with the feedback and information provided by users.
 
 We are looking for people with some experience and general knowledge about workflows. 
-It is NOT necessary that you are a WorkflowHub user  - we need a mix of folk.
+It is NOT necessary that you are a WorkflowHub user!
 
 Users will be asked to participate in the following activities:
 1.	Zoom interview: consists of a series of tasks that will be done on the WorkflowHub website. 

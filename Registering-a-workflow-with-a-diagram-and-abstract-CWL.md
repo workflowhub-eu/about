@@ -63,6 +63,11 @@ If the workflow came from an external repository (i.e. GitHub), you can include 
 ##  Check the uploaded workflow
 
 Make sure that all the metadata you filled in previously is showed properly and is correct.  WorkflowHub generates an RO-crate based on these files and the metadata you filled in while registering the workflow.
-Click **Download RO-Crate** to check wether all metadata files (JSONLD and HTML) are correctly generated.
+
+You can also Click **Download RO-Crate** where metadata files (JSONLD and HTML) have been generated based on the information fill
 
 ![](images/result_diagram_CWLabstract.PNG)
+
+## Minting a DOI
+
+If the metadata has been correctly filled in, and the workfow is public, you can now [make a workflow citable with a DataCite DOI](citable.md).

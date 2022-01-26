@@ -2,7 +2,7 @@
 title: Citable workflows
 ---
 
-Workflows registered in https://workflowhub.eu/ that are _public_ can be assigned a [DOI](https://www.doi.org/) (Digital Object Identifier) so that they can more easily be cited in academic work. 
+Workflows registered in <https://workflowhub.eu/> that are _public_ can be assigned a [DOI](https://www.doi.org/) (Digital Object Identifier) so that they can more easily be cited in academic work. 
 
 WorkflowHub DOIs are registered with [DataCite](https://datacite.org/) using the [DataCite Metadata Schema](https://schema.datacite.org/), meaning that the metadata joins the scholarly knowledge graphs [DataCite Commons PID Graph](https://commons.datacite.org/doi.org?query=client.uid:borq.00002-2021) and [OpenAIRE Research Graph](https://graph.openaire.eu/) ([example](https://explore.openaire.eu/search/software?pid=10.48546%2Fworkflowhub.workflow.160.1)).
 
@@ -11,6 +11,8 @@ WorkflowHub DOIs are registered with [DataCite](https://datacite.org/) using the
 You can assign DOIs for workflows you have registered and that you have been given write access to.  You are not able to make DOIs for other people's workflows.
 
 Each version of the workflow must be registered separately. You can create a [new version](https://about.workflowhub.eu/Updating-a-registered-workflow/) of a workflow that has been assigned a DOI, without necessarily giving the new version a DOI yet.
+
+Note that the sandbox 
 
 ### Check metadata
 
@@ -26,15 +28,18 @@ For each of the registered users, it may be good to check that their [ORCID](htt
 
 ### Freezing the Workflow version
 
-
-You need to check this workflow is _Public_:
-
-![image](https://user-images.githubusercontent.com/253413/151153355-2eefc5e6-c019-43bd-b041-633c7e15fb4c.png)
-
-
 Before we can mint a DOI, we need to _freeze_ the version of the workflow in WorkflowHub, so that its metadata stay consistent with the DOI registration.
 
 ![Freeze version](https://user-images.githubusercontent.com/253413/151150858-53c72ec7-3b9d-4349-9b99-8449eea396f9.png)
+
+### Publishing workflow
+
+![public](https://user-images.githubusercontent.com/253413/151160453-e471389f-1824-4390-a182-59ee8d684d4d.png)
+
+You need to check this workflow is _Public_. Either click the button as above, or edit under _Manage Workflow_:
+
+![permissions](https://user-images.githubusercontent.com/253413/151153355-2eefc5e6-c019-43bd-b041-633c7e15fb4c.png)
+
 
 ### Generate DOI
 

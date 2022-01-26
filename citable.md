@@ -12,7 +12,7 @@ You can assign DOIs for workflows you have registered and that you have been giv
 
 Each version of the workflow must be registered separately. You can create a [new version](https://about.workflowhub.eu/Updating-a-registered-workflow/) of a workflow that has been assigned a DOI, without necessarily giving the new version a DOI yet.
 
-Note that the sandbox 
+Note that DOI minting is only enable on the production instance <https://workflowhub.eu/>, although you can try the below instructions up to the _"Publish"_ step on the sandbox instance <https://dev.workflowhub.eu/>.
 
 ### Check metadata
 

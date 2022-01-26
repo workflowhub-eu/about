@@ -65,7 +65,7 @@ Therefore remember to add the DOI to the citation in your reference manager, for
 
 Example:
 
-Lowe Douglas and Bayarri Genís. 2021. “Protein Ligand Complex MD Setup Tutorial Using BioExcel Building Blocks (Biobb) (Jupyter Notebook).” _WorkflowHub_. 
+Douglas Lowe and Genís Bayarri. 2021. “Protein Ligand Complex MD Setup Tutorial Using BioExcel Building Blocks (Biobb) (Jupyter Notebook).” _WorkflowHub_. 
 <https://doi.org/10.48546/workflowhub.workflow.56.2>
 
 

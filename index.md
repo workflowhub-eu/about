@@ -19,6 +19,7 @@ This project has a [Code of Conduct](https://github.com/workflowhub-eu/about/blo
 * [How to find and retrieve workflows from WorkflowHub](/How-to-find-and-retrieve-workflow(s)-from-WorkflowHub)
 * [How to register your workflow in WorkflowHub](/How-to-register-your-workflow(s)-in-WorkflowHub)
 * [Updating a registered workflow](Updating-a-registered-workflow)
+* [Making a workflow citable with a DataCite DOI](citable)
 
 For any kind of questions or suggestions on using WorkflowHub, feel free to join our [community](community.md)!
 

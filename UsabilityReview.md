@@ -7,7 +7,7 @@ date: 2022-01-26
 
 The WorkflowHub Usability study is finally here! We would appreciate if you would pass this onto any and all colleagues.
 
-We are seeking your help with a study to investigate the usability of WorkflowHub, a registry for scientific computational workflows (https://workflowhub.eu/). we aim to improve the interface of WorkflowHub in accordance with the feedback and information provided by users.
+We are seeking your help with a study to investigate the usability of WorkflowHub, a registry for scientific computational workflows <https://workflowhub.eu/>. We aim to improve the interface of WorkflowHub in accordance with the feedback and information provided by users.
 
 We are looking for people with some experience and general knowledge about workflows. 
 

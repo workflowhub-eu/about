@@ -59,7 +59,7 @@ You can generate a citation for a chosen journal style in the _Citation_ box:
 
 ![citation](https://user-images.githubusercontent.com/253413/151154405-d027f1ef-2c27-4c94-ab03-0fb141b8611b.png)
 
-Note that as this generated citation is based on the corresponding [CSL styles](https://citationstyles.org/), which may not include the DOI as part of its template for Software citations, or may append a `.` to the showbn URL. 
+Note that as this generated citation is based on the corresponding [CSL styles](https://citationstyles.org/), which may not include the DOI as part of its template for Software citations, or may append a `.` to the shown URL. 
 
 Therefore remember to add the DOI to the citation in your reference manager, for instance as a comment or URL.
 
@@ -73,9 +73,11 @@ Lowe Douglas and Bayarri Genís. 2021. “Protein Ligand Complex MD Setup Tutori
 
 You can look up the DataCite metadata of WorkflowHub DOI registrations using their [programmatic APIs](https://datacite.org/integratorapis.html) or the [DataCite Commons](https://commons.datacite.org/).
 
-For instance, from <https://commons.datacite.org/doi.org/10.48546/workflowhub.workflow.56.2> we can download the metadata as [DataCite XML](https://api.datacite.org/application/vnd.datacite.datacite+xml/10.48546/workflowhub.workflow.56.2), [DataCite JSON](https://api.datacite.org/application/vnd.datacite.datacite+json/10.48546/workflowhub.workflow.56.2), [Schema.org JSON-LD](https://api.datacite.org/application/vnd.schemaorg.ld+json/10.48546/workflowhub.workflow.56.2)[^1], [CiteProc JSON](https://api.datacite.org/application/vnd.citationstyles.csl+json/10.48546/workflowhub.workflow.56.2), [BibTex](https://api.datacite.org/application/x-bibtex/10.48546/workflowhub.workflow.56.2), [RIS](https://api.datacite.org/application/x-research-info-systems/10.48546/workflowhub.workflow.56.2)
+For instance, from <https://commons.datacite.org/doi.org/10.48546/workflowhub.workflow.56.2> we can download the metadata as [DataCite XML](https://api.datacite.org/application/vnd.datacite.datacite+xml/10.48546/workflowhub.workflow.56.2), [DataCite JSON](https://api.datacite.org/application/vnd.datacite.datacite+json/10.48546/workflowhub.workflow.56.2), [Schema.org JSON-LD](https://api.datacite.org/application/vnd.schemaorg.ld+json/10.48546/workflowhub.workflow.56.2), [CiteProc JSON](https://api.datacite.org/application/vnd.citationstyles.csl+json/10.48546/workflowhub.workflow.56.2), [BibTex](https://api.datacite.org/application/x-bibtex/10.48546/workflowhub.workflow.56.2), [RIS](https://api.datacite.org/application/x-research-info-systems/10.48546/workflowhub.workflow.56.2).
 
-[^1]: Note that the schema.org rendered by DataCite may not be as complete as the one embedded in the HTML of the workflow entry.
+**Note**: The schema.org metadata rendered by DataCite may differ slightly from the more complete metadata embedded in a WorkflowHub entry's HTML and RO-Crate.
+
+Example of returned DataCite XML following [DataCite Schema 4.3](https://schema.datacite.org/meta/kernel-4.3/):
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>

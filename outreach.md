@@ -108,7 +108,7 @@ Simone Leo, Salvador Capella-Gutierrez (2020):
 See also:
 
 * [RO-Crate publications](https://www.researchobject.org/ro-crate/)
-* [FAIR computational workflows](https://about.workflowhub.eu/fair-computational-workflows/)
+* [FAIR computational workflows](https://workflows.community/groups/fair/)
 * [WorkflowsRI summits](https://workflowsri.org/summits/)
 
 

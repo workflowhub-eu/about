@@ -20,7 +20,7 @@
 # What is the overall process for registration?
 
 
-![Remote files URLs, Git Repository, Local Files, Zipped RO-Crate are Imported, then Register workflow, Add Metadata and Finalize Registration with review](/images/registration-01-overview.png "Registration Overview")
+![Remote files URLs, Git Repository, Local Files, Zipped RO-Crate are Imported, then Register workflow, Add Metadata and Finalize Registration with review](/images/registration-01-overview.svg "Registration Overview")
 
 
 # Quick start guide

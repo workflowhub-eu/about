@@ -52,7 +52,7 @@ _Registering a workflow RO-Crate using the API_
 # In-depth guide
 
 
-## Register and login to WorkflowHub
+## Register and login to contribute to WorkflowHub {#contribute}
 
 
 
@@ -76,7 +76,7 @@ This also allows us to show the source link of the RO-Crate on the workflow page
 
 
 
-### Upload / import a local file (Fig 2)
+### Upload / import a local file {#local-file}
 
 
 
@@ -91,7 +91,7 @@ This also allows us to show the source link of the RO-Crate on the workflow page
 _Fig 2. New workflow tab for uploading / importing local files._
 
 
-### Upload / import using a remote file URL (Fig 3)
+### Upload / import using a remote file URL {#remote-url}
 
 
 
@@ -102,44 +102,26 @@ _Fig 2. New workflow tab for uploading / importing local files._
 5. Click the `Register `button
 
 
+![Fill in your remote file URL, then select Workflow type. In Abstract CWL set remote URL, same for Diagram. Then click Register.](images/registration-04-new-workflow-remote.png "New workflow tab for importing from a remote URL")
+
+_Fig 3. New workflow tab for importing files from a remote URL._
 
 
-![alt_text](images/image4.png "image_tooltip")
-
-
-
-```
-Fig 3. New workflow tab for uploading / importing files from a remote URL.
-```
-
-
-
-### Importing a Git repository (Fig 4)
+### Importing a Git repository {#git}
 
 
 
 1. Add your Git repository URL  \
 e.g. `https://github.com/username/repository_name`
-2. Click the `Register `button
+2. Click the `Register` button
 
 
+![Add your git URL, then click Register.](images/registration-05-new-workflow-git.png "New workflow tab for importing from a git repository (e.g. GitHub, GitLab)")
+
+_Fig 4. New workflow tab for importing files from a git repository (e.g. GitHub, GitLab)._
 
 
-
-![alt_text](images/image5.png "image_tooltip")
-
-
-
-```
-Fig 4. New workflow tab for importing files from 
-a git repository (e.g. GitHub, GitLab).
-```
-
-
-
-### Upload / Import a workflow RO-Crate (Fig 5)
-
-
+### Upload / Import a workflow RO-Crate {#ro-crate}
 
 1. Add an RO-Crate zip file, either via:
     1. A local file upload using the `Browse…` button, or
@@ -147,30 +129,16 @@ a git repository (e.g. GitHub, GitLab).
 2. Click the `Register `button
 
 
+![For the zipped RO-Crate, either upload your local file or fill in remote URL, then click Register](images/registration-06-new-workflow-ro-crate.png "New workflow tab for importing files using a Research Object Crate (RO-Crate).")
+
+_Fig 5. New workflow tab for importing files using a Research Object Crate (RO-Crate)._
 
 
-
-![alt_text](images/image6.png "image_tooltip")
-
-
-
-```
-Fig 5. New workflow tab for importing files 
-using a Research Object Crate (RO-Crate).
-
-
----
-```
-
-
-
-##     Register workflow
+## Register workflow {#register-workflow}
 
 The remainder of this in-depth guide focuses on registration of an example workflow using the 
 
-
-[Git repository import approach](#heading=h.k6lhf3jfbwml).
-
+[Git repository import approach](#git) introduced above.
 
 
 1. When you have selected to import a specific Git repository URL (i.e. by clicking `Register`) you will be prompted to specify either a repository:
@@ -182,31 +150,22 @@ The remainder of this in-depth guide focuses on registration of an example workf
 3. You can now pick additional optional files as well:
     5. [Abstract CWL](#bookmark=id.9p7blcbntfn5)
     6. [Diagram file](#bookmark=id.9pqx9te71w4v)
-4. Click <code>Continue </code>to proceed to the metadata stage
+4. Click `Continue` to proceed to the metadata stage
+
+
+![First select branch or a release tag, then use drop down list to select the main executable workflow file. Add any optional files before clicking Continue](images/registration-07-select-branch.png "Selecting a target branch or release tag as well as the main executable and optional files during Git repository import.")
+
+
+_Fig 6. Selecting a target branch or release tag as well as the main executable and optional files during Git repository import._
 
 
 
-
-
-![alt_text](images/image7.png "image_tooltip")
-
-
-
-```
-Fig 6. Selecting a target branch or release tag as well as the main executable and optional files during Git repository import.
-
-
----
-```
-
-
-
-## Complete workflow metadata
+## Complete workflow metadata {#metadata}
 
 The next page is a form that gathers the necessary metadata that will be enclosed in the WorkflowHub entry, and ultimately the RO-Crate (which is automatically generated).
 
 
-### Metadata part A (Fig 7)
+### Metadata part A {#metadata-a}
 
 
 
@@ -214,18 +173,13 @@ The next page is a form that gathers the necessary metadata that will be enclose
 6. Check the imported <code>[Description](#bookmark=id.76iyrcif3i8b)</code> text, and edit if needed
 
 
-
 ![alt_text](images/image8.png "image_tooltip")
 
-
-
-```
-Fig 7. Metadata collection page for a new workflow (part A).
-```
+_Fig 7. Metadata collection page for a new workflow (part A)._
 
 
 
-### Metadata part B (Fig 8 / 9)
+### Metadata part B {#metadata-b}
 
 
 
@@ -237,18 +191,11 @@ Fig 7. Metadata collection page for a new workflow (part A).
 10. Add <code>[Tags](#bookmark=id.z1mthsbilv99)</code> and <code>[Creators](#bookmark=kix.vrfk4kj7csgv)</code> (see <strong>Fig 8.</strong>)
 
 
-#### 
-
-
-
 ![alt_text](images/image9.jpg "image_tooltip")
 
 
 
-```
-Fig 8. Workflow Creator metadata section.
-
-```
+_Fig 8. Workflow Creator metadata section._
 
 
 
@@ -258,18 +205,15 @@ Fig 8. Workflow Creator metadata section.
 
 
 
-
 ![alt_text](images/image10.png "image_tooltip")
 
 
 
-```
-Fig 9. Metadata collection page for a new workflow (part B).
-```
+_Fig 9. Metadata collection page for a new workflow (part B)._
 
 
 
-## Check the uploaded workflow
+## Check the uploaded workflow {#check}
 
 
 
@@ -279,38 +223,22 @@ Fig 9. Metadata collection page for a new workflow (part B).
 * **Figure 11** shows a real world workflow for [Cheminformatics](https://workflowhub.eu/workflows/18) registered on WorkflowHub.
 
 
-
-
-
 ![alt_text](images/image11.png "image_tooltip")
 
 
 
-```
-Fig 10. Sections to be checked upon workflow registration completion.
-```
-
-
-
-#### 
-
+_Fig 10. Sections to be checked upon workflow registration completion._
 
 
 
 ![alt_text](images/image12.png "image_tooltip")
 
+_Fig 11. Real world Cheminformatics workflow registered on WorkflowHub. _
 
-
-```
-Fig 11. Real world Cheminformatics workflow registered on WorkflowHub. 
 
 
 ---
-```
 
-
-
-# Material for other pages?
 
 
 ## Supported workflow types

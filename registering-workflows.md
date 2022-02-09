@@ -173,10 +173,9 @@ The next page is a form that gathers the necessary metadata that will be enclose
 6. Check the imported <code>[Description](#bookmark=id.76iyrcif3i8b)</code> text, and edit if needed
 
 
-![alt_text](images/image8.png "image_tooltip")
+![Add a workflow title, then revise the imported Description text](images/registration-08-metadata.png "Metadata collection page for a new workflow")
 
 _Fig 7. Metadata collection page for a new workflow (part A)._
-
 
 
 ### Metadata part B {#metadata-b}
@@ -191,12 +190,9 @@ _Fig 7. Metadata collection page for a new workflow (part A)._
 10. Add <code>[Tags](#bookmark=id.z1mthsbilv99)</code> and <code>[Creators](#bookmark=kix.vrfk4kj7csgv)</code> (see <strong>Fig 8.</strong>)
 
 
-![alt_text](images/image9.jpg "image_tooltip")
-
-
+![Add Creators](images/registration-09-creator.jpg "Workflow Creator metadata section")
 
 _Fig 8. Workflow Creator metadata section._
-
 
 
 11. Associate any relevant presentations, documents or files with the workflow
@@ -205,9 +201,7 @@ _Fig 8. Workflow Creator metadata section._
 
 
 
-![alt_text](images/image10.png "image_tooltip")
-
-
+![Add other metadata, license information. Set sharing conditions, add tags and creators. Associate presentations, documents, files with workflow. Then click Register](images/registration-10-metadata-collection.png "Metadata collection page for a new workflow")
 
 _Fig 9. Metadata collection page for a new workflow (part B)._
 
@@ -223,15 +217,13 @@ _Fig 9. Metadata collection page for a new workflow (part B)._
 * **Figure 11** shows a real world workflow for [Cheminformatics](https://workflowhub.eu/workflows/18) registered on WorkflowHub.
 
 
-![alt_text](images/image11.png "image_tooltip")
-
-
+![check your workflow: Add new files or perform actions (new versions, edits, deletions). Check Description, Creators, Submitter, Tags, Attributions. Inspect files.](images/registration-11-check-workflow.png "Sections to be checked upon workflow registration completion")
 
 _Fig 10. Sections to be checked upon workflow registration completion._
 
 
 
-![alt_text](images/image12.png "image_tooltip")
+![Cheminformatics - XCChem combined.](images/registration-12-published.png "Real world Cheminformatics workflow registered on WorkflowHub")
 
 _Fig 11. Real world Cheminformatics workflow registered on WorkflowHub. _
 

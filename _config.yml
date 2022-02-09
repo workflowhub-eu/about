@@ -12,3 +12,5 @@ encoding: UTF-8
 permalink: pretty
 
 logo: logo/workflowhub-square.svg
+
+markdown: kramdown

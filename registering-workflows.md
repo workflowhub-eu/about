@@ -225,8 +225,7 @@ _Fig 10. Sections to be checked upon workflow registration completion._
 
 ![Cheminformatics - XCChem combined.](/images/registration-12-published.png "Real world Cheminformatics workflow registered on WorkflowHub")
 
-_Fig 11. Real world Cheminformatics workflow registered on WorkflowHub. _
-
+_Fig 11. Real world Cheminformatics workflow registered on WorkflowHub._
 
 
 ---

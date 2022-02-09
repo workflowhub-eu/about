@@ -7,15 +7,15 @@
 
 ### Before you start!
 
-1. Login to WorkflowHub
-2. Make sure you have joined a project
-3. Identify your workflow type (e.g. CWL, NextFlow, Snakemake, Galaxy)
+1. [Login to WorkflowHub](/Logging-in)
+2. Make sure you have [joined a team](/How-to-join-a-team/)
+3. Identify your [workflow type](#workflow-types) (e.g. CWL, NextFlow, Snakemake, Galaxy)
 4. Prepare your files!
 5. A workflow file, URL or RO-Crate is mandatory.
 6. The abstract CWL and diagram are optional.
 7. Make sure that the uploaded or referenced files do not contain spaces in the filename.
-8. Prepare your metadata
-9. See the Glossary for more details.
+8. Prepare your [metadata](#metadata-list)
+9. See the [Glossary](#glossary) for more details.
 
 # What is the overall process for registration?
 
@@ -233,17 +233,17 @@ _Fig 11. Real world Cheminformatics workflow registered on WorkflowHub. _
 
 
 
-## Supported workflow types
+## Supported workflow types {#workflow-types}
 
 Following workflow types are tested to work well with WorkflowHub, click on them to find out more.
 
 
 
-* [Galaxy (.ga)](#bookmark=id.k6ktz7esck0i) 
-* [Common Workflow Language (.cwl) ](#bookmark=id.bu3jb0yjf7sj)
-* [Nextflow (.nf)](#bookmark=id.ge7mmpberoc4) 
-* [SnakeMake (.snake) ](#bookmark=id.7emygojw5an9)
-* [KNIME (.knwf)](#bookmark=id.xl3kwgc3umfu)
+* [Galaxy (.ga)](#galaxy) 
+* [Common Workflow Language (.cwl)](#cwl)
+* [Nextflow (.nf)](#nextflow) 
+* [SnakeMake (.snake)](#snakemake)
+* [KNIME (.knwf)](#knime)
 
 It is also possible to upload workflows from another type (e.g. bash scripts), these will be recognized as an unknown workflow type. Note that it is only possible to automatically generate a diagram for CWL workflows.
 
@@ -251,7 +251,7 @@ It is also possible to upload workflows from another type (e.g. bash scripts), t
 ---
 
 
-## Metadata list
+## Metadata list {#metadata-list}
 
 
 <table>
@@ -361,7 +361,7 @@ If anyone not registered with WorkflowHub assisted creating this Workflow, you c
 ---
 
 
-## Glossary
+## Glossary {#glossary}
 
 
 <table>
@@ -460,7 +460,7 @@ Specify the Workflow type of the main workflow in the dropdown list:
 ---
 
 
-## Extra Galaxy information
+## Extra Galaxy information {#galaxy}
 
 
 <table>
@@ -501,7 +501,7 @@ Specify the Workflow type of the main workflow in the dropdown list:
 ---
 
 
-## Extra Common Workflow Language (.cwl) information
+## Extra Common Workflow Language (.cwl) information {#cwl}
 
 
 <table>
@@ -524,7 +524,7 @@ Specify the Workflow type of the main workflow in the dropdown list:
 ---
 
 
-## Extra Nextflow (.nf) information
+## Extra Nextflow (.nf) information {#nextflow}
 
 
 <table>
@@ -547,7 +547,7 @@ Specify the Workflow type of the main workflow in the dropdown list:
 ---
 
 
-## Extra SnakeMake (.snake) information
+## Extra SnakeMake (.snake) information {#snakemake}
 
 
 <table>
@@ -570,7 +570,7 @@ Specify the Workflow type of the main workflow in the dropdown list:
 ---
 
 
-## Extra KNIME (.knwf) information
+## Extra KNIME (.knwf) information {#knime}
 
 
 <table>

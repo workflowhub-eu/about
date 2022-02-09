@@ -5,40 +5,28 @@
 ## How-to-Guide
 
 
-[TOC]
+### Before you start!
 
-
-
-* Before you start!
-* Login to WorkflowHub
-* Make sure you have joined a project
-* Identify your workflow type (e.g. CWL, NextFlow, Snakemake, Galaxy)
-* Prepare your files!
-* A workflow file, URL or RO-Crate is mandatory.
-* The abstract CWL and diagram are optional.
-* Make sure that the uploaded or referenced files do not contain spaces in the filename.
-* Prepare your metadata
-* See the Glossary for more details.
-
-
+1. Login to WorkflowHub
+2. Make sure you have joined a project
+3. Identify your workflow type (e.g. CWL, NextFlow, Snakemake, Galaxy)
+4. Prepare your files!
+5. A workflow file, URL or RO-Crate is mandatory.
+6. The abstract CWL and diagram are optional.
+7. Make sure that the uploaded or referenced files do not contain spaces in the filename.
+8. Prepare your metadata
+9. See the Glossary for more details.
 
 # What is the overall process for registration?
 
 
-![alt_text](images/image1.png "image_tooltip")
-
-
-
----
+![Remote files URLs, Git Repository, Local Files, Zipped RO-Crate are Imported, then Register workflow, Add Metadata and Finalize Registration with review](images/registration-01-overview.png "Registration Overview")
 
 
 # Quick start guide
 
 
-```
-We recommend importing a git repository (e.g. GitHub), since WorkflowHub is a hub / registry and not a repository.
-```
-
+**Tip**: We recommend importing a git repository (e.g. GitHub), since WorkflowHub is a hub / registry and not a repository.
 
 
 
@@ -59,7 +47,6 @@ _Registering a workflow RO-Crate using the API_
 > to automatically register workflow RO-Crates. Not all features are 
 > yet developed, but a glimpse of the API can be found here.
 
----
 
 
 # In-depth guide
@@ -72,20 +59,9 @@ _Registering a workflow RO-Crate using the API_
 1. Go to the WorkflowHub homepage and either [register](https://workflowhub.eu/signup) or [log-in](https://workflowhub.eu/login)
 2. Return to the main page of WorkflowHub and either click on the `Contribute` button, or select `Workflow` from the `Create` drop down menu at the top of the page (see **Fig 1**).
 
+![In WorkflowHub, click Create, Workflow or alternatively Contribute](images/registration-02-contribute.png "The WorkflowHub landing page")
 
-
-
-![alt_text](images/image2.png "image_tooltip")
-
-
-
-```
-Fig 1. The WorkflowHub landing page.
-
-
----
-```
-
+_Figure 1: The WorkflowHub landing page._
 
 
 ## Adding files
@@ -93,11 +69,10 @@ Fig 1. The WorkflowHub landing page.
 The page you are taken to presents four options for registering a workflow and its associated files. 
 
 
-```
-Recommendation
+### Recommendation
 We recommend referencing the files, for example towards a github repo, since we want to be a hub and not a repository for workflows.
+
 This also allows us to show the source link of the RO-Crate on the workflow page and include this in the RO-Crate metadata. In case the referencing would not work, for example with referencing Galaxy instances, you can always use the source metadata field later in the registration.
-```
 
 
 
@@ -106,18 +81,14 @@ This also allows us to show the source link of the RO-Crate on the workflow page
 
 
 1. Select your local workflow file using the `Browse…` button
-2. Pick your[ workflow type](#bookmark=id.1re1cbc22qii) - if your workflow type is not included in the list you can select `Other` or add a `New workflow type` using the available button.
+2. Pick your [workflow type](#bookmark=id.1re1cbc22qii) - if your workflow type is not included in the list you can select `Other` or add a `New workflow type` using the available button.
 3. Optional: add in a [Abstract CWL](#bookmark=id.9p7blcbntfn5) using the `Browse…` button
 4. Optional: add in a [Diagram file](#bookmark=id.9pqx9te71w4v) using the `Browse…` button
 5. Click the `Register `button
 
-<img src="images/image3.png" width="" alt="alt_text" title="image_tooltip">
+![Select your local file, then select Workflow type. In Abstract CWL either upload from local file or remote URL, same for Diagram. Then click Register.](images/registration-03-new-workflow-local.png "New workflow tab for uploading / importing local files")
 
-
-```
-Fig 2. New workflow tab for uploading / importing local files.
-```
-
+_Fig 2. New workflow tab for uploading / importing local files._
 
 
 ### Upload / import using a remote file URL (Fig 3)

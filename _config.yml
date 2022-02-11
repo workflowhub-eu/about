@@ -14,7 +14,6 @@ permalink: pretty
 logo: /logo/workflowhub-square.svg
 
 markdown: kramdown
-
 kramdown:
   parse_block_html: true
   remove_block_html_tags: false

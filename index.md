@@ -169,7 +169,17 @@ WorkflowHub intends to harvest workflows from existing workflow repositories, in
 * <https://usegalaxy.eu/>
 </details>
 
-##
+## Citation
+
+If you would like to reference the WorkflowHub from academic work, please cite:
+
+Carole Goble; Stian Soiland-Reyes; Finn Bacall; Stuart Owen; Alan Williams; Ignacio Eguinoa; Bert Droesbeke; Simone Leo; Luca Pireddu; Laura Rodríguez-Navas; José Mª Fernández; Salvador Capella-Gutierrez; Hervé Ménager; Björn Grüning; Beatriz Serrano-Solano; Philip Ewels; Frederik Coppens (2021):  
+**Implementing FAIR Digital Objects in the EOSC-Life Workflow Collaboratory**.  
+_Zenodo_  
+<https://zenodo.org/record/4605654>
+
+See also [publication and outreach](outreach/) for more specific work.
+
 ## Acknowledgements
 
 workflowhub.eu lead development is part of [EOSC-Life](https://www.eosc-life.eu/), funded by European Union’s [Horizon 2020](https://ec.europa.eu/programmes/horizon2020/) programme under grant agreement [824087](https://cordis.europa.eu/project/id/824087).  

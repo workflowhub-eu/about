@@ -3,8 +3,8 @@
 ### Prerequisites
 
 Before you register a workflow, you need to ensure that you
-* are [logged into](../Logging-in) WorkflowHub
-* are part of a suited project for your registration (Find more information on how to join a project [here](../How-to-join-a-project))
+* are [logged into](Logging-in.md) WorkflowHub
+* are part of a suited project for your registration (Find more information on how to [join a project](How-to-join-a-project/.md))
 * know the type of the workflow
 * have decided which [team](what-is-a-team.md) to assign the workflow to
 
@@ -74,14 +74,14 @@ It is also possible to upload workflows from another type (for ex. bash scripts)
 
 After clicking on the "Contribute" icon or selecting "Create" and then "Workflow" from the navigation menu bar, you have 2 options for registering your workflow. For more information on the these options, please go to the corresponding pages:
 
-#### - [The simple and recommended way: registering a workflow-file](../Registering-a-workflow-with-a-diagram-and-abstract-CWL) 
+#### - [The simple and recommended way: registering a workflow-file](Registering-a-workflow-with-a-diagram-and-abstract-CWL.md) 
 
 Using the UI of WorkflowHub you upload or reference a workflow file along with optionally a CWL Description and/or a diagram.
 
-#### - [The advanced way: registering a workflow RO-crate](../Registering-an-existing-Workflow-RO-Crate)
+#### - [The advanced way: registering a workflow RO-crate](Registering-an-existing-Workflow-RO-Crate.md)
 
 When you have created a workflow RO-crate of your workflow using the [python package](https://github.com/ResearchObject/ro-crate-py), and want to upload or reference it.
 
 #### - [In development] Registering a workflow RO-crate using the API
 
-We are working on a WorkflowHub API that will allow the user to automatically register workflow RO-crates. Not all features are yet developed, but a glimpse of the API can be found [here](https://workflowhub.eu/api).
+We are working on a WorkflowHub API that will allow the user to automatically register workflow RO-crates. Not all features are yet developed, but have a glimpse of the [API documentation](https://workflowhub.eu/api).

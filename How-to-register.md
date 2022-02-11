@@ -1,8 +1,8 @@
 # How to register
 
 > Which WorkflowHub instance?
-> * Use <https://dev.workflowhub.eu/> for testing - this testing instance may occasionally be wiped
-> * (TODO) Use <http://covid19.workflowhub.eu/> for long-lived workflow registrations - this will become the production instance
+> * Use <https://dev.workflowhub.eu/> for testing - this _testing instance_ may occasionally be wiped
+> * Use <https://workflowhub.eu/> for actual workflow registrations - this is the _production instance_
 
 In order to register yourself in WorkflowHub, you need to click Register button in the top right hand corner of WorkflowHub.
 
@@ -24,7 +24,7 @@ You will then be taken to a screen where you will enter further information. We 
 
 It is recommended that you also add
 
-* ORCID ID - if you do not have an ORCID you will need to register for one here http://orcid.org/
+* ORCID ID - if you do not have an ORCID you will need to register for one at <http://orcid.org/>
 
 Information that is required is indicated with a red star.
 

@@ -12,6 +12,9 @@ As well as providing credit, a team also has useful abilities such as default Sh
 
 The Team will have its own administrator - usually the user that initially requested it. The administrator can add and remove members, and set their roles and define additional administrators. They may also define new Organization, Profiles (to describe members that have not yet registered) and Organisms.
 
+* [How to join a team](How-to-join-a-team.md)
+
+
 ## What is a Space?
 
 Spaces are an umbrella that contains one or more Teams. They are a self-administered area, that describes a broad activity (usually related to a funded grant), such as a consortium, or a long-running activity that will need additional Teams.

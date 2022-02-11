@@ -2,7 +2,7 @@ theme: jekyll-theme-minimal
 markdown: CommonMarkGhPages
 title: WorkflowHub project
 email: info@esciencelab.org.uk
-description: > # this means to ignore newlines until "baseurl:" 
+description: > 
   Project pages for developing and running WorkflowHub, 
   a registry of scientific workflows.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -11,7 +11,7 @@ github_username:  workflowhub-eu
 encoding: UTF-8
 permalink: pretty
 
-logo: logo/workflowhub-square.svg
+logo: /logo/workflowhub-square.svg
 
 markdown: kramdown
 

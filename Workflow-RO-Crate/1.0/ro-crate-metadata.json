@@ -1353,7 +1353,7 @@
       "subjectOf": {
         "@id": "https://bioschemas.org/profiles/ComputationalWorkflow/1.0-RELEASE"
       },
-      "url": "https://bioschemas.org/types/ComputationalWorkflow/1.0-RELEASE/",
+      "url": "https://bioschemas.org/types/ComputationalWorkflow/1.0-RELEASE",
       "version": "1.0-RELEASE"
     },
     {
@@ -1362,7 +1362,7 @@
       "description": "A FormalParameter is an identified variable used to stand for the actual value(s) that are consumed/produced by a set of steps.",
       "name": "Formal Parameter",
       "termCode": "FormalParameter",
-      "url": "https://bioschemas.org/types/FormalParameter/1.0-RELEASE/",
+      "url": "https://bioschemas.org/types/FormalParameter/1.0-RELEASE",
       "subjectOf": {
         "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
       },

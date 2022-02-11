@@ -4,9 +4,8 @@
 
 Before you register a workflow, you need to ensure that you
 * are [logged into](Logging-in.md) WorkflowHub
-* are part of a suited project for your registration (Find more information on how to [join a project](How-to-join-a-project/.md))
+* are part of a suited team for your registration (Find more information on how to [join a team](How-to-join-a-team.md))
 * know the type of the workflow
-* have decided which [team](what-is-a-team.md) to assign the workflow to
 
 ### Get started
 

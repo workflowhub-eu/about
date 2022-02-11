@@ -164,7 +164,14 @@ WorkflowHub intends to harvest workflows from existing workflow repositories, in
 
 ## Citation
 
-If you would like to cite the WorkflowHub, please see our pre-print 'Implementing FAIR Digital Objects in the EOSC-Life Workflow Collaboratory' on Zenodo: https://zenodo.org/record/4605654
+If you would like to reference the WorkflowHub from academic work, please cite:
+
+Carole Goble; Stian Soiland-Reyes; Finn Bacall; Stuart Owen; Alan Williams; Ignacio Eguinoa; Bert Droesbeke; Simone Leo; Luca Pireddu; Laura Rodríguez-Navas; José Mª Fernández; Salvador Capella-Gutierrez; Hervé Ménager; Björn Grüning; Beatriz Serrano-Solano; Philip Ewels; Frederik Coppens (2021):  
+**Implementing FAIR Digital Objects in the EOSC-Life Workflow Collaboratory**.  
+_Zenodo_  
+<https://zenodo.org/record/4605654>
+
+See also [publication and outreach](outreach/) for more specific work.
 
 ## Acknowledgements
 

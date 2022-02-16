@@ -1,6 +1,6 @@
 subitems:
   - title: Home
-    url: /index
+    url: /
   - title: About
     url: /About-WorkflowHub/
   - title: Workflow RO-crate

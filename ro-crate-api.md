@@ -2,9 +2,7 @@
 title: RO-Crate Submission API
 ---
 
-# RO-Crate Submission API
-
-# Submitting Workflows
+## Submitting Workflows
 
 To submit a new workflow to WorkflowHub as an RO-Crate, POST a multipart request to the `/workflows` endpoint with the following parameters:
 

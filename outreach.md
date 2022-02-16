@@ -2,7 +2,6 @@
 title: Outreach and Publications
 ---
 
-# WorkflowHub Outreach and Publications 
 
 _Feel free to add to this page, either [edit and raise pull request](https://github.com/workflowhub-eu/about/blob/master/outreach.md) or
 [raise issue](https://github.com/workflowhub-eu/about/issues/new) using your GitHub account._

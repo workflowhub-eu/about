@@ -2,25 +2,25 @@ subitems:
   - title: Home
     url: /index
   - title: About
-    url: /What-is-WorkflowHub
+    url: /About-WorkflowHub/
   - title: Workflow RO-crate
-    url: /Workflow-RO-Crate
+    url: /Workflow-RO-Crate/
   - title: Registering
-    url: /how-to-register
+    url: /How-to-register/
   - title: Logging in
-    url: /Logging-in
-  - title: Joining a project
-    url: /How-to-join-a-project
+    url: /Logging-in/
+  - title: Joining a team
+    url: /How-to-join-a-team/
   - title: Finding workflows
-    url: /How-to-find-and-retrieve-workflow%28s%29-from-WorkflowHub
+    url: /How-to-find-and-retrieve-workflow(s)-from-WorkflowHub/
   - title: Making a RO-crate
-    url: /How-to-make-a-workflow-RO-crate
+    url: /How-to-make-a-workflow-RO-crate/
   - title: Registering workflows
-    url: /How-to-register-your-workflow%28s%29-in-WorkflowHub
+    url: /How-to-register-your-workflow(s)-in-WorkflowHub/
     subitems:
     - title: Existing Workflow RO-Crate
-      url: /Registering-an-existing-Workflow-RO-Crate
+      url: /Registering-an-existing-Workflow-RO-Crate/
     - title: Workflow + diagram and abstract CWL
-      url: /Registering-a-workflow-with-a-diagram-and-abstract-CWL
+      url: /Registering-a-workflow-with-a-diagram-and-abstract-CWL/
     - title: Just a workflow
-      url: /Registering-just-a-workflow
+      url: /Registering-just-a-workflow/

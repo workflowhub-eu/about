@@ -2,6 +2,8 @@
 title: "**Simple** - Registering a workflow file with optionally a diagram and/or abstract-CWL"
 ---
 
+<span>{{page.url}}</span>
+
 ## Uploading or referencing the files
 
 The workflow and other associated files can be registered in two ways, uploading through the **Local file** tab or referencing through the **Remote URL** tab. We recommend referencing the files, for example towards a github repo, since we want to be a hub and not a repository for workflows. This also allows us to show the source link of the RO-crate on the workflow page and include this in the RO-crate metadata. In case the referencing would not work, for example with referencing Galaxy instances, you can always use the *source* metadata field later in the registration. 

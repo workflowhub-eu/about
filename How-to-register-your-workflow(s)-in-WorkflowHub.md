@@ -1,4 +1,6 @@
-# How to register your workflow(s) in WorkflowHub?
+---
+tite: How to register your workflow(s) in WorkflowHub?
+---
 
 ### Prerequisites
 

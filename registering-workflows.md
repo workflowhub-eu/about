@@ -1,6 +1,6 @@
-
-# Registering a workflow on WorkflowHub
-
+---
+title: Registering a workflow on WorkflowHub
+---
 
 ## How-to-Guide
 

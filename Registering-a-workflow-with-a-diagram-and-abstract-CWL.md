@@ -1,5 +1,6 @@
-# **Simple** - Registering a workflow file with optionally a diagram and/or abstract-CWL
-
+---
+title: "**Simple** - Registering a workflow file with optionally a diagram and/or abstract-CWL"
+---
 
 ## Uploading or referencing the files
 

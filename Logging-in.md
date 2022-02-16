@@ -1,4 +1,6 @@
-# How to log-in?
+---
+title: How to log-in?
+---
 
 Before you log in, you must have already [registered](../How-to-register) on WorkflowHub
 

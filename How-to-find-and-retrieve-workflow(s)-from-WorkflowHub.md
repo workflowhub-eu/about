@@ -1,4 +1,6 @@
-# How to find and retrieve workflow(s) from WorkflowHub?
+---
+title: How to find and retrieve workflow(s) from WorkflowHub?
+---
 
 ### How to search for workflows
 You can find and retrieve any workflow from WorkflowHub by:

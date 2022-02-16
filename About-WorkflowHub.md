@@ -1,4 +1,6 @@
-# About WorkflowHub
+---
+title: About WorkflowHub
+---
 
 * [WorkflowHub](https://workflowhub.eu) is a new workflow registry designed around [FAIR principles](https://workflows.community/groups/fair/).
 * WorkflowHub allows workflows to be FAIR, citable, have managed *metadata* profiles, and be openly available for review and analytics.

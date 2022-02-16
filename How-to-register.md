@@ -1,4 +1,6 @@
-# How to register
+---
+title: How to register
+---
 
 > Which WorkflowHub instance?
 > * Use <https://dev.workflowhub.eu/> for testing - this testing instance may occasionally be wiped

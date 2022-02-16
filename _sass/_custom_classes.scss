@@ -1,0 +1,10 @@
+.navbar {
+    .navbar-brand {
+        font-size: 2.25rem;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+img {
+    @extend .img-fluid;
+}

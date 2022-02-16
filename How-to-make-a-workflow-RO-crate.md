@@ -1,4 +1,6 @@
-# How to make a workflow RO-crate?
+---
+title: How to make a workflow RO-crate?
+---
 
 More info about workflow RO-crate specification can be found in our [Workflow-RO-Crate](../Workflow-RO-Crate) section.
 

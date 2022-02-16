@@ -1,4 +1,6 @@
-# Updating a registered workflow
+---
+title: Updating a registered workflow
+---
 
 
 ## Prerequisites

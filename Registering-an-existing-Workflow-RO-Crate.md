@@ -1,4 +1,6 @@
-# **Advanced** - Registering a Workflow RO-Crate
+---
+title: "**Advanced** - Registering a Workflow RO-Crate"
+---
 
 Creating workflow RO-crates can be done using the [ro-crate-py ](https://github.com/ResearchObject/ro-crate-py) package. This gives you the advantage that you are not bound by the file limitations the workflow registration can give you. 
 

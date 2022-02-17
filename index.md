@@ -160,8 +160,9 @@ These planning documents are from the [WorkflowHub Google Drive](https://drive.g
 </details>
 
 <details>
-
- <summary>Related resources</summary>
+<summary>
+ Related resources
+</summary>
 
 * [SEEK](https://seek4science.org/) is the underlying platform used by the WorkflowHub
 * [RO-Crate](https://w3id.org/ro/crate/1.0/) is a metadata/packaging mechanism, used by WorkflowHub for exchange of workflows

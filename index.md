@@ -73,9 +73,7 @@ See the list of club members on the [acknowledgement](acknowledgements) page.
 
 
 <details>
-<summary>
- FAIR Computational Workflows workshop (2020-09-02)
-</summary>
+<summary>FAIR Computational Workflows workshop (2020-09-02)</summary>
 
 The WorkflowHub team organized the [Workshop on FAIR Computational Workflows](https://eccb2020.info/ntbew01-workshop-on-fair-computational-workflows/) at the
 19th European Conference on Computational Biology ([ECCB 2020](https://eccb2020.info/)).
@@ -100,9 +98,7 @@ The workshop organizers aim to make all slides available later.
 
 
 <details>
-<summary>
- BCC2020 CollaborationFest (2020-07-22 / 2020-07-23)
-</summary>
+<summary>BCC2020 CollaborationFest (2020-07-22 / 2020-07-23)</summary>
 
 WorkflowHub was one of the working clusters at the [BCC2020 CollaborationFest](https://bcc2020.github.io/cofest/) as part of [Bioinformatics Community Conference 2020](https://bcc2020.github.io/).
 
@@ -122,9 +118,7 @@ More:
 
 
 <details>
-<summary>
- COVID-19 BioHackathon (2020-04-05 / 2020-04-11)
-</summary>
+<summary>COVID-19 BioHackathon (2020-04-05 / 2020-04-11)</summary>
  
 WorkflowHub was one of the topics at the [Virtual COVID-19 BioHackathon](https://github.com/virtual-biohackathons/covid-19-bh20/), attracting more than 30 developers. The participants also collaborated with the _Workflows_ and _FAIR Data_ topics.
 
@@ -144,9 +138,7 @@ More:
 
 
 <details>
-<summary>
- Planning documents
-</summary>
+<summary>Planning documents</summary>
 
 These planning documents are from the [WorkflowHub Google Drive](https://drive.google.com/drive/folders/1_bZ63W4oRtWL5OnWJNYvE4u3A27VyGGe). Check their edit history, these may be incomplete or drafts.
 
@@ -160,9 +152,7 @@ These planning documents are from the [WorkflowHub Google Drive](https://drive.g
 </details>
 
 <details>
-<summary>
- Related resources
-</summary>
+<summary>Related resources</summary>
 
 * [SEEK](https://seek4science.org/) is the underlying platform used by the WorkflowHub
 * [RO-Crate](https://w3id.org/ro/crate/1.0/) is a metadata/packaging mechanism, used by WorkflowHub for exchange of workflows
@@ -173,9 +163,7 @@ These planning documents are from the [WorkflowHub Google Drive](https://drive.g
 
 <details>
 
-<summary>
- Workflow repositories
-</summary>
+<summary>Workflow repositories</summary>
 
 WorkflowHub intends to harvest workflows from existing workflow repositories, including:
 

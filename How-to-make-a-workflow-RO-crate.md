@@ -2,11 +2,11 @@
 title: How to make a workflow RO-crate?
 ---
 
-More info about workflow RO-crate specification can be found in our [Workflow-RO-Crate](../Workflow-RO-Crate) section.
+More info about workflow RO-crate specification can be found in our [Workflow-RO-Crate](Workflow-RO-Crate/index.md) section.
 
 ### 1. Using the WorkflowHub website
 
-The most convenient way to make a workflow RO-crate at this moment is by making use of WorkflowHub capabilities. The website is able to generate RO-crates based on an uploaded/referenced workflow file and some general metadata that is requested through a form.  After the workflow is registered (click [here](../How-to-register-your-workflow%28s%29-in-WorkflowHub) for more info about this topic) it is possible to download the RO-crate with the download button. The generated RO-crate, basically a zip file, will contain these elements:
+The most convenient way to make a workflow RO-crate at this moment is by making use of WorkflowHub capabilities. The website is able to generate RO-crates based on an uploaded/referenced workflow file and some general metadata that is requested through a form.  After the workflow is [registered](How-to-register-your-workflow(s)-in-WorkflowHub.md) for more info about this topic) it is possible to download the RO-crate with the download button. The generated RO-crate, basically a zip file, will contain these elements:
 
 - **JSONLD file**\
   JSONLD serving machine readable metadata including: 
@@ -42,4 +42,4 @@ The most convenient way to make a workflow RO-crate at this moment is by making 
 ### 2. Making one offline yourself
 
 We are working on a python package at this moment to wrap your own RO-crates. This will allow you to not be bounded by the file limitations of the WorkflowHub website (workflow + CWL abstract and/or diagram), and will make it possible to automate the RO-Crate generation.
-The python package can be found in this [repo](https://github.com/ResearchObject/ro-crate-py).
+The python package can be found in [ResearchObject/ro-crate-py](https://github.com/ResearchObject/ro-crate-py).

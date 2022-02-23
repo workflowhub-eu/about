@@ -65,17 +65,17 @@ See also:
   
 ## July to December 2021
 
-* Implementing the improved directory storage based upon a git backend
-* Improved license selection
-* Displaying Lifemonitor results for Workflow entries
-* Further versioning support, with automated versioning of Workflows registered from Github
-* Assisted registration of Github Workflows  
-* Nextflow -> CWL Abstract (**volunteers needed**, potential research/MsC project?)
-* Better RO-Crate support for additional Workflow Management Systems, beyond Galaxy
+* ☑ Implementing the improved directory storage based upon a git backend
+* ☑ Assisted registration of Github Workflows  
+* ☑ Further versioning support, with automated versioning of Workflows registered from Github
 
 ## January to June 2022
 
+* Improved license selection
+* Displaying Lifemonitor results for Workflow entries
+* Nextflow -> CWL Abstract (**volunteers needed**, potential research/MsC project?)
+* Better RO-Crate support for additional Workflow Management Systems, beyond Galaxy
 * Continued Metadata about tools natively supported by the WfMS more exposed - working with key WfMS
 * Linking workflow steps to Bio.tools
-* RO-Crate profile to describe Workflow Runs, including provenance and results
+* RO-Crate profile to describe [Workflow Runs](https://www.researchobject.org/workflow-run-crate/), including provenance and results
 

@@ -1,5 +1,7 @@
 ---
 title: What is a Team, Space, and Organization
+redirect_from:
+	- /Browsing-projects/
 ---
 
 ## What is a Team?
@@ -9,6 +11,9 @@ A Team represents a group of one or more people collaborating together on a part
 As well as providing credit, a team also has useful abilities such as default Sharing permissions and licence, and the ability to easily set sharing permissions across all members. 
 
 The Team will have its own administrator - usually the user that initially requested it. The administrator can add and remove members, and set their roles and define additional administrators. They may also define new Organization, Profiles (to describe members that have not yet registered) and Organisms.
+
+* [How to join a team](How-to-join-a-team.md)
+
 
 ## What is a Space?
 

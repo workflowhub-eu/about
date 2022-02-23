@@ -7,8 +7,8 @@ title: Registering a workflow on WorkflowHub
 
 ### Before you start!
 
-1. [Login to WorkflowHub](/Logging-in)
-2. Make sure you have [joined a team](/How-to-join-a-team/)
+1. [Login to WorkflowHub](Logging-in.md)
+2. Make sure you have [joined a team](How-to-join-a-team.md)
 3. Identify your [workflow type](#workflow-types) (e.g. CWL, NextFlow, Snakemake, Galaxy)
 4. Prepare your files!
 5. A workflow file, URL or RO-Crate is mandatory.
@@ -27,8 +27,6 @@ title: Registering a workflow on WorkflowHub
 
 
 **Tip**: We recommend importing a git repository (e.g. GitHub), since WorkflowHub is a hub / registry and not a repository.
-
-
 
 1. [Login](https://workflowhub.eu/login) to WorkflowHub
 2. Select `Contribute` on the main page
@@ -70,9 +68,10 @@ The page you are taken to presents four options for registering a workflow and i
 
 
 ### Recommendation
-We recommend referencing the files, for example towards a github repo, since we want to be a hub and not a repository for workflows.
 
-This also allows us to show the source link of the RO-Crate on the workflow page and include this in the RO-Crate metadata. In case the referencing would not work, for example with referencing Galaxy instances, you can always use the source metadata field later in the registration.
+*We recommend referencing the files, for example towards a GitHub repo, since we want to be a hub and not a repository for workflows.*
+
+*This also allows us to show the source link of the RO-Crate on the workflow page and include this in the RO-Crate metadata. In case the referencing would not work, for example with referencing Galaxy instances, you can always use the source metadata field later in the registration.*
 
 
 
@@ -84,7 +83,7 @@ This also allows us to show the source link of the RO-Crate on the workflow page
 2. Pick your [workflow type](#bookmark=id.1re1cbc22qii) - if your workflow type is not included in the list you can select `Other` or add a `New workflow type` using the available button.
 3. Optional: add in a [Abstract CWL](#bookmark=id.9p7blcbntfn5) using the `Browse…` button
 4. Optional: add in a [Diagram file](#bookmark=id.9pqx9te71w4v) using the `Browse…` button
-5. Click the `Register `button
+5. Click the `Register` button
 
 ![Select your local file, then select Workflow type. In Abstract CWL either upload from local file or remote URL, same for Diagram. Then click Register.](/images/registration-03-new-workflow-local.png "New workflow tab for uploading / importing local files")
 
@@ -99,7 +98,7 @@ _Fig 2. New workflow tab for uploading / importing local files._
 2. Pick your workflow type - if your workflow type is not included in the list you can select Other or add a `New workflow type` using the available button.
 3. Optional: add a remote URL for the Abstract CWL  - click `Test` to check the URL
 4. Optional: add a remote URL for the Diagram file  - click `Test` to check the URL
-5. Click the `Register `button
+5. Click the `Register` button
 
 
 ![Fill in your remote file URL, then select Workflow type. In Abstract CWL set remote URL, same for Diagram. Then click Register.](/images/registration-04-new-workflow-remote.png "New workflow tab for importing from a remote URL")
@@ -111,8 +110,7 @@ _Fig 3. New workflow tab for importing files from a remote URL._
 
 
 
-1. Add your Git repository URL  
-e.g. `https://github.com/username/repository_name`
+1. Add your Git repository URL  e.g. `https://github.com/username/repository_name`
 2. Click the `Register` button
 
 
@@ -126,7 +124,7 @@ _Fig 4. New workflow tab for importing files from a git repository (e.g. GitHub,
 1. Add an RO-Crate zip file, either via:
     1. A local file upload using the `Browse…` button, or
     2. By adding a remote file URL - click `Test` to check the URL
-2. Click the `Register `button
+2. Click the `Register` button
 
 
 ![For the zipped RO-Crate, either upload your local file or fill in remote URL, then click Register](/images/registration-06-new-workflow-ro-crate.png "New workflow tab for importing files using a Research Object Crate (RO-Crate).")
@@ -142,14 +140,14 @@ The remainder of this in-depth guide focuses on registration of an example workf
 
 
 1. When you have selected to import a specific Git repository URL (i.e. by clicking `Register`) you will be prompted to specify either a repository:
-    1. Branch, or
-    2. Release tag
+     - Branch, or
+     - Release tag
 2. Once you click `Register` again, you will gain access to a drop down list of the files in the repository - pick the <code>[main executable workflow file](#bookmark=id.ew79aaxs5ncv)</code>:
-    3. For a NextFlow workflow for example, this would be the <code>*.nf</code> file
-    4. For a series of bash scripts, this would be the first <code>*.sh</code> file or the <code>README.md</code> file
+     - For a NextFlow workflow for example, this would be the <code>.nf</code> file
+     - For a series of bash scripts, this would be the first <code>.sh</code> file or the <code>README.md</code> file
 3. You can now pick additional optional files as well:
-    5. [Abstract CWL](#bookmark=id.9p7blcbntfn5)
-    6. [Diagram file](#bookmark=id.9pqx9te71w4v)
+     - [Abstract CWL](#bookmark=id.9p7blcbntfn5)
+     - [Diagram file](#bookmark=id.9pqx9te71w4v)
 4. Click `Continue` to proceed to the metadata stage
 
 
@@ -183,9 +181,9 @@ _Fig 7. Metadata collection page for a new workflow (part A)._
 
 
 7. Add other metadata, including:
-    7. <code>[Maturity](#bookmark=id.9rnsud3mu669)</code>
-    8. <code>[Teams](#bookmark=kix.ehxatelqff8m)</code>
-8. Add / update <code>[Licence](#bookmark=id.747zgz58gbf9) </code>information
+     - <code>[Maturity](#bookmark=id.9rnsud3mu669)</code>
+     - <code>[Teams](#bookmark=kix.ehxatelqff8m)</code>
+8. Add / update <code>[Licence](#bookmark=id.747zgz58gbf9)</code>information
 9. Set sharing conditions for the workflow, including for the public and the submitting <code>[Team](#bookmark=kix.ehxatelqff8m)</code>(s)
 10. Add <code>[Tags](#bookmark=id.z1mthsbilv99)</code> and <code>[Creators](#bookmark=kix.vrfk4kj7csgv)</code> (see <strong>Fig 8.</strong>)
 

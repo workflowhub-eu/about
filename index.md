@@ -65,7 +65,9 @@ See the list of club members on the [acknowledgement](acknowledgements) page.
 
 
 <details>
-<summary>FAIR Computational Workflows workshop (2020-09-02)</summary>
+<summary>
+ FAIR Computational Workflows workshop (2020-09-02)
+</summary>
 
 The WorkflowHub team organized the [Workshop on FAIR Computational Workflows](https://eccb2020.info/ntbew01-workshop-on-fair-computational-workflows/) at the
 19th European Conference on Computational Biology ([ECCB 2020](https://eccb2020.info/)).
@@ -88,7 +90,9 @@ The workshop organizers aim to make all slides available later.
 </details>
 
 <details>
-<summary>BCC2020 CollaborationFest (2020-07-22 / 2020-07-23)</summary>
+<summary>
+ BCC2020 CollaborationFest (2020-07-22 / 2020-07-23)
+</summary>
 
 WorkflowHub was one of the working clusters at the [BCC2020 CollaborationFest](https://bcc2020.github.io/cofest/) as part of [Bioinformatics Community Conference 2020](https://bcc2020.github.io/).
 
@@ -96,21 +100,22 @@ Activities included a _Bring your own Workflow_ session to register more workflo
 
 _Improving support for Galaxy workflows_ worked closely with Galaxy developers at BCC and the topic _Exporting RO-Crate/BioCompute-Object packaged workflows from Galaxy_ which made a first release of the [RO-Crate Python library](https://pypi.org/project/rocrate/) and alignments with [BioCompute Object](https://biocomputeobject.org/).
 
-_Metadata and BioSchemas_ aligned and released [BioSchemas ComputationalWorkflow profile](https://bioschemas.org/profiles/ComputationalWorkflow/0.5-DRAFT-2020_07_21/) 0.5 which was also aligned with the next version of [RO-Crate](https://w3id.org/ro/crate/).
+_Metadata and BioSchemas_ aligned and released [BioSchemas ComputationalWorkflow profile](https://bioschemas.org/profiles/ComputationalWorkflow/0.5-DRAFT-2020_07_21) 0.5 which was also aligned with the next version of [RO-Crate](https://w3id.org/ro/crate/).
 
 _IWC for Galaxy Workflows_ looked at API for workflow registration and created an open source license drop-down list for workflows.
 
-
-
 More:
  * [WorkflowHub notes during CoFest](https://docs.google.com/document/d/1EC0Z-N9c26qG2aguV_irNLftn_98sX6eaHrBs_ov8Jk/edit#)
+ 
 </details>
 
 
 
 <details>
-<summary>COVID-19 BioHackathon (2020-04-05 / 2020-04-11)</summary>
-
+<summary>
+ COVID-19 BioHackathon (2020-04-05 / 2020-04-11)
+</summary>
+ 
 WorkflowHub was one of the topics at the [Virtual COVID-19 BioHackathon](https://github.com/virtual-biohackathons/covid-19-bh20/), attracting more than 30 developers. The participants also collaborated with the _Workflows_ and _FAIR Data_ topics.
 
 Thanks to the collaborative effort WorkflowHub could be launched early at <https://covid19.workflowhub.eu/> in a "pre-beta" stage. The COVID-19 workflows registered at the hackathon now appear as part of <https://workflowhub.eu/> 
@@ -121,6 +126,7 @@ More:
  * [WorkflowHub topic notes ](https://docs.google.com/document/d/140QltsC2hPjdTue6COn0w-zo7TYgb68TGW-72SQqWBA/edit#)
  * [FAIR Data topic at COVID-19 BH](https://github.com/virtual-biohackathons/covid-19-bh20/wiki/FairData)
  * [Workflows topic at COVID-19 BH](https://github.com/virtual-biohackathons/covid-19-bh20/wiki/Workflows)
+
 </details>
 
 
@@ -128,7 +134,9 @@ More:
 
 
 <details>
-<summary>Planning documents</summary>
+<summary>
+ Planning documents
+</summary>
 
 These planning documents are from the [WorkflowHub Google Drive](https://drive.google.com/drive/folders/1_bZ63W4oRtWL5OnWJNYvE4u3A27VyGGe). Check their edit history, these may be incomplete or drafts.
 
@@ -138,25 +146,33 @@ These planning documents are from the [WorkflowHub Google Drive](https://drive.g
 * [Minimum Information for the Registration of a Computational Workflow (MIRCW)](https://docs.google.com/document/d/1v-NPWfVK5hrkoekIoWUMSzk1m8x6yqW6D3waB0QsNJM) lead to _Workflow RO-Crate_
 * [Workflow RO-Crate](https://github.com/workflowhub-eu/about/wiki/Workflow-RO-Crate) a profile of _RO-Crate_ for exchange of workflows with WorkflowHub; based on _BioSchemas Workflows_ profile
 * [Primer on standards for workflow packaging and metadata](https://docs.google.com/document/d/1XREgfYNi7l4HbdrnXBs7Uv1tMH2AiR435SKjisu4l30/edit#) _draft_
+
 </details>
 
 <details>
-<summary>Related resources</summary>
+<summary>
+ Related resources
+</summary>
 
 * [SEEK](https://seek4science.org/) is the underlying platform used by the WorkflowHub
 * [RO-Crate](https://w3id.org/ro/crate/1.0/) is a metadata/packaging mechanism, used by WorkflowHub for exchange of workflows
-* [BioSchemas Workflows](https://bioschemas.org/profiles/Workflow/0.3-DRAFT-2020_03_03/) - a suggested new `schema.org` type for describing computational workflows
+* [BioSchemas Workflows](https://bioschemas.org/profiles/Workflow/0.3-DRAFT-2020_03_03) - a suggested new `schema.org` type for describing computational workflows
 * [Common Workflow Language](https://www.commonwl.org/) (CWL) is an executable workflow language, which WorkflowHub use primarily for descriptive functions
+
 </details>
 
 <details>
-<summary>Workflow repositories</summary>
+
+<summary>
+ Workflow repositories
+</summary>
 
 WorkflowHub intends to harvest workflows from existing workflow repositories, including:
 
 * [myExperiment](https://myexperiment.org/) was a workflow repository that inspired WorkflowHub
 * [nf-core](https://nf-co.re/) - a community-developed colletions of bioinformatics workflows for [Nextflow](https://www.nextflow.io/)
 * <https://usegalaxy.eu/>
+ 
 </details>
 
 

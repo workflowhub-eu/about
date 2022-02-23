@@ -1,7 +1,7 @@
 title: WorkflowHub project
 
 email: info@esciencelab.org.uk
-description: > # this means to ignore newlines until "baseurl:" 
+description: > 
   Project pages for developing and running WorkflowHub, 
   a registry of scientific workflows.
 
@@ -19,3 +19,6 @@ defaults:
 
 theme_variables: 
   theme_color: 1f8787
+
+plugins:
+  - jekyll-redirect-from  

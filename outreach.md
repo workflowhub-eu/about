@@ -82,6 +82,10 @@ Stian Soiland-Reyes (2021):
 _ELIXIR All Hands 2021_, Workshop: Workflow Life Cycle, 2021-06-11
 <https://doi.org/10.5281/zenodo.4926088>
 
+Simone Leo (2021):
+[**Sustainability and Reuse: LifeMonitor**](https://docs.google.com/presentation/d/18tPny7f418nfPopqB92bf9GUyEAaJdOpuyLokoGzZ88).
+_ELIXIR All Hands 2021_, Workshop: Workflow Life Cycle, 2021-06-11
+
 Stian Soiland-Reyes (2021):
 [**Data provenance with RO-Crate**](http://slides.com/soilandreyes/2021-05-19-recording-provenance-with-ro-crate).
 _EOSC-Life retreat 2021_, Provenance of tools and workflows; FAIRification of workflows, 2021-05-19.

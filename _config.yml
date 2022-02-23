@@ -1,5 +1,4 @@
 theme: jekyll-theme-minimal
-markdown: CommonMarkGhPages
 title: WorkflowHub project
 email: info@esciencelab.org.uk
 description: > 
@@ -12,12 +11,7 @@ encoding: UTF-8
 permalink: pretty
 
 logo: /logo/workflowhub-square.svg
-
-markdown: kramdown
-kramdown:
-  input: GFM
-  parse_block_html: true
-  remove_block_html_tags: false
+markdown: CommonMarkGhPages
 
 plugins:
   - jekyll-redirect-from  

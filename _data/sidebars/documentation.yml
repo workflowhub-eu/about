@@ -1,8 +1,4 @@
 subitems:
-  - title: Home
-    url: /
-  - title: About
-    url: /About-WorkflowHub/
   - title: Workflow RO-crate
     url: /Workflow-RO-Crate/
   - title: Registering

@@ -1,11 +1,11 @@
 title: WorkflowHub project
 
-email: info@esciencelab.org.uk
 description: > 
   Project pages for developing and running WorkflowHub, 
   a registry of scientific workflows.
 
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@1.5.0
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@1.5.3
+
 permalink: pretty
 
 defaults:
@@ -15,7 +15,14 @@ defaults:
       type: "pages"
     values:
       layout: "page"
-      sidebar: main
+      sidebar: documentation
+  -
+    scope:
+      path: "about"
+      type: "pages"
+    values:
+      layout: "page"
+      sidebar: about
 
 theme_variables: 
   theme_color: 1f8787

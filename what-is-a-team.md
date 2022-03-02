@@ -1,7 +1,7 @@
 ---
 title: What is a Team, Space, and Organization
 redirect_from:
-	- /Browsing-projects/
+ - /Browsing-projects/
 ---
 
 ## What is a Team?

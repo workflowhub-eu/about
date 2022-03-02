@@ -1,5 +1,7 @@
 ---
 title: WorkflowHub
+hide_sidebar: true
+sidebar: none
 ---
 ## WorkflowHub project
 

@@ -1,6 +1,7 @@
 ---
 title: WorkflowHub project
 hide_sidebar: true
+permalink: /
 ---
 
 

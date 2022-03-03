@@ -19,10 +19,10 @@ workflowhub.eu lead development is part of [EOSC-Life](https://www.eosc-life.eu/
 ### Other funding
 
 <p class="logos">
-  <a title="BioExcel2" href="https://bioexcel.eu/"><img src="/images/BioExcel_logo_payoff_cropped.svg" style="max-height: 5em; max-width: 35%; vertical-align: middle" alt="BioExcel: Center of Excellence for Computational Biomolecular Research" /></a>
-  <a title="IBISBA 1.0" href="https://www.ibisba.eu/"><img src="/images/ibisba-logo.png" style="max-height: 5em; max-width: 35%; vertical-align: middle" alt="IBISBA 1.0" /></a>
-  <a title="SYNTHESYS+" href="https://www.synthesys.info/"><img src="/images/synthesys-plus-logo-white.png" style="max-height: 5em; max-width: 35%; vertical-align: middle" alt="SYNTHESYS+: Synthesys of Systematic Resources, a DiSSCo project" /></a>
-  <!--<a title="FAIR Workflows" href="https://fair-workflows.github.io/project.html"><img src="/images/fair-workflows.png" style="max-height: 5em; max-width: 35%; vertical-align: middle" alt="FAIR Workflows" /></a>-->
+  <a title="BioExcel2" href="https://bioexcel.eu/"><img src="{{ site.url }}/images/BioExcel_logo_payoff_cropped.svg" style="max-height: 5em; max-width: 35%; vertical-align: middle" alt="BioExcel: Center of Excellence for Computational Biomolecular Research" /></a>
+  <a title="IBISBA 1.0" href="https://www.ibisba.eu/"><img src="{{ site.url }}/images/ibisba-logo.png" style="max-height: 5em; max-width: 35%; vertical-align: middle" alt="IBISBA 1.0" /></a>
+  <a title="SYNTHESYS+" href="https://www.synthesys.info/"><img src="{{ site.url }}/images/synthesys-plus-logo-white.png" style="max-height: 5em; max-width: 35%; vertical-align: middle" alt="SYNTHESYS+: Synthesys of Systematic Resources, a DiSSCo project" /></a>
+  <!--<a title="FAIR Workflows" href="https://fair-workflows.github.io/project.html"><img src="{{ site.url }}/images/fair-workflows.png" style="max-height: 5em; max-width: 35%; vertical-align: middle" alt="FAIR Workflows" /></a>-->
 </p>
 
 We are also grateful for contributions funded by:
@@ -37,8 +37,8 @@ We are also grateful for contributions funded by:
 ## Source code
 
 <p>
-  <a title="SEEK for Science" href="https://seek4science.org/about_us.html"><img src="/images/seek.svg?20201014" style="max-height: 5em; max-width: 35%; vertical-align: middle" alt="SEEK" /></a>
-  <a title="FAIRDOM" href="https://fair-dom.org/"><img src="/images/fairdom-logo-fixed-colours.svg" style="max-height: 5em; max-width: 35%; vertical-align: middle" alt="FAIRDOM" /></a>
+  <a title="SEEK for Science" href="https://seek4science.org/about_us.html"><img src="{{ site.url }}/images/seek.svg?20201014" style="max-height: 5em; max-width: 35%; vertical-align: middle" alt="SEEK" /></a>
+  <a title="FAIRDOM" href="https://fair-dom.org/"><img src="{{ site.url }}/images/fairdom-logo-fixed-colours.svg" style="max-height: 5em; max-width: 35%; vertical-align: middle" alt="FAIRDOM" /></a>
 </p>
 
 The main [WorkflowHub codebase](https://github.com/seek4science/seek/tree/workflow) is based on [SEEK](https://seek4science.org/about_us.html) and builds on previous experience with developing [myExperiment](https://www.myexperiment.org/about). SEEK is implemented in [Ruby on Rails](https://rubyonrails.org/) using a wide range of open source [Ruby gems](https://github.com/seek4science/seek/blob/workflowhub/Gemfile.lock).
@@ -48,7 +48,7 @@ The main [WorkflowHub codebase](https://github.com/seek4science/seek/tree/workfl
 ### ELIXIR
 
 <p>
-  <a title="ELIXIR Europe" href="https://elixir-europe.org/"><img src="/images/ELIXIR_logo_white_background.png" style="max-height: 10em; max-width: 45%" alt="ELIXIR" /></a>
+  <a title="ELIXIR Europe" href="https://elixir-europe.org/"><img src="{{ site.url }}/images/ELIXIR_logo_white_background.png" style="max-height: 10em; max-width: 45%" alt="ELIXIR" /></a>
 </p>
 
 WorkflowHub activities are strongly coordinated with [ELIXIR Europe](https://elixir-europe.org/) and [ELIXIR Tools Platform](https://elixir-europe.org/platforms/tools) with participants from:

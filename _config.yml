@@ -11,18 +11,32 @@ permalink: pretty
 defaults:
   -
     scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-      sidebar: documentation
-  -
-    scope:
-      path: "about"
+      path: "project"
       type: "pages"
     values:
       layout: "page"
       sidebar: about
+  -
+    scope:
+      path: "docs"
+      type: "pages"
+    values:
+      layout: "page"
+      sidebar: docs
+  -
+    scope:
+      path: "developer"
+      type: "pages"
+    values:
+      layout: "page"
+      sidebar: docs
+  -
+    scope:
+      path: "Workflow-RO-Crate"
+      type: "pages"
+    values:
+      layout: "page"
+      sidebar: docs
 
 theme_variables: 
   theme_color: 1f8787

@@ -52,10 +52,10 @@ If the workflow came from an external repository (i.e. GitHub), you can include 
     3. **If anyone not registered with WorkflowHub assisted creating this Workflow, you can specify them below.**\
     Use this field to fill in the remaining creators.
     
-![](images/creators_metadata.PNG)
+![](/images/creators_metadata.PNG)
 
 ##  Check the uploaded RO-crate
 
 Make sure that all the metadata that is parsed/ filled is showed properly and is correct.
 
-![](images/uploaded-galaxy-workflow.PNG)
+![](/images/uploaded-galaxy-workflow.PNG)

@@ -8,7 +8,7 @@ title: How to register
 
 In order to register yourself in WorkflowHub, you need to click Register button in the top right hand corner of WorkflowHub.
 
-![](images/register-1.PNG)
+![](/images/register-1.PNG)
 
 It will take you to a screen where you need to provide
 
@@ -16,7 +16,7 @@ It will take you to a screen where you need to provide
 * An email address
 * A password for your account. When complete click the Register button in the bottom left hand corner.
 
-![](images/register-2.PNG)
+![](/images/register-2.PNG)
 
 You will then be taken to a screen where you will enter further information. We require the following information:
 
@@ -34,6 +34,6 @@ If your project is already in WorkflowHub please select it from the dropdown men
 
 If you don't join any listed project during registration, you can request to join a project or create your own project after the registration.  
 
-![](images/register-3.PNG)
+![](/images/register-3.PNG)
 
 After you have registered the rest of your information, you will need to activate your account. You will receive an email in the email account you have provided.

@@ -1,8 +1,16 @@
 subitems:
   - title: About
-    url: /about/About-WorkflowHub/
+    url: /project/
+  - title: Acknowledgements
+    url: /project/acknowledgements/
+  - title: Community
+    url: /project/community/
+  - title: Events
+    url: /project/events/
+  - title: Outreach
+    url: /project/outreach/
   - title: Roadmap
-    url: /about/roadmap/
-  - title: Usability Review
-    url: /about/UsabilityReview/
+    url: /project/roadmap/
+  - title: Usability review
+    url: /project/usability-review/
 

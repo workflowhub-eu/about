@@ -1,9 +1,9 @@
 ---
-title: WorkflowHub
+title: WorkflowHub project
 hide_sidebar: true
-sidebar: none
 ---
-## WorkflowHub project
+
+
 
 [WorkflowHub](https://workflowhub.eu/) is a new FAIR **workflow registry** sponsored by the European RI Cluster EOSC-Life and the European Research Infrastructure ELIXIR. It is workflow management system agnostic: workflows may remain in their native repositories in their native forms.
 

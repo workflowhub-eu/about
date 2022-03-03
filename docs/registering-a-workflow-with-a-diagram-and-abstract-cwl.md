@@ -60,7 +60,7 @@ If the workflow came from an external repository (i.e. GitHub), you can include 
     3. **If anyone not registered with WorkflowHub assisted creating this Workflow, you can specify them below.**\
     Use this field to fill in the remaining creators.
     
-![](images/creators_metadata.PNG)
+![](/images/creators_metadata.PNG)
 
 
 ##  Check the uploaded workflow
@@ -69,7 +69,7 @@ Make sure that all the metadata you filled in previously is showed properly and 
 
 You can also Click **Download RO-Crate** where metadata files (JSONLD and HTML) have been generated based on the information fill
 
-![](images/result_diagram_CWLabstract.PNG)
+![](/images/result_diagram_CWLabstract.PNG)
 
 ## Minting a DOI
 

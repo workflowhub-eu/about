@@ -15,7 +15,7 @@ title: About WorkflowHub
 * Beta-released in Sept 2020, the Hub now holds nearly 100 workflows, including 36 curated COVID-19 workflows.  It is a listed resource of the European [COVID19 Data Portal](https://www.covid19dataportal.org/).
 
 
-### WfCommons and WorkflowHub
+## WfCommons and WorkflowHub
 
 Note that the US-based [WfCommons](https://wfcommons.org/), a Python-based framework for enabling scientific workflow research and development, was previously [called "WorkflowHub"](https://doi.org/10.1109/WORKS51914.2020.00012). While that framework is not related to our registry workflowhub.eu, this name collision could cause some confusion, so in common agreement with Rafael Ferreira da Silva, their former domain name `workflowhub.org` 
 now kindly redirect to our workflow registry <https://workflowhub.eu/>, their framework was renamed to "WfCommons" and moved to <https://wfcommons.org/> and their Python package `workflowhub` was renamed [`wfcommons`](https://pypi.org/project/wfcommons/).

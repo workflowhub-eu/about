@@ -21,6 +21,6 @@ columns:
   - type: image
     image_width: 120px
     width: 3
-    src: '/assets/img/workflowhub_logo__square.svg'
+    src: '/assets/img/workflowhub-square.svg'
     alt: workflowhub logo square
 

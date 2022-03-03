@@ -34,7 +34,7 @@
 <link href="http://schema.org/ImageObject" rel="item" />
 <link href="https://github.com/KockataEPich/CheckMyCrate/blob/master/CheckMyCrate/profile_library/ro_crate_1.1_basic.json" rel="item" />
 
-![Workflow RO-Crate](logo/ro-crate-workflow.svg)
+![Workflow RO-Crate](/assets/img/ro-crate-workflow.svg)
 
 * Permalink: `TODO`
 * Version: [0.2.0](https://github.com/workflowhub-eu/about/releases/tag/workflow-ro-crate-0.2.0)

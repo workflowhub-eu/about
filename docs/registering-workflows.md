@@ -2,10 +2,8 @@
 title: Registering a workflow on WorkflowHub
 ---
 
-## How-to-Guide
 
-
-### Before you start!
+## Before you start!
 
 1. [Login to WorkflowHub](Logging-in.md)
 2. Make sure you have [joined a team](How-to-join-a-team.md)
@@ -17,7 +15,7 @@ title: Registering a workflow on WorkflowHub
 8. Prepare your [metadata](#metadata-list)
 9. See the [Glossary](#glossary) for more details.
 
-# What is the overall process for registration?
+## What is the overall process for registration?
 
 
 ![Remote files URLs, Git Repository, Local Files, Zipped RO-Crate are Imported, then Register workflow, Add Metadata and Finalize Registration with review](/images/registration-01-overview.svg "Registration Overview")

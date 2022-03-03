@@ -1,0 +1,39 @@
+subitems:
+  - title: Docs
+    url: /docs/
+  - title: Prerequisites 
+    subitems:
+    - title: How to register
+      url: /docs/how-to-register/
+    - title: Logging in
+      url: /docs/logging-in/
+    - title: What is a team
+      url: /docs/what-is-a-team/
+    - title: Joining a team
+      url: /docs/how-to-join-a-team/
+  - title: Start guide
+    url: /docs/registering-workflows/
+  - title: Citable workflows
+    url: /docs/citable/
+  - title: Finding workflows
+    url: /docs/how-to-find-and-retrieve-workflows/
+  - title: Registering workflows (old)
+    url: /docs/how-to-register-your-workflow/
+    subitems:
+    - title: Existing Workflow RO-Crate
+      url: /docs/registering-an-existing-workflow-ro-crate/
+    - title: Workflow + diagram and abstract CWL
+      url: /docs/registering-a-workflow-with-a-diagram-and-abstract-cwl/
+  - title: Updating a registered workflow
+    url: /docs/updating-a-registered-workflow/
+  - title: For developers
+    subitems:
+      - title: How to make a workflow RO-Crate
+        url: /developer/how-to-make-a-workflow-ro-crate/
+      - title: RO-Crate API
+        url: /developer/ro-crate-api/
+      - title: TRS
+        url: /developer/trs/
+      - title: Workflow RO-Crate
+        url: /Workflow-RO-Crate/
+

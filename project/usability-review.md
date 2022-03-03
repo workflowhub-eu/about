@@ -3,7 +3,6 @@ title: Usability Review
 date: 2022-01-26
 ---
 
-# Usability Review
 
 The WorkflowHub Usability study is finally here! We would appreciate if you would pass this onto any and all colleagues.
 

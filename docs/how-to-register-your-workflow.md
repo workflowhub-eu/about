@@ -13,7 +13,7 @@ Before you register a workflow, you need to ensure that you
 
 To register a workflow, you can either click on the "contribute" icon on the WorkflowHub homepage, or in the "Workflow" option of the "Create" menu from any page of the application.
 
-![]({{ site.url }}/images/ug_link_to_wf_upload.PNG)
+![]({{ '/images/ug_link_to_wf_upload.PNG' | relative_url }}) 
 
 
 ## Supported workflow types

@@ -18,7 +18,7 @@ title: Registering a workflow on WorkflowHub
 ## What is the overall process for registration?
 
 
-![Remote files URLs, Git Repository, Local Files, Zipped RO-Crate are Imported, then Register workflow, Add Metadata and Finalize Registration with review]({{ site.url }}/images/registration-01-overview.svg "Registration Overview")
+![Remote files URLs, Git Repository, Local Files, Zipped RO-Crate are Imported, then Register workflow, Add Metadata and Finalize Registration with review]({{ '/images/registration-01-overview.svg' | relative_url }} "Registration Overview")
 
 
 # Quick start guide
@@ -55,7 +55,7 @@ _Registering a workflow RO-Crate using the API_
 1. Go to the WorkflowHub homepage and either [register](https://workflowhub.eu/signup) or [log-in](https://workflowhub.eu/login)
 2. Return to the main page of WorkflowHub and either click on the `Contribute` button, or select `Workflow` from the `Create` drop down menu at the top of the page (see **Fig 1**).
 
-![In WorkflowHub, click Create, Workflow or alternatively Contribute]({{ site.url }}/images/registration-02-contribute.png "The WorkflowHub landing page")
+![In WorkflowHub, click Create, Workflow or alternatively Contribute]({{ '/images/registration-02-contribute.png' | relative_url }} "The WorkflowHub landing page")
 
 _Figure 1: The WorkflowHub landing page._
 
@@ -83,7 +83,7 @@ The page you are taken to presents four options for registering a workflow and i
 4. Optional: add in a [Diagram file](#bookmark=id.9pqx9te71w4v) using the `Browse…` button
 5. Click the `Register` button
 
-![Select your local file, then select Workflow type. In Abstract CWL either upload from local file or remote URL, same for Diagram. Then click Register.]({{ site.url }}/images/registration-03-new-workflow-local.png "New workflow tab for uploading / importing local files")
+![Select your local file, then select Workflow type. In Abstract CWL either upload from local file or remote URL, same for Diagram. Then click Register.]({{ '/images/registration-03-new-workflow-local.png' | relative_url }} "New workflow tab for uploading / importing local files")
 
 _Fig 2. New workflow tab for uploading / importing local files._
 
@@ -99,7 +99,7 @@ _Fig 2. New workflow tab for uploading / importing local files._
 5. Click the `Register` button
 
 
-![Fill in your remote file URL, then select Workflow type. In Abstract CWL set remote URL, same for Diagram. Then click Register.]({{ site.url }}/images/registration-04-new-workflow-remote.png "New workflow tab for importing from a remote URL")
+![Fill in your remote file URL, then select Workflow type. In Abstract CWL set remote URL, same for Diagram. Then click Register.]({{ '/images/registration-04-new-workflow-remote.png' | relative_url }} "New workflow tab for importing from a remote URL")
 
 _Fig 3. New workflow tab for importing files from a remote URL._
 
@@ -112,7 +112,7 @@ _Fig 3. New workflow tab for importing files from a remote URL._
 2. Click the `Register` button
 
 
-![Add your git URL, then click Register.]({{ site.url }}/images/registration-05-new-workflow-git.png "New workflow tab for importing from a git repository (e.g. GitHub, GitLab)")
+![Add your git URL, then click Register.]({{ '/images/registration-05-new-workflow-git.png' | relative_url }} "New workflow tab for importing from a git repository (e.g. GitHub, GitLab)")
 
 _Fig 4. New workflow tab for importing files from a git repository (e.g. GitHub, GitLab)._
 
@@ -125,7 +125,7 @@ _Fig 4. New workflow tab for importing files from a git repository (e.g. GitHub,
 2. Click the `Register` button
 
 
-![For the zipped RO-Crate, either upload your local file or fill in remote URL, then click Register]({{ site.url }}/images/registration-06-new-workflow-ro-crate.png "New workflow tab for importing files using a Research Object Crate (RO-Crate).")
+![For the zipped RO-Crate, either upload your local file or fill in remote URL, then click Register]({{ '/images/registration-06-new-workflow-ro-crate.png' | relative_url }} "New workflow tab for importing files using a Research Object Crate (RO-Crate).")
 
 _Fig 5. New workflow tab for importing files using a Research Object Crate (RO-Crate)._
 
@@ -149,7 +149,7 @@ The remainder of this in-depth guide focuses on registration of an example workf
 4. Click `Continue` to proceed to the metadata stage
 
 
-![First select branch or a release tag, then use drop down list to select the main executable workflow file. Add any optional files before clicking Continue]({{ site.url }}/images/registration-07-select-branch.png "Selecting a target branch or release tag as well as the main executable and optional files during Git repository import.")
+![First select branch or a release tag, then use drop down list to select the main executable workflow file. Add any optional files before clicking Continue]({{ '/images/registration-07-select-branch.png' | relative_url }} "Selecting a target branch or release tag as well as the main executable and optional files during Git repository import.")
 
 
 _Fig 6. Selecting a target branch or release tag as well as the main executable and optional files during Git repository import._
@@ -169,7 +169,7 @@ The next page is a form that gathers the necessary metadata that will be enclose
 6. Check the imported <code>[Description](#bookmark=id.76iyrcif3i8b)</code> text, and edit if needed
 
 
-![Add a workflow title, then revise the imported Description text]({{ site.url }}/images/registration-08-metadata.png "Metadata collection page for a new workflow")
+![Add a workflow title, then revise the imported Description text]({{ '/images/registration-08-metadata.png' | relative_url }} "Metadata collection page for a new workflow")
 
 _Fig 7. Metadata collection page for a new workflow (part A)._
 
@@ -186,7 +186,7 @@ _Fig 7. Metadata collection page for a new workflow (part A)._
 10. Add <code>[Tags](#bookmark=id.z1mthsbilv99)</code> and <code>[Creators](#bookmark=kix.vrfk4kj7csgv)</code> (see <strong>Fig 8.</strong>)
 
 
-![Add Creators]({{ site.url }}/images/registration-09-creator.jpg "Workflow Creator metadata section")
+![Add Creators]({{ '/images/registration-09-creator.jpg' | relative_url }} "Workflow Creator metadata section")
 
 _Fig 8. Workflow Creator metadata section._
 
@@ -197,7 +197,7 @@ _Fig 8. Workflow Creator metadata section._
 
 
 
-![Add other metadata, license information. Set sharing conditions, add tags and creators. Associate presentations, documents, files with workflow. Then click Register]({{ site.url }}/images/registration-10-metadata-collection.png "Metadata collection page for a new workflow")
+![Add other metadata, license information. Set sharing conditions, add tags and creators. Associate presentations, documents, files with workflow. Then click Register]({{ '/images/registration-10-metadata-collection.png' | relative_url }} "Metadata collection page for a new workflow")
 
 _Fig 9. Metadata collection page for a new workflow (part B)._
 
@@ -213,13 +213,13 @@ _Fig 9. Metadata collection page for a new workflow (part B)._
 * **Figure 11** shows a real world workflow for [Cheminformatics](https://workflowhub.eu/workflows/18) registered on WorkflowHub.
 
 
-![check your workflow: Add new files or perform actions (new versions, edits, deletions). Check Description, Creators, Submitter, Tags, Attributions. Inspect files.]({{ site.url }}/images/registration-11-check-workflow.png "Sections to be checked upon workflow registration completion")
+![check your workflow: Add new files or perform actions (new versions, edits, deletions). Check Description, Creators, Submitter, Tags, Attributions. Inspect files.]({{ '/images/registration-11-check-workflow.png' | relative_url }} "Sections to be checked upon workflow registration completion")
 
 _Fig 10. Sections to be checked upon workflow registration completion._
 
 
 
-![Cheminformatics - XCChem combined.]({{ site.url }}/images/registration-12-published.png "Real world Cheminformatics workflow registered on WorkflowHub")
+![Cheminformatics - XCChem combined.]({{ '/images/registration-12-published.png' | relative_url }} "Real world Cheminformatics workflow registered on WorkflowHub")
 
 _Fig 11. Real world Cheminformatics workflow registered on WorkflowHub._
 

@@ -120,13 +120,13 @@ See also:
 The below logos can be used by for application, websites, posters, slides etc. for work that use, implement or support WorkflowHub and Workflow RO-Crate, linking to <https://workflowhub.eu/>. To ask permission for any other use, raise an [issue](https://github.com/ResearchObject/ro-crate/issues).
 
 <p style="vertical-align: bottom">
-  <img src="{{ site.url }}/assets/img/workflowhub.svg" style="max-width: 30%; max-height: 5em; vertical-align: middle" /> 
-    [<a href="{{ site.url }}/assets/img/workflowhub.svg">svg</a>]
-    [<a href="{{ site.url }}/assets/img/workflowhub.png">png</a>]
-  <img src="{{ site.url }}/assets/img/workflowhub-square.svg" style="margin-left: 1em; max-width: 30%; max-height: 5em; vertical-align: middle" />
-    [<a href="{{ site.url }}/assets/img/workflowhub-square.svg">svg</a>]
-    [<a href="{{ site.url }}/assets/img/workflowhub-square.png">png</a>]
-  <img src="{{ site.url }}/assets/img/ro-crate-workflow.svg" style="margin-left: 1em; max-width: 30%; max-height: 5em; vertical-align: middle" />
-    [<a href="{{ site.url }}/assets/img/ro-crate-workflow.svg">svg</a>]
-    [<a href="{{ site.url }}/assets/img/ro-crate-workflow.png">png</a>]
+  <img src="{{ '/assets/img/workflowhub.svg' | relative_url }}" style="max-width: 30%; max-height: 5em; vertical-align: middle" /> 
+    [<a href="{{ '/assets/img/workflowhub.svg' | relative_url }}">svg</a>]
+    [<a href="{{ '/assets/img/workflowhub.png' | relative_url }}">png</a>]
+  <img src="{{ '/assets/img/workflowhub-square.svg' | relative_url }}" style="margin-left: 1em; max-width: 30%; max-height: 5em; vertical-align: middle" />
+    [<a href="{{ '/assets/img/workflowhub-square.svg' | relative_url }}">svg</a>]
+    [<a href="{{ '/assets/img/workflowhub-square.png' | relative_url }}">png</a>]
+  <img src="{{ '/assets/img/ro-crate-workflow.svg' | relative_url }}" style="margin-left: 1em; max-width: 30%; max-height: 5em; vertical-align: middle" />
+    [<a href="{{ '/assets/img/ro-crate-workflow.svg' | relative_url }}">svg</a>]
+    [<a href="{{ '/assets/img/ro-crate-workflow.png' | relative_url }}">png</a>]
 </p>

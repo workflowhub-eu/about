@@ -1,0 +1,14 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+details summary {
+  color: #267CB9;
+  cursor: pointer;
+  
+  &:hover {
+    color: #069;
+    font-weight: bold;
+  }
+}

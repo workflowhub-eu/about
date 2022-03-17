@@ -17,3 +17,14 @@
     background-color: tint-color($sidebar-bg-active, 80%);
     color: $sidebar-color;
 }
+
+.sidebar-title {
+    border-bottom: 0.2rem solid $primary;
+    font-weight: bold;
+    padding-bottom: $input-btn-padding-y - 0.2rem;
+}
+
+#side-nav > ul {
+    margin-top: $spacer * 0.5;
+}
+

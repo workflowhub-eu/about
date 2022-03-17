@@ -10,7 +10,7 @@ permalink: /
 
 This website describes the open source **project** for developing and running [WorkflowHub](https://workflowhub.eu/).
 
-For more details, see [About WorkflowHub](/About-WorkflowHub), [FAIR Computational Workflows](https://workflows.community/groups/fair/), [Outreach and Publications](/outreach).
+For more details, see [About WorkflowHub](/project), [FAIR Computational Workflows](https://workflows.community/groups/fair/), [Outreach and Publications](/outreach).
 
 ## Code of conduct
 
@@ -18,17 +18,17 @@ This project has a [Code of Conduct](https://github.com/workflowhub-eu/about/blo
 
 ## News
 
-* 2022-01-26: The [WorkflowHub Usability study](/UsabilityReview) is looking for volunteers to help improve the usability of WorkflowHub
+* 2022-01-26: The [WorkflowHub Usability study](/project/usability-review) is looking for volunteers to help improve the usability of WorkflowHub
 * 2022-01-22: WorkflowHub now has deeper Git support, when making a _New Version_ it is possible to link an entry to a GitHub repository
 
-For any kind of questions or suggestions on using WorkflowHub, feel free to join our [community](community.md)!
+For any kind of questions or suggestions on using WorkflowHub, feel free to join our [community](/project/community)!
 
 ### Developers
 
 * [Workflow RO-Crate spec](/Workflow-RO-Crate)
-* [How to make a workflow RO-Crate](/How-to-make-a-workflow-RO-crate)
-* [The Global Alliance for Genomics and Health (GA4GH) Tool Registry Service (TRS) API](/TRS) 
-* [RO-Crate Submission API](/ro-crate-api) 
+* [How to make a workflow RO-Crate](/developer/how-to-make-a-workflow-ro-crate)
+* [The Global Alliance for Genomics and Health (GA4GH) Tool Registry Service (TRS) API](/developer/trs) 
+* [RO-Crate Submission API](/developer/ro-crate-api) 
 
 For developer questions such as on REST APIs, RO-Crate, or setting up your own instance of WorkflowHub, feel free to join our [community](community.md)!
 

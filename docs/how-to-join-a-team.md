@@ -1,7 +1,6 @@
 ---
 title: Joining and creating WorkflowHub teams
-redirect_from:
-  - /How-to-join-a-project/
+redirect_from: /How-to-join-a-project/
 ---
 
 # Terminology

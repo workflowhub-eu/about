@@ -1,5 +1,6 @@
 ---
 title: Citable workflows
+redirect_from: /citable/
 ---
 
 Workflows registered in <https://workflowhub.eu/> that are _public_ can be assigned a [DOI](https://www.doi.org/) (Digital Object Identifier) so that they can more easily be cited in academic work. 

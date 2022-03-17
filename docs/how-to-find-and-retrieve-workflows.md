@@ -1,5 +1,6 @@
 ---
 title: How to find and retrieve workflow(s) from WorkflowHub?
+redirect_from: /How-to-find-and-retrieve-workflow(s)-from-WorkflowHub/
 ---
 
 ### How to search for workflows

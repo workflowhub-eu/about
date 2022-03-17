@@ -1,5 +1,6 @@
 ---
 title: RO-Crate Submission API
+redirect_from: /ro-crate-api/
 ---
 
 ## Submitting Workflows

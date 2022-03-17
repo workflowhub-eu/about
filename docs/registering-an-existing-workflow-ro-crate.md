@@ -1,5 +1,6 @@
 ---
 title: "**Advanced** - Registering a Workflow RO-Crate"
+redirect_from: /Registering-an-existing-Workflow-RO-Crate/
 ---
 
 Creating workflow RO-crates can be done using the [ro-crate-py](https://github.com/ResearchObject/ro-crate-py) package. This gives you the advantage that you are not bound by the file limitations the workflow registration can give you. 
@@ -32,7 +33,7 @@ If the workflow came from an external repository (i.e. GitHub), you can include 
 
 - **Maturity**: This field can be used to specify in which maturity state the workflow is. The two available options are *work-in-progress* and *stable*.
 
-- **Teams\***: Every workflow registration is linked to one or more teams. If you can not select the correct team, please go to [Joining a team](How-to-join-a-team.md).
+- **Teams\***: Every workflow registration is linked to one or more teams. If you can not select the correct team, please go to [Joining a team](/docs/how-to-join-a-team.md).
 
 - **License**: The standard license is [Apache Software License 2.0](https://opensource.org/licenses/Apache-2.0). If you did not make the workflow yourself, be sure that the license corresponds to the license where you took the workflow from (for example [github licenses](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/licensing-a-repository) )
 

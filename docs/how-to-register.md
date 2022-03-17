@@ -1,5 +1,6 @@
 ---
 title: How to register
+redirect_from: /How-to-register/
 ---
 
 > Which WorkflowHub instance?

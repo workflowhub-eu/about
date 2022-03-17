@@ -1,5 +1,6 @@
 ---
 title: TRS API
+redirect_from: /TRS/
 ---
 
 WorkflowHub implements GA4GH's [Tool Registry Service API](https://www.ga4gh.org/news/tool-registry-service-api-enabling-an-interoperable-library-of-genomics-analysis-tools/) to facilitate discovery of workflows in an interoperable way.

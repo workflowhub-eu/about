@@ -1,12 +1,13 @@
 ---
-tite: How to register your workflow(s) in WorkflowHub?
+title: How to register your workflow(s) in WorkflowHub?
+redirect_from: /How-to-register-your-workflow(s)-in-WorkflowHub/
 ---
 
 ## Prerequisites
 
 Before you register a workflow, you need to ensure that you
-* are [logged into](Logging-in.md) WorkflowHub
-* are part of a suited team for your registration (Find more information on how to [join a team](How-to-join-a-team.md))
+* are [logged into](/docs/logging-in) WorkflowHub
+* are part of a suited team for your registration (Find more information on how to [join a team](/docs/how-to-join-a-team))
 * know the type of the workflow
 
 ## Get started
@@ -75,11 +76,11 @@ It is also possible to upload workflows from another type (for ex. bash scripts)
 
 After clicking on the "Contribute" icon or selecting "Create" and then "Workflow" from the navigation menu bar, you have 2 options for registering your workflow. For more information on the these options, please go to the corresponding pages:
 
-### - [The simple and recommended way: registering a workflow-file](Registering-a-workflow-with-a-diagram-and-abstract-CWL.md) 
+### - [The simple and recommended way: registering a workflow-file](/docs/registering-a-workflow-with-a-diagram-and-abstract-cwl) 
 
 Using the UI of WorkflowHub you upload or reference a workflow file along with optionally a CWL Description and/or a diagram.
 
-### - [The advanced way: registering a workflow RO-crate](Registering-an-existing-Workflow-RO-Crate.md)
+### - [The advanced way: registering a workflow RO-crate](/docs/registering-a-workflow-ro-crate)
 
 When you have created a workflow RO-crate of your workflow using the [python package](https://github.com/ResearchObject/ro-crate-py), and want to upload or reference it.
 

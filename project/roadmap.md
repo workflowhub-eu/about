@@ -1,5 +1,6 @@
 ---
 title: Roadmap
+redirect_from: /roadmap/
 ---
 
 

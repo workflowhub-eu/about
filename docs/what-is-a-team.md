@@ -1,7 +1,6 @@
 ---
 title: What is a Team, Space, and Organization
-redirect_from:
- - /Browsing-projects/
+redirect_from: /Browsing-projects/
 ---
 
 ## What is a Team?
@@ -12,7 +11,7 @@ As well as providing credit, a team also has useful abilities such as default Sh
 
 The Team will have its own administrator - usually the user that initially requested it. The administrator can add and remove members, and set their roles and define additional administrators. They may also define new Organization, Profiles (to describe members that have not yet registered) and Organisms.
 
-* [How to join a team](How-to-join-a-team.md)
+* [How to join a team](/docs/how-to-join-a-team.md)
 
 
 ## What is a Space?

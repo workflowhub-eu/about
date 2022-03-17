@@ -1,0 +1,6 @@
+- name: WorkflowHub Usability Study
+  date: 2022-01-26
+  description: The [WorkflowHub Usability study](/project/usability-review) is looking for volunteers to help improve the usability of WorkflowHub
+- name: WorkflowHub-Git Integration
+  date: 2022-01-22
+  description: WorkflowHub now has deeper Git support, when making a _New Version_ it is possible to directly import a workflow from a Git repository on GitHub, GitLab, or any other web-accessible location.

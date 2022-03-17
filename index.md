@@ -18,8 +18,7 @@ This project has a [Code of Conduct](https://github.com/workflowhub-eu/about/blo
 
 ## News
 
-* 2022-01-26: The [WorkflowHub Usability study](/project/usability-review) is looking for volunteers to help improve the usability of WorkflowHub
-* 2022-01-22: WorkflowHub now has deeper Git support, when making a _New Version_ it is possible to link an entry to a GitHub repository
+{% include news.html %}
 
 For any kind of questions or suggestions on using WorkflowHub, feel free to join our [community](/project/community)!
 

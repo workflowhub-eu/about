@@ -41,7 +41,7 @@ For developer questions such as on REST APIs, RO-Crate, or setting up your own i
 
 * **Production instance**: <https://workflowhub.eu/> 
 * **Dev instance** <https://dev.workflowhub.eu/> (use for testing; occasionally wiped)
-* **Source**: [seek4science/seek](https://github.com/seek4science/seek/tree/workflow) branch `workflow`
+* **Source**: [seek4science/seek](https://github.com/seek4science/seek/tree/workflowhub) branch `workflowhub`
 * **API documentation**: <https://workflowhub.eu/api>
 * **[Outreach and Publications](/outreach/)**
 * **Tasks**: 

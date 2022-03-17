@@ -5,11 +5,11 @@ redirect_from: /How-to-join-a-project/
 
 ## Terminology
 
-For a description about Teams, Spaces or Organizations, please visit [What is a team](/what-is-a-team)
+For a description about Teams, Spaces or Organizations, please visit [What is a team](/docs/what-is-a-team)
 
 ## How to join a Team?
 
-You can join [Teams](/what-is-a-team#what-is-a-team) in one of 3 ways:
+You can join [Teams](/docs/what-is-a-team#what-is-a-team) in one of 3 ways:
 > * After initial registration you will be prompted to Join a Team
 > * Request membership of existing Teams after your registration
 > * Create your own Team
@@ -26,7 +26,7 @@ Once the Team(s) are selected, the process is the same as requesting membership 
 
 If a Team has an administrator, and you are not already a member - then a "request membership" button will appear on the Team page. You can browse, filter and search Teams from the Browse menu at the top of the page.
 
-After clicking this button, the Team will automatically be selected, and you then need to provide your [Organization](/what-is-a-team#what-is-an-organization). Start to type the name of **your** Organization, and existing options will be displayed that contain the text you type (or information related to the Organization such as city or country). Hopefully your Organization is found and you can just select it. If not, you can choose the top option to define a new one.
+After clicking this button, the Team will automatically be selected, and you then need to provide your [Organization](/docs/what-is-a-team#what-is-an-organization). Start to type the name of **your** Organization, and existing options will be displayed that contain the text you type (or information related to the Organization such as city or country). Hopefully your Organization is found and you can just select it. If not, you can choose the top option to define a new one.
 
 If describing a new Organization only the title is required, but you can also provide details about its website, city and country. You will also be able to edit and add additional information afterwards.
 
@@ -38,7 +38,7 @@ Once submitted, the administrators of the Team will be notified and will either 
 
 You will first be prompted to create following registering a new account. If you are already a member and wish to add additional Teams, you can choose to create one from the Create menu in the top bar.
 
-First a [Space](/what-is-a-team#what-is-a-space) will need to be chosen or created. By default, the site managed Space is selected, but if unchecked there is an option to provide the title of a new one. If you already administer an existing Space, a dropdown box will be shown instead allowing you to select it. Only the title is required at this stage, but further details can be provided later once created.
+First a [Space](/docs/what-is-a-team#what-is-a-space) will need to be chosen or created. By default, the site managed Space is selected, but if unchecked there is an option to provide the title of a new one. If you already administer an existing Space, a dropdown box will be shown instead allowing you to select it. Only the title is required at this stage, but further details can be provided later once created.
 
 You next need to define the Team. At a minimum a title is required, but you can also here provide a description and webpage. Once created you can edit and add additional details and add members.
 

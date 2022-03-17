@@ -26,7 +26,7 @@ now kindly redirect to our workflow registry <https://workflowhub.eu/>, their fr
 
 Created as part of the [EOSC-Life](https://www.eosc-life.eu) WP2 [Tools Collaboratory](https://github.com/eosc-life/tools-collaboratory-roadmap), WorkflowHub is in beta, and still under active development.
 
-See a complete list of contributors on the [acknowledgement](/acknowledgements) page.
+See a complete list of contributors on the [acknowledgement](/project/acknowledgements) page.
 
 Aims of the project include:
 

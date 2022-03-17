@@ -7,7 +7,7 @@ More info about workflow RO-crate specification can be found in our [Workflow-RO
 
 ### 1. Using the WorkflowHub website
 
-The most convenient way to make a workflow RO-crate at this moment is by making use of WorkflowHub capabilities. The website is able to generate RO-crates based on an uploaded/referenced workflow file and some general metadata that is requested through a form.  After the workflow is [registered](/How-to-register-your-workflow(s)-in-WorkflowHub.md) for more info about this topic) it is possible to download the RO-crate with the download button. The generated RO-crate, basically a zip file, will contain these elements:
+The most convenient way to make a workflow RO-crate at this moment is by making use of WorkflowHub capabilities. The website is able to generate RO-crates based on an uploaded/referenced workflow file and some general metadata that is requested through a form.  After the workflow is [registered](/docs/registering-a-workflow) for more info about this topic) it is possible to download the RO-crate with the download button. The generated RO-crate, basically a zip file, will contain these elements:
 
 - **JSONLD file**\
   JSONLD serving machine readable metadata including: 

@@ -10,7 +10,7 @@ permalink: /
 
 This website describes the open source **project** for developing and running [WorkflowHub](https://workflowhub.eu/).
 
-For more details, see [About WorkflowHub](/project), [FAIR Computational Workflows](https://workflows.community/groups/fair/), [Outreach and Publications](/outreach).
+For more details, see [About WorkflowHub](/project), [FAIR Computational Workflows](https://workflows.community/groups/fair/), [Outreach and Publications](/project/outreach).
 
 ## Code of conduct
 
@@ -38,9 +38,9 @@ For developer questions such as on REST APIs, RO-Crate, or setting up your own i
 * **Dev instance** <https://dev.workflowhub.eu/> (use for testing; occasionally wiped)
 * **Source**: [seek4science/seek](https://github.com/seek4science/seek/tree/workflow) branch `workflow`
 * **API documentation**: <https://workflowhub.eu/api>
-* **[Outreach and Publications](/outreach/)**
+* **[Outreach and Publications](/project/outreach/)**
 * **Tasks**: 
-  * [WorkflowHub roadmap](roadmap)
+  * [WorkflowHub roadmap](/project/roadmap)
   * WorkflowHub implementation <https://github.com/seek4science/seek/projects/3> (SEEK)
   * General WorkflowHub <https://github.com/workflowhub-eu/about/issues>
 * **Mailing list**: [`workflowhub😊elixir-europe.org`](https://lists.elixir-europe.org/mailman/listinfo/workflowhub_elixir-europe.org) ([subscribe](https://lists.elixir-europe.org/mailman/listinfo/workflowhub_elixir-europe.org)/[archive](https://mail.elixir-europe.org/pipermail/workflowhub_elixir-europe.org/))

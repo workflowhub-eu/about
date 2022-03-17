@@ -35,8 +35,7 @@ title: Metadata list
         </td>
     </tr>
     <tr>
-        <td>Projects*
-        </td>
+        <td>Projects*</td>
         <td>Every workflow registration is linked to one or more projects. If you can not select the correct project, please go to Joining a project.
         </td>
         <td>Yes</td>

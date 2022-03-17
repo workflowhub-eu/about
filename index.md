@@ -2,9 +2,8 @@
 title: WorkflowHub project
 hide_sidebar: true
 permalink: /
+toc: false
 ---
-
-
 
 [WorkflowHub](https://workflowhub.eu/) is a new FAIR **workflow registry** sponsored by the European RI Cluster EOSC-Life and the European Research Infrastructure ELIXIR. It is workflow management system agnostic: workflows may remain in their native repositories in their native forms.
 
@@ -21,15 +20,6 @@ This project has a [Code of Conduct](https://github.com/workflowhub-eu/about/blo
 {% include news.html %}
 
 For any kind of questions or suggestions on using WorkflowHub, feel free to join our [community](/project/community)!
-
-### Developers
-
-* [Workflow RO-Crate spec](/Workflow-RO-Crate)
-* [How to make a workflow RO-Crate](/developer/how-to-make-a-workflow-ro-crate)
-* [The Global Alliance for Genomics and Health (GA4GH) Tool Registry Service (TRS) API](/developer/trs) 
-* [RO-Crate Submission API](/developer/ro-crate-api) 
-
-For developer questions such as on REST APIs, RO-Crate, or setting up your own instance of WorkflowHub, feel free to join our [community](/project/community)!
 
 ## Project resources
 
@@ -68,40 +58,6 @@ See the list of club members on the [acknowledgement](/project/acknowledgements)
 {% include events.html event_type="upcoming_event" title="true" %}
 
 {% include events.html event_type="past_event" title="true" %}
-
-## Other resources
-
-<details><summary>Planning documents</summary>
-
-These planning documents are from the [WorkflowHub Google Drive](https://drive.google.com/drive/folders/1_bZ63W4oRtWL5OnWJNYvE4u3A27VyGGe). Check their edit history, these may be incomplete or drafts.
-
-* [Methods of submitting to WorkflowHub](https://docs.google.com/document/d/1UdjAcnSR3yDepvoY9wA02M9tUB0sTpg3NyijxR-Vago)
-* [WorkflowHub User Requirements](https://docs.google.com/document/d/16ARnaWhmONUJROdauHFvmAV_qHGJ_L4dEwM6XWRb6gE/edit#heading=h.bzug3s472cs8)
-* [Minimal Viable Product](https://docs.google.com/document/d/14xlDgezlXr5suzZfbTkLeFj7fhv6YZ4W9AsGwq4-SwQ) - leading to <https://dev.workflowhub.eu/>
-* [Minimum Information for the Registration of a Computational Workflow (MIRCW)](https://docs.google.com/document/d/1v-NPWfVK5hrkoekIoWUMSzk1m8x6yqW6D3waB0QsNJM) lead to _Workflow RO-Crate_
-* [Workflow RO-Crate](https://github.com/workflowhub-eu/about/wiki/Workflow-RO-Crate) a profile of _RO-Crate_ for exchange of workflows with WorkflowHub; based on _BioSchemas Workflows_ profile
-* [Primer on standards for workflow packaging and metadata](https://docs.google.com/document/d/1XREgfYNi7l4HbdrnXBs7Uv1tMH2AiR435SKjisu4l30/edit#) _draft_
-
-</details>
-
-<details><summary>Related resources</summary>
-
-* [SEEK](https://seek4science.org/) is the underlying platform used by the WorkflowHub
-* [RO-Crate](https://w3id.org/ro/crate/1.0/) is a metadata/packaging mechanism, used by WorkflowHub for exchange of workflows
-* [BioSchemas Workflows](https://bioschemas.org/profiles/Workflow/0.3-DRAFT-2020_03_03) - a suggested new `schema.org` type for describing computational workflows
-* [Common Workflow Language](https://www.commonwl.org/) (CWL) is an executable workflow language, which WorkflowHub use primarily for descriptive functions
-
-</details>
-
-<details><summary>Workflow repositories</summary>
-
-WorkflowHub intends to harvest workflows from existing workflow repositories, including:
-
-* [myExperiment](https://myexperiment.org/) was a workflow repository that inspired WorkflowHub
-* [nf-core](https://nf-co.re/) - a community-developed colletions of bioinformatics workflows for [Nextflow](https://www.nextflow.io/)
-* <https://usegalaxy.eu/>
- 
-</details>
 
 ## Citation
 

@@ -78,7 +78,7 @@ The WorkflowHub community collaborates closely with (at least) these projects:
 
 ## WorkflowHub Club
 
-The weekly [WorkflowHub Club](community.md) is chaired by **Frederik Coppens**.
+The weekly [WorkflowHub Club](/project/community) is chaired by **Frederik Coppens**.
 
 Participants include:
 

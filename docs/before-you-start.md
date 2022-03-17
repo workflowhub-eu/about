@@ -3,8 +3,8 @@ title: Before you start
 ---
 
 
-1. [Login to WorkflowHub](Logging-in.md)
-2. Make sure you have [joined a team](How-to-join-a-team.md)
+1. [Login to WorkflowHub](/docs/logging-in)
+2. Make sure you have [joined a team](/docs/how-to-join-a-team)
 3. Identify your [workflow type](#workflow-types) (e.g. CWL, NextFlow, Snakemake, Galaxy)
 4. Prepare your files!
 5. A workflow file, URL or RO-Crate is mandatory.

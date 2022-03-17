@@ -3,7 +3,7 @@ title: WorkflowHub community
 ---
 
 
-While WorkflowHub is largely developed as a collaboration between [several projects](acknowledgements.md), any contributors are welcome to join our **open community**.
+While WorkflowHub is largely developed as a collaboration between [several projects](/project/acknowledgements), any contributors are welcome to join our **open community**.
 
 
 ## WorkflowHub Club
@@ -15,7 +15,7 @@ The [WorkflowHub Club](https://s.apache.org/workflowhub-minutes) is chaired by *
 
 Anyone can [join the WorkflowHub club](https://github.com/workflowhub-eu/about/issues/1)! Either sign up on GitHub [issue #1](https://github.com/workflowhub-eu/about/issues/1) or join the [next call](https://s.apache.org/workflowhub-minutes) and introduce yourself.
 
-See [acknowledgements](acknowledgements.md/#workflowhub-club) for a complete list of participants in the WorkflowHub Club.
+See [acknowledgements](/project/acknowledgements#workflowhub-club) for a complete list of participants in the WorkflowHub Club.
 
 For asynchronous communication, see also:
 

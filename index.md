@@ -30,7 +30,7 @@ For any kind of questions or suggestions on using WorkflowHub, feel free to join
 * [The Global Alliance for Genomics and Health (GA4GH) Tool Registry Service (TRS) API](/developer/trs) 
 * [RO-Crate Submission API](/developer/ro-crate-api) 
 
-For developer questions such as on REST APIs, RO-Crate, or setting up your own instance of WorkflowHub, feel free to join our [community](community.md)!
+For developer questions such as on REST APIs, RO-Crate, or setting up your own instance of WorkflowHub, feel free to join our [community](/project/community)!
 
 ## Project resources
 
@@ -57,12 +57,12 @@ For developer questions such as on REST APIs, RO-Crate, or setting up your own i
 
 Regular meeting: **WorkflowHub Club** - all welcome!
 
-Anyone is welcome to join the weekly [WorkflowHub Club](community.md) calls using Zoom.
+Anyone is welcome to join the weekly [WorkflowHub Club](/project/community) calls using Zoom.
 
 * When: Alternate Wednesdays 10:00 GMT / 11:00 CET 
 * Agenda/telcon details: <https://s.apache.org/workflowhub-minutes>
 
-See the list of club members on the [acknowledgement](acknowledgements) page.
+See the list of club members on the [acknowledgement](/project/acknowledgements) page.
 
 ## Events
 
@@ -113,7 +113,7 @@ Carole Goble; Stian Soiland-Reyes; Finn Bacall; Stuart Owen; Alan Williams; Igna
 _Zenodo_  
 <https://zenodo.org/record/4605654>
 
-See also [publication and outreach](outreach/) for more specific work.
+See also [publication and outreach](/project/outreach) for more specific work.
 
 
 ## Acknowledgements
@@ -129,4 +129,4 @@ We are grateful for contributions from [ELIXIR Europe](https://elixir-europe.org
 
 <!-- NOTE: Always update list above AND the acknowledgements.md page -->
 
-See a complete list on the [acknowledgement](acknowledgements) page.
+See a complete list on the [acknowledgement](/project/acknowledgements) page.

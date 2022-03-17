@@ -1,7 +1,7 @@
-- name: Contentathon
-  startDate: 2021-06-23
+- name: FAIR Computational Workflows workshop (2020-09-02)
+  startDate: 2022-06-23
   startTime: '9:00'
-  endDate: 2021-06-24
+  endDate: 2022-06-24
   endTime: 13:30 CET
-  description: We would like to invite you to highlight your set of data management tools as a tool assembly in the RDMkit and describe how to use it, so others can do the same (two half days). [Sign up here](https://nettskjema.no/a/rdmkit-tool-assemblies#/page/1).
+  description: "The WorkflowHub team organized the [Workshop on FAIR Computational Workflows](https://eccb2020.info/ntbew01-workshop-on-fair-computational-workflows/) at the 19th European Conference on Computational Biology ([ECCB 2020](https://eccb2020.info/))."
   location: Online

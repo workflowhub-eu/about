@@ -66,6 +66,7 @@ See the list of club members on the [acknowledgement](acknowledgements) page.
 
 ## Events
 
+{% include events.html event_type="upcoming_event" title="true" %}
 
 <details>
 <summary>FAIR Computational Workflows workshop (2020-09-02)</summary>

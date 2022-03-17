@@ -57,6 +57,26 @@ _Fig 3. New workflow tab for importing files from a remote URL._
 _Fig 4. New workflow tab for importing files from a git repository (e.g. GitHub, GitLab)._
 
 
+
+3. When you have selected to import a specific Git repository URL (i.e. by clicking `Register`) you will be prompted to specify either a repository:
+     - Branch, or
+     - Release tag
+4. Once you click `Register` again, you will gain access to a drop down list of the files in the repository - pick the <code>[main executable workflow file](#bookmark=id.ew79aaxs5ncv)</code>:
+     - For a NextFlow workflow for example, this would be the <code>.nf</code> file
+     - For a series of bash scripts, this would be the first <code>.sh</code> file or the <code>README.md</code> file
+5. You can now pick additional optional files as well:
+     - [Abstract CWL](#bookmark=id.9p7blcbntfn5)
+     - [Diagram file](#bookmark=id.9pqx9te71w4v)
+6. Click `Continue` to proceed to the metadata stage
+
+
+![First select branch or a release tag, then use drop down list to select the main executable workflow file. Add any optional files before clicking Continue]({{ '/images/registration-07-select-branch.png' | relative_url }} "Selecting a target branch or release tag as well as the main executable and optional files during Git repository import.")
+
+
+_Fig 5. Selecting a target branch or release tag as well as the main executable and optional files during Git repository import._
+
+
+
 ## Upload / Import a workflow RO-Crate {#ro-crate}
 
 1. Add an RO-Crate zip file, either via:
@@ -67,4 +87,5 @@ _Fig 4. New workflow tab for importing files from a git repository (e.g. GitHub,
 
 ![For the zipped RO-Crate, either upload your local file or fill in remote URL, then click Register]({{ '/images/registration-06-new-workflow-ro-crate.png' | relative_url }} "New workflow tab for importing files using a Research Object Crate (RO-Crate).")
 
-_Fig 5. New workflow tab for importing files using a Research Object Crate (RO-Crate)._
+_Fig 6. New workflow tab for importing files using a Research Object Crate (RO-Crate)._
+

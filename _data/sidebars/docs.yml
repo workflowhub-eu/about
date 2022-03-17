@@ -19,8 +19,6 @@ subitems:
       url: /docs/register-and-login/
     - title: Adding files
       url: /docs/adding-files/
-    - title: Register the workflow
-      url: /docs/register-the-workflow/
     - title: Complete workflow metadata
       url: /docs/complete-workflow-metadata/
     - title: Check uploaded workflow

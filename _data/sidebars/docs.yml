@@ -1,7 +1,8 @@
+title: Documentation
+title_url: /docs/
 subitems:
-  - title: Docs
-    url: /docs/
-  - title: Prerequisites 
+  - title: Before you start
+    url: /docs/before-you-start/
     subitems:
     - title: How to register
       url: /docs/how-to-register/
@@ -10,30 +11,38 @@ subitems:
     - title: What is a team
       url: /docs/what-is-a-team/
     - title: Joining a team
-      url: /docs/how-to-join-a-team/
-  - title: Start guide
-    url: /docs/registering-workflows/
-  - title: Citable workflows
+      url: /docs/joining-a-team/
+  - title: Registering a workflow
+    url: /docs/registering-a-workflow/
+    subitems:
+    - title: Register and login
+      url: /docs/register-and-login/
+    - title: Adding files
+      url: /docs/adding-files/
+    - title: Complete workflow metadata
+      url: /docs/complete-workflow-metadata/
+    - title: Check uploaded workflow
+      url: /docs/check-uploaded-workflow/
+    - title: Supported workflow types
+      url: /docs/supported-workflow-types/
+  - title: Maintaining your workflow
+    url: /docs/maintaining-your-workflow/
+  - title: Mint a DOI for your workflow
     url: /docs/citable/
   - title: Finding workflows
-    url: /docs/how-to-find-and-retrieve-workflows/
-  - title: Registering workflows (old)
-    url: /docs/how-to-register-your-workflow/
-    subitems:
-    - title: Existing Workflow RO-Crate
-      url: /docs/registering-an-existing-workflow-ro-crate/
-    - title: Workflow + diagram and abstract CWL
-      url: /docs/registering-a-workflow-with-a-diagram-and-abstract-cwl/
-  - title: Updating a registered workflow
-    url: /docs/updating-a-registered-workflow/
+    url: /docs/finding-workflows/
+  - title: Metadata list
+    url: /docs/metadata-list/
+  - title: Glossary
+    url: /docs/glossary/
   - title: For developers
+    url: /developer/
     subitems:
+      - title: Workflow RO-Crate
+        url: /Workflow-RO-Crate/
       - title: How to make a workflow RO-Crate
         url: /developer/how-to-make-a-workflow-ro-crate/
       - title: RO-Crate API
         url: /developer/ro-crate-api/
       - title: TRS
         url: /developer/trs/
-      - title: Workflow RO-Crate
-        url: /Workflow-RO-Crate/
-

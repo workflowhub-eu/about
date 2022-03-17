@@ -3,26 +3,26 @@ title: Joining and creating WorkflowHub teams
 redirect_from: /How-to-join-a-project/
 ---
 
-# Terminology
+## Terminology
 
 For a description about Teams, Spaces or Organizations, please visit [What is a team](/what-is-a-team)
 
-# How to join a Team?
+## How to join a Team?
 
 You can join [Teams](/what-is-a-team#what-is-a-team) in one of 3 ways:
 > * After initial registration you will be prompted to Join a Team
 > * Request membership of existing Teams after your registration
 > * Create your own Team
 
-## Join an existing Team
+### Join an existing Team
 
-### After registration
+#### After registration
 
 After registration, you will be prompted to either join or create a Team. When selecting to join, you can type to automatically search for the Team and candidates will appear which you can select. You can select up to 3 at one time. You can also browse, and join by requesting membership directly from a Team page (see below).
 
 Once the Team(s) are selected, the process is the same as requesting membership directly from a Team page.
 
-### Requesting membership from the Team page
+#### Requesting membership from the Team page
 
 If a Team has an administrator, and you are not already a member - then a "request membership" button will appear on the Team page. You can browse, filter and search Teams from the Browse menu at the top of the page.
 
@@ -34,7 +34,7 @@ Finally also have the option to provide a comment to describe why you wish to jo
 
 Once submitted, the administrators of the Team will be notified and will either approve or reject your request, and you will be notified by email.
 
-## Creating a Team
+### Creating a Team
 
 You will first be prompted to create following registering a new account. If you are already a member and wish to add additional Teams, you can choose to create one from the Create menu in the top bar.
 
@@ -49,7 +49,7 @@ If describing a new Organization only the title is required, but you can also pr
 Once submitted, relevant administrators will be notified who will then review and either accept or reject the new Team. If you are creating a new Team within your own Space, you can review and approve it immediately yourself
 
 
-# Approval
+## Approval
 
 If you are creating a Team within a Space you administer, then there is no approval step. You will be shown a page to review the details and then can create straight away.
 

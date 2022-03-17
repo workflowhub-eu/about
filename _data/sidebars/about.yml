@@ -1,6 +1,6 @@
+title: About
+title_url: /project/
 subitems:
-  - title: About
-    url: /project/
   - title: Acknowledgements
     url: /project/acknowledgements/
   - title: Community
@@ -11,6 +11,3 @@ subitems:
     url: /project/outreach/
   - title: Roadmap
     url: /project/roadmap/
-  - title: Usability review
-    url: /project/usability-review/
-

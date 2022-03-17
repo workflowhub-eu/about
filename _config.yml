@@ -31,13 +31,13 @@ defaults:
       path: "developer"
       type: "pages"
     values:
-      sidebar: docs
+      sidebar: documentation
   -
     scope:
       path: "Workflow-RO-Crate"
       type: "pages"
     values:
-      sidebar: docs
+      sidebar: documentation
 
 theme_variables: 
   theme_color: 1f8787

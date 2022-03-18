@@ -1,8 +1,5 @@
-- name: FAIR Computational Workflows workshop (2020-09-02)
+- name: FAIR Computational Workflows workshop
   startDate: 2020-09-02
-  startTime: 9:00 CET
-  endDate: 2020-09-02
-  endTime: 17:00 CET
   location: Online
   description: >
     The WorkflowHub team organized the [Workshop on FAIR Computational Workflows](https://eccb2020.info/ntbew01-workshop-on-fair-computational-workflows/) at the
@@ -23,11 +20,9 @@
       * _Nextflow and nf-core_ (Alex Peltzer)
 
       The workshop organizers aim to make all slides available later.
-- name: BCC2020 CollaborationFest (2020-07-22 / 2020-07-23)
+- name: BCC2020 CollaborationFest
   startDate: 2020-07-22
-  startTime: 9:00 CET
   endDate: 2020-07-23
-  endTime: 17:00 CET
   location: Online
   description: >
     WorkflowHub was one of the working clusters at the [BCC2020 CollaborationFest](https://bcc2020.github.io/cofest/) as part of [Bioinformatics Community Conference 2020](https://bcc2020.github.io/).
@@ -47,11 +42,9 @@
 
     More<span>:</span>
       * [WorkflowHub notes during CoFest](https://docs.google.com/document/d/1EC0Z-N9c26qG2aguV_irNLftn_98sX6eaHrBs_ov8Jk/edit#)
-- name: COVID-19 BioHackathon (2020-04-05 / 2020-04-11)
+- name: COVID-19 BioHackathon
   startDate: 2020-04-05
-  startTime: 9:00 CET
   endDate: 2020-04-11
-  endTime: 17:00 CET
   location: Online
   description: >
     WorkflowHub was one of the topics at the [Virtual COVID-19 BioHackathon](https://github.com/virtual-biohackathons/covid-19-bh20/),

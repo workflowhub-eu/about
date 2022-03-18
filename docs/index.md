@@ -2,9 +2,6 @@
 title: Documentation
 ---
 
-## Before you start
-
-
 ## Quick start guide
 
 

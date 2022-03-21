@@ -23,8 +23,8 @@ For any kind of questions or suggestions on using WorkflowHub, feel free to join
 ## Project resources
 
 * **Production instance**: <https://workflowhub.eu/> 
-* **Dev instance** <https://dev.workflowhub.eu/> (use for testing; occasionally wiped)
-* **Source**: [seek4science/seek](https://github.com/seek4science/seek/tree/workflowhub) branch `workflowhub`
+* **Sandbox instance**: <https://dev.workflowhub.eu/> (use for testing; occasionally wiped)
+* **Source code**: [seek4science/seek](https://github.com/seek4science/seek) 
 * **API documentation**: <https://workflowhub.eu/api>
 * **[Outreach and Publications](/project/outreach/)**
 * **Tasks**: 
@@ -45,19 +45,18 @@ For any kind of questions or suggestions on using WorkflowHub, feel free to join
 
 Regular meeting: **WorkflowHub Club** - all welcome!
 
-Anyone is welcome to join the weekly [WorkflowHub Club](/project/community) calls using Zoom.
+Anyone is welcome to join the bi-weekly [WorkflowHub Club](/project/community) calls using Zoom.
 
 * When: Alternate Wednesdays 10:00 GMT / 11:00 CET 
-* Agenda/telcon details: <https://s.apache.org/workflowhub-minutes>
+* Agenda, telcon details and minutes: <https://s.apache.org/workflowhub-minutes>
 
 See the list of club members on the [acknowledgement](/project/acknowledgements) page.
 
 ## Events
 
-{% include events.html event_type="upcoming_event" title="true" truncate="true" %}
+{% include events.html event_type="upcoming_event" title="false" truncate="true" %}
 
-
-{% include events.html event_type="past_event" title="true" truncate="true" %}
+See the full list of events, including past events, on the [events](/project/events) page.
 
 ## Citation
 

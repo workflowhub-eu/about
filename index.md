@@ -11,14 +11,6 @@ This website describes the open source **project** for developing and running [W
 
 For more details, see [About WorkflowHub](/project), [FAIR Computational Workflows](https://workflows.community/groups/fair/), [Outreach and Publications](/project/outreach).
 
-## Code of conduct
-
-This project has a [Code of Conduct](https://github.com/workflowhub-eu/about/blob/master/CODE_OF_CONDUCT.md) to ensure interactions are friendly, respectful and inclusive. You can contact <info@esciencelab.org.uk> if you have any concerns or questions.
-
-## News
-
-{% include news.html %}
-
 For any kind of questions or suggestions on using WorkflowHub, feel free to join our [community](/project/community)!
 
 ## Project resources
@@ -40,7 +32,6 @@ For any kind of questions or suggestions on using WorkflowHub, feel free to join
   * [WorkflowHub - a registry for workflows](https://doi.org/10.5281/zenodo.4012124), Carole Goble, ECCB 2020, 2020-09-02
   * [Poster: The WorkflowHub, a registry for Life Science Workflows](https://workflowhub.eu/presentations/1), Ambarish Kumar, ISMB, 2020-07-13
   * [WorkflowHub Introduction slides](https://drive.google.com/open?id=1hfBAjjRnL9jGoxHEvq66Wo-wuKqouR3C), Carole Goble, 2020-03-25
-* **Weekly meeting**: [Rolling Minutes / call details](https://docs.google.com/document/d/1U2KAlbKviCu-fCX-znncKIBUIUUOeEnuRGdAg-fNd4Q/edit?usp=sharing)
 
 ## Community
 
@@ -53,18 +44,15 @@ Anyone is welcome to join the bi-weekly [WorkflowHub Club](/project/community) c
 
 See the list of club members on the [acknowledgement](/project/acknowledgements) page.
 
-## Events
+## Code of conduct
 
-{% include events.html event_type="upcoming_event" title="false" truncate="true" %}
-
-See the full list of events, including past events, on the [events](/project/events) page.
+This project has a [Code of Conduct](https://github.com/workflowhub-eu/about/blob/master/CODE_OF_CONDUCT.md) to ensure interactions are friendly, respectful and inclusive. You can contact <info@esciencelab.org.uk> if you have any concerns or questions.
 
 ## Citation
 
 {% include citation.md %}
 
 ## Acknowledgements
-
 
 We are grateful for contributions from [ELIXIR Europe](https://elixir-europe.org/),  
 [FAIRDOM](http://fair-dom.org) ([BB/M013189/1](https://bbsrc.ukri.org/research/grants/grants/AwardDetails.aspx?FundingReference=BB/M013189/1)), 

@@ -27,3 +27,10 @@
 #side-nav > ul {
     margin-top: $spacer * 0.5;
 }
+
+/*-----News and events-----*/
+
+.events > ul > li,
+.news > ul > li {
+    margin: 10px 0px;
+}

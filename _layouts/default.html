@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+{% include head.html %}
+<body>
+    {% include topnav.html %}
+    <!-- Page Content -->
+    <div class="container min-vh-100">
+        <!-- Content Row -->
+        <div class="row gx-0 gx-lg-5">
+            <!-- Sidebar Column -->
+            <div class="col-lg-3">
+                {%- unless page.hide_sidebar %}
+                {% include sidebar.html %}
+                {%- else %}
+                <h3>News</h3>
+                {% include news.html %}
+                <h3>Events</h3>
+                {% include events.html event_type="upcoming_event" truncate="true" %}
+                See the full list of events, including past events, on the <a href="{{'/project/events' | relative_url }}">events</a> page.
+                {%- endunless %}
+            </div>
+            <!-- Content Column -->
+            <div class="col-lg-9">
+                {{content}}
+            </div>
+        </div>
+    </div>
+    {% include footer.html %}
+    {% include cookie-popup.html %}
+</body>
+</html>

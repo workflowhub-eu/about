@@ -4,7 +4,7 @@ description: >
   Project pages for developing and running WorkflowHub, 
   a registry of scientific workflows.
 
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@event-improv
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@1.9.0
 
 permalink: pretty
 

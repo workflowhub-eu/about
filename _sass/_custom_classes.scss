@@ -13,7 +13,7 @@
 }
 
 /*-----Sidebar-----*/
-#menu li.parent.active li.parent.active>a {
+#menu li.parent.active li.parent.active > a {
     background-color: tint-color($sidebar-bg-active, 80%);
     color: $sidebar-color;
 }
@@ -36,11 +36,12 @@
 }
 
 /*-----Custom landing page-----*/
+
 @media (max-width: 992px) {
-.sidebar-col {
-    order: 2;
-}
-.content-col {
-    order: 1;
-}
+    .sidebar-col {
+        order: 2;
+    }
+    .content-col {
+        order: 1;
+    }
 }

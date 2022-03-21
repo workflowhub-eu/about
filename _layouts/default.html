@@ -13,10 +13,11 @@
                 {% include sidebar.html %}
                 {%- else %}
                 <h3>News</h3>
-                {% include news.html %}
-                <h3>Events</h3>
+                {% include news.html limit=3 %}
+                <small>For more news please visit our <a href="{{'/project/news' | relative_url }}">news page</a>.</small>
+                <h3 class="mt-5">Events</h3>
                 {% include events.html event_type="upcoming_event" truncate="true" %}
-                See the full list of events, including past events, on the <a href="{{'/project/events' | relative_url }}">events</a> page.
+                <small>See the full list of events, including past events, on the <a href="{{'/project/events' | relative_url }}">events</a> page.</small>
                 {%- endunless %}
             </div>
             <!-- Content Column -->

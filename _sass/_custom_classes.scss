@@ -34,3 +34,13 @@
 .news > ul > li {
     margin: 10px 0px;
 }
+
+/*-----Custom landing page-----*/
+@media (max-width: 992px) {
+.sidebar-col {
+    order: 2;
+}
+.content-col {
+    order: 1;
+}
+}

@@ -9,11 +9,7 @@ _Feel free to add to this page, either [edit and raise pull request](https://git
 
 ## Cite WorkflowHub
 
-Carole Goble; Stian Soiland-Reyes; Finn Bacall; Stuart Owen; Alan Williams; Ignacio Eguinoa; Bert Droesbeke; Simone Leo; Luca Pireddu; Laura Rodríguez-Navas; José Mª Fernández; Salvador Capella-Gutierrez; Hervé Ménager; Björn Grüning; Beatriz Serrano-Solano; Philip Ewels; Frederik Coppens (2021):  
-[**Implementing FAIR Digital Objects in the EOSC-Life Workflow Collaboratory**](https://doi.org/10.5281/zenodo.4605654).  
-_Manuscript in preparation_
-<https://doi.org/10.5281/zenodo.4605654>
-
+{% include citation.md %}
 
 ## Posters
 

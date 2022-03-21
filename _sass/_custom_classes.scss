@@ -1,0 +1,47 @@
+/*-----Top navigation-----*/
+.navbar {
+    .navbar-brand {
+        font-size: 2.25rem;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .navbar-nav .nav-item > a.active {
+        color: $white;
+        background-color: $primary;
+        border-radius: $border-radius;
+    }
+}
+
+/*-----Sidebar-----*/
+#menu li.parent.active li.parent.active > a {
+    background-color: tint-color($sidebar-bg-active, 80%);
+    color: $sidebar-color;
+}
+
+.sidebar-title {
+    border-bottom: 0.2rem solid $primary;
+    font-weight: bold;
+    padding-bottom: $input-btn-padding-y - 0.2rem;
+}
+
+#side-nav > ul {
+    margin-top: $spacer * 0.5;
+}
+
+/*-----News and events-----*/
+
+.events > ul > li,
+.news > ul > li {
+    margin: 10px 0px;
+}
+
+/*-----Custom landing page-----*/
+
+@media (max-width: 992px) {
+    .sidebar-col {
+        order: 2;
+    }
+    .content-col {
+        order: 1;
+    }
+}

@@ -1,5 +1,6 @@
-# Workflow RO-Crate profile 1.0
-
+---
+title: Workflow RO-Crate profile 1.0
+---
 <!--  https://signposting.org/FAIR/  markup --->
 
 <link href="https://w3id.org/workflowhub/workflow-ro-crate/1.0" rel="cite-as" /> 
@@ -35,7 +36,7 @@
 <link href="http://schema.org/ImageObject" rel="item" />
 <link href="https://github.com/KockataEPich/CheckMyCrate/blob/master/CheckMyCrate/profile_library/ro_crate_1.1_basic.json" rel="item" />
 
-![Workflow RO-Crate](/logo/ro-crate-workflow.svg)
+![Workflow RO-Crate]({{ '/assets/img/ro-crate-workflow.svg' | relative_url }}) 
 
 * Authors:
   - Finn Bacall <https://orcid.org/0000-0002-0048-3300>

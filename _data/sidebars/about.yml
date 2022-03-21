@@ -1,0 +1,19 @@
+title: About
+title_url: /project/
+subitems:
+  - title: Acknowledgements
+    url: /project/acknowledgements/
+  - title: Community
+    url: /project/community/
+  - title: Events
+    url: /project/events/
+  - title: News
+    url: /project/news/
+  - title: Outreach
+    url: /project/outreach/
+  - title: Roadmap
+    url: /project/roadmap/
+  - title: Planning documents
+    url: /project/planning-documents/
+  - title: Related resources
+    url: /project/related-resources/

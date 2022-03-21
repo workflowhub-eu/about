@@ -18,8 +18,6 @@ columns:
         url: /project/citation
       - url_text: Acknowledgements
         url: /project/acknowledgements
-      - url_text: Acknowledgements
-        url: /project/acknowledgements
   - type: links
     width: 3
     children:

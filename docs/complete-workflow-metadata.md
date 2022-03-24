@@ -9,8 +9,8 @@ The next page is a form that gathers the necessary metadata that will be enclose
 
 
 
-5. Add a workflow <code>[Title](#bookmark=kix.gqofhtf06fx)</code>
-6. Check the imported <code>[Description](#bookmark=id.76iyrcif3i8b)</code> text, and edit if needed
+5. Add a workflow [Title](/docs/metadata-list#title)
+6. Check the imported [Description](/docs/metadata-list#description) text, and edit if needed
 
 
 ![Add a workflow title, then revise the imported Description text]({{ '/images/registration-08-metadata.png' | relative_url }} "Metadata collection page for a new workflow")
@@ -23,11 +23,11 @@ _Fig 7. Metadata collection page for a new workflow (part A)._
 
 
 7. Add other metadata, including:
-     - <code>[Maturity](#bookmark=id.9rnsud3mu669)</code>
-     - <code>[Teams](#bookmark=kix.ehxatelqff8m)</code>
-8. Add / update <code>[Licence](#bookmark=id.747zgz58gbf9)</code>information
-9. Set sharing conditions for the workflow, including for the public and the submitting <code>[Team](#bookmark=kix.ehxatelqff8m)</code>(s)
-10. Add <code>[Tags](#bookmark=id.z1mthsbilv99)</code> and <code>[Creators](#bookmark=kix.vrfk4kj7csgv)</code> (see <strong>Fig 8.</strong>)
+     - [Maturity](/docs/metadata-list#maturity)
+     - [Teams](/docs/metadata-list#teams)
+8. Add / update [Licence](/docs/metadata-list#licence) information
+9. Set sharing conditions for the workflow, including for the public and the submitting [Team](/docs/metadata-list#teams)(s)
+10. Add [Tags](/docs/metadata-list#tags) and [Creators](/docs/metadata-list#creators) (see <strong>Fig 8.</strong>)
 
 
 ![Add Creators]({{ '/images/registration-09-creator.jpg' | relative_url }} "Workflow Creator metadata section")

@@ -18,9 +18,9 @@ The page you are taken to presents four options for registering a workflow and i
 
 
 1. Select your local workflow file using the `Browse…` button
-2. Pick your [workflow type](#bookmark=id.1re1cbc22qii) - if your workflow type is not included in the list you can select `Other` or add a `New workflow type` using the available button.
-3. Optional: add in a [Abstract CWL](#bookmark=id.9p7blcbntfn5) using the `Browse…` button
-4. Optional: add in a [Diagram file](#bookmark=id.9pqx9te71w4v) using the `Browse…` button
+2. Pick your [workflow type](/docs/supported-workflow-types) - if your workflow type is not included in the list you can select `Other` or add a `New workflow type` using the available button.
+3. Optional: add in a [Abstract CWL](/docs/glossary#abstract-cwl) using the `Browse…` button
+4. Optional: add in a [Diagram file](/docs/glossary#diagram) using the `Browse…` button
 5. Click the `Register` button
 
 ![Select your local file, then select Workflow type. In Abstract CWL either upload from local file or remote URL, same for Diagram. Then click Register.]({{ '/images/registration-03-new-workflow-local.png' | relative_url }} "New workflow tab for uploading / importing local files")
@@ -61,12 +61,12 @@ _Fig 4. New workflow tab for importing files from a git repository (e.g. GitHub,
 3. When you have selected to import a specific Git repository URL (i.e. by clicking `Register`) you will be prompted to specify either a repository:
      - Branch, or
      - Release tag
-4. Once you click `Register` again, you will gain access to a drop down list of the files in the repository - pick the <code>[main executable workflow file](#bookmark=id.ew79aaxs5ncv)</code>:
+4. Once you click `Register` again, you will gain access to a drop down list of the files in the repository - pick the <code>[main executable workflow file](/docs/glossary#main-workflow)</code>:
      - For a NextFlow workflow for example, this would be the <code>.nf</code> file
      - For a series of bash scripts, this would be the first <code>.sh</code> file or the <code>README.md</code> file
 5. You can now pick additional optional files as well:
-     - [Abstract CWL](#bookmark=id.9p7blcbntfn5)
-     - [Diagram file](#bookmark=id.9pqx9te71w4v)
+     - [Abstract CWL](/docs/glossary#abstract-cwl)
+     - [Diagram file](/docs/glossary#diagram)
 6. Click `Continue` to proceed to the metadata stage
 
 

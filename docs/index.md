@@ -11,7 +11,7 @@ title: Documentation
 2. Select `Contribute` on the main page
 3. Select the `Import Git repository` option
 4. Add your Git repository URL and click `Register`
-5. Complete the required metadata ([title](#bookmark=id.a6zyg9lmmmww), [projects/teams](#bookmark=id.peoddok35g18) and [creators](#bookmark=id.b2darvuxqrlk))
+5. Complete the required metadata ([title](/docs/metadata-list#title), [projects/teams](/docs/metadata-list#teams) and [creators](/docs/metadata-list#creators))
 6. Click `Register`
 7. Review the final workflow entry and edit as needed
 

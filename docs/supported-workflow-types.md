@@ -4,11 +4,11 @@ title: Supported workflow types
 
 Following workflow types are tested to work well with WorkflowHub:
 
-* Galaxy (.ga)
-* Common Workflow Language (.cwl)
-* Nextflow (.nf)
-* SnakeMake (.snake)
-* KNIME (.knwf)
+* [Galaxy (.ga)](glossary.md/#galaxy)
+* [Common Workflow Language (.cwl)](glossary.md/#cwl)
+* [Nextflow (.nf)](glossary.md#nextflow)
+* [SnakeMake (.snake)](glossary.md#snakemake)
+* [KNIME (.knwf)](glossary.md#knime)
 
 It is also possible to upload workflows from any another type (e.g. bash scripts), either as `Other` or by proposing a new type.
 

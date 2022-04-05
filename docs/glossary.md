@@ -139,7 +139,7 @@ title: Glossary
   <tr>
     <td>Community workflows page
     </td>
-    <td>
+    <td><a href="https://github.com/common-workflow-library">https://github.com/common-workflow-library</a>
     </td>
   </tr>
 </table>
@@ -195,12 +195,15 @@ title: Glossary
     <td>Home page
     </td>
     <td>
+      <a href="https://www.knime.com/">https://www.knime.com/</a>
     </td>
   </tr>
   <tr>
     <td>
+      Community workflows page
     </td>
     <td>
+      <a href="https://hub.knime.com/">https://hub.knime.com/</a>
     </td>
   </tr>
 </table>

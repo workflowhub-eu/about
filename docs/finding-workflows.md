@@ -5,10 +5,10 @@ redirect_from: /How-to-find-and-retrieve-workflow(s)-from-WorkflowHub/
 
 ### How to search for workflows
 You can find and retrieve any workflow from WorkflowHub by:
-* Clicking on the “Discover” icon in the main page
+* Clicking on the “**Discover**” icon in the main page
 
 or
-* Clicking “Browse” in the navigation menu bar and then select “Workflow”
+* Clicking “**Browse**” in the navigation menu bar and then select “Workflow”
 
 or
 * Using the Search bar on the top of the page
@@ -17,8 +17,8 @@ or
 If you want to find and retrieve only your own workflow, you have to:
 * Log in
 * Click on the dropdown list next to your name, in the upper right corner of the page
-* Select “My items” or “My projects”
-* Click on the “Workflow” button that will be shown in the page
+* Select “**My items**” or “**My projects**”
+* Click on the “**Workflow**” button that will be shown in the page
 
 
 Workflows can be

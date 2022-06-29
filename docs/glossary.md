@@ -95,7 +95,7 @@ title: Glossary
   <tr>
     <td>How to use Galaxy
     </td>
-    <td>Information on how to use galaxy can be found on the<a href="https://galaxyproject.github.io/training-material"> Galaxy Training Network</a>.
+    <td>Information on how to use galaxy can be found on the<a href="https://training.galaxyproject.org/"> Galaxy Training Network</a>.
     </td>
   </tr>
   <tr>
@@ -107,7 +107,7 @@ title: Glossary
   <tr>
     <td>Editing a Galaxy workflow
     </td>
-    <td>Using the Galaxy workflow editor it is recommended to add tags and/or add for example the tutorial title as Annotation/Notes. More information on how to use the editor can be found<a href="https://galaxyproject.github.io/training-material/topics/introduction/tutorials/galaxy-intro-101/tutorial.html"> here</a> in the "The workflow editor" section.
+    <td>Using the Galaxy workflow editor it is recommended to add tags and/or add for example the tutorial title as Annotation/Notes. More information on how to use the editor can be found<a href="https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-101/tutorial.html"> here</a> in the "The workflow editor" section.
     </td>
   </tr>
   <tr>

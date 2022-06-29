@@ -1,10 +1,11 @@
-copyright: >
-  [about.workflowhub.eu](https://about.workflowhub.eu/) content is distributed under
-  [BSD 3-Clause "New" or "Revised" License](https://github.com/workflowhub-eu/about/blob/master/LICENSE),
-  developed as part of [EOSC-Life](https://www.eosc-life.eu/).<br/>
+extra_line: |
   ![Flag of the European Union](/assets/img/eu-flag-small.png)
   [EOSC-Life](https://www.eosc-life.eu/) is funded by European Union’s Horizon 2020 programme under
   grant agreement number [824087](https://cordis.europa.eu/project/id/824087).
+copyright: |
+  [about.workflowhub.eu](https://about.workflowhub.eu/) content is distributed under
+  [BSD 3-Clause "New" or "Revised" License](https://github.com/workflowhub-eu/about/blob/master/LICENSE),
+  developed as part of [EOSC-Life](https://www.eosc-life.eu/).
 columns:
   - type: image
     image_width: 120px

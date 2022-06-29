@@ -1,9 +1,14 @@
 /*-----Top navigation-----*/
-.navbar {
+header .navbar {
     .navbar-brand {
-        font-size: 2.25rem;
         padding-top: 0;
         padding-bottom: 0;
+
+        img {
+            @media (max-width: 992px) {
+                height: 67px;
+            }
+        }
     }
     .navbar-nav .nav-item > a.active {
         color: $white;

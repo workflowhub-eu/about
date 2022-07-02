@@ -28,7 +28,7 @@ You can create a `team` in any or all of the following `spaces`:
 
 ![Fig 1. Left - the relationship between the structural elements of
 WorkflowHub: spaces, teams and workflows. Right - examples of
-where you can create your new team on WorkflowHub.](spaces.svg)
+where you can create your new team on WorkflowHub.]({{ '/images/spaces.svg' | relative_url }})
 
 ## 3. [Create a team](https://workflowhub.eu/projects/guided_create) or [join an existing team](https://workflowhub.eu/projects/guided_join)
 
@@ -49,7 +49,7 @@ there is a [development instance available here](https://dev.workflowhub.eu/)." 
 {% include callout.html type="important" content="you can add multiple organizations to both your profile and teams on WorkflowHub." %}
 
 ![Fig 2. Screenshot of required minimum information (numbered) that needs
-to be entered into the Create a New Team wizard on WorkflowHub.](team.svg)
+to be entered into the Create a New Team wizard on WorkflowHub.]({{ '/images/team.svg' | relative_url }})
 
 ## 4. Register workflow(s) using the [WorkflowHub wizard](https://workflowhub.eu/workflows/new)
 

@@ -6,7 +6,8 @@ WorkflowHub will help make your workflows findable and citable, and this guide w
 
 ## 1. [Register yourself on WorkflowHub](https://workflowhub.eu/signup)
 
-{% include callout.html type="note" content="you can also log in using your GitHub credentials." %}
+{% include callout.html type="note" markdown="span"
+content="You can also log in using your [LS Login](https://lifescience-ri.eu/ls-login/) or [GitHub](https://github.com/) credentials." %}
 
 ## 2. Decide which `space` you would like to create a `team` in
 

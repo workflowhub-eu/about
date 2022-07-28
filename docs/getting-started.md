@@ -20,7 +20,7 @@ Register yourself on the [sign up page](https://workflowhub.eu/signup) of Workfl
 
 **Figure 1** below highlights the basic structure of WorkflowHub, and examples of the three types of `spaces` where you could create a `team`.
 
-You can create a `team` in any or all of the following `spaces`:
+You can request to create a `team` in any or all of the following `spaces`:
 
 - [**Independent teams**](https://workflowhub.eu/programmes/3): this is where you can create a team if you do not require a specific space
 - [**A pre-existing space**](https://workflowhub.eu/programmes), for example:

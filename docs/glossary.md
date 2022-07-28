@@ -2,6 +2,8 @@
 title: Glossary
 ---
 
+## General
+
 <table>
   <tr id="team">
     <td>Project also called “Team”

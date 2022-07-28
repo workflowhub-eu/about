@@ -1,8 +1,8 @@
 title: Documentation
 title_url: /docs/
 subitems:
-  - title: Before you start
-    url: /docs/before-you-start/
+  - title: Getting started
+    url: /docs/getting-started/
     subitems:
     - title: How to register
       url: /docs/how-to-register/

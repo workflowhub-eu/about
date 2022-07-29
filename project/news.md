@@ -2,4 +2,4 @@
 title: News
 ---
 
-{% include news.html truncate="true" %}
+{% include news.html truncate=true %}

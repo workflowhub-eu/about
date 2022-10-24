@@ -1,3 +1,11 @@
+- name: EOSC Symposium 2022
+  startDate: 2022-11-14
+  endDate: 2022-11-17
+  description: Justin Clark-Casey will present WorkflowHub at the [EOSC Symposium 2022](https://eosc-portal.eu/events/eosc-symposium-2022) on 16th November.
+- name: 1st International Conference on FAIR Digital Objects
+  startDate: 2022-10-26
+  endDate: 2022-10-28
+  description: The [1st International Conference on FAIR Digital Objects](https://www.fdo2022.org/) takes place between 26-28 October 2022. WorkflowHub features in several talks and posters highlighting how RO-Crate is a web-native and practical implementation of FDOs.
 - name: FAIR Computational Workflows workshop
   startDate: 2020-09-02
   location: Online

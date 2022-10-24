@@ -1,9 +1,6 @@
 - name: 1st International Conference on FAIR Digital Objects
   date: 2022-10-24
   description: The [1st International Conference on FAIR Digital Objects](https://www.fdo2022.org/) takes place between 26-28 October 2022. WorkflowHub features in several talks and posters highlighting how RO-Crate is a web-native and practical implementation of FDOs.
-- name: EOSC Symposium 2022
-  date: 2022-10-12
-  description: Justin Clark-Casey will present WorkflowHub at the [EOSC Symposium 2022](https://eosc-portal.eu/events/eosc-symposium-2022) on 16th November.
 - name: WorkflowHub in EOSC4Cancer and EuroScienceGateway
   date: 2022-10-10
   description: WorkflowHub and [RO-Crate](https://www.researchobject.org/ro-crate/) both will feature in the recently funded [EOSC4Cancer](https://doi.org/10.3030/101058427) and [EuroScienceGateway](https://doi.org/10.3030/101057388) projects.

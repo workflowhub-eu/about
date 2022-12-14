@@ -1,7 +1,13 @@
 - name: EOSC Symposium 2022
   startDate: 2022-11-14
   endDate: 2022-11-17
-  description: Justin Clark-Casey will present WorkflowHub at the [EOSC Symposium 2022](https://eosc-portal.eu/events/eosc-symposium-2022) on 16th November.
+  description: > 
+    Justin Clark-Casey presented WorkflowHub at the [EOSC Symposium 2022](https://eosc-portal.eu/events/eosc-symposium-2022) on 16th November 2022:
+    
+    Justin Clark-Casey; Carole Goble; Finn Bacall; Frederik Coppens; WorkflowHub Club (2022):  
+    [**WorkflowHub: FAIR Workflow Registry**](https://doi.org/10.5281/zenodo.7323471).  
+    _[EOSC Symposium 2022](https://events.eoscfuture.eu/symposium2022/programme)_, Prague, CZ, 2022-11-14 / --17  
+    <https://doi.org/10.5281/zenodo.7323471>
 - name: 1st International Conference on FAIR Digital Objects
   startDate: 2022-10-26
   endDate: 2022-10-28

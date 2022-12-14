@@ -29,10 +29,11 @@ For any kind of questions or suggestions on using WorkflowHub, feel free to join
 * [Google Drive](https://drive.google.com/drive/folders/1_bZ63W4oRtWL5OnWJNYvE4u3A27VyGGe)
  (to request write-access, ask in Slack channel) 
 * **Slides/posters**:
-  * [WorkflowHub – a FAIR registry for workflows](https://doi.org/10.7490/f1000research.1118984.1), Carole Goble, ELIXIR All Hands 2022
-  * [WorkflowHub - a registry for workflows](https://doi.org/10.5281/zenodo.4012124), Carole Goble, ECCB 2020, 2020-09-02
-  * [Poster: The WorkflowHub, a registry for Life Science Workflows](https://workflowhub.eu/presentations/1), Ambarish Kumar, ISMB, 2020-07-13
-  * [WorkflowHub Introduction slides](https://drive.google.com/open?id=1hfBAjjRnL9jGoxHEvq66Wo-wuKqouR3C), Carole Goble, 2020-03-25
+  * [WorkflowHub: FAIR Workflow Registry](https://doi.org/10.5281/zenodo.7323471). Justin Clark-Casey et al, EOSC Symposium 2022, 2022-11-14
+  * [WorkflowHub – a FAIR registry for workflows](https://doi.org/10.7490/f1000research.1118984.1). Carole Goble, ELIXIR All Hands 2022
+  * [WorkflowHub - a registry for workflows](https://doi.org/10.5281/zenodo.4012124). Carole Goble, ECCB 2020, 2020-09-02
+  * [Poster: The WorkflowHub, a registry for Life Science Workflows](https://workflowhub.eu/presentations/1). Ambarish Kumar, ISMB, 2020-07-13
+  * [WorkflowHub Introduction slides](https://drive.google.com/open?id=1hfBAjjRnL9jGoxHEvq66Wo-wuKqouR3C). Carole Goble, 2020-03-25
 
 ## Community
 

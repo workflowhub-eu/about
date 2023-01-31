@@ -10,7 +10,7 @@ The WorkflowHub community initiated and produced
 the [ComputationalWorkflow Type](https://bioschemas.org/types/ComputationalWorkflow/)
 and [associated Profile](https://bioschemas.org/profiles/ComputationalWorkflow). The first stable release was made in
 March 2021 and is still being actively extended and improved. As part of this work, there was also a need to create
-the [FormatParameter Type](https://bioschemas.org/types/FormalParameter/)
+the [FormalParameter Type](https://bioschemas.org/types/FormalParameter/)
 and [associated Profile](https://bioschemas.org/profiles/FormalParameter) which is used to describe _inputs_ and _outputs_ and was released at the same time.
 
 The WorkflowHub community has also been contributing to
@@ -21,7 +21,7 @@ continues to keep them aligned.
 
 WorkflowHub makes use of Bioschemas to provide metadata about the page shown, by using a JSON-LD
 block within the page source. Markup is provided for Teams, Spaces, People, Workflows, Organizations, Events, Presentations, Data, Documents, Collections, Organisms and the WorkflowHub itself.
-Wherever possible and available, these are mapped and conforms to a Bioschemas profile.
+Wherever possible and available, these are mapped and conform to a Bioschemas profile.
 
 For example, the page source
 for [CCS.BAM to FASTQ + QC (HiFi genome assembly stage 1)](https://workflowhub.eu/workflows/220) includes the JSON-LD:
@@ -175,7 +175,7 @@ for [CCS.BAM to FASTQ + QC (HiFi genome assembly stage 1)](https://workflowhub.e
 
 ## Using Bioschemas in RO-Crate
 
-WorkflowHub also reads and generates [RO-Crate](https://www.researchobject.org/ro-crate/) packages, which contains
+WorkflowHub also reads and generates [RO-Crate](https://www.researchobject.org/ro-crate/) packages, which contain
 metadata described using Bioschemas, along with general [schema.org](https://schema.org).
 
 In particular it makes use of the ComputationWorkflow type described above, as part of

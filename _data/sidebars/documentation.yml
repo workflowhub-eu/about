@@ -38,6 +38,8 @@ subitems:
   - title: For developers
     url: /developer/
     subitems:
+      - title: Bioschemas.org
+        url: /developer/bioschemas/
       - title: Workflow RO-Crate
         url: /Workflow-RO-Crate/
       - title: How to make a workflow RO-Crate

@@ -9,10 +9,8 @@
     _[EOSC Symposium 2022](https://events.eoscfuture.eu/symposium2022/programme)_, Prague, CZ, 2022-11-14 / --17  
     <https://doi.org/10.5281/zenodo.7323471>
 - name: 1st International Conference on FAIR Digital Objects
-  startDate: 2023-10-26
-  endDate: 2023-10-28
-  location: > 
-    [hehe](hehe)
+  startDate: 2022-10-26
+  endDate: 2022-10-28
   description: The [1st International Conference on FAIR Digital Objects](https://www.fdo2022.org/) takes place between 26-28 October 2022. WorkflowHub features in several talks and posters highlighting how RO-Crate is a web-native and practical implementation of FDOs.
 - name: FAIR Computational Workflows workshop
   startDate: 2020-09-02

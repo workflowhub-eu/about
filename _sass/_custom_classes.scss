@@ -40,6 +40,43 @@ header .navbar {
     margin: 10px 0px;
 }
 
+// News section front-page
+
+.news-sidebar {
+    background-color: $light;
+
+    .news-item {
+        padding: 7px 11px;
+        position: relative;
+        a:not(.stretched-link), button:not(.stretched-link) {
+            z-index: 2;
+            position: relative;
+        }
+        .clean-md {
+            p {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .news-hover:hover {
+        text-decoration: none;
+        background-color: $primary;
+        color: $white;
+        a.stretched-link {
+            color: $white;
+        }
+    }
+
+    h2 {
+        font-size: 1.6em;
+        font-weight: 700;
+        color: $primary;
+        padding: 7px 11px;
+    }
+}
+
+
 /*-----Custom landing page-----*/
 
 @media (max-width: 992px) {

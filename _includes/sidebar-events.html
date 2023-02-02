@@ -1,0 +1,32 @@
+<div class="news-sidebar upcoming_events mt-5 rounded">
+  <h2 class="no-anchor">Events</h2>
+  <ul class="list-unstyled mb-0">
+      {%- assign events = site.data.events | reverse %}
+      {%- assign count = 0 %}
+      {%- for event in events %}
+      <li class='upcoming_event' data-start='{{ event.startDate}}'>
+          <div class="news-item news-hover">
+            <a class="stretched-link" data-bs-toggle="collapse" href="#collapse-events-{{count}}" role="button" aria-expanded="false" aria-controls="collapse-{{count}}"><span class="mb-1">{{ event.name | escape }}</span></a>
+            <p class="mb-0"><small><i class="far fa-calendar me-2"></i><time datetime="{{ event.startDate | date: '%e %B, %Y %H:%M' }}">{{ event.startDate | date_to_long_string }} {{event.startTime}}</time>
+            {% if event.endDate or event.endTime %} - <time datetime="{{ event.endDate | date: '%e %B, %Y %H:%M %Z' }}">{{ event.endDate | date_to_long_string }} {{event.endTime}}</time>{% endif %}</small></p>
+            {%- if event.location %}
+            <i class="fa-solid fa-map-marker-alt me-2 small"></i><div class="clean-md d-inline-block small">{{ event.location | markdownify}}</div>
+            {%- endif %}
+            <div class="collapse clean-md small mt-2" id="collapse-events-{{count}}">
+              {{ event.description | markdownify }}
+            </div>
+          </div>
+      </li>
+      {%- assign count = count | plus: 1 %}
+      {%- endfor %}
+  </ul>
+  <div class="news-item">
+    <p><small>See the full list of events, including past events, on the <a href="{{'/project/events' | relative_url }}">events</a> page.</small></p>
+  </div>
+  <script>
+    $(document).ready(function() {
+      show_upcoming_events()
+    });
+  </script>
+</div>
+

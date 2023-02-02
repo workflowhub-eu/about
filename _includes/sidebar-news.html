@@ -1,0 +1,27 @@
+{%- if site.data.news.size > 0 -%}
+<div class="news-sidebar mb-5 rounded">
+    <h2 class="no-anchor">News</h2>
+    <ul class="list-unstyled mb-0">
+    {%- assign news = site.data.news | sort: "date" %}
+    {%- assign count = 0 %}
+    {%- for post in news reversed%}
+        <li>
+            <div class="news-item news-hover">
+                <a class="stretched-link" data-bs-toggle="collapse" href="#collapse-news-{{count}}" role="button" aria-expanded="false" aria-controls="collapse-{{count}}"><span class="mb-1">{{ post.name | escape }}</span></a>
+                <br/><small>{{ post.date | date: site.date_format }}</small>
+                <div class="collapse clean-md small mt-2" id="collapse-news-{{count}}">
+                    {{ post.description | markdownify }}
+                </div>
+            </div>
+        </li>
+    {%- assign count = count | plus: 1 %}
+    {%- if include.limit and count == include.limit %}
+    {%- break %}
+    {%- endif %}
+    {%- endfor %}
+    </ul>
+    <div class="news-item">
+        <p><small>For more news please visit our <a href="{{'/project/news' | relative_url }}">news page</a></small></p>
+    </div>
+</div>
+{%- endif -%}

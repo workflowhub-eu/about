@@ -32,17 +32,6 @@ jobs:
         id: pages
         uses: actions/configure-pages@v2
 
-      - name: Set Jekyll environment
-        id: name
-        run: |
-          if [ "$REPO_OWNER" == "elixir-europe" ]; then
-            echo "jekyll_env=production" >> $GITHUB_OUTPUT
-          else
-            echo "jekyll_env=development" >> $GITHUB_OUTPUT
-          fi
-        env:
-          REPO_OWNER: ${{ github.repository_owner }}
-
       - name: Install dependencies
         run: |
           bundle install

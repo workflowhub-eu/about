@@ -103,6 +103,10 @@ Carole Goble, Stian Soiland-Reyes, Nick Juty (2022):
 _FAIR-IMPACT T3.2 internal meeting_  
 <https://doi.org/10.5281/zenodo.7157647>
 
+Stian Soiland-Reyes, Carole Goble (2022):  
+[**EuroScienceGateway: WP2 introduction**](https://doi.org/10.5281/zenodo.7152762).  
+_European Galaxy Days_, Freiburg, Germany, 2022-10-06 (Session EuroScienceGateway Kickoff)
+
 ### 2021
 
 Carole Goble (2021):

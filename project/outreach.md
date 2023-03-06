@@ -36,6 +36,9 @@ _[International FAIR Convergence Symposium](https://www.go-fair.org/events/inter
 
 ## Recent publications, presentations, citations
 
+
+### 2023
+
 Romain David, Audrey S. Richard, Claire Connellan, Katharina B. Lauer, Maria Luisa Chiusano, Carole Goble, Martin Houde, Isabel Kemmer, Antje Keppler, Philippe Lieutaud, Christian Ohmann, Maria Panagiotopoulou, Sara Raza Khan, Arina Rybina, Stian Soiland-Reyes, Charlotte Wit, Rudolf Wittner, Rafael Andrade Buono, Sarah Arnaud Marsh, Pauline Audergon, Dylan Bonfils, Jose-Maria Carazo, Remi Charrel, Frederik Coppens, Wolfgang Fecke, Claudia Filippone, Eva Garcia Alvarez, Sheraz Gul, Henning Hermjakob, Katja Herzog, Petr Holub, Lukasz Kozera, Allyson L. Lister, José López-Coronado, Bénédicte Madon, Kurt Majcen, William Martin, Wolfgang Müller, Elli Papadopoulou, Christine M.A. Prat, Paolo Romano, Susanna-Assunta Sansone, Gary Saunders, Niklas Blomberg, Jonathan Ewbank (2023):  
 **Umbrella Data Management Plans to integrate FAIR data: lessons from the ISIDORe and BY-COVID consortia for pandemic preparedness**.  
 (submitted to Data Science Journal).  
@@ -56,6 +59,9 @@ Hirotaka Suetake, Tsukasa Fukusato, Takeo Igarashi, Tazro Ohta (2023):
 [**Workflow sharing with automated metadata validation and test execution to improve the reusability of published workflows**](https://doi.org/10.1093/gigascience/giad006).  
 _GigaScience_ **12**:giad006  
 <https://doi.org/10.1093/gigascience/giad006>
+
+
+### 2022
 
 Beatriz Serrano-Solano,
 Anne Fouilloux,
@@ -81,6 +87,14 @@ Alex Hardisty, Paul Brack, Carole Goble, Laurence Livermore, Ben Scott, Quentin 
 [**The Specimen Data Refinery: A canonical workflow framework and FAIR Digital Object approach to speeding up digital mobilisation of natural history collections**](https://doi.org/10.1162/dint_a_00134).  
 _Data Intelligence_ **4**(2)  
 <https://doi.org/10.1162/dint_a_00134>
+
+Ove Johan Ragnar Gustafsson, Tracy Chew, Georgina Samaha, Sarah Beecroft, Marco de la Pierre, Rosemarie Sadsad, Mark Gray, Gareth Price, Lisa Phippard, Nigel Ward, Andrew Lonie (2022):  
+[**Supporting the discovery and reuse of workflows in bioinformatics**](https://doi.org/10.5281/zenodo.7352756).  
+_eResearch Australasia 2022_, Brisbane, Australia  
+<https://doi.org/10.5281/zenodo.7352756>
+
+
+### 2021
 
 Carole Goble (2021):
 [**FAIR Computational Workflows**](https://www.slideshare.net/carolegoble/fair-computational-workflows-249721518).
@@ -160,6 +174,8 @@ Carole Goble, Stian Soiland-Reyes (2021):
 [**RO-Crate: A framework for packaging research products into FAIR Research Objects**](https://www.slideshare.net/carolegoble/rocrate-a-framework-for-packaging-research-products-into-fair-research-objects).  
 [_RDA IG Data Fabric: FAIR Digital Objects_](https://www.rd-alliance.org/group/data-fabric-ig/wiki/rda-ig-data-fabric-fair-digital-objects) 2021-02-25.
 [[Video recording](https://www.youtube.com/watch?v=pz-MLdI7GLA)] [[slides](https://www.slideshare.net/carolegoble/rocrate-a-framework-for-packaging-research-products-into-fair-research-objects)]
+
+### 2020
 
 Stian Soiland-Reyes, Ignacio Eguinoa (2020):  
 [**Packaging workflows with RO-Crate**](https://doi.org/10.5281/zenodo.4011999).  

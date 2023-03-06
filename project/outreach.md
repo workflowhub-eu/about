@@ -150,6 +150,10 @@ Carole Goble (2021):
 _[EOSC Symposium 2021](https://www.eoscsecretariat.eu/eosc-symposium-2021-programme)_, 2021-06-17 
 [[video recording](https://youtu.be/Uml2KRwTcgA?list=PLbISfqJh3Tstmx6CgrBmYI7lyyVXiY5VE&t=3180)] [[slides]](https://drive.google.com/file/d/1Ske-MRfA_fycsYaGI4oYXzZYFElld18c/view?usp=sharing)
 
+Carole Goble (2021):  
+[**EOSC-Life Workflow Collaboratory**](https://www.slideshare.net/carolegoble/eosclife-workflow-collaboratory).  
+_17th IEEE e-Science Conference Infrastructures for e-Science_
+
 Laura Rodríguez-Navas (2021):
 [**WfExS: a software component to enable the use of RO-Crate in the EOSC-Life tools collaboratory**](https://repository.eoscsecretariat.eu/index.php/s/ERebmpJcyjFRqcx/download?path=%2F17%20June%2F1400%20-%20Technical%20challenges%20on%20EOSC%2FBreakout%203%20-%20Interoperability%20challenges%20for%20thematic%20communities&files=05%20-%20Laura%20Rodr%C3%ADguez-Navas%20-%20WfExS.pdf&downloadStartSecret=zwwx23xrow). _[EOSC Symposium 2021](https://www.eoscsecretariat.eu/eosc-symposium-2021-programme)_, 2021-06-17
 [[video recording](https://youtu.be/x5lLEym-gug?list=PLbISfqJh3Tstmx6CgrBmYI7lyyVXiY5VE&t=3238)]

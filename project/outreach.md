@@ -20,6 +20,13 @@ _Research Ideas and Outcomes_ **8**:e93937
 <https://doi.org/10.3897/rio.8.e93937>
 [[poster](https://doi.org/10.5281/zenodo.7245315)]
 
+José M Fernández, Laura Rodríguez-Navas, Salvador Capella-Gutiérrez (2022):  
+[**Secured and annotated execution of workflows with WfExS-backend**](https://doi.org/10.7490/f1000research.1119198.1).  
+_European Conference on Computational Biology (ECCB) 2022_, 
+The Global Alliance for Genomics And Health (GA4GH) 10th Plenary Meeting.  
+_F1000Research_ **11**:1318 (poster)  
+<https://doi.org/10.7490/f1000research.1119198.1>
+
 Carole Goble, Finn Bacall, Stian Soiland-Reyes, Stuart Owen, Alan Williams, Ignacio Eguinoa, Bert Droesbeke, Hervé Ménager, Laura Rodriguez-Navas, José M. Fernández, Salvador Capella-Gutierrez, Michael R. Crusoe, Björn Grüning, Simone Leo, Luca Pireddu, Johan Gustafsson, Phil Ewels, WorkflowHub Community, Frederik Coppens (2021):  
 [**The WorkflowHub: A FAIR Registry for Workflows and Workflow Research Objects**](https://drive.google.com/file/d/1Ge5bcKQBH03t5VH9IDIT0F8pfenNrw9-/view?usp=sharing).  
 _[BOSC 2021](https://www.open-bio.org/events/bosc-2021/)_, 

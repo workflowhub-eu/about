@@ -93,6 +93,15 @@ Ove Johan Ragnar Gustafsson, Tracy Chew, Georgina Samaha, Sarah Beecroft, Marco 
 _eResearch Australasia 2022_, Brisbane, Australia  
 <https://doi.org/10.5281/zenodo.7352756>
 
+Justin Clark-Casey, Carole Goble, Finn Bacall, Frederik Coppens, WorkflowHub Club (2022):  
+[**WorkflowHub: FAIR Workflow Registry**](https://doi.org/10.5281/zenodo.7323471).  
+_[EOSC Symposium 2022](https://events.eoscfuture.eu/symposium2022/programme)_, Prague, CZ, 2022-11-14/--17  
+<https://doi.org/10.5281/zenodo.7323471>
+
+Carole Goble, Stian Soiland-Reyes, Nick Juty (2022):  
+[**FAIR-IMPACT: T3.2.1 PIDs in data production workflows**](https://doi.org/10.5281/zenodo.7157647).  
+_FAIR-IMPACT T3.2 internal meeting_  
+<https://doi.org/10.5281/zenodo.7157647>
 
 ### 2021
 
@@ -186,6 +195,10 @@ Simone Leo, Salvador Capella-Gutierrez (2020):
 [**Testing workflows: Life Monitor and OpenEBench**](https://docs.google.com/presentation/d/15113lwn8_H7ftDF9I650O3rZGeAVr6LVSU4-XDkBgA0/edit#slide=id.g9337569ecf_1_0).  
 [_Workshop on FAIR Computational Workflows_](https://eccb2020.info/ntbew01-workshop-on-fair-computational-workflows/), 19th European Conference on Computational Biology ([ECCB 2020](https://eccb2020.info/)).
 
+Carole Goble (2020):  
+[**The WorkflowHub - a registry for workflows. The Bioschemas workflow profile**](https://doi.org/10.5281/zenodo.4012124).  
+_ 19th European Conference on Computational Biology_ (ECCB2020), virtual, 31 August 2020 – 8 September 2020.  
+<https://doi.org/10.5281/zenodo.4012124>
 
 
 ### Related publications

@@ -20,7 +20,7 @@ _Research Ideas and Outcomes_ **8**:e93937
 <https://doi.org/10.3897/rio.8.e93937>
 [[poster](https://doi.org/10.5281/zenodo.7245315)]
 
-Carole Goble, Finn Bacall, Stian Soiland-Reyes, Stuart Owen, Alan Williams, Ignacio Eguinoa, Bert Droesbeke, Hervé Ménager, Laura Rodriguez-Navas, José M. Fernández, Salvador Capella-Gutierrez, Michael R. Crusoe, Björn Grüning, Simone Leo, Luca Pireddu, Johan Gustafson, Phil Ewels, WorkflowHub Community, Frederik Coppens (2021):  
+Carole Goble, Finn Bacall, Stian Soiland-Reyes, Stuart Owen, Alan Williams, Ignacio Eguinoa, Bert Droesbeke, Hervé Ménager, Laura Rodriguez-Navas, José M. Fernández, Salvador Capella-Gutierrez, Michael R. Crusoe, Björn Grüning, Simone Leo, Luca Pireddu, Johan Gustafsson, Phil Ewels, WorkflowHub Community, Frederik Coppens (2021):  
 [**The WorkflowHub: A FAIR Registry for Workflows and Workflow Research Objects**](https://drive.google.com/file/d/1Ge5bcKQBH03t5VH9IDIT0F8pfenNrw9-/view?usp=sharing).  
 _[BOSC 2021](https://www.open-bio.org/events/bosc-2021/)_, 
 [[poster](https://drive.google.com/file/d/1Ge5bcKQBH03t5VH9IDIT0F8pfenNrw9-/view?usp=sharing)], [[abstract](https://docs.google.com/document/d/1HI_S0Qssh4XFo17tk0TEulUnM-uKJ4Ll/edit)]
@@ -30,7 +30,7 @@ Carole Goble, Finn Bacall, Stian Soiland-Reyes, Stuart Owen, Alan Williams, Igna
 _[ISMB 2020](https://www.iscb.org/cms_addon/conferences/ismb2020/posters.php)_
 [[video/slides](https://workflowhub.eu/presentations/1)], presented by Ambarish Kumar.
 
-Carole Goble, Finn Bacall, Stian Soiland-Reyes, Stuart Owen, Alan Williams, Ignacio Eguinoa, Bert Droesbeke, Flora D'Anna, Hervé Ménager, Laura Rodriguez-Navas, José M. Fernández,  Ivan Topolsky,  Alban Gaignard, Björn Grüning, Simone Leo, Luca Pireddu, Phil Ewels Maciek Bak, Salvador Capella-Gutierrez, Michael R. Crusoe and Frederik Coppens (2020):  
+Carole Goble, Finn Bacall, Stian Soiland-Reyes, Stuart Owen, Alan Williams, Ignacio Eguinoa, Bert Droesbeke, Flora D'Anna, Hervé Ménager, Laura Rodriguez-Navas, José M. Fernández, Ivan Topolsky,  Alban Gaignard, Björn Grüning, Simone Leo, Luca Pireddu, Phil Ewels Maciek Bak, Salvador Capella-Gutierrez, Michael R. Crusoe and Frederik Coppens (2020):  
 [**The WorkflowHub: A FAIR Registry for Workflows and Workflow Research Objects**](https://drive.google.com/file/d/1hy0OsSiXujpYayTsKL_01nikWDPhXGZ9/view?usp=sharing).  
 _[International FAIR Convergence Symposium](https://www.go-fair.org/events/international-fair-convergence-symposium/)_, 2020-11-27 / 2020-12-04. 
 

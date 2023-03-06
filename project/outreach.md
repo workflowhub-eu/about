@@ -13,6 +13,13 @@ _Feel free to add to this page, either [edit and raise pull request](https://git
 
 ## Posters
 
+Stian Soiland-Reyes, Peter Sefton, Leyla Jael Castro, Frederik Coppens, Daniel Garijo, Simone Leo, Marc Portier, Paul Groth (2022):  
+[**Creating lightweight FAIR Digital Objects with RO-Crate**](https://doi.org/10.3897/rio.8.e93937).  
+1st International Conference on FAIR Digital Objects ([FDO 2022](https://www.fdo2022.org/)) (poster)  
+_Research Ideas and Outcomes_ **8**:e93937  
+<https://doi.org/10.3897/rio.8.e93937>
+[[poster](https://doi.org/10.5281/zenodo.7245315)]
+
 Carole Goble, Finn Bacall, Stian Soiland-Reyes, Stuart Owen, Alan Williams, Ignacio Eguinoa, Bert Droesbeke, Hervé Ménager, Laura Rodriguez-Navas, José M. Fernández, Salvador Capella-Gutierrez, Michael R. Crusoe, Björn Grüning, Simone Leo, Luca Pireddu, Johan Gustafson, Phil Ewels, WorkflowHub Community, Frederik Coppens (2021):  
 [**The WorkflowHub: A FAIR Registry for Workflows and Workflow Research Objects**](https://drive.google.com/file/d/1Ge5bcKQBH03t5VH9IDIT0F8pfenNrw9-/view?usp=sharing).  
 _[BOSC 2021](https://www.open-bio.org/events/bosc-2021/)_, 
@@ -29,9 +36,73 @@ _[International FAIR Convergence Symposium](https://www.go-fair.org/events/inter
 
 ## Recent publications, presentations, citations
 
+
+Romain David, Audrey S. Richard, Claire Connellan, Katharina B. Lauer, Maria Luisa Chiusano, Carole Goble, Martin Houde, Isabel Kemmer, Antje Keppler, Philippe Lieutaud, Christian Ohmann, Maria Panagiotopoulou, Sara Raza Khan, Arina Rybina, Stian Soiland-Reyes, Charlotte Wit, Rudolf Wittner, Rafael Andrade Buono, Sarah Arnaud Marsh, Pauline Audergon, Dylan Bonfils, Jose-Maria Carazo, Remi Charrel, Frederik Coppens, Wolfgang Fecke, Claudia Filippone, Eva Garcia Alvarez, Sheraz Gul, Henning Hermjakob, Katja Herzog, Petr Holub, Lukasz Kozera, Allyson L. Lister, José López-Coronado, Bénédicte Madon, Kurt Majcen, William Martin, Wolfgang Müller, Elli Papadopoulou, Christine M.A. Prat, Paolo Romano, Susanna-Assunta Sansone, Gary Saunders, Niklas Blomberg, Jonathan Ewbank (2023):  
+**Umbrella Data Management Plans to integrate FAIR data: lessons from the ISIDORe and BY-COVID consortia for pandemic preparedness**.  
+(submitted to Data Science Journal).  
+_Zenodo_  
+<https://doi.org/10.5281/zenodo.7520086>
+
+Lucie Lamothe, Jennifer Rugaard Bregndahl Jensen, Hans Ienasescu, Johan Gustafsson, Alban Gaignard, Dmitry Repchevsky, Radka Svobodová, Tomáš Raček, Matej Antol, Magnus Palmblad, Matúš Kalaš, Hervé Ménager (2023):  
+[**An evaluation of EDAM coverage in the Tools Ecosystem and prototype integration of Galaxy and WorkflowHub systems**](https://doi.org/10.37044/osf.io/79kje).  
+_BioHackrXiv_  
+<https://doi.org/10.37044/osf.io/79kje>
+
+Philip Reiner Kensche, Alexander Kanitz, Ivan Topolsky, Kim Philipp Jablonski, Pietro Mandreoli, Sven Twardziok (2023):  
+[**Executing workflows in the cloud with WESkit**](https://doi.org/10.37044/osf.io/2z6nu).  
+_BioHackrXiv_  
+<https://doi.org/10.37044/osf.io/2z6nu>
+
+Hirotaka Suetake, Tsukasa Fukusato, Takeo Igarashi, Tazro Ohta (2023):  
+[**Workflow sharing with automated metadata validation and test execution to improve the reusability of published workflows**](https://doi.org/10.1093/gigascience/giad006).  
+_GigaScience_ **12**:giad006  
+<https://doi.org/10.1093/gigascience/giad006>
+
+Beatriz Serrano-Solano,
+Anne Fouilloux,
+Ignacio Eguinoa,
+Matúš Kalaš,
+Björn Grüning,
+Frederik Coppens (2022):  
+[**Galaxy: A Decade of Realising CWFR Concepts**](https://doi.org/10.1162/dint_a_00136).  
+_Data Intelligence_ **4**(2)  
+<https://doi.org/10.1162/dint_a_00136>
+
+Stian Soiland-Reyes, Peter Sefton, Mercè Crosas, Leyla Jael Castro, Frederik Coppens, José M. Fernández, Daniel Garijo, Björn Grüning, Marco La Rosa, Simone Leo, Eoghan Ó Carragáin, Marc Portier, Ana Trisovic, RO-Crate Community, Paul Groth, Carole Goble (2022):  
+[**Packaging research artefacts with RO-Crate**](https://www.researchobject.org/2021-packaging-research-artefacts-with-ro-crate/manuscript.html).  
+_Data Science_ **5**(2)  
+<https://doi.org/10.3233/DS-210053>  
+
+Stian Soiland-Reyes, Genís Bayarri, Pau Andrio, Robin Long, Douglas Lowe, Ania Niewielska, Adam Hospital, Paul Groth (2022):  
+[**Making Canonical Workflow Building Blocks interoperable across workflow languages**](https://s11.no/2022/phd/canonical-workflow-building-blocks/).  
+_Data Intelligence_ **4**(2)  
+<https://doi.org/10.1162/dint_a_00135>
+
+Alex Hardisty, Paul Brack, Carole Goble, Laurence Livermore, Ben Scott, Quentin Groom, Stuart Owen, Stian Soiland-Reyes (2022): 
+[**The Specimen Data Refinery: A canonical workflow framework and FAIR Digital Object approach to speeding up digital mobilisation of natural history collections**](https://doi.org/10.1162/dint_a_00134).  
+_Data Intelligence_ **4**(2)  
+<https://doi.org/10.1162/dint_a_00134>
+
 Carole Goble (2021):
 [**FAIR Computational Workflows**](https://www.slideshare.net/carolegoble/fair-computational-workflows-249721518).
 _[JOBIM 2021](https://jobim2021.sciencesconf.org/)_ (Journées Ouvertes en Biologie, Informatique et Mathématiques), 2021-07-08
+
+Peter Wittenburg, Ivonne Anders, Christophe Blanchi, Merret Buurman, Carole Goble, Jonas Grieb, Alex Hardisty, Sharif Islam, Thomas Jejkal, Tibor Kálmán, Christine Kirkpatrick, Laurence Lannom, Thomas Lauer, Giridhar Manepalli, Karsten Peters-von Gehlen, Andreas Pfeil, Robert Quick, Mark van de Sanden, Ulrich Schwardmann, Stian Soiland-Reyes, Rainer Stotzka, Zachary Trautt, Dieter Van Uytvanck, Claus Weiland, Philipp Wieder (2022):  
+[**FAIR Digital Object Demonstrators 2021**](https://doi.org/10.5281/zenodo.5872645).   
+Report, FAIR Digital Objects Forum. _Zenodo_  
+<https://doi.org/10.5281/zenodo.5872645>
+
+Raül Sirvent,  
+Javier Conejero, 
+Francesc Lordan, 
+Jorge Ejarque, 
+Laura Rodríguez-Navas, 
+José M. Fernández, 
+Salvador Capella-Gutiérrez, 
+Rosa M. Badia (2022):  
+**Automatic, Efficient and Scalable Provenance Registration for FAIR HPC Workflows**.  
+_2022 IEEE/ACM Workshop on Workflows in Support of Large-Scale Science (WORKS)_  
+<https://doi.org/10.1109/WORKS56498.2022.00006>  (No OA preprint available)
 
 Stian Soiland-Reyes (2021):
 [**RO-Crate, workflows and FAIR Digital Objects**](http://slides.com/soilandreyes/2021-07-02-ro-crate-workflows-fdo)

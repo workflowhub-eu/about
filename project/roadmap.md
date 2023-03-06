@@ -14,34 +14,38 @@ See also:
   * WorkflowHub implementation <https://github.com/seek4science/seek/projects/3> (SEEK)
   * General WorkflowHub <https://github.com/workflowhub-eu/about/issues>
 
-## Summer 2022
+<!--
+## Done
 * [bio.tools](https://bio.tools) integration
 * Front page redesign
+* Improved user registration flow
+* Displaying workflow test status via LifeMonitor API
+* RO-Crate profile to describe Workflow Runs, including provenance and results
+* UX improvements in light of UX study results
+
+## Remove
+* Nextflow -> Abstract CWL (**volunteers needed**, potential research/MsC project?)
+* Execution support for other workflow types
+* Search/filtering improvements
+-->
+
+## Spring 2023
 * Improved workflow branding
 * Extended execution link support (additional Galaxy instances, Jupyter/Binder, Nextflow Tower, etc.)
-* Collecting basic workflow execution metrics
-* Improved curation support
-* Search/filtering improvements
-* Improved user registration flow
 * GitHub app for automated workflow submission
-* UX improvements in light of UX study results
+* Improved curation support
 * Workflow/WorkflowHub best-practice guide
 
-## Christmas 2022
-
+## Late 2023
 * Support for linking together workflows to variants and subworkflows
-* Nextflow -> Abstract CWL (**volunteers needed**, potential research/MsC project?)
-* Displaying workflow test status via LifeMonitor API
-* Better RO-Crate support for additional Workflow Management Systems (e.g. Snakemake)
+* Better RO-Crate support for additional Workflow Management Systems (e.g. Snakemake, Nextflow)
 * Working with Workflow Management Systems to improve how tool metadata is exposed in their native formats
+* Closer collaboration with journals
+* Targeting additional workflow communities on GitHub, GitLab etc. (in addition to IWC, nf-core)
+* Collecting basic workflow execution metrics
 
-## 2023 onwards
-
-* RO-Crate profile to describe Workflow Runs, including provenance and results
-* Execution support for other workflow types
+## 2024 onwards
 * One-click publish of workflows to LifeMonitor
 * Curation campaign
 * OpenEBench integration
-* Targeting additional workflow communities on GitHub, GitLab etc. (in addition to IWC, nf-core)
-* Registering as a trusted registry and adhering to the TRUST principles		
-* Closer collaboration with Journals
+* Registering as a trusted registry and adhering to the TRUST principles

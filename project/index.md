@@ -37,4 +37,4 @@ Aims of the project include:
 
 ## Retention and End-of-Life policy
 
-WorkflowHub's sustainability plan is to ensure the availability of its contributions and metadata up to and beyond 2026. If and when the WorkflowHub reaches its end of service after that, the published contributions and metadata will be archived as RO-Crates and made available through a public repository, such as Zenodo, Figshare or another appropriate resource at that time. [DOI registrations](citable.md) will in this case be updated to link to the archived deposits.
+WorkflowHub's sustainability plan is to ensure the availability of its contributions and metadata up to and beyond 2027. If and when the WorkflowHub reaches its end of service after that, the published contributions and metadata will be archived as RO-Crates and made available through a public repository, such as Zenodo, Figshare or another appropriate resource at that time. [DOI registrations](citable.md) will in this case be updated to link to the archived deposits.

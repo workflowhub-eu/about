@@ -114,6 +114,11 @@ Stian Soiland-Reyes, Carole Goble (2022):
 [**EuroScienceGateway: WP2 introduction**](https://doi.org/10.5281/zenodo.7152762).  
 _European Galaxy Days_, Freiburg, Germany, 2022-10-06 (Session EuroScienceGateway Kickoff)
 
+Gareth Price, Johan Gustafsson (2022):   
+[**Here's one we prepared earlier: (re)creating bioinformatics methods and workflows with Galaxy Australia**](https://doi.org/10.5281/zenodo.7251310).  
+_Australian BioCommons Webinar_  
+<https://doi.org/10.5281/zenodo.7251310>
+
 ### 2021
 
 Carole Goble (2021):

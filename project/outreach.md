@@ -13,6 +13,11 @@ _Feel free to add to this page, either [edit and raise pull request](https://git
 
 ## Posters
 
+Nicola Soranzo, Carole Goble (2023):  
+[**BioFAIR: a new BioCommons infrastructure for UK life science*](https://doi.org/10.5281/zenodo.7708304).  
+_UKRI DRI Community Congress 2023_, Birmingham, UK, 6-7 March 2023.  
+<https://doi.org/10.5281/zenodo.7708304>
+
 Stian Soiland-Reyes, Peter Sefton, Leyla Jael Castro, Frederik Coppens, Daniel Garijo, Simone Leo, Marc Portier, Paul Groth (2022):  
 [**Creating lightweight FAIR Digital Objects with RO-Crate**](https://doi.org/10.3897/rio.8.e93937).  
 1st International Conference on FAIR Digital Objects ([FDO 2022](https://www.fdo2022.org/)) (poster)  

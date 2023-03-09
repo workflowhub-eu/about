@@ -39,3 +39,13 @@ Answer: Yes.
 
 Detail: To do this, follow the instructions above for adding a new `Team` to your workflow. To remove a `Team`, click the red cross next to the `Team` name. To save changes, click the `Update` button at the bottom of the screen.
 
+## Reference material
+
+WorkflowHub is based on the [SEEK framework](https://docs.seek4science.org/). Below is a map between WorkflowHub terms and the underlying SEEK definitions and documentation.
+
+|WorkflowHub term|FAIRDOM SEEK term|Explanation|Link|
+|-----|-----|-----|-----|
+|Team|Project|Set up for a specific activity or group|https://docs.seek4science.org/help/user-guide/create-a-project.html|
+|Space|Programme|Set up for a funded piece of work, project or consortium|https://docs.seek4science.org/help/user-guide/programme-creation-and-management.html|
+
+

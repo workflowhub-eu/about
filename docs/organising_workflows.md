@@ -39,6 +39,10 @@ Answer: Yes.
 
 Detail: To do this, follow the instructions above for adding a new `Team` to your workflow. To remove a `Team`, click the red cross next to the `Team` name. To save changes, click the `Update` button at the bottom of the screen.
 
+{% include image.html file="manage_workflow_teams_menu.png" %}
+
+{% include image.html file="manage_workflow_teams.png" %}
+
 ## Reference material
 
 WorkflowHub is based on the [SEEK framework](https://docs.seek4science.org/). Below is a map between WorkflowHub terms and the underlying SEEK definitions and documentation.

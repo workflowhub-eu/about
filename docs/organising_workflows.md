@@ -7,6 +7,8 @@ We also provide examples of how to structure larger consortia and projects on Wo
 
 [More information on Spaces, Teams and Organisations](https://about.workflowhub.eu/docs/joining-a-team/).
 
+{% include image.html file="workflows_teams_spaces_1.png" caption="Fig 1. Example WorkflowHub Space structures." %}
+
 ## Can a workflow exist in multiple `Teams`?
 
 Answer: Yes
@@ -18,6 +20,8 @@ Detail: A workflow must be associated with at least one `Team`. If no `Space` is
 Answer: Yes, by being in multiple `Teams` and those `Teams` may be in different `Spaces`.
 
 Detail: A workflow can NOT be associated directly with a `Space`. `Teams` can, and in this way two teams from two different `Spaces` can be associated with a single workflow.
+
+{% include image.html file="workflows_teams_spaces_2.png" caption="Fig 2. Example case study for the [Australian BioCommons space](https://workflowhub.eu/programmes/8)." %}
 
 ## Can a workflow exist in multiple `Collections`?
 

@@ -39,9 +39,9 @@ Answer: Yes.
 
 Detail: To do this, follow the instructions above for adding a new `Team` to your workflow. To remove a `Team`, click the red cross next to the `Team` name. To save changes, click the `Update` button at the bottom of the screen.
 
-{% include image.html file="manage_workflow_teams_menu.png" %}
+{% include image.html file="manage_workflow_teams_menu.png" caption="Fig 3. Select `Manage Workflow` from the `Actions` drop down menu." %}
 
-{% include image.html file="manage_workflow_teams.png" %}
+{% include image.html file="manage_workflow_teams.png" caption="Fig 4. Select teams to add or remove. " %}
 
 ## Reference material
 

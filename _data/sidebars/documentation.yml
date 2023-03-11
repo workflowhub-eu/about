@@ -12,6 +12,8 @@ subitems:
       url: /docs/what-is-a-team/
     - title: Joining a team
       url: /docs/joining-a-team/
+    - title: Organising your workflows on WorkflowHub
+      url: /docs/organising_workflows/
   - title: Registering a workflow
     url: /docs/registering-a-workflow/
     subitems:

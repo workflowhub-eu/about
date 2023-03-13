@@ -49,7 +49,7 @@ WorkflowHub is based on the [SEEK framework](https://docs.seek4science.org/). Be
 
 |WorkflowHub term|FAIRDOM SEEK term|Explanation|Link|
 |-----|-----|-----|-----|
-|Team|Project|Set up for a specific activity or group|https://docs.seek4science.org/help/user-guide/create-a-project.html|
-|Space|Programme|Set up for a funded piece of work, project or consortium|https://docs.seek4science.org/help/user-guide/programme-creation-and-management.html|
+|Team|Project|Set up for a specific activity or group|<https://docs.seek4science.org/help/user-guide/create-a-project.html>|
+|Space|Programme|Set up for a funded piece of work, project or consortium|<https://docs.seek4science.org/help/user-guide/programme-creation-and-management.html>|
 
 

@@ -15,7 +15,7 @@ Answer: Yes
 
 Detail: A workflow must be associated with at least one `Team`. If no `Space` is required, then a `Team` can be created in the [Independent Teams space](https://workflowhub.eu/programmes/3) to fulfil this requirement.
 
-## Can a single workflow exist within multiple `Spaces`?
+## Can a workflow exist within multiple `Spaces`?
 
 Answer: Yes, by being in multiple `Teams` and those `Teams` may be in different `Spaces`.
 
@@ -29,11 +29,11 @@ Answer: Yes.
 
 Detail: A workflow can be added to many collections. For example, please see the [`HiFi genome assembly on Galaxy`](https://workflowhub.eu/collections/5) and [`BioCommons ‘Bring Your Own Data’ Expansion Project`](https://workflowhub.eu/collections/6) collections, which both contain the same HiFi genome assembly workflows (e.g. [PacBio HiFi genome assembly using hifiasm v2.1](https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.221.3)).
 
-## How do I add a workflow from one Team into another Team?
+## How do I add a workflow from one `Team` into another `Team`?
 
 Answer: You need to add the additional `Team(s)` to the workflow metadata. To do this, select `Manage Workflow` from the `Actions` drop down menu. In the `Manage Workflow` section that appears, select a team that you would like to add and then click the `Update` button at the bottom of the screen.
 
-## Can I migrate / move a workflow from one Team to another Team?
+## Can I migrate / move a workflow from one `Team` to another `Team`?
 
 Answer: Yes.
 

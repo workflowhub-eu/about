@@ -8,20 +8,55 @@
   expose: true
   type: EOSC-Life
   url: https://cordis.europa.eu/project/id/824087
-- name: BioExcel2
-  image_url: /images/BioExcel_logo_payoff_cropped.svg
+- name: EuroScienceGateway
+  image_url: /images/eurosciencegateway.svg
   expose: true
-  type: funding
-  url: https://bioexcel.eu/
-- name: IBISBA 1.0
+  type: funding 
+  url: https://eurosciencegateway.eu/
+- name: BY-COVID
+  image_url: /images/by-covid.svg
+  expose: true
+  type: funding 
+  url: http://by-covid.eu/
+- name: PREP-IBISBA
   image_url: /images/ibisba-logo.png
   expose: true
   type: funding
   url: https://www.ibisba.eu/
+- name: TRE-FX
+  image_url: /images/tre-fx-logo.svg
+  expose: true
+  type: funding 
+  url: https://trefx.uk/
+- name: BIOINDUSTRY4.0
+  image_url: /images/bioindustry4.0.svg
+  expose: true
+  type: funding 
+  url: https://eurosciencegateway.eu/
+- name: AgroServ
+  image_url: /images/agroserv.png
+  expose: true
+  type: funding 
+  url: https://emphasis.plant-phenotyping.eu/european-infrastructures/cluster-projects/agroserv
+- name: BioExcel2
+  image_url: /images/BioExcel_logo_payoff_cropped.svg
+  expose: true
+  type: previous
+  url: https://bioexcel.eu/
+- name: BioDT
+  image_url: /images/biodt.svg
+  expose: true
+  type: funding 
+  url: https://biodt.eu/
+- name: IBISBA 1.0
+  image_url: /images/ibisba-logo.png
+  expose: true
+  type: previous
+  url: https://www.ibisba.eu/
 - name: SYNTHESYS+
   image_url: /images/synthesys-plus-logo-white.png
   expose: true
-  type: funding
+  type: previous
   url: https://www.synthesys.info/
 - name: SEEK for Science
   image_url: /images/seek.svg?20201014
@@ -34,7 +69,9 @@
   type: source
   url: https://fair-dom.org/
 - name: ELIXIR Europe
-  image_url: /images/ELIXIR_logo_white_background.png
+  image_url: /images/elixir.svg
   expose: true
   type: elixir
   url: https://elixir-europe.org/
+
+

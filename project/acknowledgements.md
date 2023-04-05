@@ -41,7 +41,7 @@ We are also grateful for contributions by:
 
 Previous contributions were funded by:
 * [BioExcel-2](https://bioexcel.eu/) ([H2020-INFRAEDI-2018-1 823830](https://doi.org/10.3030/823830))
-* [IBISBA](https://www.ibisba.eu/) ([H2020-INFRAIA-2017-1-two-stage 730976](https://doi.org/10.3030/730976), [H2020-INFRADEV-2019-2 871118](https://doi.org/10.3030//871118))
+* [IBISBA 1.0](https://www.ibisba.eu/) ([H2020-INFRAIA-2017-1-two-stage 730976](https://doi.org/10.3030/730976))
 * [SYNTHESYS+](https://www.synthesys.info/) ([H2020-INFRAIA-2018-1 823827](https://doi.org/10.3030/823827))
 
 <!-- * [FAIR Workflows](https://fair-workflows.github.io/project.html) -->

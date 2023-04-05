@@ -51,6 +51,22 @@ _[International FAIR Convergence Symposium](https://www.go-fair.org/events/inter
 
 ### 2023
 
+Johan Gustafsson, Georgina Samaha (2023):  
+[**Make your bioinformatics workflows findable and citable**](https://doi.org/10.5281/zenodo.7787488).  
+_Make your bioinformatics workflows findable and citable_, Australian BioCommons workshop, 2023-03-21.  
+<https://doi.org/10.5281/zenodo.7787488>
+
+Ove Johan Ragnar Gustafsson (2023):  
+[**FAIR workflows**](https://doi.org/10.5281/zenodo.7783773).  
+_Visible Research Software Interest Group ([VRSIG](https://sites.google.com/ardc.edu.au/visible-research-software))_, Australian Research Data Commons (ARDC), 2023-03-30.  
+[[slides](https://doi.org/10.5281/zenodo.7783773)], [[video](https://youtu.be/0TwFv9gQnos?t=2497)]
+<https://doi.org/10.5281/zenodo.7783773>
+
+Carole Goble (2023):  
+[**FAIR Computational Workflows**](https://youtu.be/bvA8jiAs5tQ?t=1463).  
+_FAIRPoints 'Ask Me Anything' webinar on Software & Workflows_, 2023-02-21.  
+[[video](https://youtu.be/bvA8jiAs5tQ?t=1463)]
+
 Romain David, Audrey S. Richard, Claire Connellan, Katharina B. Lauer, Maria Luisa Chiusano, Carole Goble, Martin Houde, Isabel Kemmer, Antje Keppler, Philippe Lieutaud, Christian Ohmann, Maria Panagiotopoulou, Sara Raza Khan, Arina Rybina, Stian Soiland-Reyes, Charlotte Wit, Rudolf Wittner, Rafael Andrade Buono, Sarah Arnaud Marsh, Pauline Audergon, Dylan Bonfils, Jose-Maria Carazo, Remi Charrel, Frederik Coppens, Wolfgang Fecke, Claudia Filippone, Eva Garcia Alvarez, Sheraz Gul, Henning Hermjakob, Katja Herzog, Petr Holub, Lukasz Kozera, Allyson L. Lister, José López-Coronado, Bénédicte Madon, Kurt Majcen, William Martin, Wolfgang Müller, Elli Papadopoulou, Christine M.A. Prat, Paolo Romano, Susanna-Assunta Sansone, Gary Saunders, Niklas Blomberg, Jonathan Ewbank (2023):  
 **Umbrella Data Management Plans to integrate FAIR data: lessons from the ISIDORe and BY-COVID consortia for pandemic preparedness**.  
 (submitted to Data Science Journal).  

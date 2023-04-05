@@ -2,6 +2,7 @@
 title: Acknowledgements
 ---
 
+Main development, hosting and maintenance of WorkflowHub is done by the [eScience Lab](https://esciencelab.org.uk/) at The University of Manchester led by [Carole Goble](https://research.manchester.ac.uk/en/persons/carole.goble).
 
 ## Funding
 
@@ -34,7 +35,11 @@ We are also grateful for contributions by:
 * ..in addition to contributions from [WorkflowHub Club](#workflowhub-club) participants
 
 
-Previous funding  for previous contributions funded by:
+### Previous funding
+
+{% include affiliation-tiles-selection.html type="previous"%}
+
+Previous contributions were funded by:
 * [BioExcel-2](https://bioexcel.eu/) ([H2020-INFRAEDI-2018-1 823830](https://doi.org/10.3030/823830))
 * [IBISBA](https://www.ibisba.eu/) ([H2020-INFRAIA-2017-1-two-stage 730976](https://doi.org/10.3030/730976), [H2020-INFRADEV-2019-2 871118](https://doi.org/10.3030//871118))
 * [SYNTHESYS+](https://www.synthesys.info/) ([H2020-INFRAIA-2018-1 823827](https://doi.org/10.3030/823827))
@@ -70,14 +75,13 @@ WorkflowHub activities are strongly coordinated with [ELIXIR Europe](https://eli
 The WorkflowHub community collaborates closely with (at least) these projects:
 
  * [EOSC-Life](https://eosc-life.eu/)
+ * [Australian BioCommons](https://www.biocommons.org.au/)
  * [Research Object Crate](https://w3id.org/ro/crate) (RO-Crate)
- * [BioSchemas](https://bioschemas.org/)
+ * [Bioschemas](https://bioschemas.org/)
  * [Common Workflow Language](https://www.commonwl.org/)
  * [Galaxy Europe](https://galaxyproject.eu/)
- * [BioExcel](https://bioexcel.eu/)
  * [FAIRDOM](https://fair-dom.org)
  * [FAIRDOM-SEEK](https://fairdomseek.org/)
- * [Australian BioCommons](https://www.biocommons.org.au/)
 
 ## WorkflowHub Club
 

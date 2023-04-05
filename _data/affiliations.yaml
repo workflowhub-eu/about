@@ -19,7 +19,7 @@
   type: funding 
   url: http://by-covid.eu/
 - name: PREP-IBISBA
-  image_url: /images/ibisba-logo.png
+  image_url: /images/prep-ibisba.png
   expose: true
   type: funding
   url: https://www.ibisba.eu/

@@ -12,7 +12,7 @@ title: About WorkflowHub
 * In addition to its own [APIs](https://workflowhub.eu/api), WorkflowHub supports community registry standards and services such as [GA4GH TRS](https://about.workflowhub.eu/TRS/) and [ELIXIR-AAI](https://elixir-europe.org/services/compute/aai) authentication, and current work integrates with the [LifeMonitor workflow testing](https://lifemonitor.eu/) service.
 * WorkflowHub is mainly sponsored by the European RI Cluster [EOSC-Life](https://www.eosc-life.eu/), the European Research Infrastructure [ELIXIR](https://elixir-europe.org/) and [EuroScienceGateway](http://eurosciencegateway.eu/) (see [full list of acknowledgements](/project/acknowledgements/#funding)).
 * The [WorkflowHub Club](/project/community/) open community works together to continuously co-develop the Hub.  
-* First beta-released in Sept 2020 and prodution-released in September 2022, the Hub now holds over [300 workflows](https://workflowhub.eu/workflows), including 49 curated [COVID-19 workflows](https://covid19.workflowhub.eu/).  It is a listed resource of the European [COVID19 Data Portal](https://www.covid19dataportal.org/) and as a [EOSC Data Source](https://marketplace.eosc-portal.eu/datasources/eosc.elixir-uk.5126ffcc8e23f65bbbe219d36128f2c8).
+* First beta-released in Sept 2020 and production-released in September 2022, the Hub now holds over [300 workflows](https://workflowhub.eu/workflows), including 49 curated [COVID-19 workflows](https://covid19.workflowhub.eu/).  It is a listed resource of the European [COVID19 Data Portal](https://www.covid19dataportal.org/) and as a [EOSC Data Source](https://marketplace.eosc-portal.eu/datasources/eosc.elixir-uk.5126ffcc8e23f65bbbe219d36128f2c8).
 
 
 ## WfCommons and WorkflowHub

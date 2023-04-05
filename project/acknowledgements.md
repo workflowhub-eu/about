@@ -11,7 +11,7 @@ title: Acknowledgements
 
 {% include affiliation-tiles-selection.html type="EOSC-Life"%}
 
-workflowhub.eu lead development is part of [EOSC-Life](https://www.eosc-life.eu/) ([WP2 Tools Collaboratory](https://github.com/eosc-life/tools-collaboratory-roadmap)), funded by European Union’s [Horizon 2020](https://ec.europa.eu/programmes/horizon2020/) programme under grant agreement [H2020-INFRAEOSC-2018-2 824087](https://cordis.europa.eu/project/id/824087).
+workflowhub.eu lead development is part of [EOSC-Life](https://www.eosc-life.eu/) ([WP2 _Tools Collaboratory_](https://github.com/eosc-life/tools-collaboratory-roadmap)), funded by European Union’s [Horizon 2020](https://ec.europa.eu/programmes/horizon2020/) programme under grant agreement [H2020-INFRAEOSC-2018-2 824087](https://doi.org/10.3030/824087), and [EuroScienceGateway](http://eurosciencegateway.eu/) ([WP2](https://galaxyproject.org/news/2023-01-12-eurosciencegateway-wp2/) _Stimulate FAIR and reusable research with computational workflows_), funded by European Union's [Horizon Europe]() programme under grant agreement [101057388](https://doi.org/10.3030/101057388)  and by UK Research and Innovation ([UKRI](https://www.ukri.org/)) under the [UK government’s Horizon Europe funding guarantee](https://www.ukri.org/publications/horizon-europe-guarantee-scheme-ukri-guidance/) grant number [10038963](https://gtr.ukri.org/projects?ref=10038963).
 
 ### Other funding
 
@@ -19,12 +19,23 @@ workflowhub.eu lead development is part of [EOSC-Life](https://www.eosc-life.eu/
 
 <!--<a title="FAIR Workflows" href="https://fair-workflows.github.io/project.html"><img src="{{ '/images/fair-workflows.png' | relative_url }}" style="max-height: 5em; max-width: 35%; vertical-align: middle" alt="FAIR Workflows" /></a>-->
 
+We are also grateful for contributions by:
 
-We are also grateful for contributions funded by:
-* [BioExcel-2](https://bioexcel.eu/) ([H2020-INFRAEDI-2018-1 823830](https://cordis.europa.eu/project/id/823830))
-* [IBISBA](https://www.ibisba.eu/) ([H2020-INFRAIA-2017-1-two-stage 730976](https://cordis.europa.eu/project/id/730976), [H2020-INFRADEV-2019-2 871118](https://cordis.europa.eu/project/id/871118))
-* [SYNTHESYS+](https://www.synthesys.info/) ([H2020-INFRAIA-2018-1 823827](https://cordis.europa.eu/project/id/823827))
+* [BY-COVID](https://by-covid.eu/) ([HORIZON-INFRA-2021-EMERGENCY-01 101046203](https://doi.org/10.3030/101046203))
+* [FAIR-IMPACT](http://fair-impact.eu/) (HORIZON-INFRA-2021-EOSC-01-05 (#101057344), [UJRI 10038992](https://gtr.ukri.org/projects?ref=10038992))
+* [TRE-FX](https://trefx.uk/) (UKRI MC_PC_23007 4050900091)
+* [BioDT](https://biodt.eu/) ([HORIZON-INFRA-2021-TECH-01-01 101057437](https://doi.org/10.3030/101057437), [UKRI 10038930](https://gtr.ukri.org/projects?ref=10038930))
+* [ELIXIR Europe](https://elixir-europe.org/) (UK-2022-Tess)
+* [PREP-IBISBA](https://www.ibisba.eu/) ([H2020-INFRADEV-2019-2 871118](https://doi.org/10.3030/871118))
+* [AgroServ](https://emphasis.plant-phenotyping.eu/european-infrastructures/cluster-projects/agroserv) (HORIZON-INFRA-2021-SERV-01-02 [101058020](https://doi.org/10.3030/101058020), [UKRI 10038927](https://gtr.ukri.org/projects?ref=10038927))
+* [BIOINDUSTRY 4.0](https://www.ibisba.eu/EU-Projects/Horizon-Europe) ([HORIZON-INFRA-2022-TECH-01 101094287](https://doi.org/10.3030/101094287, [UKRI 10048146](https://gtr.ukri.org/projects?ref=10048146))
 * ..in addition to contributions from [WorkflowHub Club](#workflowhub-club) participants
+
+
+Previous funding  for previous contributions funded by:
+* [BioExcel-2](https://bioexcel.eu/) ([H2020-INFRAEDI-2018-1 823830](https://doi.org/10.3030/823830))
+* [IBISBA](https://www.ibisba.eu/) ([H2020-INFRAIA-2017-1-two-stage 730976](https://doi.org/10.3030/730976), [H2020-INFRADEV-2019-2 871118](https://doi.org/10.3030//871118))
+* [SYNTHESYS+](https://www.synthesys.info/) ([H2020-INFRAIA-2018-1 823827](https://doi.org/10.3030/823827))
 
 <!-- * [FAIR Workflows](https://fair-workflows.github.io/project.html) -->
 

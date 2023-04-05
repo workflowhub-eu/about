@@ -11,7 +11,8 @@ title: Acknowledgements
 
 {% include affiliation-tiles-selection.html type="EOSC-Life"%}
 
-workflowhub.eu lead development is part of [**EOSC-Life**](https://www.eosc-life.eu/) ([WP2 _Tools Collaboratory_](https://github.com/eosc-life/tools-collaboratory-roadmap)), funded by European Union’s [Horizon 2020](https://ec.europa.eu/programmes/horizon2020/) programme under grant agreement [H2020-INFRAEOSC-2018-2 824087](https://doi.org/10.3030/824087), and [**EuroScienceGateway**](http://eurosciencegateway.eu/) ([WP2](https://galaxyproject.org/news/2023-01-12-eurosciencegateway-wp2/) _Stimulate FAIR and reusable research with computational workflows_), funded by European Union's [Horizon Europe]() programme under grant agreement [101057388](https://doi.org/10.3030/101057388) and by UK Research and Innovation ([UKRI](https://www.ukri.org/)) under the [UK government’s Horizon Europe funding guarantee](https://www.ukri.org/publications/horizon-europe-guarantee-scheme-ukri-guidance/) grant number [10038963](https://gtr.ukri.org/projects?ref=10038963).
+workflowhub.eu lead development is part of [**EOSC-Life**](https://www.eosc-life.eu/) ([WP2 _Tools Collaboratory_](https://github.com/eosc-life/tools-collaboratory-roadmap)), funded by European Union’s [Horizon 2020](https://ec.europa.eu/programmes/horizon2020/) programme under grant agreement [H2020-INFRAEOSC-2018-2 824087](https://doi.org/10.3030/824087).
+
 
 ### Other funding
 
@@ -21,6 +22,7 @@ workflowhub.eu lead development is part of [**EOSC-Life**](https://www.eosc-life
 
 We are also grateful for contributions by:
 
+* [EuroScienceGateway](http://eurosciencegateway.eu/) (HORIZON-INFRA-2021-EOSC-01-04 101057388](https://doi.org/10.3030/101057388), [UKRI 10038963](https://gtr.ukri.org/projects?ref=10038963))
 * [BY-COVID](https://by-covid.eu/) ([HORIZON-INFRA-2021-EMERGENCY-01 101046203](https://doi.org/10.3030/101046203))
 * [FAIR-IMPACT](http://fair-impact.eu/) (HORIZON-INFRA-2021-EOSC-01-05 (#101057344), [UJRI 10038992](https://gtr.ukri.org/projects?ref=10038992))
 * [TRE-FX](https://trefx.uk/) (UKRI MC_PC_23007 4050900091)

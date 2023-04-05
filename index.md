@@ -5,7 +5,7 @@ toc: false
 permalink: /
 ---
 
-[WorkflowHub](https://workflowhub.eu/) is a FAIR **workflow registry** sponsored by the European RI Cluster EOSC-Life and the European Research Infrastructure ELIXIR. It is workflow management system agnostic: workflows may remain in their native repositories in their native forms.
+[WorkflowHub](https://workflowhub.eu/) is a FAIR **workflow registry** sponsored by the European RI Cluster EOSC-Life,  the European Research Infrastructure ELIXIR and [multiple EU-wide projects](/project/acknowledgements/#funding). It is workflow management system agnostic: workflows may remain in their native repositories in their native forms.
 
 This website describes the open source **project** for developing and running [WorkflowHub](https://workflowhub.eu/).
 
@@ -28,7 +28,7 @@ For any kind of questions or suggestions on using WorkflowHub, feel free to join
 * **Slack chat**:  [#workflows on seek4science.slack.com](https://seek4science.slack.com/archives/CPLLVV94L) ([join](https://join.slack.com/t/seek4science/shared_invite/zt-csqh94qb-kf~kFbZxuHl1Hpxhbc8avw))
 * [Google Drive](https://drive.google.com/drive/folders/1_bZ63W4oRtWL5OnWJNYvE4u3A27VyGGe)
  (to request write-access, ask in Slack channel) 
-* **Slides/posters**:
+* **Slides/posters** (for complete list, see [Outreach](/project/outreach/)):
   * [WorkflowHub: FAIR Workflow Registry](https://doi.org/10.5281/zenodo.7323471). Justin Clark-Casey et al, EOSC Symposium 2022, 2022-11-14
   * [WorkflowHub – a FAIR registry for workflows](https://doi.org/10.7490/f1000research.1118984.1). Carole Goble, ELIXIR All Hands 2022
   * [WorkflowHub - a registry for workflows](https://doi.org/10.5281/zenodo.4012124). Carole Goble, ECCB 2020, 2020-09-02

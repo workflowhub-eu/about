@@ -24,7 +24,7 @@
   type: funding
   url: https://www.ibisba.eu/
 - name: TRE-FX
-  image_url: /images/tre-fx-logo.svg
+  image_url: /images/tre-fx-logo-notext.svg
   expose: true
   type: funding 
   url: https://trefx.uk/

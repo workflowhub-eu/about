@@ -56,7 +56,7 @@ This project has a [Code of Conduct](https://github.com/workflowhub-eu/about/blo
 
 ## Acknowledgements
 
-We are grateful for contributions from  [**EOSC-Life**](https://www.eosc-life.eu/), ELIXIR Europe](https://elixir-europe.org/), [**EuroScienceGateway**](http://eurosciencegateway.eu/) and others (see complete [list of funders][acknowledgement](/project/acknowledgements#funding).
+We are grateful for contributions from  [**EOSC-Life**](https://www.eosc-life.eu/), [ELIXIR Europe](https://elixir-europe.org/), [**EuroScienceGateway**](http://eurosciencegateway.eu/) and others (see complete [list of funders][acknowledgement](/project/acknowledgements#funding).
 
 <!-- NOTE: Always update list above AND the acknowledgements.md page -->
 

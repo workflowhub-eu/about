@@ -31,7 +31,7 @@ We are also grateful for contributions by:
 * [ELIXIR Europe](https://elixir-europe.org/) (UK-2022-Tess)
 * [PREP-IBISBA](https://www.ibisba.eu/) ([H2020-INFRADEV-2019-2 871118](https://doi.org/10.3030/871118))
 * [AgroServ](https://emphasis.plant-phenotyping.eu/european-infrastructures/cluster-projects/agroserv) (HORIZON-INFRA-2021-SERV-01-02 [101058020](https://doi.org/10.3030/101058020), [UKRI 10038927](https://gtr.ukri.org/projects?ref=10038927))
-* [BIOINDUSTRY 4.0](https://www.ibisba.eu/EU-Projects/Horizon-Europe) ([HORIZON-INFRA-2022-TECH-01 101094287](https://doi.org/10.3030/101094287, [UKRI 10048146](https://gtr.ukri.org/projects?ref=10048146))
+* [BIOINDUSTRY 4.0](https://www.ibisba.eu/EU-Projects/Horizon-Europe) ([HORIZON-INFRA-2022-TECH-01 101094287](https://doi.org/10.3030/101094287), [UKRI 10048146](https://gtr.ukri.org/projects?ref=10048146))
 * ..in addition to contributions from [WorkflowHub Club](#workflowhub-club) participants
 
 

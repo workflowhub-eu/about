@@ -2,7 +2,7 @@
 title: About WorkflowHub
 ---
 
-* [WorkflowHub](https://workflowhub.eu) is a new workflow registry designed around [FAIR principles](https://workflows.community/groups/fair/).
+* [WorkflowHub](https://workflowhub.eu) is a domain-agnostic workflow registry designed around [FAIR principles](https://workflows.community/groups/fair/).
 * WorkflowHub allows workflows to be FAIR, citable, have managed *metadata* profiles, and be openly available for review and analytics.
 * Workflows are packaged, registered, downloaded and exchanged as [workflow-centric Research Objects](/Workflow-RO-Crate/) using the [RO-Crate](https://w3id.org/ro/crate) specification, with test and example data, managed metadata profiles, citations and more.
 * A [schema.org](https://schema.org/) based Bioschemas profile describes the metadata about a workflow and use of the [Common Workflow Language](https://www.commonwl.org/) is encouraged, providing a canonical description of the workflow itself.
@@ -10,9 +10,9 @@ title: About WorkflowHub
 * WorkflowHub is *workflow management system agnostic*: workflows may remain in their native repositories in their native forms. 
 * WorkflowHub provides features such as community spaces, collections, versioning and snapshots, and contributor credit.
 * In addition to its own [APIs](https://workflowhub.eu/api), WorkflowHub supports community registry standards and services such as [GA4GH TRS](https://about.workflowhub.eu/TRS/) and [ELIXIR-AAI](https://elixir-europe.org/services/compute/aai) authentication, and current work integrates with the [LifeMonitor workflow testing](https://lifemonitor.eu/) service.
-* WorkflowHub is sponsored by the European RI Cluster [EOSC-Life](https://www.eosc-life.eu/) and the European Research Infrastructure [ELIXIR](https://elixir-europe.org/).
-* The [WorkflowHub Club](https://about.workflowhub.eu/#community) open community works together to continuously co-develop the Hub.  
-* Beta-released in Sept 2020, the Hub now holds nearly 100 workflows, including 36 curated COVID-19 workflows.  It is a listed resource of the European [COVID19 Data Portal](https://www.covid19dataportal.org/).
+* WorkflowHub is mainly sponsored by the European RI Cluster [EOSC-Life](https://www.eosc-life.eu/), the European Research Infrastructure [ELIXIR](https://elixir-europe.org/) and [EuroScienceGateway](http://eurosciencegateway.eu/) (see [full list of acknowledgements](/project/acknowledgements/#funding)).
+* The [WorkflowHub Club](/project/community/) open community works together to continuously co-develop the Hub.  
+* First beta-released in Sept 2020 and prodution-released in September 2022, the Hub now holds over [300 workflows](https://workflowhub.eu/workflows), including 49 curated [COVID-19 workflows](https://covid19.workflowhub.eu/).  It is a listed resource of the European [COVID19 Data Portal](https://www.covid19dataportal.org/) and as a [EOSC Data Source](https://marketplace.eosc-portal.eu/datasources/eosc.elixir-uk.5126ffcc8e23f65bbbe219d36128f2c8).
 
 
 ## WfCommons and WorkflowHub

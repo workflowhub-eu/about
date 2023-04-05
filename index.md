@@ -56,14 +56,8 @@ This project has a [Code of Conduct](https://github.com/workflowhub-eu/about/blo
 
 ## Acknowledgements
 
-We are grateful for contributions from [ELIXIR Europe](https://elixir-europe.org/),  
-[FAIRDOM](http://fair-dom.org) ([BB/M013189/1](https://bbsrc.ukri.org/research/grants/grants/AwardDetails.aspx?FundingReference=BB/M013189/1)), 
-[BioExcel-2](https://bioexcel.eu/) ([823830](https://cordis.europa.eu/project/id/823830)), 
-[IBISBA](https://www.ibisba.eu/) ([730976](https://cordis.europa.eu/project/id/730976), 
-[871118](https://cordis.europa.eu/project/id/871118)), 
-[SYNTHESYS+](https://www.synthesys.info/) ([823827](https://cordis.europa.eu/project/id/823827)), 
-[FAIR Workflows](https://fair-workflows.github.io/project.html) and others. 
+We are grateful for contributions from  [**EOSC-Life**](https://www.eosc-life.eu/), ELIXIR Europe](https://elixir-europe.org/), [**EuroScienceGateway**](http://eurosciencegateway.eu/) and others (see complete [list of funders][acknowledgement](/project/acknowledgements#funding).
 
 <!-- NOTE: Always update list above AND the acknowledgements.md page -->
 
-See a complete list on the [acknowledgement](/project/acknowledgements) page.
+

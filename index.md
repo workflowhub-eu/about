@@ -41,7 +41,7 @@ Regular meeting: **WorkflowHub Club** - all welcome!
 
 Anyone is welcome to join the bi-weekly [WorkflowHub Club](/project/community) calls using Zoom.
 
-* When: Alternate Wednesdays 10:00 GMT / 11:00 CET 
+* When: Alternate Wednesdays 10:00 current UK time zone / 11:00 current Central European time zone 
 * Agenda, telcon details and minutes: <https://s.apache.org/workflowhub-minutes>
 
 See the list of club members on the [acknowledgement](/project/acknowledgements) page.

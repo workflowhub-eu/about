@@ -25,7 +25,7 @@ We are also grateful for contributions by:
 
 * [EuroScienceGateway](http://eurosciencegateway.eu/) ([HORIZON-INFRA-2021-EOSC-01-04 101057388](https://doi.org/10.3030/101057388), [UKRI 10038963](https://gtr.ukri.org/projects?ref=10038963))
 * [BY-COVID](https://by-covid.eu/) ([HORIZON-INFRA-2021-EMERGENCY-01 101046203](https://doi.org/10.3030/101046203))
-* [FAIR-IMPACT](http://fair-impact.eu/) ([HORIZON-INFRA-2021-EOSC-01-05 101057344](https://doi.org/10.3030/101057344), [UJRI 10038992](https://gtr.ukri.org/projects?ref=10038992))
+* [FAIR-IMPACT](http://fair-impact.eu/) ([HORIZON-INFRA-2021-EOSC-01-05 101057344](https://doi.org/10.3030/101057344), [UKRI 10038992](https://gtr.ukri.org/projects?ref=10038992))
 * [TRE-FX](https://trefx.uk/) (UKRI MC_PC_23007 4050900091)
 * [BioDT](https://biodt.eu/) ([HORIZON-INFRA-2021-TECH-01-01 101057437](https://doi.org/10.3030/101057437), [UKRI 10038930](https://gtr.ukri.org/projects?ref=10038930))
 * [ELIXIR Europe](https://elixir-europe.org/) (UK-2022-Tess)

@@ -7,13 +7,13 @@
   image_url: /assets/img/Flag_of_Europe.svg
   expose: true
   type: EOSC-Life
-  url: https://cordis.europa.eu/project/id/824087
+  url: https://doi.org/10.3030/824087
 - name: EuroScienceGateway
   image_url: /images/eurosciencegateway.svg
   expose: true
   type: funding 
   url: https://eurosciencegateway.eu/
-- name: BY-COVID
+- name: BY-COVI
   image_url: /images/by-covid.svg
   expose: true
   type: funding 
@@ -29,10 +29,10 @@
   type: funding 
   url: https://trefx.uk/
 - name: BIOINDUSTRY4.0
-  image_url: /images/bioindustry4.0.svg
+  image_url: /images/bioindustry4.0.png
   expose: true
   type: funding 
-  url: https://eurosciencegateway.eu/
+  url: https://www.ibisba.eu/EU-Projects/Horizon-Europe
 - name: AgroServ
   image_url: /images/agroserv.png
   expose: true

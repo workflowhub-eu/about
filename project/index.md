@@ -14,6 +14,17 @@ title: About WorkflowHub
 * The [WorkflowHub Club](/project/community/) open community works together to continuously co-develop the Hub.  
 * First beta-released in Sept 2020 and production-released in September 2022, the Hub now holds over [300 workflows](https://workflowhub.eu/workflows), including 49 curated [COVID-19 workflows](https://covid19.workflowhub.eu/).  It is a listed resource of the European [COVID19 Data Portal](https://www.covid19dataportal.org/) and as a [EOSC Data Source](https://marketplace.eosc-portal.eu/datasources/eosc.elixir-uk.5126ffcc8e23f65bbbe219d36128f2c8).
 
+## Contact Us
+
+https://workflowhub.eu/ is hosted by [eScience Lab](https://esciencelab.org.uk/) at [The University of Manchester](https://www.manchester.ac.uk/) led by professor [Carole Goble](https://research.manchester.ac.uk/en/persons/carole.goble).
+
+* [Provide feedback or ask question](https://workflowhub.eu/home/feedback)
+* Contribute to [WorkflowHub club](https://about.workflowhub.eu/project/community/) (Regular telcons, Slack chat, public mailing list)
+* [Report an issue](https://workflowhub.eu/home/report_issue) (public GitHub)
+  - Contact `workflowhub.eu` system administrators: <workflowhub-admin@listserv.manchester.ac.uk>
+  - Report [Code of Conduct](https://github.com/workflowhub-eu/about/blob/master/CODE_OF_CONDUCT.md) concerns: <info@esciencelab.org.uk>
+* Academic collaborations: <carole.goble@manchester.ac.uk>
+
 
 ## WfCommons and WorkflowHub
 

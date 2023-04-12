@@ -4,7 +4,7 @@ redirect_from: /roadmap/
 ---
 
 
-_Please feel free to help contribute to this roadmap through the [WorkflowHub Club](/community/)!_
+_Please feel free to help contribute to this roadmap through the [WorkflowHub Club](/community/) or as [feedback](https://workflowhub.eu/home/feedback)!_
 
 Please note that the roadmap isn't a project plan or release schedule. 
 The WorkflowHub Club is a very dynamic and agile team, and the roadmap is reviewed and updated regularly. 

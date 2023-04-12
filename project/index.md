@@ -16,7 +16,7 @@ title: About WorkflowHub
 
 ## Contact Us
 
-https://workflowhub.eu/ is hosted by [eScience Lab](https://esciencelab.org.uk/) at [The University of Manchester](https://www.manchester.ac.uk/) led by professor [Carole Goble](https://research.manchester.ac.uk/en/persons/carole.goble).
+The production instance <https://workflowhub.eu/> is hosted by [eScience Lab](https://esciencelab.org.uk/) at [The University of Manchester](https://www.manchester.ac.uk/) led by professor [Carole Goble](https://research.manchester.ac.uk/en/persons/carole.goble).
 
 * [Provide feedback or ask question](https://workflowhub.eu/home/feedback)
 * Contribute to [WorkflowHub club](https://about.workflowhub.eu/project/community/) (Regular telcons, Slack chat, public mailing list)

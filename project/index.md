@@ -20,7 +20,7 @@ The production instance <https://workflowhub.eu/> is hosted by [eScience Lab](ht
 
 * [Provide feedback or ask question](https://workflowhub.eu/home/feedback)
 * Contribute to [WorkflowHub club](https://about.workflowhub.eu/project/community/) (Regular telcons, Slack chat, public mailing list)
-* [Report an issue](https://workflowhub.eu/home/report_issue) (public GitHub)
+* [Report an issue](https://workflowhub.eu/home/report_issue) (public GitHub), or:
   - Contact `workflowhub.eu` system administrators: <workflowhub-admin@listserv.manchester.ac.uk>
   - Report [Code of Conduct](https://github.com/workflowhub-eu/about/blob/master/CODE_OF_CONDUCT.md) concerns: <info@esciencelab.org.uk>
 * Academic collaborations: <carole.goble@manchester.ac.uk>

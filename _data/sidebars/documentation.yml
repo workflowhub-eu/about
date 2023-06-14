@@ -1,18 +1,18 @@
 title: Documentation
-title_url: /docs/
 subitems:
-  - title: Getting started
-    url: /docs/getting-started/
+  - title: Quick start guide
+    title_url: /docs/
+  - title: Getting started with WorkflowHub
     subitems:
     - title: How to register
       url: /docs/how-to-register/
     - title: Logging in
       url: /docs/logging-in/
-    - title: What is a team
-      url: /docs/what-is-a-team/
-    - title: Joining a team
-      url: /docs/joining-a-team/
-  - title: Registering a workflow
+    - title: What are Teams, Spaces and Organizations?
+      url: /docs/space_team_organisation/
+    - title: Join or set up Teams & Spaces
+      url: /docs/join_create_teams_spaces/
+  - title: Registering workflows
     url: /docs/registering-a-workflow/
     subitems:
     - title: Register and login

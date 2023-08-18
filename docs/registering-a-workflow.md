@@ -10,8 +10,18 @@ redirect_from:
 
 ## What is the overall process for registration?
 
+Using the WorkflowHub registration wizard:
 
-![Remote files URLs, Git Repository, Local Files, Zipped RO-Crate are Imported, then Register workflow, Add Metadata and Finalize Registration with review]({{ '/images/registration-01-overview.svg' | relative_url }} "Registration Overview")
+1. Import a workflow file. These can be:
+   1. A local file, or files
+   2. A remote file URL
+   3. A git repository
+   4. A zipped Research Object Crate (RO-crate)
+2. Register the workflow
+3. Add relevant metadata
+4. Review the entry and finalise registration
+
+![Remote files URLs, Git Repository, Local Files, Zipped RO-Crate are Imported, then Register workflow, Add Metadata and Finalize Registration with review]({{ '/images/registration-01-overview-02.svg' | relative_url }} "Registration Overview")
 
 
 

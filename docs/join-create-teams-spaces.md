@@ -10,7 +10,7 @@ When you have registered and logged in, the next step is to either create, or jo
 
 ## Terminology
 
-For a description of `Spaces`, `Teams` and `Organisations` please [see this page](/docs/space_team_organisation.md).
+For a description of `Spaces`, `Teams` and `Organisations` please [see this page](/docs/space-team-organisation.md).
 
 {% include image.html file="spaces_teams_organizations.png" caption="Fig 1. Structure of spaces, teams and organizations. Note that there is flexibility in how spaces are structured, and that you can be part of multiple Spaces, Teams and Organizations." %}
 

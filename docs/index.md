@@ -3,6 +3,7 @@ title: Quick start guide
 redirect_from: 
      - /docs/before-you-start/
      - /docs/onboarding/
+    - /docs/getting-started/
 ---
 
 

@@ -1,6 +1,8 @@
 ---
 title: What are Teams, Spaces and Organizations?
-redirect_from: /Browsing-projects/
+redirect_from: 
+    - /Browsing-projects/
+    - /what-is-a-team/
 ---
 
 {% include callout.html type="important" content="Instructions for joining and creating teams and spaces can be [found here](/docs/join_create_teams_spaces)." %}

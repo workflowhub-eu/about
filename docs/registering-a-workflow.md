@@ -21,7 +21,7 @@ Using the WorkflowHub registration wizard:
 3. Add relevant metadata
 4. Review the entry and finalise registration
 
-![Remote files URLs, Git Repository, Local Files, Zipped RO-Crate are Imported, then Register workflow, Add Metadata and Finalize Registration with review]({{ '/images/registration-01-overview-02.svg' | relative_url }} "Registration Overview")
+![Remote files URLs, Git Repository, Local Files, Zipped RO-Crate are Imported, then Register workflow, Add Metadata and Finalize Registration with review]({{ '/images/registration-01-overview-02.png' | relative_url }} "Registration Overview")
 
 
 

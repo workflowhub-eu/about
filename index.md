@@ -20,6 +20,7 @@ For any kind of questions or suggestions on using WorkflowHub, feel free to join
 * **Source code**: [seek4science/seek](https://github.com/seek4science/seek) 
 * **API documentation**: <https://workflowhub.eu/api>
 * **[Outreach and Publications](/project/outreach/)**
+* **EOSC-Life Deliverable 2.3**: <https://doi.org/10.5281/zenodo.7886545>
 * **Tasks**: 
   * [WorkflowHub roadmap](/project/roadmap)
   * WorkflowHub implementation <https://github.com/seek4science/seek/projects/3> (SEEK)

@@ -8,9 +8,9 @@ subitems:
     - title: Logging in
       url: /docs/logging-in/
     - title: What are Teams, Spaces and Organizations?
-      url: /docs/space_team_organisation/
+      url: /docs/space-team-organisation/
     - title: Join or set up Teams & Spaces
-      url: /docs/join_create_teams_spaces/
+      url: /docs/join-create-teams-spaces/
   - title: Registering workflows
     url: /docs/registering-a-workflow/
     subitems:
@@ -25,7 +25,7 @@ subitems:
     - title: Supported workflow types
       url: /docs/supported-workflow-types/
   - title: Organising your workflows on WorkflowHub
-    url: /docs/organising_workflows/
+    url: /docs/organising-workflows/
   - title: Maintaining your workflow
     url: /docs/maintaining-your-workflow/
   - title: Mint a DOI for your workflow

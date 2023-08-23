@@ -12,6 +12,10 @@ _Feel free to add to this page, either [edit and raise pull request](https://git
 {% include citation.md %}
 
 ## Posters
+Carole Goble, Finn Bacall, Stian Soiland-Reyes, Stuart Owen, Ignacio Eguinoa, Bert Droesbeke, Hervé Ménager, Laura Rodriguez-Navas, José M. Fernández, Salvador Capella-Gutierrez, Michael R. Crusoe, Björn Grüning, Smone Leo, Luca Pireddu, Marco Enrico Piras, Johan Gustafsson, Phil Ewels, WorkflowHub Community, Frederik Coppens (2023):  
+[**WorkflowHub – a fair registry for workflows**](https://f1000research.com/posters/12-571)  
+_ELIXIR All Hands 2023_, Dublin, Ireland, 5-8 June 2023.  
+<https://doi.org/10.7490/f1000research.1119430.1> 
 
 Nicola Soranzo, Carole Goble (2023):  
 [**BioFAIR: a new BioCommons infrastructure for UK life science**](https://doi.org/10.5281/zenodo.7708304).  
@@ -50,6 +54,11 @@ _[International FAIR Convergence Symposium](https://www.go-fair.org/events/inter
 
 
 ### 2023
+
+Goble, Carole, Soiland-Reyes, Stian, Bacall, Finn, Owen, Stuart, Pireddu, Luca, & Leo, Simone. (2023):  
+[**EOSC-Life Implementation of a mechanism for publishing and sharing workflows across instances of the environment**](https://doi.org/10.5281/zenodo.7886545)  
+_EOSC-Life Deliverable 2.3_  
+<https://doi.org/10.5281/zenodo.7886545>
 
 Johan Gustafsson, Georgina Samaha (2023):  
 [**Make your bioinformatics workflows findable and citable**](https://doi.org/10.5281/zenodo.7787488).  

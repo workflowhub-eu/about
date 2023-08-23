@@ -21,7 +21,7 @@ You can join one or more existing Teams by:
 
 
 <p>
-  <a class="btn-collapse" data-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapse1">
+  <a class="btn-collapse" data-toggle="collapse" href="#join-team-registration" role="button" aria-expanded="false" aria-controls="collapse1">
     Joining an existing Team immediately after registration
   </a>
 </p>
@@ -38,12 +38,12 @@ Once the Team(s) are selected, the process is the same as requesting membership 
 
 
 <p>
-  <a class="btn-collapse" data-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapse1">
+  <a class="btn-collapse" data-toggle="collapse" href="#request-to-join-team" role="button" aria-expanded="false" aria-controls="collapse2">
     Requesting membership of an existing Team
   </a>
 </p>
 
-<div class="collapse" id="collapse1">
+<div class="collapse" id="collapse2">
 <div class="card card-body">
 
 If a Team has an administrator, and you are not already a member - then a `request membership` button will appear on the Team page. You can browse, filter and search Teams from the Browse menu at the top of the page.

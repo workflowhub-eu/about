@@ -27,7 +27,7 @@ You can join one or more existing Teams by:
 </p>
 
 <div class="collapse" id="join-team-registration">
-<div class="card card-body" style="margin-bottom: 1em;">
+<div class="card card-body" style="margin-bottom: 1em;" markdown="1">
 
 After registration, you will be prompted to either join or create a Team. When selecting to join, you can type to automatically search for the Team and candidates will appear which you can select. You can select up to 3 at one time. You can also browse, and join by requesting membership directly from a Team page (see below).
 
@@ -44,7 +44,7 @@ Once the Team(s) are selected, the process is the same as requesting membership 
 </p>
 
 <div class="collapse" id="request-to-join-team">
-<div class="card card-body" style="margin-bottom: 1em;">
+<div class="card card-body" style="margin-bottom: 1em;" markdown="1">
 
 If a Team has an administrator, and you are not already a member - then a `request membership` button will appear on the Team page. You can browse, filter and search Teams from the Browse menu at the top of the page.
 

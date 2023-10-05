@@ -55,6 +55,11 @@ _[International FAIR Convergence Symposium](https://www.go-fair.org/events/inter
 
 ### 2023
 
+Casper de Visser, Lennart F. Johansson, Purva Kulkarni, Hailiang Mei, Pieter Neerincx, K. Joeri van der Velde, Péter Horvatovich, Alain J. van Gool, Morris A. Swertz, Peter A. C. ‘t Hoen, Anna Niehues (2023):  
+[**Ten quick tips for building FAIR workflows**](https://doi.org/10.1371/journal.pcbi.1011369).  
+_PLOS Computational Biology_  **19**(9): e1011369   
+<https://doi.org/10.1371/journal.pcbi.1011369>
+
 Goble, Carole, Soiland-Reyes, Stian, Bacall, Finn, Owen, Stuart, Pireddu, Luca, & Leo, Simone. (2023):  
 [**EOSC-Life Implementation of a mechanism for publishing and sharing workflows across instances of the environment**](https://doi.org/10.5281/zenodo.7886545)  
 _EOSC-Life Deliverable 2.3_  

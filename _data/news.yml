@@ -1,6 +1,15 @@
+- name: WorkflowHub cited in new FAIR Workflows publication
+  date: 2023-10-10
+  description: WorkflowHub cited in this new publication on [Ten quick tips for building FAIR workflows in PLOS Computational Biology 19(9): e1011369](https://doi.org/10.1371/journal.pcbi.1011369)
+- name: 1st Conference on Research Data Infrastructure
+  date: 2023-09-13
+  description: WorkflowHub featured in a presentation of the EOSC-Life Workflow Collaboratory at the [1st Conference on Research Data Infrastructure (CoRDI 2023)](https://www.nfdi.de/cordi-2023/), 2023-09-12/–14, Karlsruhe, Germany.
 - name: WorkflowHub "Ask me Anything"
   date: 2023-06-23
   description: Join us on Friday 30th June 2023 at 12:00:00 GMT+0100 (British Summer Time) for an online event where you can ask any questions about WorkflowHub and workflows. Register [here](https://www.eventbrite.co.uk/e/workflowhub-ask-me-anything-session-tickets-629927479047).
+- name: WorkflowHUb featured at ELIXIR All Hands 2023
+  date: 2023-06-06
+  description: WorkflowHub featured in ELIXIR All Hands [Mini-Symposium: Reproducible Analytics & Infrastructure](https://docs.google.com/document/d/1GmUpSk1ss-FUVVcIhXUTjvkRIx7Mp5QBcP-Sh15Wtkk/edit#heading=h.2et92p0) on 6 June 2023.
 - name: 1st International Conference on FAIR Digital Objects
   date: 2022-10-24
   description: The [1st International Conference on FAIR Digital Objects](https://www.fdo2022.org/) takes place between 26-28 October 2022. WorkflowHub features in several talks and posters highlighting how RO-Crate is a web-native and practical implementation of FDOs.

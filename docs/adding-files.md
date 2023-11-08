@@ -61,7 +61,7 @@ _Fig 4. New workflow tab for importing files from a git repository (e.g. GitHub,
 3. When you have selected to import a specific Git repository URL (i.e. by clicking `Register`) you will be prompted to specify either a repository:
      - Branch, or
      - Release tag
-4. Once you click `Register` again, you will gain access to a drop down list of the files in the repository - pick the `[main executable workflow file](/docs/glossary#main-workflow)`:
+4. Once you click `Register` again, you will gain access to a drop down list of the files in the repository - pick the [`main executable workflow file`](/docs/glossary#main-workflow):
      - For a NextFlow workflow for example, this would be the <code>.nf</code> file
      - For a series of bash scripts, this would be the first <code>.sh</code> file or the <code>README.md</code> file
 5. You can now pick additional optional files as well:

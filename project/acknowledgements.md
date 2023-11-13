@@ -8,15 +8,6 @@ Main development, hosting and maintenance of WorkflowHub is done by the [eScienc
 
 <!-- NOTE: Always update list below AND section on the index.md page -->
 
-### EOSC-Life
-
-{% include affiliation-tiles-selection.html type="EOSC-Life"%}
-
-workflowhub.eu lead development is part of [**EOSC-Life**](https://www.eosc-life.eu/) ([WP2 _Tools Collaboratory_](https://github.com/eosc-life/tools-collaboratory-roadmap)), funded by European Union’s [Horizon 2020](https://ec.europa.eu/programmes/horizon2020/) programme under grant agreement [H2020-INFRAEOSC-2018-2 824087](https://doi.org/10.3030/824087).
-
-
-### Other funding
-
 {% include affiliation-tiles-selection.html type="funding"%}
 
 <!--<a title="FAIR Workflows" href="https://fair-workflows.github.io/project.html"><img src="{{ '/images/fair-workflows.png' | relative_url }}" style="max-height: 5em; max-width: 35%; vertical-align: middle" alt="FAIR Workflows" /></a>-->
@@ -33,6 +24,11 @@ We are also grateful for contributions by:
 * [BIOINDUSTRY 4.0](https://www.ibisba.eu/EU-Projects/Horizon-Europe) ([HORIZON-INFRA-2022-TECH-01 101094287](https://doi.org/10.3030/101094287), [UKRI 10048146](https://gtr.ukri.org/projects?ref=10048146))
 * ..in addition to contributions from [WorkflowHub Club](#workflowhub-club) participants
 
+### EOSC-Life
+
+{% include affiliation-tiles-selection.html type="EOSC-Life"%}
+
+workflowhub.eu was founded as part of [**EOSC-Life**](https://www.eosc-life.eu/) ([WP2 _Tools Collaboratory_](https://github.com/eosc-life/tools-collaboratory-roadmap)), funded by European Union’s [Horizon 2020](https://ec.europa.eu/programmes/horizon2020/) programme under grant agreement [H2020-INFRAEOSC-2018-2 824087](https://doi.org/10.3030/824087).
 
 ### Previous funding
 

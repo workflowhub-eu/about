@@ -12,8 +12,13 @@ _Feel free to add to this page, either [edit and raise pull request](https://git
 {% include citation.md %}
 
 ## Posters
+ELIXIR Belgium (2023):  
+[**WorkflowHub**](https://doi.org/10.5281/zenodo.10039763).  
+_ELIXIR Belgium Conference 2023_, Ghent, Belgium, 23-24 October 2023.  
+<https://doi.org/10.5281/zenodo.10039763>
+
 Carole Goble, Finn Bacall, Stian Soiland-Reyes, Stuart Owen, Ignacio Eguinoa, Bert Droesbeke, Hervé Ménager, Laura Rodriguez-Navas, José M. Fernández, Salvador Capella-Gutierrez, Michael R. Crusoe, Björn Grüning, Smone Leo, Luca Pireddu, Marco Enrico Piras, Johan Gustafsson, Phil Ewels, WorkflowHub Community, Frederik Coppens (2023):  
-[**WorkflowHub – a fair registry for workflows**](https://f1000research.com/posters/12-571)  
+[**WorkflowHub – a fair registry for workflows**](https://f1000research.com/posters/12-571).  
 _ELIXIR All Hands 2023_, Dublin, Ireland, 5-8 June 2023.  
 <https://doi.org/10.7490/f1000research.1119430.1> 
 

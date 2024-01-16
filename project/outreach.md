@@ -15,27 +15,27 @@ _Feel free to add to this page, either [edit and raise pull request](https://git
 
 ### 2024
 
-Scott Edmunds (2024):
-[**A Decade of FAIR – and what next? Q&A on FAIR workflows with the Netherlands X-omics Initiative**](http://gigasciencejournal.com/blog/fair-workflows/).
-_GIGAblog_
+Scott Edmunds (2024):  
+[**A Decade of FAIR – and what next? Q&A on FAIR workflows with the Netherlands X-omics Initiative**](http://gigasciencejournal.com/blog/fair-workflows/).  
+_GIGAblog_  
 <http://gigasciencejournal.com/blog/fair-workflows/>
 
-Anna Niehues, Casper de Visser, Fiona A Hagenbeek, Purva Kulkarni, René Pool, Naama Karu, Alida S D Kindt, Gurnoor Singh, Robert R J M Vermeiren, Dorret I Boomsma, Jenny van Dongen, Peter A C ’t Hoen, Alain J van Gool (2024):
-[**A multi-omics data analysis workflow packaged as a FAIR Digital Object**](https://doi.org/10.1093/gigascience/giad115).
-_GigaScience_ **13**:giad115
+Anna Niehues, Casper de Visser, Fiona A Hagenbeek, Purva Kulkarni, René Pool, Naama Karu, Alida S D Kindt, Gurnoor Singh, Robert R J M Vermeiren, Dorret I Boomsma, Jenny van Dongen, Peter A C ’t Hoen, Alain J van Gool (2024):  
+[**A multi-omics data analysis workflow packaged as a FAIR Digital Object**](https://doi.org/10.1093/gigascience/giad115).  
+_GigaScience_ **13**:giad115  
 <https://doi.org/10.1093/gigascience/giad115>
 
 
 ### 2023
 
-Simone Leo, Michael R. Crusoe, Laura Rodríguez-Navas, Raül Sirvent, Alexander Kanitz, Paul De Geest, Rudolf Wittner, Luca Pireddu, Daniel Garijo, José M. Fernández, Iacopo Colonnelli, Matej Gallo, Tazro Ohta, Hirotaka Suetake, Salvador Capella-Gutierrez, Renske de Wit, Bruno de Paula Kinoshita, Stian Soiland-Reyes (2023):
-[**Recording provenance of workflow runs with RO-Crate**](https://doi.org/10.48550/arXiv.2312.07852).
-_arXiv_
+Simone Leo, Michael R. Crusoe, Laura Rodríguez-Navas, Raül Sirvent, Alexander Kanitz, Paul De Geest, Rudolf Wittner, Luca Pireddu, Daniel Garijo, José M. Fernández, Iacopo Colonnelli, Matej Gallo, Tazro Ohta, Hirotaka Suetake, Salvador Capella-Gutierrez, Renske de Wit, Bruno de Paula Kinoshita, Stian Soiland-Reyes (2023):  
+[**Recording provenance of workflow runs with RO-Crate**](https://doi.org/10.48550/arXiv.2312.07852).  
+_arXiv_  
 <https://doi.org/10.48550/arXiv.2312.07852>
 
-Raül Sirvent (2023):
-[**Workflow Provenance registration with COMPSs**](https://doi.org/10.5281/zenodo.10046567).
-_Innovative HPC workflows for industry_, 2023-10-25, Munich, Germany
+Raül Sirvent (2023):  
+[**Workflow Provenance registration with COMPSs**](https://doi.org/10.5281/zenodo.10046567).  
+_Innovative HPC workflows for industry_, 2023-10-25, Munich, Germany  
 <https://doi.org/10.5281/zenodo.10046567>
 
 Casper de Visser, Lennart F. Johansson, Purva Kulkarni, Hailiang Mei, Pieter Neerincx, K. Joeri van der Velde, Péter Horvatovich, Alain J. van Gool, Morris A. Swertz, Peter A. C. ‘t Hoen, Anna Niehues (2023):  
@@ -44,7 +44,7 @@ _PLOS Computational Biology_  **19**(9): e1011369
 <https://doi.org/10.1371/journal.pcbi.1011369>
 
 Carole Goble, Stian Soiland-Reyes, Finn Bacall, Stuart Owen, Luca Pireddu, Simone Leo (2023):  
-[**EOSC-Life Implementation of a mechanism for publishing and sharing workflows across instances of the environment**](https://doi.org/10.5281/zenodo.7886545)  
+[**EOSC-Life Implementation of a mechanism for publishing and sharing workflows across instances of the environment**](https://doi.org/10.5281/zenodo.7886545).  
 _EOSC-Life Deliverable 2.3_  
 <https://doi.org/10.5281/zenodo.7886545>
 
@@ -65,10 +65,9 @@ _FAIRPoints 'Ask Me Anything' webinar on Software & Workflows_, 2023-02-21.
 [[video](https://youtu.be/bvA8jiAs5tQ?t=1463)]
 
 Romain David, Audrey S. Richard, Claire Connellan, Katharina B. Lauer, Maria Luisa Chiusano, Carole Goble, Martin Houde, Isabel Kemmer, Antje Keppler, Philippe Lieutaud, Christian Ohmann, Maria Panagiotopoulou, Sara Raza Khan, Arina Rybina, Stian Soiland-Reyes, Charlotte Wit, Rudolf Wittner, Rafael Andrade Buono, Sarah Arnaud Marsh, Pauline Audergon, Dylan Bonfils, Jose-Maria Carazo, Remi Charrel, Frederik Coppens, Wolfgang Fecke, Claudia Filippone, Eva Garcia Alvarez, Sheraz Gul, Henning Hermjakob, Katja Herzog, Petr Holub, Lukasz Kozera, Allyson L. Lister, José López-Coronado, Bénédicte Madon, Kurt Majcen, William Martin, Wolfgang Müller, Elli Papadopoulou, Christine M.A. Prat, Paolo Romano, Susanna-Assunta Sansone, Gary Saunders, Niklas Blomberg, Jonathan Ewbank (2023):  
-**Umbrella Data Management Plans to integrate FAIR data: lessons from the ISIDORe and BY-COVID consortia for pandemic preparedness**.  
-(submitted to Data Science Journal).  
-_Zenodo_  
-<https://doi.org/10.5281/zenodo.7520086>
+[**Umbrella Data Management Plans to integrate FAIR data: lessons from the ISIDORe and BY-COVID consortia for pandemic preparedness**](https://doi.org/10.5334/dsj-2023-035).  
+_Data Science Journal_ **25**  
+<https://doi.org/10.5334/dsj-2023-035>
 
 Lucie Lamothe, Jennifer Rugaard Bregndahl Jensen, Hans Ienasescu, Johan Gustafsson, Alban Gaignard, Dmitry Repchevsky, Radka Svobodová, Tomáš Raček, Matej Antol, Magnus Palmblad, Matúš Kalaš, Hervé Ménager (2023):  
 [**An evaluation of EDAM coverage in the Tools Ecosystem and prototype integration of Galaxy and WorkflowHub systems**](https://doi.org/10.37044/osf.io/79kje).  

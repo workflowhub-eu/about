@@ -11,61 +11,39 @@ _Feel free to add to this page, either [edit and raise pull request](https://git
 
 {% include citation.md %}
 
-## Posters
-ELIXIR Belgium (2023):  
-[**WorkflowHub**](https://doi.org/10.5281/zenodo.10039763).  
-_ELIXIR Belgium Conference 2023_, Ghent, Belgium, 23-24 October 2023.  
-<https://doi.org/10.5281/zenodo.10039763>
-
-Carole Goble, Finn Bacall, Stian Soiland-Reyes, Stuart Owen, Ignacio Eguinoa, Bert Droesbeke, Hervé Ménager, Laura Rodriguez-Navas, José M. Fernández, Salvador Capella-Gutierrez, Michael R. Crusoe, Björn Grüning, Smone Leo, Luca Pireddu, Marco Enrico Piras, Johan Gustafsson, Phil Ewels, WorkflowHub Community, Frederik Coppens (2023):  
-[**WorkflowHub – a fair registry for workflows**](https://f1000research.com/posters/12-571).  
-_ELIXIR All Hands 2023_, Dublin, Ireland, 5-8 June 2023.  
-<https://doi.org/10.7490/f1000research.1119430.1> 
-
-Nicola Soranzo, Carole Goble (2023):  
-[**BioFAIR: a new BioCommons infrastructure for UK life science**](https://doi.org/10.5281/zenodo.7708304).  
-_UKRI DRI Community Congress 2023_, Birmingham, UK, 6-7 March 2023.  
-<https://doi.org/10.5281/zenodo.7708304>
-
-Stian Soiland-Reyes, Peter Sefton, Leyla Jael Castro, Frederik Coppens, Daniel Garijo, Simone Leo, Marc Portier, Paul Groth (2022):  
-[**Creating lightweight FAIR Digital Objects with RO-Crate**](https://doi.org/10.3897/rio.8.e93937).  
-1st International Conference on FAIR Digital Objects ([FDO 2022](https://www.fdo2022.org/)) (poster)  
-_Research Ideas and Outcomes_ **8**:e93937  
-<https://doi.org/10.3897/rio.8.e93937>
-[[poster](https://doi.org/10.5281/zenodo.7245315)]
-
-José M Fernández, Laura Rodríguez-Navas, Salvador Capella-Gutiérrez (2022):  
-[**Secured and annotated execution of workflows with WfExS-backend**](https://doi.org/10.7490/f1000research.1119198.1).  
-_European Conference on Computational Biology (ECCB) 2022_, 
-The Global Alliance for Genomics And Health (GA4GH) 10th Plenary Meeting.  
-_F1000Research_ **11**:1318 (poster)  
-<https://doi.org/10.7490/f1000research.1119198.1>
-
-Carole Goble, Finn Bacall, Stian Soiland-Reyes, Stuart Owen, Alan Williams, Ignacio Eguinoa, Bert Droesbeke, Hervé Ménager, Laura Rodriguez-Navas, José M. Fernández, Salvador Capella-Gutierrez, Michael R. Crusoe, Björn Grüning, Simone Leo, Luca Pireddu, Johan Gustafsson, Phil Ewels, WorkflowHub Community, Frederik Coppens (2021):  
-[**The WorkflowHub: A FAIR Registry for Workflows and Workflow Research Objects**](https://drive.google.com/file/d/1Ge5bcKQBH03t5VH9IDIT0F8pfenNrw9-/view?usp=sharing).  
-_[BOSC 2021](https://www.open-bio.org/events/bosc-2021/)_, 
-[[poster](https://drive.google.com/file/d/1Ge5bcKQBH03t5VH9IDIT0F8pfenNrw9-/view?usp=sharing)], [[abstract](https://docs.google.com/document/d/1HI_S0Qssh4XFo17tk0TEulUnM-uKJ4Ll/edit)]
-
-Carole Goble, Finn Bacall, Stian Soiland-Reyes, Stuart Owen, Alan Williams, Ignacio Eguinoa, Bert Droesbeke, Hervé Ménager, Laura Rodriguez-Navas, Kiran K Telukunta, Flora D'Anna, José M. Fernández, Alban Gaignard, Ambarish Kumar, Maciek Bak, Ivan Topolsky, Salvador Capella-Gutierrez, Michael R. Crusoe and Frederik Coppens (2020):  
-[**The Workflow Hub: A Registry of Life Science Workflows**](https://drive.google.com/file/d/1HBg2YeSGmb0rNoEksjjM5PgEB5gWWdbC/view?usp=sharing).  
-_[ISMB 2020](https://www.iscb.org/cms_addon/conferences/ismb2020/posters.php)_
-[[video/slides](https://workflowhub.eu/presentations/1)], presented by Ambarish Kumar.
-
-Carole Goble, Finn Bacall, Stian Soiland-Reyes, Stuart Owen, Alan Williams, Ignacio Eguinoa, Bert Droesbeke, Flora D'Anna, Hervé Ménager, Laura Rodriguez-Navas, José M. Fernández, Ivan Topolsky,  Alban Gaignard, Björn Grüning, Simone Leo, Luca Pireddu, Phil Ewels Maciek Bak, Salvador Capella-Gutierrez, Michael R. Crusoe and Frederik Coppens (2020):  
-[**The WorkflowHub: A FAIR Registry for Workflows and Workflow Research Objects**](https://drive.google.com/file/d/1hy0OsSiXujpYayTsKL_01nikWDPhXGZ9/view?usp=sharing).  
-_[International FAIR Convergence Symposium](https://www.go-fair.org/events/international-fair-convergence-symposium/)_, 2020-11-27 / 2020-12-04. 
-
 ## Recent publications, presentations, citations
+
+### 2024
+
+Scott Edmunds (2024):
+[**A Decade of FAIR – and what next? Q&A on FAIR workflows with the Netherlands X-omics Initiative**](http://gigasciencejournal.com/blog/fair-workflows/).
+_GIGAblog_
+<http://gigasciencejournal.com/blog/fair-workflows/>
+
+Anna Niehues, Casper de Visser, Fiona A Hagenbeek, Purva Kulkarni, René Pool, Naama Karu, Alida S D Kindt, Gurnoor Singh, Robert R J M Vermeiren, Dorret I Boomsma, Jenny van Dongen, Peter A C ’t Hoen, Alain J van Gool (2024):
+[**A multi-omics data analysis workflow packaged as a FAIR Digital Object**](https://doi.org/10.1093/gigascience/giad115).
+_GigaScience_ **13**:giad115
+<https://doi.org/10.1093/gigascience/giad115>
 
 
 ### 2023
+
+Simone Leo, Michael R. Crusoe, Laura Rodríguez-Navas, Raül Sirvent, Alexander Kanitz, Paul De Geest, Rudolf Wittner, Luca Pireddu, Daniel Garijo, José M. Fernández, Iacopo Colonnelli, Matej Gallo, Tazro Ohta, Hirotaka Suetake, Salvador Capella-Gutierrez, Renske de Wit, Bruno de Paula Kinoshita, Stian Soiland-Reyes (2023):
+[**Recording provenance of workflow runs with RO-Crate**](https://doi.org/10.48550/arXiv.2312.07852).
+_arXiv_
+<https://doi.org/10.48550/arXiv.2312.07852>
+
+Raül Sirvent (2023):
+[**Workflow Provenance registration with COMPSs**](https://doi.org/10.5281/zenodo.10046567).
+_Innovative HPC workflows for industry_, 2023-10-25, Munich, Germany
+<https://doi.org/10.5281/zenodo.10046567>
 
 Casper de Visser, Lennart F. Johansson, Purva Kulkarni, Hailiang Mei, Pieter Neerincx, K. Joeri van der Velde, Péter Horvatovich, Alain J. van Gool, Morris A. Swertz, Peter A. C. ‘t Hoen, Anna Niehues (2023):  
 [**Ten quick tips for building FAIR workflows**](https://doi.org/10.1371/journal.pcbi.1011369).  
 _PLOS Computational Biology_  **19**(9): e1011369   
 <https://doi.org/10.1371/journal.pcbi.1011369>
 
-Goble, Carole, Soiland-Reyes, Stian, Bacall, Finn, Owen, Stuart, Pireddu, Luca, & Leo, Simone. (2023):  
+Carole Goble, Stian Soiland-Reyes, Finn Bacall, Stuart Owen, Luca Pireddu, Simone Leo (2023):  
 [**EOSC-Life Implementation of a mechanism for publishing and sharing workflows across instances of the environment**](https://doi.org/10.5281/zenodo.7886545)  
 _EOSC-Life Deliverable 2.3_  
 <https://doi.org/10.5281/zenodo.7886545>
@@ -270,6 +248,52 @@ See also:
 * [RO-Crate publications](https://www.researchobject.org/ro-crate/)
 * [FAIR computational workflows](https://workflows.community/groups/fair/)
 * [WorkflowsRI summits](https://workflowsri.org/summits/)
+
+
+
+## Posters
+ELIXIR Belgium (2023):  
+[**WorkflowHub**](https://doi.org/10.5281/zenodo.10039763).  
+_ELIXIR Belgium Conference 2023_, Ghent, Belgium, 23-24 October 2023.  
+<https://doi.org/10.5281/zenodo.10039763>
+
+Carole Goble, Finn Bacall, Stian Soiland-Reyes, Stuart Owen, Ignacio Eguinoa, Bert Droesbeke, Hervé Ménager, Laura Rodriguez-Navas, José M. Fernández, Salvador Capella-Gutierrez, Michael R. Crusoe, Björn Grüning, Smone Leo, Luca Pireddu, Marco Enrico Piras, Johan Gustafsson, Phil Ewels, WorkflowHub Community, Frederik Coppens (2023):  
+[**WorkflowHub – a fair registry for workflows**](https://f1000research.com/posters/12-571).  
+_ELIXIR All Hands 2023_, Dublin, Ireland, 5-8 June 2023.  
+<https://doi.org/10.7490/f1000research.1119430.1> 
+
+Nicola Soranzo, Carole Goble (2023):  
+[**BioFAIR: a new BioCommons infrastructure for UK life science**](https://doi.org/10.5281/zenodo.7708304).  
+_UKRI DRI Community Congress 2023_, Birmingham, UK, 6-7 March 2023.  
+<https://doi.org/10.5281/zenodo.7708304>
+
+Stian Soiland-Reyes, Peter Sefton, Leyla Jael Castro, Frederik Coppens, Daniel Garijo, Simone Leo, Marc Portier, Paul Groth (2022):  
+[**Creating lightweight FAIR Digital Objects with RO-Crate**](https://doi.org/10.3897/rio.8.e93937).  
+1st International Conference on FAIR Digital Objects ([FDO 2022](https://www.fdo2022.org/)) (poster)  
+_Research Ideas and Outcomes_ **8**:e93937  
+<https://doi.org/10.3897/rio.8.e93937>
+[[poster](https://doi.org/10.5281/zenodo.7245315)]
+
+José M Fernández, Laura Rodríguez-Navas, Salvador Capella-Gutiérrez (2022):  
+[**Secured and annotated execution of workflows with WfExS-backend**](https://doi.org/10.7490/f1000research.1119198.1).  
+_European Conference on Computational Biology (ECCB) 2022_, 
+The Global Alliance for Genomics And Health (GA4GH) 10th Plenary Meeting.  
+_F1000Research_ **11**:1318 (poster)  
+<https://doi.org/10.7490/f1000research.1119198.1>
+
+Carole Goble, Finn Bacall, Stian Soiland-Reyes, Stuart Owen, Alan Williams, Ignacio Eguinoa, Bert Droesbeke, Hervé Ménager, Laura Rodriguez-Navas, José M. Fernández, Salvador Capella-Gutierrez, Michael R. Crusoe, Björn Grüning, Simone Leo, Luca Pireddu, Johan Gustafsson, Phil Ewels, WorkflowHub Community, Frederik Coppens (2021):  
+[**The WorkflowHub: A FAIR Registry for Workflows and Workflow Research Objects**](https://drive.google.com/file/d/1Ge5bcKQBH03t5VH9IDIT0F8pfenNrw9-/view?usp=sharing).  
+_[BOSC 2021](https://www.open-bio.org/events/bosc-2021/)_, 
+[[poster](https://drive.google.com/file/d/1Ge5bcKQBH03t5VH9IDIT0F8pfenNrw9-/view?usp=sharing)], [[abstract](https://docs.google.com/document/d/1HI_S0Qssh4XFo17tk0TEulUnM-uKJ4Ll/edit)]
+
+Carole Goble, Finn Bacall, Stian Soiland-Reyes, Stuart Owen, Alan Williams, Ignacio Eguinoa, Bert Droesbeke, Hervé Ménager, Laura Rodriguez-Navas, Kiran K Telukunta, Flora D'Anna, José M. Fernández, Alban Gaignard, Ambarish Kumar, Maciek Bak, Ivan Topolsky, Salvador Capella-Gutierrez, Michael R. Crusoe and Frederik Coppens (2020):  
+[**The Workflow Hub: A Registry of Life Science Workflows**](https://drive.google.com/file/d/1HBg2YeSGmb0rNoEksjjM5PgEB5gWWdbC/view?usp=sharing).  
+_[ISMB 2020](https://www.iscb.org/cms_addon/conferences/ismb2020/posters.php)_
+[[video/slides](https://workflowhub.eu/presentations/1)], presented by Ambarish Kumar.
+
+Carole Goble, Finn Bacall, Stian Soiland-Reyes, Stuart Owen, Alan Williams, Ignacio Eguinoa, Bert Droesbeke, Flora D'Anna, Hervé Ménager, Laura Rodriguez-Navas, José M. Fernández, Ivan Topolsky,  Alban Gaignard, Björn Grüning, Simone Leo, Luca Pireddu, Phil Ewels Maciek Bak, Salvador Capella-Gutierrez, Michael R. Crusoe and Frederik Coppens (2020):  
+[**The WorkflowHub: A FAIR Registry for Workflows and Workflow Research Objects**](https://drive.google.com/file/d/1hy0OsSiXujpYayTsKL_01nikWDPhXGZ9/view?usp=sharing).  
+_[International FAIR Convergence Symposium](https://www.go-fair.org/events/international-fair-convergence-symposium/)_, 2020-11-27 / 2020-12-04. 
 
 
 ## WorkflowHub logo

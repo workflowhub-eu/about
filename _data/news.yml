@@ -1,6 +1,6 @@
 - name: New Gigascience article demonstrating a workflow packaged as a FAIR Digital Object
   date: 2024-01-22
-  description: See the full article here: [**A multi-omics data analysis workflow packaged as a FAIR Digital Object**](https://doi.org/10.1093/gigascience/giad115)
+  description: "See the full article here: [**A multi-omics data analysis workflow packaged as a FAIR Digital Object**](https://doi.org/10.1093/gigascience/giad115)"
 - name: WorkflowHub SOPs Workshop
   date: 2024-02-09
   description: "Join us on Friday Feb 9th 2024 at 14:00:00 (Central European Time) for an online workshop, where you can contribute to our discussions on hosting Standard Operating Procedures (SOPs) on WorkflowHub. Register [here](https://www.eventbrite.co.uk/e/workflowhub-sops-workshop-tickets-774636708247)."

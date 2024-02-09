@@ -8,7 +8,7 @@ While WorkflowHub is largely developed as a collaboration between [several proje
 
 ## WorkflowHub Club
 
-The [WorkflowHub Club](https://s.apache.org/workflowhub-minutes) is chaired by **Frederik Coppens**.
+[WorkflowHub Club](https://s.apache.org/workflowhub-minutes):
 
 * **Schedule**: Bi-weekly, Wednesday 10:00 BST / 11:00 CEST
 * **Agenda / call details**: <https://s.apache.org/workflowhub-minutes>

@@ -15,6 +15,11 @@ _Feel free to add to this page, either [edit and raise pull request](https://git
 
 ### 2024
 
+Mahnoor Zulfiqar, Michael R. Crusoe, Birgitta König-Ries, Christoph Steinbeck,Kristian Peters Luiz Gadelha (2024):  
+**Implementation of FAIR Practices in Computational Metabolomics Workflows**—A Case Study.  
+_Metabolites_ **14**(2)  
+<https://doi.org/10.3390/metabo14020118>
+
 Scott Edmunds (2024):  
 [**A Decade of FAIR – and what next? Q&A on FAIR workflows with the Netherlands X-omics Initiative**](http://gigasciencejournal.com/blog/fair-workflows/).  
 _GIGAblog_  

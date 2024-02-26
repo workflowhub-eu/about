@@ -87,6 +87,7 @@ Participants include:
 * Alan R Williams (The University of Manchester, EU-IBISBA, Bioschemas)
 * Alexander Vasilenko (VKM IBPM RAS, MIRRI)
 * Alexander Kanitz (University of Basel, Galaxy Project)
+* Alexandra-Andreea Has (University of Manchester, UX report)  
 * Alban Gaignard (ELIXIR-FR)
 * Ambarish Kumar (Jawaharlal Nehru University, New Delhi, India)
 * Antonio Rosato (INSTRUCT)

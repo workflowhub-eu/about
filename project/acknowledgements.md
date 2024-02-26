@@ -80,7 +80,7 @@ The WorkflowHub community collaborates closely with (at least) these projects:
 
 ## WorkflowHub Club
 
-The weekly [WorkflowHub Club](/project/community) is chaired by **Frederik Coppens**.
+The weekly [WorkflowHub Club](/project/community) is chaired by **Finn Bacall**.
 
 Participants include:
 
@@ -133,6 +133,7 @@ Participants include:
 * Robin Richardson (Netherlands eScience Center)
 * Romain Dallet (EMBRC)
 * Salvador Capella-Gutierrez (BSC, ELIXIR-ES)
+* Sean Wilkinson (Oak Ridge National Laboratory)  
 * Simone Leo (CRS4/BBMRI, EOSC-Life)
 * Sirarat Sarntivijai (ELIXIR-Hub)
 * Stian Soiland-Reyes (The University of Manchester, ELIXIR-UK, BioExcel, CWL)

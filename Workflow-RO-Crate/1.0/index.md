@@ -47,7 +47,7 @@ title: Workflow RO-Crate profile 1.0
 * Publisher: [WorkflowHub community](https://w3id.org/workflowhub/)
 * Permalink: <https://w3id.org/workflowhub/workflow-ro-crate/1.0> (this version)  
   <https://w3id.org/workflowhub/workflow-ro-crate/> (latest version)
-* Version: [1.0.2](https://github.com/workflowhub-eu/about/releases/tag/workflow-ro-crate-1.0.2)
+* Version: [1.0.3](https://github.com/workflowhub-eu/about/releases/tag/workflow-ro-crate-1.0.3)
 * [Profile Crate `ro-crate-metadata.json`](ro-crate-metadata.json)
   - [Profile Crate preview](ro-crate-preview.html)
 * [Example RO-Crate `ro-crate-metadata.json`](example/ro-crate-metadata.json)

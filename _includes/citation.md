@@ -5,6 +5,6 @@ If you would like to reference the WorkflowHub from academic work, please cite:
 > **Implementing FAIR Digital Objects in the EOSC-Life Workflow Collaboratory**.
 > 
 > _Zenodo_
-> <https://zenodo.org/record/4605654>
+> <https://doi.org/10.5281/zenodo.4605654>
 
 See also [publication and outreach](/project/outreach) for more specific work.

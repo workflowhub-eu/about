@@ -231,7 +231,7 @@ _ELIXIR All Hands 2021_, Workshop: Workflow Life Cycle, 2021-06-11
 
 Stian Soiland-Reyes (2021):
 [**Data provenance with RO-Crate**](http://slides.com/soilandreyes/2021-05-19-recording-provenance-with-ro-crate).
-_EOSC-Life retreat 2021_, Provenance of tools and workflows; FAIRification of workflows, 2021-05-19.
+_EOSC-Life retreat 2021_, Provenance of tools and workflows, FAIRification of workflows, 2021-05-19.
 
 Carole Goble, Stian Soiland-Reyes (2021):
 [**RO-Crate: A framework for packaging research products into FAIR Research Objects**](https://www.slideshare.net/carolegoble/rocrate-a-framework-for-packaging-research-products-into-fair-research-objects).  
@@ -300,6 +300,11 @@ Carole Goble, Finn Bacall, Stian Soiland-Reyes, Stuart Owen, Alan Williams, Igna
 _[BOSC 2021](https://www.open-bio.org/events/bosc-2021/)_, 
 [[poster](https://drive.google.com/file/d/1Ge5bcKQBH03t5VH9IDIT0F8pfenNrw9-/view?usp=sharing)], [[abstract](https://docs.google.com/document/d/1HI_S0Qssh4XFo17tk0TEulUnM-uKJ4Ll/edit)]
 
+Carole Goble, Stian Soiland-Reyes, Finn Bacall, Stuart Owen, Alan Williams, Ignacio Eguinoa, Bert Droesbeke, Simone Leo, Luca Pireddu, Laura Rodríguez-Navas, José Mª Fernández, Salvador Capella-Gutierrez, Hervé Ménager, Björn Grüning, Beatriz Serrano-Solano, Philip Ewels, Frederik Coppens (2021):  
+**Implementing FAIR Digital Objects in the EOSC-Life Workflow Collaboratory**.  
+_Zenodo_  
+<https://doi.org/10.5281/zenodo.4605654>
+
 Carole Goble, Finn Bacall, Stian Soiland-Reyes, Stuart Owen, Alan Williams, Ignacio Eguinoa, Bert Droesbeke, Hervé Ménager, Laura Rodriguez-Navas, Kiran K Telukunta, Flora D'Anna, José M. Fernández, Alban Gaignard, Ambarish Kumar, Maciek Bak, Ivan Topolsky, Salvador Capella-Gutierrez, Michael R. Crusoe and Frederik Coppens (2020):  
 [**The Workflow Hub: A Registry of Life Science Workflows**](https://drive.google.com/file/d/1HBg2YeSGmb0rNoEksjjM5PgEB5gWWdbC/view?usp=sharing).  
 _[ISMB 2020](https://www.iscb.org/cms_addon/conferences/ismb2020/posters.php)_
@@ -315,13 +320,13 @@ _[International FAIR Convergence Symposium](https://www.go-fair.org/events/inter
 The below logos can be used by for application, websites, posters, slides etc. for work that use, implement or support WorkflowHub and Workflow RO-Crate, linking to <https://workflowhub.eu/>. To ask permission for any other use, raise an [issue](https://github.com/ResearchObject/ro-crate/issues).
 
 <p style="vertical-align: bottom">
-  <img src="{{ '/assets/img/workflowhub.svg' | relative_url }}" style="max-width: 30%; max-height: 5em; vertical-align: middle" /> 
+  <img src="{{ '/assets/img/workflowhub.svg' | relative_url }}" style="max-width: 30%, max-height: 5em, vertical-align: middle" /> 
     [<a href="{{ '/assets/img/workflowhub.svg' | relative_url }}">svg</a>]
     [<a href="{{ '/assets/img/workflowhub.png' | relative_url }}">png</a>]
-  <img src="{{ '/assets/img/workflowhub-square.svg' | relative_url }}" style="margin-left: 1em; max-width: 30%; max-height: 5em; vertical-align: middle" />
+  <img src="{{ '/assets/img/workflowhub-square.svg' | relative_url }}" style="margin-left: 1em, max-width: 30%, max-height: 5em, vertical-align: middle" />
     [<a href="{{ '/assets/img/workflowhub-square.svg' | relative_url }}">svg</a>]
     [<a href="{{ '/assets/img/workflowhub-square.png' | relative_url }}">png</a>]
-  <img src="{{ '/assets/img/ro-crate-workflow.svg' | relative_url }}" style="margin-left: 1em; max-width: 30%; max-height: 5em; vertical-align: middle" />
+  <img src="{{ '/assets/img/ro-crate-workflow.svg' | relative_url }}" style="margin-left: 1em, max-width: 30%, max-height: 5em, vertical-align: middle" />
     [<a href="{{ '/assets/img/ro-crate-workflow.svg' | relative_url }}">svg</a>]
     [<a href="{{ '/assets/img/ro-crate-workflow.png' | relative_url }}">png</a>]
 </p>

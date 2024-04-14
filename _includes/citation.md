@@ -1,8 +1,9 @@
 If you would like to reference the WorkflowHub from academic work, please cite:
 
-> Carole Goble, Finn Bacall, Stian Soiland-Reyes, Stuart Owen, Ignacio Eguinoa, Bert Droesbeke, Hervé Ménager, Laura Rodriguez-Navas, José M. Fernández, Björn Grüning, Simone Leo, Luca Pireddu, Michael Crusoe, Johan Gustafsson, Salvador Capella-Gutierrez, Frederik Coppens (2023):  
-**The EOSC-Life Workflow Collaboratory for the Life Sciences**.  
-_Proceedings of the Conference on Research Data Infrastructure_ **1**  
-<https://doi.org/10.52825/cordi.v1i.352>
+> Carole Goble, Stian Soiland-Reyes, Finn Bacall, Stuart Owen, Alan Williams, Ignacio Eguinoa, Bert Droesbeke, Simone Leo, Luca Pireddu, Laura Rodríguez-Navas, José Mª Fernández, Salvador Capella-Gutierrez, Hervé Ménager, Björn Grüning, Beatriz Serrano-Solano, Philip Ewels, Frederik Coppens (2021):  
+> **Implementing FAIR Digital Objects in the EOSC-Life Workflow Collaboratory**.  
+> _Zenodo_  
+> <https://doi.org/10.5281/zenodo.4605654>
+
 
 See also [publication and outreach](/project/outreach) for more specific work.

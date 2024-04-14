@@ -24,6 +24,14 @@ For asynchronous communication, see also:
 * [Google Drive](https://drive.google.com/drive/folders/1_bZ63W4oRtWL5OnWJNYvE4u3A27VyGGe)
  (to request write-access, ask in Slack channel) 
 
+### Governance
+
+Product Owners:
+
+* Johan Gustafsson, Australian Biocommons
+* Carole Goble, The University of Manchester
+* Frederik Coppens, VIB 
+
 
 ## Code of conduct
 

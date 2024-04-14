@@ -47,7 +47,7 @@ title: Workflow RO-Crate profile 1.0
 * Publisher: [WorkflowHub community](https://w3id.org/workflowhub/)
 * Permalink: <https://w3id.org/workflowhub/workflow-ro-crate/1.0> (this version)  
   <https://w3id.org/workflowhub/workflow-ro-crate/> (latest version)
-* Version: [1.0.1](https://github.com/workflowhub-eu/about/releases/tag/workflow-ro-crate-1.0.1)
+* Version: [1.0.3](https://github.com/workflowhub-eu/about/releases/tag/workflow-ro-crate-1.0.3)
 * [Profile Crate `ro-crate-metadata.json`](ro-crate-metadata.json)
   - [Profile Crate preview](ro-crate-preview.html)
 * [Example RO-Crate `ro-crate-metadata.json`](example/ro-crate-metadata.json)
@@ -59,6 +59,14 @@ _Workflow RO-Crates_ are a specialization of [_RO-Crate_](https://researchobject
 
 WorkflowHub uses _Workflow RO-Crates_ as an exchange format for users to upload a packaged workflow. 
 
+## Extension profiles
+
+Several extensions of Workflow RO-Crate exists:
+
+* The [Workflow Run Crate](https://w3id.org/ro/wfrun) profiles extends Workflow RO-Crate to describe *workflow run provenance*, documenting execution of a workflow. 
+* [Five Safes RO-Crate](https://w3id.org/5s-crate/) refers to Workflow RO-Crate for the purpose of workflow execution in a distributed trusted research environment (TRE)
+
+ 
 ## Concepts
 
 This section uses terminology from the [RO-Crate 1.1 specification](https://w3id.org/ro/crate/1.1).

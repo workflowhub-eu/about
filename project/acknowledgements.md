@@ -80,13 +80,14 @@ The WorkflowHub community collaborates closely with (at least) these projects:
 
 ## WorkflowHub Club
 
-The weekly [WorkflowHub Club](/project/community) is chaired by **Frederik Coppens**.
+The weekly [WorkflowHub Club](/project/community) is chaired by **Finn Bacall**.
 
 Participants include:
 
 * Alan R Williams (The University of Manchester, EU-IBISBA, Bioschemas)
 * Alexander Vasilenko (VKM IBPM RAS, MIRRI)
 * Alexander Kanitz (University of Basel, Galaxy Project)
+* Alexandra-Andreea Has (University of Manchester, UX report)  
 * Alban Gaignard (ELIXIR-FR)
 * Ambarish Kumar (Jawaharlal Nehru University, New Delhi, India)
 * Antonio Rosato (INSTRUCT)
@@ -133,6 +134,7 @@ Participants include:
 * Robin Richardson (Netherlands eScience Center)
 * Romain Dallet (EMBRC)
 * Salvador Capella-Gutierrez (BSC, ELIXIR-ES)
+* Sean Wilkinson (Oak Ridge National Laboratory)  
 * Simone Leo (CRS4/BBMRI, EOSC-Life)
 * Sirarat Sarntivijai (ELIXIR-Hub)
 * Stian Soiland-Reyes (The University of Manchester, ELIXIR-UK, BioExcel, CWL)

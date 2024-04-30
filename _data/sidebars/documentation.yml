@@ -1,9 +1,9 @@
 title: Documentation
 subitems:
   - title: Quick start guide
-    title_url: /docs/index
+    url: /docs/index
   - title: Complete guide to using WorkflowHub
-    title_url: /docs/guide-to-using-workflowhub
+    url: /docs/guide-to-using-workflowhub
   - title: Detailed documentation
     subitems:
     - title: How to register

@@ -1,5 +1,6 @@
 ---
 title: Quick start guide
+toc: false
 redirect_from: 
      - /docs/before-you-start/
      - /docs/onboarding/
@@ -7,7 +8,7 @@ redirect_from:
 ---
 
 
-WorkflowHub will help make your workflows findable and citable, and this guide will help you get started with that process.
+**WorkflowHub will help make your workflows findable and citable, and this guide will help you get started with that process.**
 
 {% include callout.html type="tip" content="if you want to test WorkflowHub and its features, there is a [development instance available here](https://dev.workflowhub.eu/)." %}
 

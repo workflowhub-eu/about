@@ -106,6 +106,13 @@ Workflows can be grouped into collections. This allows users to organise workflo
 Both collections are managed by the [ERGA Assembly Team](https://workflowhub.eu/projects/163). Members of other Teams can be added as `Maintainers` if required, which allows them to add and remove workflows from the collection.
 
 
+## Case study: Australian BioCommons
+
+An example of the application of this guide is given with the case of the [Australian BioCommons Space](https://workflowhub.eu/programmes/8). The Space contains multiple Teams. These include service related Teams such as the [Galaxy Australia Team](https://workflowhub.eu/projects/54), and research facilities such as the [Sydney Informatics Hub Team](https://workflowhub.eu/projects/43). Workflows are registered and maintained by Teams individually or in combination. For example, the [Somatic-ShortV-nf workflow](https://workflowhub.eu/workflows/691) is registered under both the Australian BioCommons and the Sydney Informatics Hub Teams.
+
+![](images/workflows_teams_spaces_2.png)
+
+
 ## Registering workflows in WorkflowHub
 
 ### Joining WorkflowHub
@@ -267,9 +274,9 @@ You can assign DOIs for workflows you have registered and that you have been giv
 
 The citation itself will appear on the workflow’s overview page.
 
-Assigning a DOI has two steps
+### Assigning a DOI has two steps
 
-### 1. Check metadata
+#### 1. Check metadata
 
 The metadata for the workflow will be part of the DataCite registration.
 
@@ -285,7 +292,7 @@ Use both `Actions` -> `Edit Workflow` and `Actions` -> `Manage workflow` to fill
 
 For each of the registered users, check that their [ORCID identifier](https://orcid.org/) has been registered. This ensures that the people will be uniquely identified. Users can edit “My Profile” to link to ORCID.
 
-### 2. Freeze the workflow version 
+#### 2. Freeze the workflow version 
 
 Once a DOI is assigned that workflow version is fixed as a snapshot. So before minting a DOI, we need to freeze the version of the workflow in WorkflowHub, so that its metadata stays consistent with the DOI registration.
 Each version of the workflow must be registered separately. 

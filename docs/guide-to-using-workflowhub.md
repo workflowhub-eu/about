@@ -16,7 +16,7 @@ This generic version of Guide to Using WorkflowHub is intended to be cloned and 
 
 **Authors:** Carole Goble, Finn Bacall, Stian Soiland-Reyes, Ove Johan Ragnar Gustafsson, Rafael Andrade Buono
 
-**Cite as:** [https://doi.org/10.48546/workflowhub.sop.13.1](https://doi.org/10.48546/workflowhub.sop.13.1) 
+**Cite as:** [https://doi.org/10.48546/workflowhub.sop.13.4](https://doi.org/10.48546/workflowhub.sop.13.4) 
 
 
 ## A workflows organisation in WorkflowHub

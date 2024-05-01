@@ -110,7 +110,7 @@ Both collections are managed by the [ERGA Assembly Team](https://workflowhub.eu/
 
 An example of the application of this guide is given with the case of the [Australian BioCommons Space](https://workflowhub.eu/programmes/8). The Space contains multiple Teams. These include service related Teams such as the [Galaxy Australia Team](https://workflowhub.eu/projects/54), and research facilities such as the [Sydney Informatics Hub Team](https://workflowhub.eu/projects/43). Workflows are registered and maintained by Teams individually or in combination. For example, the [Somatic-ShortV-nf workflow](https://workflowhub.eu/workflows/691) is registered under both the Australian BioCommons and the Sydney Informatics Hub Teams.
 
-![](images/workflows_teams_spaces_2.png)
+![](../images/workflows_teams_spaces_2.png)
 
 
 ## Registering workflows in WorkflowHub

@@ -372,6 +372,13 @@ For WorkflowHub guides as SOPs it is recommended to use the following versioning
 2. A versioned release/snapshot of the SOP is exported from Google Doc, e.g. to PDF or converted to Markdown (for the project’s own website or wiki).
    - Use `Register new version` and either upload the PDF or link to the website (with a version-specific URL).   You may assign a DOI to this version and link to it from project deliverables etc. – however any further updates are still done in Google Docs (version 1).
 
+Multiple variants of the generic WorkflowHub guide can be used as starting point:
+
+- [Google docs version](https://doi.org/10.48546/workflowhub.sop.13.1)
+- [PDF version](https://doi.org/10.48546/workflowhub.sop.13.2)
+- [Open Document Format](https://doi.org/10.48546/workflowhub.sop.13.3) (e.g. for Word)
+- [Web version](https://doi.org/10.48546/workflowhub.sop.13.4) (this page, see [Markdown source](https://github.com/workflowhub-eu/about/blob/master/docs/guide-to-using-workflowhub.md))
+
 ### Events, Presentations and Publications
 
 WorkflowHub supports metadata and links to Events, as well as registering Presentations and Publications.

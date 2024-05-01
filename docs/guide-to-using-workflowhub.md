@@ -259,11 +259,6 @@ Workflows can be linked to data by uploading or linking this data in WorkflowHub
 Alternatively if your dataset is already uploaded, then you can, under `Actions` → `Edit Workflow`, select your datasets from the `Data Files` section
 
 
-## Case study: Australian BioCommons
-
-An example of the application of this guide is given with the case of the [Australian BioCommons Space](https://workflowhub.eu/programmes/8). The Space contains multiple Teams. These include service related Teams such as the [Galaxy Australia Team](https://workflowhub.eu/projects/54), and research facilities such as the [Sydney Informatics Hub Team](https://workflowhub.eu/projects/43). Workflows are registered and maintained by Teams individually or in combination. For example, the [Somatic-ShortV-nf workflow](https://workflowhub.eu/workflows/691) is registered under both the Australian BioCommons and the Sydney Informatics Hub Teams.
-
-
 ## Publishing workflows
 
 Workflows registered in [WorkflowHub](https://workflowhub.eu/) that are public can be assigned a [DOI (Digital Object Identifier)](https://www.doi.org/) so that they can more easily be cited in academic work and enter the scholarly knowledge graphs.

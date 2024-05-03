@@ -1,3 +1,6 @@
+- name: Guidance for projects looking to use WorkflowHub
+  date: 2024-05-03
+  description: "New in our documentation pages is a guide targeted towards projects on how they can best make use of WorkflowHub's features. [Available here](https://about.workflowhub.eu/docs/guide-to-using-workflowhub/)"
 - name: New Gigascience article demonstrating a workflow packaged as a FAIR Digital Object
   date: 2024-01-22
   description: "See the full article here: [**A multi-omics data analysis workflow packaged as a FAIR Digital Object**](https://doi.org/10.1093/gigascience/giad115)"

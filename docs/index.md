@@ -19,7 +19,7 @@ Register yourself on the [sign up page](https://workflowhub.eu/signup) of Workfl
 
 ## 2. Decide which `Space` you would like to create a `Team` in
 
-**Figure 1** below highlights the basic structure of WorkflowHub, and examples of the three types of `Spaces` where you could create a `Team`. Learn more about `Teams` and `Spaces` [here](/docs/space_team_organisation).
+**Figure 1** below highlights the basic structure of WorkflowHub, and examples of the three types of `Spaces` where you could create a `Team`. Learn more about `Teams` and `Spaces` [here](/docs/space-team-organisation).
 
 You can request to create a `Team` in any or all of the following `Spaces`:
 
@@ -40,7 +40,7 @@ You can request to create a `Team` in any or all of the following `Spaces`:
 
 Go to the [create](https://workflowhub.eu/projects/guided_create) and [join](https://workflowhub.eu/projects/guided_join) a team page from WorkflowHub to do so.
 
-More information on how to join a team can be found on the [how to create and join teams and spaces](/docs/join_create_teams_spaces)
+More information on how to join a team can be found on the [how to create and join teams and spaces](/docs/join-create-teams-spaces)
 {% include callout.html type="important" content="if you are creating a team, make sure the team name is descriptive." %}
 
 

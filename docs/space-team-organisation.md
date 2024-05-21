@@ -5,7 +5,7 @@ redirect_from:
     - /what-is-a-team/
 ---
 
-{% include callout.html type="important" content="Instructions for joining and creating teams and spaces can be [found here](/docs/join_create_teams_spaces)." %}
+{% include callout.html type="important" content="Instructions for joining and creating teams and spaces can be [found here](/docs/join-create-teams-spaces)." %}
 
 
 ## What is a Team?
@@ -59,7 +59,7 @@ Your Organization is your affiliation within the context of the Team. It can be 
 ### Description
 An Organization only requires a Title, but can also include optional location information about the city and country. 
 
-You will be asked to choose or define a new Organization when [joining or creating a Team](/docs/join_create_teams_spaces). 
+You will be asked to choose or define a new Organization when [joining or creating a Team](/docs/join-create-teams-spaces). 
 
 {% include callout.html type="note" content="You can be linked to multiple different Organizations for multiple different Teams." %}
 

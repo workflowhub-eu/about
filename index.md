@@ -1,8 +1,10 @@
 ---
 title: WorkflowHub project
-hide_sidebar: true
 toc: false
 permalink: /
+# There are special sidebar rules for the index page in layouts/default.html
+hide_sidebar: true
+sidebar: true
 ---
 
 [WorkflowHub](https://workflowhub.eu/) is a FAIR **workflow registry** sponsored by the European RI Cluster EOSC-Life,  the European Research Infrastructure ELIXIR and [multiple EU-wide projects](/project/acknowledgements/#funding). It is workflow management system agnostic: workflows may remain in their native repositories in their native forms.

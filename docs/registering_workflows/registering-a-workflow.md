@@ -10,16 +10,17 @@ redirect_from:
 
 ## What is the overall process for registration?
 
-Using the WorkflowHub registration wizard:
 
-1. Import a workflow file. These can be:
-   1. A local file, or files
-   2. A remote file URL
-   3. A git repository
-   4. A zipped Research Object Crate (RO-crate)
-2. Register the workflow
-3. Add relevant metadata
-4. Review the entry and finalise registration
+1. Register and log-in
+2. Make sure you are a member of a Team
+3. Using the WorkflowHub registration wizard, import and add a workflow file. These files can be:
+   - A local file, or files 
+   - A remote file URL 
+   - A git repository 
+   - A zipped [Research Object Crate (RO-crate)](https://about.workflowhub.eu/Workflow-RO-Crate/)
+4. Register the workflow
+5. Add relevant metadata
+6. Review the entry and finalise registration
 
 {% include callout.html type="important" content="You can also register your workflow using a Research Object Crate (RO-Crate). This is an option for advanced users, and  further instructions can be found here. The advanced way: registering a workflow RO-crate When you have created a workflow RO-Crate of your workflow  using the python package, and want to upload or reference it." %}
 

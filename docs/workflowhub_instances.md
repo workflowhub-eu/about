@@ -1,8 +1,8 @@
 ---
-title: WorkflowHub development instance
+title: WorkflowHub instances
 ---
 
-The main WorkflowHub registry for workflows is available here: ([https://workflowhub.eu/](https://workflowhub.eu/)).
+The main WorkflowHub registry for workflows is available here: [https://workflowhub.eu/](https://workflowhub.eu/).
 
 But, did you know that WorkflowHub also operates a development instance? [https://dev.workflowhub.eu/](https://dev.workflowhub.eu/)
 

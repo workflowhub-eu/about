@@ -10,7 +10,6 @@ redirect_from:
 
 ## What is the overall process for registration?
 
-
 1. Register and log-in
 2. Make sure you are a member of a Team
 3. Using the WorkflowHub registration wizard, import and add a workflow file. These files can be:

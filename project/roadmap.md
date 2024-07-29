@@ -29,23 +29,34 @@ See also:
 * Search/filtering improvements
 -->
 
-## Spring 2023
-* Improved workflow branding
-* Extended execution link support (additional Galaxy instances, Jupyter/Binder, Nextflow Tower, etc.)
-* GitHub app for automated workflow submission
-* Improved curation support
-* Workflow/WorkflowHub best-practice guide
+## 2024 activities
 
-## Late 2023
-* Support for linking together workflows to variants and subworkflows
-* Better RO-Crate support for additional Workflow Management Systems (e.g. Snakemake, Nextflow)
-* Working with Workflow Management Systems to improve how tool metadata is exposed in their native formats
+* GitHub app for automated workflow submission and synchronisation
 * Closer collaboration with journals
-* Targeting additional workflow communities on GitHub, GitLab etc. (in addition to IWC, nf-core)
-* Collecting basic workflow execution metrics
+* Better RO-Crate support for additional Workflow Management Systems (e.g. Snakemake, Nextflow)
+* Collaborating with additional workflow communities (Galaxy Training Network)
+* Collaborating with additional workflow communities (Snakemake)
+* WorkflowHub manuscript
+* Documentation site updates and streamlining
 
-## 2024 onwards
+
+## Future work (i.e. 2025 onwards)
+
+* Collecting basic workflow execution metrics
+* Workflow / WorkflowHub best-practice guide
+* Improved workflow branding
+* Support for linking together workflows to variants and subworkflows
+* Working with Workflow Management Systems to improve how tool metadata is exposed in their native formats
+* Improved curation support
 * One-click publish of workflows to LifeMonitor
 * Curation campaign
 * OpenEBench integration
 * Registering as a trusted registry and adhering to the TRUST principles
+
+
+## Completed activities
+
+* Extended execution link support (additional Galaxy instances, Jupyter/Binder, Nextflow Tower, etc.)
+* Generic guides and customised consortium specific guides for WorkflowHub
+* Collaborating with additional workflow communities (Nf-core automatic registration and annotation)
+

@@ -5,7 +5,7 @@ title: A guide to organising your workflows on WorkflowHub
 The documentation below provides guidance on the relationship between a given workflow and the structural elements of the WorkflowHub registry: `Spaces`, `Teams` and `Collections`. 
 We also provide examples of how to structure larger consortia and projects on WorkflowHub that accommodates recognition of multiple `Organisations` and `Teams`, potentially across multiple `Spaces`.
 
-[More information on Spaces, Teams and Organisations](https://about.workflowhub.eu/docs/joining-a-team/).
+[More information on Spaces, Teams and Organisations](https://about.workflowhub.eu/docs/space-team-organisation/).
 
 {% include image.html file="workflows_teams_spaces_1.png" caption="Fig 1. Example WorkflowHub Space structures." %}
 

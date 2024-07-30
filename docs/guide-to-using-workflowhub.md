@@ -1,6 +1,5 @@
 ---
 title:  A guide to using WorkflowHub
-toc: false
 ---
 
 **If your research project is producing workflows, they should be registered in WorkflowHub:**
@@ -191,7 +190,7 @@ Note that you need to use Manage workflow to change its permissions or team owne
 
 ### Update the workflow version manually
 
-#### If the workflow was imported via Git
+#### If the workflow was uploaded manually, or via an RO-Crate
 
 Files can be added/removed/modified via the `Files` tab if the current version is `Open`.
 
@@ -208,7 +207,7 @@ A version must be `Frozen` before a new version can be created, or before a DOI 
 2. Click `New Version`
 3. Decide either to continue managing the files on WorkflowHub (`Upload/Import files`), or switch to using a Git repository (`Import Git Version`).
 
-#### If the workflow was uploaded manually, or via an RO-Crate
+#### If the workflow was imported via Git
 
 1. Go to the `Actions` dropdown menu 
 2. Click `New Version` 

@@ -63,6 +63,7 @@ WorkflowHub uses _Workflow RO-Crates_ as an exchange format for users to upload 
 
 Several extensions of Workflow RO-Crate exists:
 
+* [Workflow Testing RO-Crate](https://lifemonitor.eu/workflow_testing_ro_crate) defines test infrastructure recognized by [LifeMonitor](https://lifemonitor.eu/)
 * The [Workflow Run Crate](https://w3id.org/ro/wfrun) profiles extends Workflow RO-Crate to describe *workflow run provenance*, documenting execution of a workflow. 
 * [Five Safes RO-Crate](https://w3id.org/5s-crate/) refers to Workflow RO-Crate for the purpose of workflow execution in a distributed trusted research environment (TRE)
 

@@ -73,11 +73,15 @@ The steps for creating a Team are outlined here:
 - If you already administer an existing Space, a dropdown box will be shown instead allowing you to select it. 
 - Only the title is required at this stage, and further details can be added once the Team has been created.
 
+{:start="2"}
+
 2. You next need to define the `Team`. The minimum requirement is a Title, but you can also provide a:
    - Description, and 
    - Webpage URL 
 
 {% include callout.html type="note" content="Once created you can edit and add additional details and add members." %}    
+
+{:start="3"}
 
 3. You then need to define **your** Organization. 
 4. Start to type the name of your Organization, and existing options will be displayed that contain the text you type (or information related to the Organization such as city or country). 

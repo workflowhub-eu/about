@@ -4,7 +4,7 @@ description: >
   Project pages for developing and running WorkflowHub, 
   a registry of scientific workflows.
 
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@1.23.0
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@2.5.0
 
 permalink: pretty
 
@@ -14,26 +14,22 @@ defaults:
       type: "pages"
     values:
       layout: "page"
-  -
-    scope:
+  - scope:
       path: "project"
       type: "pages"
     values:
       sidebar: about
-  -
-    scope:
+  - scope:
       path: "docs"
       type: "pages"
     values:
       sidebar: documentation
-  -
-    scope:
+  - scope:
       path: "developer"
       type: "pages"
     values:
       sidebar: documentation
-  -
-    scope:
+  - scope:
       path: "Workflow-RO-Crate"
       type: "pages"
     values:

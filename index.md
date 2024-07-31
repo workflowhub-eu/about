@@ -1,8 +1,10 @@
 ---
 title: WorkflowHub project
-hide_sidebar: true
 toc: false
 permalink: /
+# There are special sidebar rules for the index page in layouts/default.html
+hide_sidebar: true
+sidebar: true
 ---
 
 [WorkflowHub](https://workflowhub.eu/) is a FAIR **workflow registry** sponsored by the European RI Cluster EOSC-Life,  the European Research Infrastructure ELIXIR and [multiple EU-wide projects](/project/acknowledgements/#funding). It is workflow management system agnostic: workflows may remain in their native repositories in their native forms.
@@ -13,6 +15,15 @@ For more details, see [About WorkflowHub](/project), [FAIR Computational Workflo
 
 For any kind of questions or suggestions on using WorkflowHub, feel free to join our [community](/project/community)!
 
+## Documentation
+
+* [Documentation & Quick Start guide](docs/) (See also _Detailed Documentation_)
+* [Guide to using WorkflowHub](docs/guide-to-using-workflowhub/)
+* [Developer docs](developer/)
+* Tutorial vidoes: 
+  - [Make your workflows findable and citable](https://www.youtube.com/watch?v=2kGKxaPuQN8) ([slides](https://doi.org/10.5281/zenodo.7787488))
+  - [WorkflowHub ask-me-anything](https://workflowhub.eu/presentations/19?version=1) tutorial session
+
 ## Project resources
 
 * **Production instance**: <https://workflowhub.eu/> 
@@ -22,7 +33,7 @@ For any kind of questions or suggestions on using WorkflowHub, feel free to join
 * **[Outreach and Publications](/project/outreach/)**
 * **EOSC-Life Deliverable 2.3**: <https://doi.org/10.5281/zenodo.7886545>
 * **Tasks**: 
-  * [WorkflowHub roadmap](/project/roadmap)
+  * [WorkflowHub roadmap](/project/roadmap) (deprecated -- now managed in Trello)
   * WorkflowHub implementation <https://github.com/seek4science/seek/projects/3> (SEEK)
   * General WorkflowHub <https://github.com/workflowhub-eu/about/issues>
 * **Mailing list**: [`workflowhub😊elixir-europe.org`](https://lists.elixir-europe.org/mailman/listinfo/workflowhub_elixir-europe.org) ([subscribe](https://lists.elixir-europe.org/mailman/listinfo/workflowhub_elixir-europe.org)/[archive](https://mail.elixir-europe.org/pipermail/workflowhub_elixir-europe.org/))

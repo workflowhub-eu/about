@@ -1,35 +1,36 @@
 <!doctype html>
 <html lang="en">
 {% include head.html %}
-<body>
-    {% include topnav.html %}
-    <!-- Page Content -->
-    <div class="container min-vh-100">
-        <!-- Content Row -->
-        <div class="row gx-0 gx-lg-5">
-            <!-- Sidebar Column -->
-            <div class="col-lg-3 {% if page.hide_sidebar %}sidebar-col{% endif %}">
-                {%- unless page.hide_sidebar %}
-                {% include sidebar.html %}
-                {%- else %}
-                {%- if page.path == "index.md" %}
-                {% include sidebar-news.html %}
-                {% include sidebar-events.html %}
-                {%- endif %}
-                {%- endunless %}
-            </div>
-            <!-- Content Column -->
-            <div class="col-lg-9 {% if page.hide_sidebar %}content-col{% endif %}">
-                {{content}}
-            </div>
-        </div>
+<body class="d-flex flex-column min-vh-100"{% unless page.toc == false %} data-bs-spy="scroll" data-bs-target="#toc-contents" data-bs-smooth-scroll="true" tabindex="0"{% endunless %}>
+{% if jekyll.environment == "development" %}{% include dev-info.html %}{% endif %}
+{% include topnav.html %}
+<!-- Page Content -->
+<div class="container flex-grow-1">
+    <!-- Content Row -->
+    <div {% unless page.sidebar == nil or page.sidebar == false %}id="layout" class="gap-5"{% endunless %}>
+        <!-- Sidebar -->
+        {%- unless page.sidebar == nil or page.sidebar == false %}
+        <aside id="sidebar">
+            {%- unless page.hide_sidebar %}
+            {% include sidebar.html %}
+            {%- else %}
+            {%- if page.path == "index.md" %}
+            {% include sidebar-news.html %}
+            {% include sidebar-events.html %}
+            {%- endif %}
+            {%- endunless %}
+        </aside>
+        {% endunless %}
+        <!-- Content -->
+        {{content}}
     </div>
-    {%- if site.theme_variables.back_to_top or site.theme_variables.back_to_top == nil %}
-    <button id="back-to-top" class="btn btn-primary text-white" type="button" aria-hidden="true" onclick="topFunction()">
-        <i class="fa-solid fa-arrow-up"></i>
-    </button>
-    {%- endif %}
-    {% include footer.html %}
-    {% include cookie-popup.html %}
+</div>
+{%- if site.theme_variables.back_to_top or site.theme_variables.back_to_top == nil %}
+<button id="back-to-top" class="btn btn-primary rounded-3" type="button" aria-hidden="true" onclick="topFunction()">
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+{%- endif %}
+{% include footer.html %}
+{% include cookie-popup.html %}
 </body>
 </html>

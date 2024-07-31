@@ -1,34 +1,14 @@
 ---
 title: Quick start guide
+toc: false
 redirect_from: 
      - /docs/before-you-start/
      - /docs/onboarding/
-    - /docs/getting-started/
+     - /docs/getting-started/
 ---
 
 
-## Quick reminder of the process
-
-1. [Login](https://workflowhub.eu/login) to WorkflowHub
-2. Select `Contribute` on the main page
-3. Select the `Import Git repository` option
-4. Add your Git repository URL and click `Register`
-5. Complete the required metadata ([title](/docs/metadata-list#title), [projects/teams](/docs/metadata-list#teams) and [creators](/docs/metadata-list#creators))
-6. Click `Register`
-7. Review the final workflow entry and edit as needed
-
-{% include callout.html type="important" content="You can also register your workflow using a Research Object Crate (RO-Crate). This is an option for advanced users, and  further instructions can be found here. The advanced way: registering a workflow RO-crate When you have created a workflow RO-Crate of your workflow  using the python package, and want to upload or reference it." %}
-
-> **In development**
-_Registering a workflow RO-Crate using the API_
-> We are working on a WorkflowHub API that will allow the user 
-> to automatically register workflow RO-Crates. Not all features are 
-> yet developed, but a glimpse of the API can be found here.
-
-
-## Onboarding to WorkflowHub
-
-WorkflowHub will help make your workflows findable and citable, and this guide will help you get started with that process.
+**WorkflowHub will help make your workflows findable and citable, and this guide will help you get started with that process.**
 
 {% include callout.html type="tip" content="if you want to test WorkflowHub and its features, there is a [development instance available here](https://dev.workflowhub.eu/)." %}
 
@@ -39,7 +19,7 @@ Register yourself on the [sign up page](https://workflowhub.eu/signup) of Workfl
 
 ## 2. Decide which `Space` you would like to create a `Team` in
 
-**Figure 1** below highlights the basic structure of WorkflowHub, and examples of the three types of `Spaces` where you could create a `Team`. Learn more about `Teams` and `Spaces` [here](/docs/space_team_organisation).
+**Figure 1** below highlights the basic structure of WorkflowHub, and examples of the three types of `Spaces` where you could create a `Team`. Learn more about `Teams` and `Spaces` [here](/docs/space-team-organisation).
 
 You can request to create a `Team` in any or all of the following `Spaces`:
 
@@ -60,7 +40,7 @@ You can request to create a `Team` in any or all of the following `Spaces`:
 
 Go to the [create](https://workflowhub.eu/projects/guided_create) and [join](https://workflowhub.eu/projects/guided_join) a team page from WorkflowHub to do so.
 
-More information on how to join a team can be found on the [how to create and join teams and spaces](/docs/join_create_teams_spaces)
+More information on how to join a team can be found on the [how to create and join teams and spaces](/docs/join-create-teams-spaces)
 {% include callout.html type="important" content="if you are creating a team, make sure the team name is descriptive." %}
 
 

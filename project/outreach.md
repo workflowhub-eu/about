@@ -102,6 +102,16 @@ _GigaScience_ **12**:giad006
 
 ### 2022
 
+Michael R. Crusoe, Sanne Abeln, Alexandru Iosup, Peter Amstutz, John Chilton, Nebojša Tijanić, Hervé Ménager, Stian Soiland-Reyes, Bogdan Gavrilović, Carole Goble, and The CWL Community (2022):
+[**Methods included: standardizing computational reuse and portability with the Common Workflow Language**](https://doi.org/10.1145/3486897).  
+Commun. ACM 65, 6 (June 2022), 54–63.
+<https://doi.org/10.1145/3486897>
+
+Brack P, Crowther P, Soiland-Reyes S, Owen S, Lowe D, Williams AR, et al. (2022):
+[**Ten simple rules for making a software tool workflow-ready**](https://doi.org/10.1371/journal.pcbi.1009823).  
+PLoS Comput Biol 18(3): e1009823.
+<https://doi.org/10.1371/journal.pcbi.1009823>
+
 Beatriz Serrano-Solano,
 Anne Fouilloux,
 Ignacio Eguinoa,

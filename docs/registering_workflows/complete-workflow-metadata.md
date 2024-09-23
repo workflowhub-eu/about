@@ -2,7 +2,7 @@
 title: Complete workflow metadata
 ---
 
-The next page is a form that gathers the necessary metadata that will be enclosed in the WorkflowHub entry, and ultimately the RO-Crate (which is automatically generated).
+The next page is a form that gathers the necessary metadata that will be enclosed in the WorkflowHub entry. This metadata will also be included in the RO-Crate metadata for the workflow, which is automatically generated when the workflow is submitted.
 
 
 ## Metadata part A

@@ -16,7 +16,7 @@ redirect_from:
    - A local file, or files 
    - A remote file URL 
    - A git repository 
-   - A zipped [Research Object Crate (RO-crate)](https://about.workflowhub.eu/Workflow-RO-Crate/)
+   - A zipped [Research Object Crate (RO-Crate)](https://about.workflowhub.eu/Workflow-RO-Crate/)
 4. Register the workflow
 5. Add relevant metadata
 6. Review the entry and finalise registration

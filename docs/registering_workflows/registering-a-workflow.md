@@ -1,6 +1,7 @@
 ---
 title: Registering a workflow on WorkflowHub
 redirect_from: 
+  - /registering-a-workflow/
   - /registering-workflows/
   - /Registering-an-existing-Workflow-RO-Crate/
   - /How-to-register-your-workflow(s)-in-WorkflowHub/

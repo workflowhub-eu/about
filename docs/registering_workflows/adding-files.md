@@ -2,15 +2,14 @@
 title: Adding files
 ---
 
-The page you are taken to presents four options for registering a workflow and its associated files. 
+The page you are taken to presents four options for registering a workflow and its associated files:
 
+* [Upload / import a local file](#upload--import-a-local-file)
+* [Upload / import using a remote file URL](#remote-url)
+* [Importing a Git repository](#git)
+* [Upload / Import a Workflow RO-Crate](#ro-crate)
 
-## Recommendation
-
-*We recommend referencing the files, for example towards a GitHub repo, since we want to be a hub and not a repository for workflows.*
-
-*This also allows us to show the source link of the RO-Crate on the workflow page and include this in the RO-Crate metadata. In case the referencing would not work, for example with referencing Galaxy instances, you can always use the source metadata field later in the registration.*
-
+{% include callout.html type="tip" content="It is recommended to import from a remote URL or Git repository (including remote RO-Crates), as WorkflowHub is intended to be a hub for finding workflows, not an archive for storing them." %}
 
 
 ## Upload / import a local file
@@ -77,7 +76,7 @@ _Fig 5. Selecting a target branch or release tag as well as the main executable 
 
 
 
-## Upload / Import a workflow RO-Crate {#ro-crate}
+## Upload / Import a Workflow RO-Crate {#ro-crate}
 
 1. Add an RO-Crate zip file, either via:
     1. A local file upload using the `Browse…` button, or

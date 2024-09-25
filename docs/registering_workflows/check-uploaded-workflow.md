@@ -4,8 +4,7 @@ title: Check the uploaded workflow
 
 
 * Make sure that all the metadata you filled in previously is shown properly and is correct (**Fig 10**). 
-* WorkflowHub generates an RO-Crate based on these files and the metadata you filled in while registering the workflow. 
-* Click Download RO-Crate to check whether all metadata files (JSON-LD and HTML) are correctly generated.
+* WorkflowHub generates an RO-Crate based on these files and the metadata you filled in while registering the workflow. Click Download RO-Crate to check whether the metadata files (`ro-crate-metadata.json` and `ro-crate-preview.html`) are correctly generated.
 * **Figure 11** shows a real world workflow for [Cheminformatics](https://workflowhub.eu/workflows/18) registered on WorkflowHub.
 
 

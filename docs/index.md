@@ -60,6 +60,6 @@ More information on how to join a team can be found on the [how to create and jo
 
 Workflows can be registered using the [WorkflowHub wizard](https://workflowhub.eu/workflows/new)
 
-There is an extensive guide to the [workflow registration process](/docs/registering-a-workflow/) available in the WorkflowHub documentation.
+There is an extensive guide to the [workflow registration process](/docs/registering_workflows/registering-a-workflow/) available in the WorkflowHub documentation.
 
 {% include callout.html type="important" content="We recommend importing a git repository (e.g. GitHub), since WorkflowHub is a hub / registry and not a repository." %}

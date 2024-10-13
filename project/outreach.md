@@ -15,7 +15,22 @@ _Feel free to add to this page, either [edit and raise pull request](https://git
 
 ### 2024
 
-Mahnoor Zulfiqar, Michael R. Crusoe, Birgitta König-Ries, Christoph Steinbeck,Kristian Peters Luiz Gadelha (2024):  
+Ove Johan Ragnar Gustafsson, Sean R. Wilkinson, Finn Bacall, Stian Soiland-Reyes, Simone Leo, Luca Pireddu, Stuart Owen, Nick Juty, José Mª Fernández, Tom Brown, Hervé Ménager, Björn Grüning, Salvador Capella-Gutierrez, Frederik Coppens, Carole Goble (2024):  
+[**WorkflowHub: a registry for computational workflows**](https://doi.org/10.48550/arXiv.2410.06941).  
+_arXiv_:2410.06941 [cs.DL]  
+<https://doi.org/10.48550/arXiv.2410.06941>
+
+Sean Wilkinson, Meznah Aloqalaa, Khalid Belhajjame, Michael R. Crusoe, Bruno de Paula Kinoshita, Luiz Gadelha, Daniel Garijo, Ove Johan Ragnar Gustafsson, Nick Juty, Sehrish Kanwal, Farah Zaib Khan, Johannes Köster, Karsten Peters-von Gehlen, Line Pouchard, Randy K. Rannow, Stian Soiland-Reyes, Nicola Soranzo, Shoaib Sufi, Ziheng Sun, Baiba Vilne, Merridee A. Wouters, Denis Yuen, Carole Goble (2024):  
+[**Applying the FAIR Principles to Computational Workflows**](https://doi.org/10.48550/arXiv.2410.03490).  
+_arXiv_ 2410.03490 [cs.DL]  
+<https://doi.org/10.48550/arXiv.2410.03490>
+
+Nathan Maligeay, Noémie Bossut, Khalid Belhajjame (2024):  
+[**Why Do Scientific Workflows Still Break?**](http://doi.org/10.1145/3676288.3676300)  
+_Proceedings of the 36th International Conference on Scientific and Statistical Database Management_ (SSDBM '24)  
+<https://doi.org/10.1145/3676288.3676300>
+
+Mahnoor Zulfiqar, Michael R. Crusoe, Birgitta König-Ries, Christoph Steinbeck, Kristian Peters Luiz Gadelha (2024):  
 **Implementation of FAIR Practices in Computational Metabolomics Workflows**—A Case Study.  
 _Metabolites_ **14**(2)  
 <https://doi.org/10.3390/metabo14020118>
@@ -29,7 +44,6 @@ Anna Niehues, Casper de Visser, Fiona A Hagenbeek, Purva Kulkarni, René Pool, N
 [**A multi-omics data analysis workflow packaged as a FAIR Digital Object**](https://doi.org/10.1093/gigascience/giad115).  
 _GigaScience_ **13**:giad115  
 <https://doi.org/10.1093/gigascience/giad115>
-
 
 ### 2023
 

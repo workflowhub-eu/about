@@ -5,5 +5,5 @@ Ove Johan Ragnar Gustafsson, Sean R. Wilkinson, Finn Bacall, Stian Soiland-Reyes
 _arXiv_:2410.06941 [cs.DL]  
 <https://doi.org/10.48550/arXiv.2410.06941>
 
+{% include callout.html type="tip" content="See also [publication and outreach](/project/outreach) for more specific work." %}
 
-See also [publication and outreach](/project/outreach) for more specific work.

@@ -80,7 +80,7 @@ The WorkflowHub community collaborates closely with (at least) these projects:
 
 ## WorkflowHub Club
 
-The weekly [WorkflowHub Club](/project/community) is chaired by **Finn Bacall**.
+The weekly [WorkflowHub Club](/project/community) is chaired by **Johan Gustafsson**.
 
 Participants include:
 

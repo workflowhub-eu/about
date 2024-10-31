@@ -33,7 +33,7 @@ For any kind of questions or suggestions on using WorkflowHub, feel free to join
 
 * The first beta-release was in Sept 2020, 
 * Production-release was in September 2022, 
-* The WorkflowHub now holds over [300 workflows](https://workflowhub.eu/workflows), including 49 curated [COVID-19 workflows](https://covid19.workflowhub.eu/),  
+* The WorkflowHub now holds over [700 workflows](https://workflowhub.eu/workflows), including 49 curated [COVID-19 workflows](https://covid19.workflowhub.eu/),  
 * It is a listed resource of the European [COVID19 Data Portal](https://www.covid19dataportal.org/), and is a [EOSC Data Source](https://marketplace.eosc-portal.eu/datasources/eosc.elixir-uk.5126ffcc8e23f65bbbe219d36128f2c8).
 
 

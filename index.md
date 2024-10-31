@@ -1,6 +1,6 @@
 ---
 title: WorkflowHub project
-toc: false
+toc: true
 permalink: /
 # There are special sidebar rules for the index page in layouts/default.html
 hide_sidebar: true
@@ -11,21 +11,28 @@ sidebar: true
 
 This website describes the open source **project** for developing and running [WorkflowHub](https://workflowhub.eu/).
 
-* [WorkflowHub](https://workflowhub.eu) is a domain-agnostic workflow registry designed around [FAIR principles](https://workflows.community/groups/fair/). It is also workflow management system agnostic: workflows may remain in their native repositories in their native forms.
+* [WorkflowHub](https://workflowhub.eu) is a domain-agnostic workflow registry designed around [FAIR principles](https://workflows.community/groups/fair/).
+* WorkflowHub is *workflow management system agnostic*: workflows may remain in their native repositories in their native forms. 
+* WorkflowHub provides features such as community spaces, collections, versioning and snapshots, and contributor credit.
 * WorkflowHub allows workflows to be FAIR, citable, have managed *metadata* profiles, and be openly available for review and analytics.
 * Workflows are packaged, registered, downloaded and exchanged as [workflow-centric Research Objects](/Workflow-RO-Crate/) using the [RO-Crate](https://w3id.org/ro/crate) specification, with test and example data, managed metadata profiles, citations and more.
 * A [schema.org](https://schema.org/) based Bioschemas profile describes the metadata about a workflow and use of the [Common Workflow Language](https://www.commonwl.org/) is encouraged, providing a canonical description of the workflow itself.
-* Popular workflow management systems such as [Galaxy](https://galaxyproject.org/), [Nextflow](https://nextflow.io/), and [Snakemake](https://snakemake.readthedocs.io/) are working with the Hub to seamlessly and automatically support object packaging, registration and exchange. 
-* WorkflowHub is *workflow management system agnostic*: workflows may remain in their native repositories in their native forms. 
-* WorkflowHub provides features such as community spaces, collections, versioning and snapshots, and contributor credit.
+* Popular workflow management systems such as [Galaxy](https://galaxyproject.org/), [Nextflow](https://nextflow.io/), and [Snakemake](https://snakemake.readthedocs.io/) are working with the Hub to seamlessly and automatically support object packaging, registration and exchange.
 * In addition to its own [APIs](https://workflowhub.eu/api), WorkflowHub supports community registry standards and services such as [GA4GH TRS](https://about.workflowhub.eu/TRS/) and [ELIXIR-AAI](https://elixir-europe.org/services/compute/aai) authentication, and current work integrates with the [LifeMonitor workflow testing](https://lifemonitor.eu/) service.
 * WorkflowHub is mainly sponsored by the European RI Cluster [EOSC-Life](https://www.eosc-life.eu/), the European Research Infrastructure [ELIXIR](https://elixir-europe.org/) and [EuroScienceGateway](http://eurosciencegateway.eu/) (see [full list of acknowledgements](/project/acknowledgements/#funding)).
 * The [WorkflowHub Club](/project/community/) open community works together to continuously co-develop the Hub.  
-* First beta-released in Sept 2020 and production-released in September 2022, the Hub now holds over [300 workflows](https://workflowhub.eu/workflows), including 49 curated [COVID-19 workflows](https://covid19.workflowhub.eu/).  It is a listed resource of the European [COVID19 Data Portal](https://www.covid19dataportal.org/) and as a [EOSC Data Source](https://marketplace.eosc-portal.eu/datasources/eosc.elixir-uk.5126ffcc8e23f65bbbe219d36128f2c8).
 
 For more details, see [FAIR Computational Workflows](https://workflows.community/groups/fair/), [Outreach and Publications](project/outreach).
 
 For any kind of questions or suggestions on using WorkflowHub, feel free to join our [community](#community)!
+
+
+## Did you know?
+
+* The first beta-release was in Sept 2020, 
+* Production-release was in September 2022, 
+* The WorkflowHub now holds over [300 workflows](https://workflowhub.eu/workflows), including 49 curated [COVID-19 workflows](https://covid19.workflowhub.eu/),  
+* It is a listed resource of the European [COVID19 Data Portal](https://www.covid19dataportal.org/), and is a [EOSC Data Source](https://marketplace.eosc-portal.eu/datasources/eosc.elixir-uk.5126ffcc8e23f65bbbe219d36128f2c8).
 
 
 ## Citation
@@ -44,7 +51,6 @@ For any kind of questions or suggestions on using WorkflowHub, feel free to join
 * **Sandbox instance**: <https://dev.workflowhub.eu/> (use for testing; occasionally wiped)
 * **Source code**: [seek4science/seek](https://github.com/seek4science/seek) 
 * **API documentation**: <https://workflowhub.eu/api>
-* **[Outreach and Publications](/project/outreach/)**
 * **EOSC-Life Deliverable 2.3**: <https://doi.org/10.5281/zenodo.7886545>
 * **Tasks**: 
   * [WorkflowHub roadmap](/project/roadmap) (deprecated -- now managed in Trello)

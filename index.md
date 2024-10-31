@@ -44,7 +44,7 @@ For any kind of questions or suggestions on using WorkflowHub, feel free to join
 
 ## Project resources
 
-{% include section-navigation-tiles.html col = "2" custom="news, outreach, docs" sort=false %}
+{% include section-navigation-tiles.html col = "2" custom="events, news, outreach, docs, roadmap" sort=false %}
 
 * **Tutorial videos:** 
   * [Make your workflows findable and citable](https://www.youtube.com/watch?v=2kGKxaPuQN8) ([slides](https://doi.org/10.5281/zenodo.7787488))
@@ -55,13 +55,8 @@ For any kind of questions or suggestions on using WorkflowHub, feel free to join
 * **API documentation**: <https://workflowhub.eu/api>
 * **EOSC-Life Deliverable 2.3**: <https://doi.org/10.5281/zenodo.7886545>
 * **Tasks**: 
-  * [WorkflowHub roadmap](/project/roadmap) (deprecated -- now managed in Trello)
   * WorkflowHub implementation <https://github.com/seek4science/seek/projects/3> (SEEK)
   * General WorkflowHub <https://github.com/workflowhub-eu/about/issues>
-* **Mailing list**: [`workflowhub😊elixir-europe.org`](https://lists.elixir-europe.org/mailman/listinfo/workflowhub_elixir-europe.org) ([subscribe](https://lists.elixir-europe.org/mailman/listinfo/workflowhub_elixir-europe.org)/[archive](https://mail.elixir-europe.org/pipermail/workflowhub_elixir-europe.org/))
-* **Slack chat**:  [#workflows on seek4science.slack.com](https://seek4science.slack.com/archives/CPLLVV94L) ([join](https://join.slack.com/t/seek4science/shared_invite/zt-csqh94qb-kf~kFbZxuHl1Hpxhbc8avw))
-* [Google Drive](https://drive.google.com/drive/folders/1_bZ63W4oRtWL5OnWJNYvE4u3A27VyGGe)
- (to request write-access, ask in Slack channel) 
 * **Slides/posters** (for complete list, see [Outreach](/project/outreach/)):
   * [WorkflowHub: FAIR Workflow Registry](https://doi.org/10.5281/zenodo.7323471). Justin Clark-Casey et al, EOSC Symposium 2022, 2022-11-14
   * [WorkflowHub – a FAIR registry for workflows](https://doi.org/10.7490/f1000research.1118984.1). Carole Goble, ELIXIR All Hands 2022
@@ -72,16 +67,24 @@ For any kind of questions or suggestions on using WorkflowHub, feel free to join
 
 ## Get involved
 
+
 ### Community
 
-Regular meeting: **WorkflowHub Club** - all welcome!
+While WorkflowHub is largely developed as a collaboration between [several projects](/project/acknowledgements), any contributors are welcome to join our **open community**.
 
-Anyone is welcome to join the bi-weekly [WorkflowHub Club](/project/community) calls using Zoom.
+Anyone can [join the WorkflowHub club](https://github.com/workflowhub-eu/about/issues/1)! Either sign up on GitHub [issue #1](https://github.com/workflowhub-eu/about/issues/1) or join the [next bi-weekly Zoom call](https://s.apache.org/workflowhub-minutes) and introduce yourself.
 
-* When: Alternate Wednesdays 10:00 current UK time zone / 11:00 current Central European time zone 
-* Agenda, telcon details and minutes: <https://s.apache.org/workflowhub-minutes>
+* **When:** Alternate Wednesdays 10:00 current UK time zone / 11:00 current Central European time zone 
+* **Agenda, telcon details and minutes:** <https://s.apache.org/workflowhub-minutes>
 
-See the list of club members on the [acknowledgement](/project/acknowledgements) page.
+See the list of WorkflowHub Club members on the [acknowledgements page](/project/acknowledgements).
+
+For asynchronous communication, see also:
+
+* **Mailing list**: [`workflowhub😊elixir-europe.org`](https://lists.elixir-europe.org/mailman/listinfo/workflowhub_elixir-europe.org) ([subscribe](https://lists.elixir-europe.org/mailman/listinfo/workflowhub_elixir-europe.org)/[archive](https://mail.elixir-europe.org/pipermail/workflowhub_elixir-europe.org/))
+* **Slack chat**:  [#workflows on seek4science.slack.com](https://seek4science.slack.com/archives/CPLLVV94L) ([join](https://join.slack.com/t/seek4science/shared_invite/zt-csqh94qb-kf~kFbZxuHl1Hpxhbc8avw))
+* [Google Drive](https://drive.google.com/drive/folders/1_bZ63W4oRtWL5OnWJNYvE4u3A27VyGGe): to request write-access, ask in Slack channel
+
 
 ### Development
 
@@ -95,6 +98,7 @@ Aims of the project include:
 * Standardised workflow identifiers and metadata descriptions needed for workflow discovery, reuse, preservation, interoperability and monitoring and metadata harvesting using standard protocols. Workflows are usually multi-component (requiring links to test data, example runs, explanatory documentation, etc) and used in collections for scientific use cases. We plan to use the Research Object specification for packaging workflows, which has already been combined with [CWL](https://www.commonwl.org/) and is part of the [BioComputeObject](http://biocomputeobject.org/) specification.
 * Workflow snapshot preservation, publishing, citation and monitoring, credit claiming and workflows part of the scholarly communication landscape partnering with platforms like [DataCite](https://datacite.org/) and EOSC’s [OpenAIRE](https://www.openaire.eu/) and their Research Community Dashboards linking publications with workflows, associated datasets, software, etc.
 * The workflow registry is planned to be based on the [SEEK platform](https://seek4science.org/) using [Common Workflow Language](https://www.commonwl.org/) and [Research Objects](http://www.researchobject.org/) to glue in federated workflow and tool descriptions across the research infrastructures.
+
 
 ### Contact Us
 
@@ -122,6 +126,11 @@ This project has a [Code of Conduct](https://github.com/workflowhub-eu/about/blo
 ## Retention and End-of-Life policy
 
 WorkflowHub's sustainability plan is to ensure the availability of its contributions and metadata up to and beyond 2027. If and when the WorkflowHub reaches its end of service after that, the published contributions and metadata will be archived as RO-Crates and made available through a public repository, such as Zenodo, Figshare or another appropriate resource at that time. [DOI registrations](/docs/citable/) will in this case be updated to link to the archived deposits.
+
+
+## Governance
+
+{% include contributor-tiles-all.html custom="Johan Gustafsson, Frederik Coppens, Carole Goble" %}
 
 
 ## Acknowledgements

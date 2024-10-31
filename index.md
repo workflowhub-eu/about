@@ -104,8 +104,8 @@ Aims of the project include:
 
 The production instance <https://workflowhub.eu/> is hosted by [eScience Lab](https://esciencelab.org.uk/) at [The University of Manchester](https://www.manchester.ac.uk/) led by professor [Carole Goble](https://research.manchester.ac.uk/en/persons/carole.goble).
 
-* [Provide feedback or ask question](https://workflowhub.eu/home/feedback)
-* Contribute to [WorkflowHub club](https://about.workflowhub.eu/project/community/) (Regular telcons, Slack chat, public mailing list)
+* [Provide feedback or ask questions](https://workflowhub.eu/home/feedback)
+* [Contribute to WorkflowHub club](#community)
 * [Report an issue](https://workflowhub.eu/home/report_issue) (public GitHub), or:
   - Contact `workflowhub.eu` system administrators: <workflowhub-admin@listserv.manchester.ac.uk>
   - Report [Code of Conduct](https://github.com/workflowhub-eu/about/blob/master/CODE_OF_CONDUCT.md) concerns: <info@esciencelab.org.uk>

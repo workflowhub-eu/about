@@ -1,6 +1,7 @@
 ---
 title: Roadmap
 page_id: roadmap
+sidebar: false
 redirect_from: /roadmap/
 ---
 

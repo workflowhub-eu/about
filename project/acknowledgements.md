@@ -1,5 +1,6 @@
 ---
 title: Acknowledgements
+sidebar: false
 ---
 
 Main development, hosting and maintenance of WorkflowHub is done by the [eScience Lab](https://esciencelab.org.uk/) at The University of Manchester led by [Carole Goble](https://research.manchester.ac.uk/en/persons/carole.goble).

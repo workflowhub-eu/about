@@ -38,8 +38,8 @@ For any kind of questions or suggestions on using WorkflowHub, feel free to join
 {% include section-navigation-tiles.html col = "2" custom="news, outreach, docs" sort=false %}
 
 * **Tutorial videos:** 
-  - [Make your workflows findable and citable](https://www.youtube.com/watch?v=2kGKxaPuQN8) ([slides](https://doi.org/10.5281/zenodo.7787488))
-  - [WorkflowHub ask-me-anything](https://workflowhub.eu/presentations/19?version=1) tutorial session
+  * [Make your workflows findable and citable](https://www.youtube.com/watch?v=2kGKxaPuQN8) ([slides](https://doi.org/10.5281/zenodo.7787488))
+  * [WorkflowHub ask-me-anything](https://workflowhub.eu/presentations/19?version=1) tutorial session
 * **Production instance**: <https://workflowhub.eu/> 
 * **Sandbox instance**: <https://dev.workflowhub.eu/> (use for testing; occasionally wiped)
 * **Source code**: [seek4science/seek](https://github.com/seek4science/seek) 

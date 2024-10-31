@@ -44,7 +44,7 @@ For any kind of questions or suggestions on using WorkflowHub, feel free to join
 
 ## Project resources
 
-{% include section-navigation-tiles.html col = "2" custom="events, news, outreach, docs, roadmap" sort=false %}
+{% include section-navigation-tiles.html col = "3" custom="outreach, docs, roadmap" sort=false %}
 
 * **Tutorial videos:** 
   * [Make your workflows findable and citable](https://www.youtube.com/watch?v=2kGKxaPuQN8) ([slides](https://doi.org/10.5281/zenodo.7787488))

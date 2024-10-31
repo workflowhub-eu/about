@@ -11,7 +11,7 @@ sidebar: true
 
 This website describes the open source **project** for developing and running [WorkflowHub](https://workflowhub.eu/).
 
-{% include section-navigation-tiles-simple.html col = "2" custom="index, news" sort=false %}
+{% include section-navigation-tiles-simple.html col = "2" custom="news, outreach, docs" sort=false %}
 
 For more details, see [About WorkflowHub](/project), [FAIR Computational Workflows](https://workflows.community/groups/fair/), [Outreach and Publications](/project/outreach).
 

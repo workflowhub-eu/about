@@ -1,6 +1,7 @@
 ---
 title: Quick start guide
 toc: false
+page_id: docs
 redirect_from: 
      - /docs/before-you-start/
      - /docs/onboarding/

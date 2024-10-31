@@ -7,6 +7,8 @@ hide_sidebar: true
 sidebar: true
 ---
 
+## About
+
 [WorkflowHub](https://workflowhub.eu/) is a FAIR registry for describing, sharing and publishing scientific computational workflows. The registry is sponsored by the European RI Cluster EOSC-Life, the European Research Infrastructure ELIXIR, and [multiple EU-wide projects](/project/acknowledgements/#funding).
 
 This website describes the open source **project** for developing and running [WorkflowHub](https://workflowhub.eu/).

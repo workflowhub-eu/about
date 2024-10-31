@@ -7,19 +7,11 @@ hide_sidebar: true
 sidebar: true
 ---
 
-[WorkflowHub](https://workflowhub.eu/) is a FAIR registry for describing, sharing and publishing scientific computational workflows. The registry is sponsored by the European RI Cluster EOSC-Life, the European Research Infrastructure ELIXIR, and [multiple EU-wide projects](/project/acknowledgements/#funding). 
-
-It is workflow management system agnostic: workflows may remain in their native repositories in their native forms.
+[WorkflowHub](https://workflowhub.eu/) is a FAIR registry for describing, sharing and publishing scientific computational workflows. The registry is sponsored by the European RI Cluster EOSC-Life, the European Research Infrastructure ELIXIR, and [multiple EU-wide projects](/project/acknowledgements/#funding).
 
 This website describes the open source **project** for developing and running [WorkflowHub](https://workflowhub.eu/).
 
-{% include section-navigation-tiles.html col = "2" custom="news, outreach, docs" sort=false %}
-
-For more details, see [About WorkflowHub](project), [FAIR Computational Workflows](https://workflows.community/groups/fair/), [Outreach and Publications](project/outreach).
-
-For any kind of questions or suggestions on using WorkflowHub, feel free to join our [community](/project/community)!
-
-* [WorkflowHub](https://workflowhub.eu) is a domain-agnostic workflow registry designed around [FAIR principles](https://workflows.community/groups/fair/).
+* [WorkflowHub](https://workflowhub.eu) is a domain-agnostic workflow registry designed around [FAIR principles](https://workflows.community/groups/fair/). It is also workflow management system agnostic: workflows may remain in their native repositories in their native forms.
 * WorkflowHub allows workflows to be FAIR, citable, have managed *metadata* profiles, and be openly available for review and analytics.
 * Workflows are packaged, registered, downloaded and exchanged as [workflow-centric Research Objects](/Workflow-RO-Crate/) using the [RO-Crate](https://w3id.org/ro/crate) specification, with test and example data, managed metadata profiles, citations and more.
 * A [schema.org](https://schema.org/) based Bioschemas profile describes the metadata about a workflow and use of the [Common Workflow Language](https://www.commonwl.org/) is encouraged, providing a canonical description of the workflow itself.
@@ -31,19 +23,23 @@ For any kind of questions or suggestions on using WorkflowHub, feel free to join
 * The [WorkflowHub Club](/project/community/) open community works together to continuously co-develop the Hub.  
 * First beta-released in Sept 2020 and production-released in September 2022, the Hub now holds over [300 workflows](https://workflowhub.eu/workflows), including 49 curated [COVID-19 workflows](https://covid19.workflowhub.eu/).  It is a listed resource of the European [COVID19 Data Portal](https://www.covid19dataportal.org/) and as a [EOSC Data Source](https://marketplace.eosc-portal.eu/datasources/eosc.elixir-uk.5126ffcc8e23f65bbbe219d36128f2c8).
 
+For more details, see [FAIR Computational Workflows](https://workflows.community/groups/fair/), [Outreach and Publications](project/outreach).
 
-## Documentation
+For any kind of questions or suggestions on using WorkflowHub, feel free to join our [community](#community)!
 
-* [Documentation & Quick Start guide](docs/) (See also _Detailed Documentation_)
-* [Guide to using WorkflowHub](docs/guide-to-using-workflowhub/)
-* [Developer docs](developer/)
-* Tutorial vidoes: 
-  - [Make your workflows findable and citable](https://www.youtube.com/watch?v=2kGKxaPuQN8) ([slides](https://doi.org/10.5281/zenodo.7787488))
-  - [WorkflowHub ask-me-anything](https://workflowhub.eu/presentations/19?version=1) tutorial session
+
+## Citation
+
+{% include citation.md %}
 
 
 ## Project resources
 
+{% include section-navigation-tiles.html col = "2" custom="news, outreach, docs" sort=false %}
+
+* **Tutorial videos:** 
+  - [Make your workflows findable and citable](https://www.youtube.com/watch?v=2kGKxaPuQN8) ([slides](https://doi.org/10.5281/zenodo.7787488))
+  - [WorkflowHub ask-me-anything](https://workflowhub.eu/presentations/19?version=1) tutorial session
 * **Production instance**: <https://workflowhub.eu/> 
 * **Sandbox instance**: <https://dev.workflowhub.eu/> (use for testing; occasionally wiped)
 * **Source code**: [seek4science/seek](https://github.com/seek4science/seek) 
@@ -64,11 +60,6 @@ For any kind of questions or suggestions on using WorkflowHub, feel free to join
   * [WorkflowHub - a registry for workflows](https://doi.org/10.5281/zenodo.4012124). Carole Goble, ECCB 2020, 2020-09-02
   * [Poster: The WorkflowHub, a registry for Life Science Workflows](https://workflowhub.eu/presentations/1). Ambarish Kumar, ISMB, 2020-07-13
   * [WorkflowHub Introduction slides](https://drive.google.com/open?id=1hfBAjjRnL9jGoxHEvq66Wo-wuKqouR3C). Carole Goble, 2020-03-25
-
-
-## Citation
-
-{% include citation.md %}
 
 
 ## Get involved

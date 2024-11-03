@@ -5,6 +5,7 @@ sidebar: false
 
 Main development, hosting and maintenance of WorkflowHub is done by the [eScience Lab](https://esciencelab.org.uk/) at The University of Manchester led by [Carole Goble](https://research.manchester.ac.uk/en/persons/carole.goble).
 
+
 ## Funding
 
 <!-- NOTE: Always update list below AND section on the index.md page -->
@@ -25,11 +26,13 @@ We are also grateful for contributions by:
 * [BIOINDUSTRY 4.0](https://www.ibisba.eu/EU-Projects/Horizon-Europe) ([HORIZON-INFRA-2022-TECH-01 101094287](https://doi.org/10.3030/101094287), [UKRI 10048146](https://gtr.ukri.org/projects?ref=10048146))
 * ..in addition to contributions from [WorkflowHub Club](#workflowhub-club) participants
 
+
 ### EOSC-Life
 
 {% include affiliation-tiles-selection.html type="EOSC-Life"%}
 
 workflowhub.eu was founded as part of [**EOSC-Life**](https://www.eosc-life.eu/) ([WP2 _Tools Collaboratory_](https://github.com/eosc-life/tools-collaboratory-roadmap)), funded by European Union’s [Horizon 2020](https://ec.europa.eu/programmes/horizon2020/) programme under grant agreement [H2020-INFRAEOSC-2018-2 824087](https://doi.org/10.3030/824087).
+
 
 ### Previous funding
 
@@ -49,6 +52,7 @@ Previous contributions were funded by:
 
 The main [WorkflowHub codebase](https://github.com/seek4science/seek/tree/workflowhub) is based on [SEEK](https://seek4science.org/about_us.html) and builds on previous experience with developing [myExperiment](https://www.myexperiment.org/about). SEEK is implemented in [Ruby on Rails](https://rubyonrails.org/) using a wide range of open source [Ruby gems](https://github.com/seek4science/seek/blob/workflowhub/Gemfile.lock).
 
+
 ## Related projects
 
 ### ELIXIR
@@ -66,6 +70,7 @@ WorkflowHub activities are strongly coordinated with [ELIXIR Europe](https://eli
  * [ELIXIR Netherlands](https://www.elixir-europe.org/about-us/who-we-are/nodes/netherlands)
  * [ELIXIR Hub](https://elixir-europe.org/about-us/who-we-are/hub)
 
+
 ### Collaborations
 
 The WorkflowHub community collaborates closely with (at least) these projects:
@@ -78,6 +83,7 @@ The WorkflowHub community collaborates closely with (at least) these projects:
  * [Galaxy Europe](https://galaxyproject.eu/)
  * [FAIRDOM](https://fair-dom.org)
  * [FAIRDOM-SEEK](https://fairdomseek.org/)
+
 
 ## WorkflowHub Club
 

@@ -41,10 +41,12 @@ For any kind of questions or suggestions on using WorkflowHub, feel free to join
 
 {% include citation.md %}
 
+{% include callout.html type="tip" content="See also [publication and outreach](/project/outreach) for more specific work." %}
+
 
 ## Project resources
 
-{% include section-navigation-tiles.html col = "3" custom="outreach, docs, roadmap" sort=false %}
+{% include section-navigation-tiles-simple.html col = "3" type="resource"%}
 
 * **Tutorial videos:** 
   * [Make your workflows findable and citable](https://www.youtube.com/watch?v=2kGKxaPuQN8) ([slides](https://doi.org/10.5281/zenodo.7787488))
@@ -57,12 +59,6 @@ For any kind of questions or suggestions on using WorkflowHub, feel free to join
 * **Tasks**: 
   * WorkflowHub implementation <https://github.com/seek4science/seek/projects/3> (SEEK)
   * General WorkflowHub <https://github.com/workflowhub-eu/about/issues>
-* **Slides/posters** (for complete list, see [Outreach](/project/outreach/)):
-  * [WorkflowHub: FAIR Workflow Registry](https://doi.org/10.5281/zenodo.7323471). Justin Clark-Casey et al, EOSC Symposium 2022, 2022-11-14
-  * [WorkflowHub – a FAIR registry for workflows](https://doi.org/10.7490/f1000research.1118984.1). Carole Goble, ELIXIR All Hands 2022
-  * [WorkflowHub - a registry for workflows](https://doi.org/10.5281/zenodo.4012124). Carole Goble, ECCB 2020, 2020-09-02
-  * [Poster: The WorkflowHub, a registry for Life Science Workflows](https://workflowhub.eu/presentations/1). Ambarish Kumar, ISMB, 2020-07-13
-  * [WorkflowHub Introduction slides](https://drive.google.com/open?id=1hfBAjjRnL9jGoxHEvq66Wo-wuKqouR3C). Carole Goble, 2020-03-25
 
 
 ## Get involved

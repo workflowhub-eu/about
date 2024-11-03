@@ -2,6 +2,7 @@
 title: Documentation
 toc: false
 page_id: docs
+type: resource
 redirect_from: 
      - /docs/before-you-start/
      - /docs/onboarding/

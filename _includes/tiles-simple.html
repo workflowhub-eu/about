@@ -2,7 +2,7 @@
     {%- for item in site.data.tiles %}
     {%- if item.title %}
     <div class="col d-grid">
-        <a role="button" class="btn btn-secondary text-light font-size-lg py-4 fs-3" href="{{ item.url | relative_url }}">{{item.title}}</a>
+        <a role="button" class="btn btn-secondary text-light font-size-sm py-4 fs-3" href="{{ item.url | relative_url }}">{{item.title}}</a>
     </div>
     {%- endif %}
     {%- endfor %}

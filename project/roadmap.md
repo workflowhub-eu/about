@@ -6,15 +6,13 @@ redirect_from: /roadmap/
 ---
 
 
-_Please feel free to help contribute to this roadmap through the [WorkflowHub Club](/community/) or as [feedback](https://workflowhub.eu/home/feedback)!_
+{% include callout.html type="note" content="_Please feel free to help contribute to this roadmap through the [WorkflowHub Club](/community/) or as [feedback](https://workflowhub.eu/home/feedback)!_" %}
 
-Please note that the roadmap isn't a project plan or release schedule. 
+
+Please note that the roadmap is not a project plan or release schedule. 
 The WorkflowHub Club is a very dynamic and agile team, and the roadmap is reviewed and updated regularly. 
-It's purpose is to give a general indication of intent and direction of travel. 
+Its purpose is to give a general indication of intent and direction of travel. 
 
-See also:
-  * WorkflowHub implementation <https://github.com/seek4science/seek/projects/3> (SEEK)
-  * General WorkflowHub <https://github.com/workflowhub-eu/about/issues>
 
 <!--
 ## Done

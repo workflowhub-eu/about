@@ -49,11 +49,9 @@ For any kind of questions or suggestions on using WorkflowHub, feel free to join
 {% include section-navigation-tiles-simple.html col = "2" type="resource"%}
 
 <div class="grid gap-2" style="box-sizing: content-box;">
-    <a class="btn btn-primary text-light" href="https://workflowhub.eu/" style="margin:10px;  padding:10px;">Production instance</a>
-    <a class="btn btn-primary text-light" href="https://dev.workflowhub.eu/" style="margin:10px;  padding:10px;">Sandbox instance (use for testing; occasionally wiped)</a>
-    <a class="btn btn-primary text-light" href="https://github.com/seek4science/seek" style="margin:10px;  padding:10px;">Source code</a>
-    <a class="btn btn-primary text-light" href="https://workflowhub.eu/api" style="margin:10px;  padding:10px;">API documentation</a>
-    <a class="btn btn-primary text-light" href="https://github.com/workflowhub-eu/about/issues" style="margin:10px;  padding:10px;">GitHub issues</a>
+    <a class="btn bg-light py-4 fs-3 hover-primary" role = "button" href="https://workflowhub.eu/" style="margin:10px;  padding:10px;">Production instance</a>
+    <a class="btn bg-light py-4 fs-3 hover-primary" role = "button" href="https://dev.workflowhub.eu/" style="margin:10px;  padding:10px;">Sandbox instance (use for testing; occasionally wiped)</a>
+    <a class="btn bg-light py-4 fs-3 hover-primary" role = "button" href="https://github.com/seek4science/seek" style="margin:10px;  padding:10px;">Source code</a>
 </div>
 
 * **Tutorial videos:** 

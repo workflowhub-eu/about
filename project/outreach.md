@@ -1,7 +1,6 @@
 ---
 title: Outreach and Publications
 page_id: outreach
-type: resource
 sidebar: false
 ---
 

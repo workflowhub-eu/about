@@ -46,19 +46,19 @@ For any kind of questions or suggestions on using WorkflowHub, feel free to join
 
 ## Project resources
 
-{% include section-navigation-tiles-simple.html col = "3" type="resource"%}
+{% include section-navigation-tiles-simple.html col = "2" type="resource"%}
+
+<div class="grid gap-2" style="box-sizing: content-box;">
+    <a class="btn btn-primary text-light" href="https://workflowhub.eu/" style="margin:10px;  padding:10px;">Production instance</a>
+    <a class="btn btn-primary text-light" href="https://dev.workflowhub.eu/" style="margin:10px;  padding:10px;">Sandbox instance (use for testing; occasionally wiped)</a>
+    <a class="btn btn-primary text-light" href="https://github.com/seek4science/seek" style="margin:10px;  padding:10px;">Source code</a>
+    <a class="btn btn-primary text-light" href="https://workflowhub.eu/api" style="margin:10px;  padding:10px;">API documentation</a>
+    <a class="btn btn-primary text-light" href="https://github.com/workflowhub-eu/about/issues" style="margin:10px;  padding:10px;">GitHub issues</a>
+</div>
 
 * **Tutorial videos:** 
   * [Make your workflows findable and citable](https://www.youtube.com/watch?v=2kGKxaPuQN8) ([slides](https://doi.org/10.5281/zenodo.7787488))
   * [WorkflowHub ask-me-anything](https://workflowhub.eu/presentations/19?version=1) tutorial session
-* **Production instance**: <https://workflowhub.eu/> 
-* **Sandbox instance**: <https://dev.workflowhub.eu/> (use for testing; occasionally wiped)
-* **Source code**: [seek4science/seek](https://github.com/seek4science/seek) 
-* **API documentation**: <https://workflowhub.eu/api>
-* **EOSC-Life Deliverable 2.3**: <https://doi.org/10.5281/zenodo.7886545>
-* **Tasks**: 
-  * WorkflowHub implementation <https://github.com/seek4science/seek/projects/3> (SEEK)
-  * General WorkflowHub <https://github.com/workflowhub-eu/about/issues>
 
 
 ## Get involved

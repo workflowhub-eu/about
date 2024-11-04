@@ -1,6 +1,6 @@
 - title: "Production instance"
   url: https://workflowhub.eu/
-- title: "Sandbox instance (use for testing; occasionally wiped)"
+- title: "Sandbox instance"
   url: https://dev.workflowhub.eu/
 - title: "Source code"
   url: https://github.com/seek4science/seek

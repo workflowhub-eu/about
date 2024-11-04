@@ -49,7 +49,7 @@ For any kind of questions or suggestions on using WorkflowHub, feel free to join
 {% include section-navigation-tiles-simple.html col = "2" type="resource"%}
 
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-3 my-4 navigation-tiles">
-    <div class="col d-grid" style="box-sizing: content-box;">
+    <div class="col d-grid">
         <a class="btn bg-light py-4 fs-3 hover-primary" role = "button" href="https://workflowhub.eu/" style="margin:10px;  padding:10px;">Production instance</a>
         <a class="btn bg-light py-4 fs-3 hover-primary" role = "button" href="https://dev.workflowhub.eu/" style="margin:10px;  padding:10px;">Sandbox instance (use for testing; occasionally wiped)</a>
         <a class="btn bg-light py-4 fs-3 hover-primary" role = "button" href="https://github.com/seek4science/seek" style="margin:10px;  padding:10px;">Source code</a>

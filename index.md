@@ -29,7 +29,7 @@ In addition:
 
 For more details, see [FAIR Computational Workflows](https://workflows.community/groups/fair/), [Outreach and Publications](project/outreach).
 
-For any kind of questions or suggestions on using WorkflowHub, feel free to join our [community](#community)!
+For any kind of questions, or suggestions on using WorkflowHub, feel free to join our [community](#community)!
 
 
 ## Did you know?

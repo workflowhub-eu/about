@@ -14,7 +14,7 @@ title: Workflow RO-Crate profile 1.0
 <link href="https://orcid.org/0000-0002-0048-3300" rel="author"  />
 <link href="https://orcid.org/0000-0003-3156-2105" rel="author"  />
 <link href="https://orcid.org/0000-0003-2130-0865" rel="author"  />
-<link href="https://orcid.org/0000-0003-2130-0865" rel="author"  />
+<link href="https://orcid.org/0000-0001-9842-9718" rel="author"  />
 
 <link href="ro-crate-metadata.json" rel="describedby" type='application/ld+json; profile="https://w3id.org/ro/crate"' />
 <link href="ro-crate-metadata.jsonld" rel="describedby" type='application/ld+json; profile="https://w3id.org/ro/crate"'  />
@@ -42,7 +42,7 @@ title: Workflow RO-Crate profile 1.0
   - Finn Bacall <https://orcid.org/0000-0002-0048-3300>
   - Alan R Williams <https://orcid.org/0000-0003-3156-2105>
   - Stuart Owen <https://orcid.org/0000-0003-2130-0865>
-  - Stian Soiland-Reyes <https://orcid.org/0000-0003-2130-0865>
+  - Stian Soiland-Reyes <https://orcid.org/0000-0001-9842-9718>
 * Title: Workflow RO-Crate profile 1.0
 * Publisher: [WorkflowHub community](https://w3id.org/workflowhub/)
 * Permalink: <https://w3id.org/workflowhub/workflow-ro-crate/1.0> (this version)  

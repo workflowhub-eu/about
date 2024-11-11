@@ -6,3 +6,25 @@ Bert Droesbeke:
     git: bedroesb
     email: bedro@psb.ugent.be
     orcid: 0000-0003-0522-5674
+
+Johan Gustafsson:
+    git: supernord
+    orcid: 0000-0002-2977-5032
+    role: product owner
+    affiliation: Australian BioCommons / University of Melbourne
+
+Frederik Coppens:
+    git: frederikcoppens
+    role: product owner
+    affiliation: VIB
+
+Carole Goble:
+    git: CaroleGoble
+    orcid: 0000-0003-1219-2137
+    role: product owner
+    affiliation: University of Manchester
+
+Finn Bacall:
+    git: fbacall
+    role: lead developer
+    affiliation: University of Manchester

@@ -1,6 +1,7 @@
 ---
-title: Quick start guide
+title: Documentation
 toc: false
+page_id: docs
 redirect_from: 
      - /docs/before-you-start/
      - /docs/onboarding/
@@ -8,16 +9,18 @@ redirect_from:
 ---
 
 
+## Quick start guide
+
 **WorkflowHub will help make your workflows findable and citable, and this guide will help you get started with that process.**
 
 {% include callout.html type="tip" content="if you want to test WorkflowHub and its features, there is a [development instance available here](https://dev.workflowhub.eu/)." %}
 
-## 1. Register yourself on WorkflowHub
+### 1. Register yourself on WorkflowHub
 
 Register yourself on the [sign up page](https://workflowhub.eu/signup) of WorkflowHub if you do not have an account. You can also log in using your [LS Login](https://lifescience-ri.eu/ls-login/) or [GitHub](https://github.com/) credentials.
 
 
-## 2. Decide which `Space` you would like to create a `Team` in
+### 2. Decide which `Space` you would like to create a `Team` in
 
 **Figure 1** below highlights the basic structure of WorkflowHub, and examples of the three types of `Spaces` where you could create a `Team`. Learn more about `Teams` and `Spaces` [here](/docs/space-team-organisation).
 
@@ -36,7 +39,7 @@ You can request to create a `Team` in any or all of the following `Spaces`:
 {% include callout.html type="note" content="you can create multiple teams in multiple spaces, depending on your requirements." %}
 
 
-## 3. Create a team or join an existing team
+### 3. Create a team or join an existing team
 
 Go to the [create](https://workflowhub.eu/projects/guided_create) and [join](https://workflowhub.eu/projects/guided_join) a team page from WorkflowHub to do so.
 
@@ -56,7 +59,7 @@ More information on how to join a team can be found on the [how to create and jo
 {% include image.html file="team.svg" caption="Fig 2. Screenshot of required minimum information (numbered) that needs to be entered into the *Create a New Team* wizard on WorkflowHub." alt="minimum information" %}
 
 
-## 4. Register workflow(s) 
+### 4. Register workflow(s) 
 
 Workflows can be registered using the [WorkflowHub wizard](https://workflowhub.eu/workflows/new)
 

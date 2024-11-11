@@ -1,5 +1,7 @@
 ---
 title: Outreach and Publications
+page_id: outreach
+sidebar: false
 ---
 
 
@@ -175,6 +177,7 @@ Gareth Price, Johan Gustafsson (2022):
 _Australian BioCommons Webinar_  
 <https://doi.org/10.5281/zenodo.7251310>
 
+
 ### 2021
 
 Carole Goble (2021):
@@ -318,6 +321,11 @@ _European Conference on Computational Biology (ECCB) 2022_,
 The Global Alliance for Genomics And Health (GA4GH) 10th Plenary Meeting.  
 _F1000Research_ **11**:1318 (poster)  
 <https://doi.org/10.7490/f1000research.1119198.1>
+
+Carole Goble, Finn Bacall, Stian Soiland-Reyes, Stuart Owen, Alan Williams, Ignacio Eguinoa, Bert Droesbeke, Hervé Ménager, Laura Rodríguez Navas, José María Fernández, Salvador Capella-Gutierrez, Michael R. Crusoe, Björn Grüning, Simone Leo, Luca Pireddu, Johan Gustafsson, Phil Ewels, WorkflowHub Community, Frederik Coppens (2022):
+[**WorkflowHub – a FAIR registry for workflows**](https://doi.org/10.7490/f1000research.1118984.1).
+_ELIXIR All Hands 2022_, Amsterdam, Netherlands, 7-10 June 2022.
+<https://doi.org/10.7490/f1000research.1118984.1>
 
 Carole Goble, Finn Bacall, Stian Soiland-Reyes, Stuart Owen, Alan Williams, Ignacio Eguinoa, Bert Droesbeke, Hervé Ménager, Laura Rodriguez-Navas, José M. Fernández, Salvador Capella-Gutierrez, Michael R. Crusoe, Björn Grüning, Simone Leo, Luca Pireddu, Johan Gustafsson, Phil Ewels, WorkflowHub Community, Frederik Coppens (2021):  
 [**The WorkflowHub: A FAIR Registry for Workflows and Workflow Research Objects**](https://drive.google.com/file/d/1Ge5bcKQBH03t5VH9IDIT0F8pfenNrw9-/view?usp=sharing).  

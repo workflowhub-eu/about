@@ -1,5 +1,6 @@
 ---
 title: Events
+page_id: events
 ---
 
 

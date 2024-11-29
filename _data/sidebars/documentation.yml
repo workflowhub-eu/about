@@ -1,24 +1,27 @@
 title: Documentation
 subitems:
-  - title: Quick start guide
+  - title: Getting started
     url: /docs/index
   - title: Complete guide to using WorkflowHub
     url: /docs/guide-to-using-workflowhub
-  - title: Detailed documentation
+  - title: Finding workflows
+    url: /docs/finding-workflows/
+  - title: Test submissions to WorkflowHub
+    url: /docs/workflowhub_instances/
+  - title: Getting set up on WorkflowHub
+    url: /docs/organising-workflows/
     subitems:
-    - title: WorkflowHub instances
-      url: /docs/workflowhub_instances/
-    - title: How to register
-      url: /docs/how-to-register/
-    - title: Logging in
-      url: /docs/logging-in/
-    - title: What are Teams, Spaces and Organizations?
-      url: /docs/space-team-organisation/
-    - title: Join or set up Teams & Spaces
-      url: /docs/join-create-teams-spaces/
-    - title: Registering workflows
-      url: /docs/registering_workflows/registering-a-workflow/
-      subitems:
+      - title: How to register with WorkflowHub
+        url: /docs/how-to-register/
+      - title: Logging in
+        url: /docs/logging-in/
+      - title: Join or set up Teams & Spaces
+        url: /docs/join-create-teams-spaces/
+      - title: What are Teams, Spaces and Organizations?
+        url: /docs/space-team-organisation/
+  - title: Contributing workflows
+    url: /docs/registering_workflows/registering-a-workflow/
+    subitems:
       - title: Register and login
         url: /docs/registering_workflows/register-and-login/
       - title: Adding files
@@ -29,21 +32,13 @@ subitems:
         url: /docs/registering_workflows/check-uploaded-workflow/
       - title: Supported workflow types
         url: /docs/registering_workflows/supported-workflow-types/
-    - title: Organising your workflows on WorkflowHub
-      url: /docs/organising-workflows/
-    - title: Maintaining your workflow
-      url: /docs/maintaining-your-workflow/
-    - title: Mint a DOI for your workflow
-      url: /docs/citable/
-    - title: Finding workflows
-      url: /docs/finding-workflows/
-    - title: Metadata list
-      url: /docs/metadata-list/
-    - title: Glossary
-      url: /docs/glossary/
-    - title: For developers
-      url: /developer/
-      subitems:
+  - title: Maintaining your workflows
+    url: /docs/maintaining-your-workflow/
+  - title: Mint a DOI for your workflow
+    url: /docs/citable/
+  - title: For developers
+    url: /developer/
+    subitems:
       - title: Bioschemas.org
         url: /developer/bioschemas/
       - title: Workflow RO-Crate
@@ -54,3 +49,7 @@ subitems:
         url: /developer/ro-crate-api/
       - title: TRS
         url: /developer/trs/
+  - title: Metadata list
+    url: /docs/metadata-list/
+  - title: Glossary
+    url: /docs/glossary/

@@ -1,5 +1,5 @@
 ---
-title: How to find and retrieve workflow(s) from WorkflowHub?
+title: Find and retrieve workflow(s) from WorkflowHub
 type: documentation
 redirect_from: /How-to-find-and-retrieve-workflow(s)-from-WorkflowHub/
 ---

@@ -1,5 +1,6 @@
 ---
 title: Registering a workflow on WorkflowHub
+type: documentation
 redirect_from: 
   - /docs/registering-a-workflow/
   - /registering-workflows/

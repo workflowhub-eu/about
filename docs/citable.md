@@ -1,5 +1,7 @@
 ---
-title: Citable workflows
+title: Creating a citable workflow
+type: documentation
+description: How to mint a workflow DOI and make your workflow citable.
 redirect_from: /citable/
 ---
 

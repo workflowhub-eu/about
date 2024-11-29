@@ -1,5 +1,6 @@
 ---
 title: Glossary
+type: documentation
 ---
 
 ## General

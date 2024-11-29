@@ -1,5 +1,6 @@
 ---
-title: Documentation
+title: Getting started
+description: How to get started with WorkflowHub, including a quick start guide for registering workflows.
 toc: false
 page_id: docs
 redirect_from: 
@@ -7,6 +8,12 @@ redirect_from:
      - /docs/onboarding/
      - /docs/getting-started/
 ---
+
+## What information would you like to view?
+
+{% include callout.html type="tip" content="If you would like to get started registering workflows, see the [quick start guide below!](#quick-start-guide)" %}
+
+{% include section-navigation-tiles.html type="documentation" %}
 
 
 ## Quick start guide

@@ -1,5 +1,6 @@
 ---
 title: Updating a registered workflow
+type: documentation
 redirect_from: /Updating-a-registered-workflow/
 ---
 

@@ -1,5 +1,7 @@
 ---
 title:  A guide to using WorkflowHub
+type: documentation
+description: The complete guide to using WorkflowHub
 ---
 
 **If your research project is producing workflows, they should be registered in WorkflowHub:**

@@ -1,5 +1,6 @@
 ---
 title: WorkflowHub instances
+type: documentation
 ---
 
 The main WorkflowHub registry for workflows is available here: [https://workflowhub.eu/](https://workflowhub.eu/).

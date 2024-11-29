@@ -1,5 +1,7 @@
 ---
-title: A guide to organising your workflows on WorkflowHub
+title: Organise your contributions to WorkflowHub
+type: documentation
+description: A guide to organising your workflows (and other items, like documents, SOPs, publications) that you may want to add to WorkflowHub.
 ---
 
 The documentation below provides guidance on the relationship between a given workflow and the structural elements of the WorkflowHub registry: `Spaces`, `Teams` and `Collections`. 

@@ -27,10 +27,10 @@
                 <td>{{tool.title}}</td>
                 {%- endif %}
                 <td>
-                    {%- if tool.registry.url_community %}
+                    {%- if tool.url_community %}
                     <a data-bs-toggle="tooltip" data-bs-original-title="Community" href="{{tool.url_community}}"><span class="badge bg-dark text-white hover-primary"><i class="fa-solid fa-info me-2"></i>Community</span></a>
                     {%- endif %}
-                    {%- if tool.registry.url_community_workflows %}
+                    {%- if tool.url_community_workflows %}
                     <a data-bs-toggle="tooltip" data-bs-original-title="Community workflows" href="{{tool.url_community_workflows}}"><span class="badge bg-dark text-white hover-primary"><i class="fa-solid fa-database me-2"></i>Community workflows</span></a>
                     {%- endif %}
                 </td>

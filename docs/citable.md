@@ -1,7 +1,7 @@
 ---
 title: Creating a citable workflow
 type: documentation
-description: How to mint a workflow DOI and make your workflow citable.
+description: How to mint a digital object identifier (DOI) and create a citation for your workflow.
 redirect_from: /citable/
 ---
 

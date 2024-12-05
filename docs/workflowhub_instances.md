@@ -1,6 +1,7 @@
 ---
 title: WorkflowHub instances
 type: documentation
+description: Testing workflow submissions using the development instance of WorkflowHub.
 ---
 
 The main WorkflowHub registry for workflows is available here: [https://workflowhub.eu/](https://workflowhub.eu/).

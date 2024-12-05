@@ -1,0 +1,15 @@
+- title: "Common Workflow Language (.cwl)"
+  url: https://www.commonwl.org/
+  url_community_workflows: https://github.com/common-workflow-library
+  url_community: https://www.commonwl.org/community/
+- title: "Nextflow (.nf)"
+  url: https://www.nextflow.io/
+  url_community_workflows: https://nf-co.re/pipelines/
+  url_community: https://nf-co.re/
+- title: "SnakeMake (.snake)"
+  url: https://snakemake.github.io/
+  url_community_workflows: https://snakemake.github.io/snakemake-workflow-catalog/
+- title: "KNIME (.knwf)"
+  url: https://www.knime.com/
+  url_community_workflows: https://hub.knime.com/
+

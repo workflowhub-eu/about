@@ -12,7 +12,7 @@ redirect_from:
 
 ## What information would you like to view?
 
-{% include section-navigation-tiles.html custom="guide-to-using-workflowhub,finding-workflows,workflowhub_instances,organising-workflows,registering-a-workflow,maintaining-your-workflow,citable,developer,metadata-list,glossary" sort=false %}
+{% include section-navigation-tiles.html custom="guide,finding,instances,organising,registering,maintaining,citable,developer,metadata,glossary" sort=false %}
 
 
 ## Quick start guide

@@ -1,7 +1,7 @@
 ---
 title: WorkflowHub instances
 type: documentation
-page_id: workflowhub_instances
+page_id: instances
 description: Testing workflow submissions using the development instance of WorkflowHub.
 ---
 

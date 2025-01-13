@@ -1,7 +1,7 @@
 ---
 title: Updating a registered workflow
 type: documentation
-page_id: maintaining-your-workflow
+page_id: maintaining
 redirect_from: /Updating-a-registered-workflow/
 ---
 

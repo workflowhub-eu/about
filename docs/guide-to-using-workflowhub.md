@@ -1,6 +1,5 @@
 ---
 title:  A guide to using WorkflowHub
-type: documentation
 description: The complete guide to using WorkflowHub
 ---
 

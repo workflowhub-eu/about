@@ -14,7 +14,7 @@ redirect_from:
 
 {% include section-navigation-tiles.html custom="quick_start" %}
 
-{% include section-navigation-tiles-simple.html custom="guide-to-using-workflowhub,finding-workflows,workflowhub_instances,organising-workflows,registering-a-workflow,maintaining-your-workflow,citable,developer,metadata-list,glossary" %}
+{% include section-navigation-tiles.html custom="guide-to-using-workflowhub,finding-workflows,workflowhub_instances,organising-workflows,registering-a-workflow,maintaining-your-workflow,citable,developer,metadata-list,glossary" sort=false %}
 
 
 ## Quick start guide
@@ -49,11 +49,9 @@ You can request to create a `Team` in any or all of the following `Spaces`:
 
 ### 3. Create a team or join an existing team
 
-Go to the [create](https://workflowhub.eu/projects/guided_create) and [join](https://workflowhub.eu/projects/guided_join) a team page from WorkflowHub to do so.
+Go to the [create](https://workflowhub.eu/projects/guided_create) and [join](https://workflowhub.eu/projects/guided_join) a team page from WorkflowHub to do so. More information on how to join a team can be found on the [how to create and join teams and spaces page](/docs/join-create-teams-spaces)
 
-More information on how to join a team can be found on the [how to create and join teams and spaces](/docs/join-create-teams-spaces)
 {% include callout.html type="important" content="if you are creating a team, make sure the team name is descriptive." %}
-
 
 **Figure 2** shows the minimum information required for a new team, which includes:
 

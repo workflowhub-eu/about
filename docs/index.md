@@ -2,6 +2,7 @@
 title: Getting started
 description: How to get started with WorkflowHub, including a quick start guide for registering workflows.
 toc: false
+sidebar: false
 page_id: docs
 redirect_from: 
      - /docs/before-you-start/
@@ -11,9 +12,9 @@ redirect_from:
 
 ## What information would you like to view?
 
-{% include callout.html type="tip" content="If you would like to get started registering workflows, see the [quick start guide below!](#quick-start-guide)" %}
+{% include section-navigation-tiles.html custom="quick_start" %}
 
-{% include section-navigation-tiles.html type="documentation" %}
+{% include tiles-simple.html custom="guide-to-using-workflowhub,finding-workflows,workflowhub_instances,organising-workflows,registering-a-workflow,maintaining-your-workflow,citable,developer,metadata-list,glossary" %}
 
 
 ## Quick start guide
@@ -24,7 +25,7 @@ redirect_from:
 
 ### 1. Register yourself on WorkflowHub
 
-Register yourself on the [sign up page](https://workflowhub.eu/signup) of WorkflowHub if you do not have an account. You can also log in using your [LS Login](https://lifescience-ri.eu/ls-login/) or [GitHub](https://github.com/) credentials.
+Register yourself on the [sign up page](https://workflowhub.eu/signup) of WorkflowHub, if you do not have an account. You can also log in using your [LS Login](https://lifescience-ri.eu/ls-login/) or [GitHub](https://github.com/) credentials.
 
 
 ### 2. Decide which `Space` you would like to create a `Team` in

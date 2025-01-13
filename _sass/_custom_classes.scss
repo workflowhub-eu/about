@@ -1,3 +1,21 @@
+/*-----Navigation tiles-----*/
+/*-----From https://github.com/elixir-europe/infectious-diseases-toolkit/blob/main/_sass/_custom_classes.scss-----*/
+
+.navigation-tiles {
+    .card:hover {
+        box-shadow: $box-shadow;
+    }
+
+    .card-header {
+        a:hover {
+            text-decoration: none;
+        }
+        h3 {
+            font-size: 1.2rem;
+        }
+    }
+}
+
 /*-----Top navigation-----*/
 header .navbar {
     .navbar-brand {

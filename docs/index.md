@@ -12,7 +12,7 @@ redirect_from:
 
 ## What information would you like to view?
 
-{% include section-navigation-tiles.html custom="guide,finding,instances,organising,registering,maintaining,citable,developer,metadata,glossary" sort=false %}
+{% include section-navigation-tiles.html custom="guide, finding, instances, organising, registering, maintaining, citable, developer, metadata, glossary" %}
 
 
 ## Quick start guide

@@ -12,8 +12,6 @@ redirect_from:
 
 ## What information would you like to view?
 
-{% include section-navigation-tiles.html custom="quick_start" %}
-
 {% include section-navigation-tiles.html custom="guide-to-using-workflowhub,finding-workflows,workflowhub_instances,organising-workflows,registering-a-workflow,maintaining-your-workflow,citable,developer,metadata-list,glossary" sort=false %}
 
 

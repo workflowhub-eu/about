@@ -1,6 +1,7 @@
 ---
 title: Organise your contributions to WorkflowHub
 type: documentation
+page_id: organising-workflows
 description: A guide to organising your workflows (and other items, like documents, SOPs, publications) that you may want to add to WorkflowHub.
 ---
 

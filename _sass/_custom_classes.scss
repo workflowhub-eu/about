@@ -2,16 +2,13 @@
 /*-----From https://github.com/elixir-europe/infectious-diseases-toolkit/blob/main/_sass/_custom_classes.scss-----*/
 
 .navigation-tiles {
+    background-color: $light;
     .card:hover {
         box-shadow: $box-shadow;
         background-color: $primary;
     }
 
-    .card-header {
-        background-color: $light;
-        a:hover {
-            text-decoration: none;
-        }
+    .card-body {
         h3 {
             font-size: 1.2rem;
         }

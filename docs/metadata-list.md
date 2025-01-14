@@ -1,6 +1,5 @@
 ---
 title: Metadata list
-type: documentation
 page_id: metadata
 description: Available metadata fields for the WorkflowHub registry.
 ---

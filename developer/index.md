@@ -1,6 +1,5 @@
 ---
 title: Documentation for developers
-type: documentation
 page_id: developer
 description: Documentation for developers, including bioschemas, RO-crate, and APIs.
 ---

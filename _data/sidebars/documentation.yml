@@ -9,7 +9,7 @@ subitems:
   - title: Test submissions to WorkflowHub
     url: /docs/workflowhub_instances/
   - title: Getting set up on WorkflowHub
-    url: /docs/organising-workflows/
+    url: /docs/organising-and-setup/
     subitems:
       - title: How to register with WorkflowHub
         url: /docs/how-to-register/

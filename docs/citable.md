@@ -28,7 +28,7 @@ Use `Actions` -> `Edit Workflow` and `Actions` -> `Manage workflow` to fill in:
    * Description
    * License 
 
-{% include callout.html type="tip" content="For each of the registered users, it may be good to check that their [ORCID](https://orcid.org/) identifier has been registered. This ensures that the people will be uniquely identified. Users can edit _"My Profile"_ to link to ORCID." %}
+{% include callout.html type="tip" content="For each of the registered users, it may be good to check that their [ORCID](https://orcid.org/) identifier has been registered. This ensures that the people will be uniquely identified. Users can edit My Profile to link to ORCID." %}
 
 
 ### 2. Freeze the workflow version

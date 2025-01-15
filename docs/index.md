@@ -1,5 +1,5 @@
 ---
-title: Welcome to the WorkflowHub documentation pages
+title: Getting started with WorkflowHub
 description: How to get started with WorkflowHub, including a quick start guide for registering workflows.
 toc: false
 sidebar: false

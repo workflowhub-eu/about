@@ -12,7 +12,7 @@ Workflows registered in <https://workflowhub.eu/> that are _public_ can be assig
 - Each version of the workflow must be registered separately. 
 - You can create a [new version](/docs/maintaining-your-workflow) of a workflow that has been assigned a DOI, without needing to assign a DOI to the new version.
 
-{% include callout.html type="note" content="DOI minting is only enabled on the production instance [https://workflowhub.eu/](https://workflowhub.eu/), although you can try the below instructions up to the _"Publish"_ step on the sandbox instance [https://dev.workflowhub.eu/](https://dev.workflowhub.eu/)." %}
+{% include callout.html type="note" content="DOI minting is only enabled on the production instance (https://workflowhub.eu/), although you can try the below instructions up to the _"Publish"_ step on the sandbox instance (https://dev.workflowhub.eu/)." %}
 
 
 ## Creating a DOI

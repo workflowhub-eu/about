@@ -1,5 +1,6 @@
 ---
 title: Maintaining a registered workflow entry
+description: How to maintain a workflow on WorkflowHub, including updating metadata and creating new versions.
 page_id: maintaining
 redirect_from: /Updating-a-registered-workflow/
 ---
@@ -14,7 +15,7 @@ Before you update a registered workflow, you need to ensure that you:
 3. Are on the workflow page of the workflow
 
 
-## Updating the metadata
+## Updating metadata
 
 Go to the `Actions` dropdown menu and click `Edit Workflow` to change the metadata of the registered workflow. Note that updates made in the metadata will not affect the metadata in the RO-crate, yet (upcoming feature).
 

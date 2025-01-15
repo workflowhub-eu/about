@@ -1,7 +1,7 @@
 ---
-title: WorkflowHub instances
+title: Testing submission to WorkflowHub using the dev instance
 page_id: instances
-description: Testing workflow submissions using the development instance of WorkflowHub.
+description: Brief instructions for making use of the development instance of WorkflowHub for testing and evaluating workflow submissions.
 ---
 
 The main WorkflowHub registry for workflows is available here: [https://workflowhub.eu/](https://workflowhub.eu/).

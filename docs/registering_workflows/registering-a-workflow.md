@@ -2,6 +2,7 @@
 title: Registering a workflow on WorkflowHub
 description: A guide to the steps required for workflow import, metadata annotation, and registration.
 page_id: registering
+toc: false
 redirect_from: 
   - /docs/registering-a-workflow/
   - /registering-workflows/

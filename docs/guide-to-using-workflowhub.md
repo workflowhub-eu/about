@@ -1,6 +1,6 @@
 ---
 title:  A guide to using WorkflowHub
-description: The complete guide to using WorkflowHub
+description: A detailed guide that can be further tailored to support research projects, organisations and initiatives that would like to use WorkflowHub.
 page_id: guide
 ---
 

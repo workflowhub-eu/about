@@ -1,7 +1,8 @@
 ---
 title: Documentation for developers
-page_id: developer
 description: Documentation for developers, including bioschemas, RO-crate, and APIs.
+page_id: developer
+toc: false
 ---
 
 Programmatic access to WorkflowHub is based on [FAIRDOM-SEEK](https://seek4science.org/) and [RO-Crate](https://www.researchobject.org/ro-crate/):

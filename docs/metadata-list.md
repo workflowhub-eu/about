@@ -1,7 +1,8 @@
 ---
 title: Metadata list
-page_id: metadata
 description: Available metadata fields for the WorkflowHub registry.
+page_id: metadata
+toc: false
 ---
 
 <table>

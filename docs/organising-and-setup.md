@@ -27,9 +27,13 @@ To get started with WorkflowHub, you need to follow these 3 steps:
 
 ### Example structures that could be used on WorkflowHub
 
-{% include image.html file="workflows_teams_spaces_1.png" caption="Fig 1. Example WorkflowHub Space structures." %}
+{% include image.html file="spaces_teams_organizations.png" caption="Fig 1. Structure of spaces, teams and organizations. Note that there is flexibility in how spaces are structured, and that you can be part of multiple Spaces, Teams and Organizations." %}
 
 
 ## More complicated structures
 
 Entire consortia, and large collaborative projects, can establish a presence on WorkflowHub. The [complete guide to WorkflowHub](/docs/guide-to-using-workflowhub.md) provides a resource for this purpose, and can be tailored to specific consortia to provide a one-stop guide for contributions to WorkflowHub.
+
+### Example structures that could be used on WorkflowHub
+
+{% include image.html file="workflows_teams_spaces_1.png" caption="Fig 2. Example WorkflowHub structures." %}

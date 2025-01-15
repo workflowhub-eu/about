@@ -6,10 +6,9 @@ redirect_from: /How-to-register/
 
 1. In order to register yourself in WorkflowHub, you need to click Register button in the top right hand corner of WorkflowHub. You can also visit [this link](https://workflowhub.eu/signup).
 2. You will then see a wizard, where you are prompted to provide:
-
-* **A Login name**: this can be your real name, or another appropriate name.
-* **An email address**
-* **A password for your account** 
+   * A Login name: this can be your real name, or another appropriate name.
+   * An email address
+   * A password for your account 
 
 {:start="3"}
 
@@ -30,11 +29,9 @@ redirect_from: /How-to-register/
 
 7. If your project (i.e. Team) is already in WorkflowHub, please select it from the dropdown menu. 
 8. If your institution (i.e. Organisation) is already in WorkflowHub, please select it from the dropdown menu.
+9. After you have registered the rest of your information, you will need to activate your account. You will receive an email in the account you have provided.
 
 {% include callout.html type="note" content="If you don't join any listed Team during registration, you can request to join a Team or create your own Team after the registration." %}
 
-![]({{ '/images/register-3.PNG' | relative_url }}) 
+![]({{ '/images/register-3.PNG' | relative_url }})
 
-{:start="9"}
-
-9. After you have registered the rest of your information, you will need to activate your account. You will receive an email in the account you have provided.

@@ -32,9 +32,9 @@ subitems:
         url: /docs/registering_workflows/check-uploaded-workflow/
       - title: Supported workflow types
         url: /docs/registering_workflows/supported-workflow-types/
-  - title: Maintaining your workflows
+  - title: Maintain your workflows
     url: /docs/maintaining-your-workflow/
-  - title: Mint a DOI for your workflow
+  - title: Mint a workflow DOI
     url: /docs/citable/
   - title: For developers
     url: /developer/
@@ -47,8 +47,10 @@ subitems:
         url: /developer/how-to-make-a-workflow-ro-crate/
       - title: RO-Crate API
         url: /developer/ro-crate-api/
-      - title: TRS
+      - title: TRS API
         url: /developer/trs/
+  - title: FAQ
+    url: /docs/faq/
   - title: Metadata list
     url: /docs/metadata-list/
   - title: Glossary

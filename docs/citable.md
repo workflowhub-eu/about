@@ -80,8 +80,7 @@ Note that as this generated citation is based on the corresponding [CSL styles](
 Therefore remember to add the DOI to the citation in your reference manager, for instance as a comment or URL.
 
 Example:
-> Douglas Lowe and Genís Bayarri. 2021. “Protein Ligand Complex MD Setup Tutorial Using BioExcel Building Blocks (Biobb) (Jupyter Notebook).” _WorkflowHub_. 
-<https://doi.org/10.48546/workflowhub.workflow.56.2>
+> Douglas Lowe and Genís Bayarri. 2021. “Protein Ligand Complex MD Setup Tutorial Using BioExcel Building Blocks (Biobb) (Jupyter Notebook).” _WorkflowHub_. <https://doi.org/10.48546/workflowhub.workflow.56.2>
 
 
 ## Retrieving DataCite metadata

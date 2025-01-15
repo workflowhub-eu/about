@@ -28,7 +28,7 @@ subitems:
         url: /docs/registering_workflows/adding-files/
       - title: Complete workflow metadata
         url: /docs/registering_workflows/complete-workflow-metadata/
-      - title: Check uploaded workflow
+      - title: Finalise registration
         url: /docs/registering_workflows/check-uploaded-workflow/
       - title: Supported workflow types
         url: /docs/registering_workflows/supported-workflow-types/

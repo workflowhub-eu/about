@@ -5,7 +5,7 @@ redirect_from:
    - /joining-a-team
 ---
 
-When you have registered and logged in, the next step is to either create, or join, a **`Team`**. To do this, you need to have either selected, or created, both a **`Space`** and an **`Organisation`**. For a description of `Spaces`, `Teams` and `Organisations` please [see this page](/docs/space-team-organisation.md).
+When you have registered and logged in, the next step is to either create, or join, a **`Team`**. To do this, you need to have either selected, or created, both a **`Space`** and an **`Organisation`**. For a description of `Spaces`, `Teams` and `Organisations` please [see this page](/docs/space-team-organisation).
 
 
 ## Would you like to join a Team?

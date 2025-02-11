@@ -1,5 +1,7 @@
 ---
 title:  A guide to using WorkflowHub
+description: A detailed guide that can be further tailored to support research projects, organisations and initiatives that would like to use WorkflowHub.
+page_id: guide
 ---
 
 **If your research project is producing workflows, they should be registered in WorkflowHub:**

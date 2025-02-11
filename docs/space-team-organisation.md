@@ -25,7 +25,7 @@ The Team needs to have a Title, and optionally can also have a:
 
 
 #### Administrator 
-Each Team will have its own administrator - usually the user that initially requested the Team. 
+Each Team will have its own administrator - usually this is the user that initially requested the Team. 
 
 The administrator can:
 - Add and remove members, 

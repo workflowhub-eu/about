@@ -5,20 +5,12 @@ redirect_from:
    - /joining-a-team
 ---
 
-When you have registered and logged in, the next step is to either create, or join, a **Team**. To do this, you need to have either selected, or created, both a **Space** and an **Organisation**. This page provides additional details for each of these concepts.
-
-
-## Terminology
-
-For a description of `Spaces`, `Teams` and `Organisations` please [see this page](/docs/space-team-organisation.md).
-
-{% include image.html file="spaces_teams_organizations.png" caption="Fig 1. Structure of spaces, teams and organizations. Note that there is flexibility in how spaces are structured, and that you can be part of multiple Spaces, Teams and Organizations." %}
+When you have registered and logged in, the next step is to either create, or join, a **`Team`**. To do this, you need to have either selected, or created, both a **`Space`** and an **`Organisation`**. For a description of `Spaces`, `Teams` and `Organisations` please [see this page](/docs/space-team-organisation.md).
 
 
 ## Would you like to join a Team?
 
 You can join one or more existing Teams by:
-
 
 <p>
   <a class="btn-collapse" data-bs-toggle="collapse" href="#join-team-registration" role="button" aria-expanded="false" aria-controls="join-team-registration">

@@ -1,12 +1,16 @@
 ---
-title: Documentation
-toc: false
+title: Getting started with WorkflowHub
+description: How to get started with WorkflowHub, including a quick start guide for registering workflows.
 page_id: docs
 redirect_from: 
      - /docs/before-you-start/
      - /docs/onboarding/
      - /docs/getting-started/
 ---
+
+## What information would you like to view?
+
+{% include section-navigation-tiles.html custom="guide, finding, instances, organising, registering, maintaining, citable, developer, metadata, glossary" sort=false %}
 
 
 ## Quick start guide
@@ -17,7 +21,7 @@ redirect_from:
 
 ### 1. Register yourself on WorkflowHub
 
-Register yourself on the [sign up page](https://workflowhub.eu/signup) of WorkflowHub if you do not have an account. You can also log in using your [LS Login](https://lifescience-ri.eu/ls-login/) or [GitHub](https://github.com/) credentials.
+Register on the [sign up page](https://workflowhub.eu/signup) if you do not have an account. You can also log in using your [LS Login](https://lifescience-ri.eu/ls-login/) or [GitHub](https://github.com/) credentials.
 
 
 ### 2. Decide which `Space` you would like to create a `Team` in
@@ -31,8 +35,7 @@ You can request to create a `Team` in any or all of the following `Spaces`:
      * [**Australian BioCommons**](https://workflowhub.eu/programmes/8)
      * [**BioExcel**](https://workflowhub.eu/programmes/2)
      * [**EOSC-Life**](https://workflowhub.eu/programmes/6)
-- [**A new space**](https://workflowhub.eu/programmes/new): if a pre-existing space is not suitable, you can create a space
-     * This is a good option if you represent a group, consortium, or community where multiple teams might want to register with WorkflowHub
+- [**A new space**](https://workflowhub.eu/programmes/new): if a pre-existing space is not suitable, you can create a space. This is a good option if you represent a group, consortium, or community where multiple teams might want to register with WorkflowHub
 
 {% include image.html file="spaces.svg" caption="Fig 1. Left - the relationship between the structural elements of WorkflowHub: Spaces, Teams and workflows. Right - examples of where you can create your new team on WorkflowHub." alt="Spaces and teams explained" %}
 
@@ -41,18 +44,15 @@ You can request to create a `Team` in any or all of the following `Spaces`:
 
 ### 3. Create a team or join an existing team
 
-Go to the [create](https://workflowhub.eu/projects/guided_create) and [join](https://workflowhub.eu/projects/guided_join) a team page from WorkflowHub to do so.
+Go to the [create](https://workflowhub.eu/projects/guided_create) and [join](https://workflowhub.eu/projects/guided_join) a team page from WorkflowHub to do so. More information on how to join a team can be found on the [how to create and join teams and spaces page](/docs/join-create-teams-spaces)
 
-More information on how to join a team can be found on the [how to create and join teams and spaces](/docs/join-create-teams-spaces)
 {% include callout.html type="important" content="if you are creating a team, make sure the team name is descriptive." %}
-
 
 **Figure 2** shows the minimum information required for a new team, which includes:
 
 - **Space** - the space you selected or created in step 2 above
 - **Team name**
-- **Team organization** - the organization that should be linked to your team on WorkflowHub. e.g. `University of Melbourne`
-     * If your organization is not yet on WorkflowHub, you can [create an organization](https://workflowhub.eu/institutions/new)
+- **Team organization** - the organization that should be linked to your team on WorkflowHub (e.g. `University of Melbourne`). If your organization is not yet on WorkflowHub, you can [create an organization](https://workflowhub.eu/institutions/new)
 
 {% include callout.html type="important" content="you can add multiple organizations to both your profile and teams on WorkflowHub." %}
 
@@ -61,8 +61,6 @@ More information on how to join a team can be found on the [how to create and jo
 
 ### 4. Register workflow(s) 
 
-Workflows can be registered using the [WorkflowHub wizard](https://workflowhub.eu/workflows/new)
+Workflows can be registered using the [WorkflowHub wizard](https://workflowhub.eu/workflows/new). There is an extensive guide to the [workflow registration process](/docs/registering_workflows/registering-a-workflow/) available in the WorkflowHub documentation.
 
-There is an extensive guide to the [workflow registration process](/docs/registering_workflows/registering-a-workflow/) available in the WorkflowHub documentation.
-
-{% include callout.html type="important" content="We recommend importing a git repository (e.g. GitHub), since WorkflowHub is a hub / registry and not a repository." %}
+{% include callout.html type="important" content="importing a git repository (e.g. GitHub) is recommended, since WorkflowHub is a hub / registry and not a repository." %}

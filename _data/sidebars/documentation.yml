@@ -1,49 +1,44 @@
 title: Documentation
 subitems:
-  - title: Quick start guide
+  - title: Getting started
     url: /docs/index
   - title: Complete guide to using WorkflowHub
     url: /docs/guide-to-using-workflowhub
-  - title: Detailed documentation
+  - title: Finding workflows
+    url: /docs/finding-workflows/
+  - title: Test submissions to WorkflowHub
+    url: /docs/workflowhub_instances/
+  - title: Getting set up on WorkflowHub
+    url: /docs/organising-and-setup/
     subitems:
-    - title: WorkflowHub instances
-      url: /docs/workflowhub_instances/
-    - title: How to register
-      url: /docs/how-to-register/
-    - title: Logging in
-      url: /docs/logging-in/
-    - title: What are Teams, Spaces and Organizations?
-      url: /docs/space-team-organisation/
-    - title: Join or set up Teams & Spaces
-      url: /docs/join-create-teams-spaces/
-    - title: Registering workflows
-      url: /docs/registering_workflows/registering-a-workflow/
-      subitems:
+      - title: How to register with WorkflowHub
+        url: /docs/how-to-register/
+      - title: Logging in
+        url: /docs/logging-in/
+      - title: Join or set up Teams & Spaces
+        url: /docs/join-create-teams-spaces/
+      - title: What are Teams, Spaces and Organizations?
+        url: /docs/space-team-organisation/
+  - title: Contributing workflows
+    url: /docs/registering_workflows/registering-a-workflow/
+    subitems:
       - title: Register and login
         url: /docs/registering_workflows/register-and-login/
       - title: Adding files
         url: /docs/registering_workflows/adding-files/
       - title: Complete workflow metadata
         url: /docs/registering_workflows/complete-workflow-metadata/
-      - title: Check uploaded workflow
+      - title: Finalise registration
         url: /docs/registering_workflows/check-uploaded-workflow/
       - title: Supported workflow types
         url: /docs/registering_workflows/supported-workflow-types/
-    - title: Organising your workflows on WorkflowHub
-      url: /docs/organising-workflows/
-    - title: Maintaining your workflow
-      url: /docs/maintaining-your-workflow/
-    - title: Mint a DOI for your workflow
-      url: /docs/citable/
-    - title: Finding workflows
-      url: /docs/finding-workflows/
-    - title: Metadata list
-      url: /docs/metadata-list/
-    - title: Glossary
-      url: /docs/glossary/
-    - title: For developers
-      url: /developer/
-      subitems:
+  - title: Maintain your workflows
+    url: /docs/maintaining-your-workflow/
+  - title: Mint a workflow DOI
+    url: /docs/citable/
+  - title: For developers
+    url: /developer/
+    subitems:
       - title: Bioschemas.org
         url: /developer/bioschemas/
       - title: Workflow RO-Crate
@@ -52,5 +47,11 @@ subitems:
         url: /developer/how-to-make-a-workflow-ro-crate/
       - title: RO-Crate API
         url: /developer/ro-crate-api/
-      - title: TRS
+      - title: TRS API
         url: /developer/trs/
+  - title: FAQ
+    url: /docs/faq/
+  - title: Metadata list
+    url: /docs/metadata-list/
+  - title: Glossary
+    url: /docs/glossary/

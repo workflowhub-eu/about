@@ -18,7 +18,7 @@ To get started with WorkflowHub, you need to follow these 3 steps:
 
 1. [Register with WorkflowHub](https://workflowhub.eu/signup),
 2. [Log in](https://workflowhub.eu/login), and
-3. [Join, or set up, Teams & Spaces](docs/join-create-teams-spaces)
+3. [Join, or set up, Teams & Spaces](/docs/join-create-teams-spaces)
 
 {% include callout.html type="note" content="If you are joining an existing Team on WorkflowHub, you can request to join this Team during the registration process." %}
 
@@ -32,7 +32,7 @@ To get started with WorkflowHub, you need to follow these 3 steps:
 
 ## More complicated structures
 
-Entire consortia, and large collaborative projects, can establish a presence on WorkflowHub. The [complete guide to WorkflowHub](/docs/guide-to-using-workflowhub.md) provides a resource for this purpose, and can be tailored to specific consortia to provide a one-stop guide for contributions to WorkflowHub.
+Entire consortia, and large collaborative projects, can establish a presence on WorkflowHub. The [complete guide to WorkflowHub](/docs/guide-to-using-workflowhub) provides a resource for this purpose, and can be tailored to specific consortia to provide a one-stop guide for contributions to WorkflowHub.
 
 ### Example structures that could be used on WorkflowHub
 

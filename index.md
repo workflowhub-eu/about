@@ -110,7 +110,7 @@ This project has a [Code of Conduct](https://github.com/workflowhub-eu/about/blo
 
 ## Retention and End-of-Life policy
 
-WorkflowHub is long-term supported and sustained for the international community by the ELIXIR European Research Infrastructure for Life Science Data and the Australian BioCommons. It is a service of the European Open Science Cloud. Should WorkflowHub reaches its end of service, in accordance with Trusted Repository best practice, the published contributions and metadata will be archived as RO-Crates and made available through the public repository Zenodo, and [DOI registrations](/docs/citable/) will in this case be updated to link to the archived deposits.
+WorkflowHub is long-term supported and sustained for the international community by the ELIXIR European Research Infrastructure for Life Science Data and the Australian BioCommons. It is a service of the European Open Science Cloud. Should WorkflowHub reach its end of service, in accordance with Trusted Repository best practice, the published contributions and metadata will be archived as RO-Crates and made available through the public repository Zenodo, and [DOI registrations](/docs/citable/) will in this case be updated to link to the archived deposits.
 
 
 ## Governance

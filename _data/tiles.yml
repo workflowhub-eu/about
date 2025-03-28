@@ -1,12 +1,11 @@
-- title: "Production instance"
-  url: https://workflowhub.eu/
-- title: "Sandbox instance"
-  url: https://dev.workflowhub.eu/
-- title: "Source code"
-  url: https://github.com/seek4science/seek
-- title: "Documentation"
-  url: docs/
-- title: "Outreach and Publications"
-  url: project/outreach
-- title: "Roadmap"
-  url: project/roadmap
+landingpage:
+  - title: "Production instance"
+    url: https://workflowhub.eu/
+  - title: "Sandbox instance"
+    url: https://dev.workflowhub.eu/
+  - title: "Source code"
+    url: https://github.com/seek4science/seek
+  - title: "Documentation"
+    url: docs/
+  - title: "Outreach and Publications"
+    url: project/outreach

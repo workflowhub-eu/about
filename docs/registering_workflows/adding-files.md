@@ -15,7 +15,7 @@ Once you have either clicked on the `Contribute` button, or selected `Workflow` 
 ## Upload / import a local file {#local}
 
 1. Select your local workflow file using the `Browse…` button
-2. Pick your [workflow type](/docs/supported-workflow-types) - if your workflow type is not included in the list you can select `Other` or add a `New workflow type` using the available button.
+2. Pick your [workflow type](/docs/registering_workflows/supported-workflow-types) - if your workflow type is not included in the list you can select `Other` or add a `New workflow type` using the available button.
 3. Optional: add in a [Abstract CWL](/docs/glossary#abstract-cwl) using the `Browse…` button
 4. Optional: add in a [Diagram file](/docs/glossary#diagram) using the `Browse…` button
 5. Click the `Register` button

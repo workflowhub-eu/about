@@ -5,6 +5,11 @@ permalink: /
 # There are special sidebar rules for the index page in layouts/default.html
 hide_sidebar: true
 sidebar: true
+
+test2:
+  - title: "Roadmap"
+    url: project/roadmap
+
 ---
 
 ## About
@@ -49,7 +54,7 @@ For any kind of questions, or suggestions on using WorkflowHub, feel free to joi
 
 ## Project resources
 
-{% include tiles-simple.html col = "2" %}
+{% include tiles-simple.html col = "2" yaml=true target="landingpage" %}
 
 * **Tutorial videos:** 
   * [Make your workflows findable and citable](https://www.youtube.com/watch?v=2kGKxaPuQN8) ([slides](https://doi.org/10.5281/zenodo.7787488))
@@ -58,6 +63,7 @@ For any kind of questions, or suggestions on using WorkflowHub, feel free to joi
 
 ## Get involved
 
+{% include tiles-simple.html col = "2" target="test2" %}
 
 ### Community
 

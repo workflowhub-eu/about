@@ -2,14 +2,6 @@
 /*-----From https://github.com/elixir-europe/infectious-diseases-toolkit/blob/main/_sass/_custom_classes.scss-----*/
 
 .navigation-tiles {
-    .card {
-        background-color: $light;
-        color: $dark;
-    }
-    .card:hover {
-        box-shadow: $box-shadow;
-        background-color: $primary;
-    }
 
     .card-body {
         h3 {

@@ -1,8 +1,13 @@
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-{{ include.col | default: 2 }} gy-2 gx-4 my-4 navigation-tiles">
-    {%- for item in site.data.tiles %}
+    {%- if include.yaml %}
+    {%- assign tiles = site.data.tiles[include.target] %}
+    {% else %}
+    {%- assign tiles = page[include.target] %}
+    {%- endif %}
+    {%- for item in tiles %}
     {%- if item.title %}
     <div class="col d-grid">
-        <a role="button" class="btn btn-secondary text-light font-size-sm py-4 fs-3" href="{{ item.url | relative_url }}">{{item.title}}</a>
+        <a role="button" class="btn font-size-sm py-4 fs-3" href="{{ item.url | relative_url }}">{{item.title}}</a>
     </div>
     {%- endif %}
     {%- endfor %}

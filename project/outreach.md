@@ -15,12 +15,14 @@ _Feel free to add to this page, either [edit and raise pull request](https://git
 
 ## Recent publications, presentations, citations
 
-### 2024
+### 2025
 
 Ove Johan Ragnar Gustafsson, Sean R. Wilkinson, Finn Bacall, Stian Soiland-Reyes, Simone Leo, Luca Pireddu, Stuart Owen, Nick Juty, José Mª Fernández, Tom Brown, Hervé Ménager, Björn Grüning, Salvador Capella-Gutierrez, Frederik Coppens, Carole Goble (2024):  
-[**WorkflowHub: a registry for computational workflows**](https://doi.org/10.48550/arXiv.2410.06941).  
-_arXiv_:2410.06941 [cs.DL]  
-<https://doi.org/10.48550/arXiv.2410.06941>
+[**WorkflowHub: a registry for computational workflows**](https://doi.org/10.1038/s41597-025-04786-3).  
+*Sci Data* **12**, 837 (2025)
+<https://doi.org/10.1038/s41597-025-04786-3>
+
+### 2024
 
 Sean Wilkinson, Meznah Aloqalaa, Khalid Belhajjame, Michael R. Crusoe, Bruno de Paula Kinoshita, Luiz Gadelha, Daniel Garijo, Ove Johan Ragnar Gustafsson, Nick Juty, Sehrish Kanwal, Farah Zaib Khan, Johannes Köster, Karsten Peters-von Gehlen, Line Pouchard, Randy K. Rannow, Stian Soiland-Reyes, Nicola Soranzo, Shoaib Sufi, Ziheng Sun, Baiba Vilne, Merridee A. Wouters, Denis Yuen, Carole Goble (2024):  
 [**Applying the FAIR Principles to Computational Workflows**](https://doi.org/10.48550/arXiv.2410.03490).  

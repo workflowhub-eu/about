@@ -1,3 +1,6 @@
+- name: "WorkflowHub: a registry for computational workflows"
+  date: 2025-05-21
+  description: "We are delighted that the paper **WorkflowHub: a registry for computational workflows** has been accepted and published in _Scientific Data, Nature_. It is Open Access and available from <https://doi.org/10.1038/s41597-025-04786-3>.<br/>To reference from your academic work, please see [Cite WorkflowHub](/project/citation)"
 - name: "nf-core on WorkflowHub"
   date: 2024-06-13
   description: "[nf-core](https://nf-co.re/) is a community effort to build a curated collection of high-quality Nextflow workflows. WorkflowHub now synchronizes with the nf-core release pipeline, making current and future nf-core workflows automatically available on WorkflowHub. [Click here to browse the nf-core workflows](https://workflowhub.eu/projects/15/workflows)."

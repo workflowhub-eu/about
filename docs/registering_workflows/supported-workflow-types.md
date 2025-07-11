@@ -6,11 +6,11 @@ It is possible to upload workflows of any type (e.g. bash scripts), either by la
 
 The following workflow types are tested to work well with WorkflowHub:
 
-* [Galaxy (.ga)](glossary.md/#galaxy)
-* [Common Workflow Language (.cwl)](glossary.md/#cwl)
-* [Nextflow (.nf)](glossary.md#nextflow)
-* [SnakeMake (.snake)](glossary.md#snakemake)
-* [KNIME (.knwf)](glossary.md#knime)
+* Galaxy (`.ga`)
+* Common Workflow Language (`.cwl`)
+* Nextflow (`.nf`)
+* SnakeMake (`.snake`)
+* KNIME (`.knwf`)
 
 {% include callout.html type="note" content="Note that it is only possible to automatically generate a diagram for CWL workflows." %}
 

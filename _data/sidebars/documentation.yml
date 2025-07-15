@@ -49,8 +49,6 @@ subitems:
         url: /developer/ro-crate-api/
       - title: TRS API
         url: /developer/trs/
-  - title: FAQ
-    url: /docs/faq/
   - title: Metadata list
     url: /docs/metadata-list/
   - title: Glossary

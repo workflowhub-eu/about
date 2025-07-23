@@ -55,7 +55,7 @@
       "@type": [
         "File",
         "SoftwareSourceCode",
-        "HowTo"
+        "ComputationalWorkflow"
       ],
       "programmingLanguage": {
         "@id": "#cwl"

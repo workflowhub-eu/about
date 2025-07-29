@@ -34,6 +34,10 @@ defaults:
       type: "pages"
     values:
       sidebar: documentation
+  - scope:
+      path: "Workflow-RO-Crate/0.2"
+    values:
+      search_exclude: true
 
 theme_variables: 
   theme_color: 1f8787

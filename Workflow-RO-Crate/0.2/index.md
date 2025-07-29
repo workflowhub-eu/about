@@ -1,4 +1,6 @@
-# Workflow RO-Crate (DRAFT)
+---
+title: Workflow RO-Crate profile 0.2 (Draft)
+---
 
 <!--  https://signposting.org/FAIR/  markup --->
 

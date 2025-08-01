@@ -17,7 +17,7 @@ _Feel free to add to this page, either [edit and raise pull request](https://git
 
 ### 2025
 
-Carole Goble, Ove Johan Ragnar Gustafsson (2025)
+Carole Goble, Ove Johan Ragnar Gustafsson (2025):  
 [**WorkflowHub: A registry for computational workflows** (Presentation)](https://workflows.community/talks/2025_07_16/).  
 <https://workflows.community/talks/2025_07_16/>
 

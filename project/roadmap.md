@@ -6,7 +6,7 @@ redirect_from: /roadmap/
 ---
 
 
-{% include callout.html type="note" content="_Please feel free to help contribute to this roadmap through the [WorkflowHub Club](/community/) or as [feedback](https://workflowhub.eu/home/feedback)!_" %}
+{% include callout.html type="note" content="_Please feel free to help contribute to this roadmap through the [WorkflowHub Club](/project/community/) or as [feedback](https://workflowhub.eu/home/feedback)!_" %}
 
 
 Please note that the roadmap is not a project plan or release schedule. 
@@ -29,18 +29,16 @@ Its purpose is to give a general indication of intent and direction of travel.
 * Search/filtering improvements
 -->
 
-## 2024 activities
+## 2025 - 2026 activities
 
 * GitHub app for automated workflow submission and synchronisation
-* Closer collaboration with journals
+* Closer collaboration with journals with a focus on workflow publishing and citation
 * Better RO-Crate support for additional Workflow Management Systems (e.g. Snakemake, Nextflow)
-* Collaborating with additional workflow communities (Galaxy Training Network)
 * Collaborating with additional workflow communities (Snakemake)
-* WorkflowHub manuscript
-* Documentation site updates and streamlining
+* Scientific discipline annotations for workflows
 
 
-## Future work (i.e. 2025 onwards)
+## Future work (i.e. 2026 onwards)
 
 * Collecting basic workflow execution metrics
 * Workflow / WorkflowHub best-practice guide
@@ -52,11 +50,15 @@ Its purpose is to give a general indication of intent and direction of travel.
 * Curation campaign
 * OpenEBench integration
 * Registering as a trusted registry and adhering to the TRUST principles
+* Extended execution link support for additional workflow types (e.g. Jupyter/Binder, Nextflow, etc.)
 
 
 ## Completed activities
 
-* Extended execution link support (additional Galaxy instances, Jupyter/Binder, Nextflow Tower, etc.)
+* [WorkflowHub manuscript](/project/citation/)
+* Collaborating with Galaxy Training Network (GTN): workflows registered with WorkflowHub (see [GTN news article](https://gxy.io/GTN:N00119))
+* Documentation site updates and streamlining
+* Extended execution link support for additional Galaxy instances
 * Generic guides and customised consortium specific guides for WorkflowHub
 * Collaborating with additional workflow communities (Nf-core automatic registration and annotation)
 

@@ -1,3 +1,6 @@
+- name: "RO-Crate and WorkflowHub at the European Galaxy Days 2025"
+  date: 2025-10-09
+  description: "WorkflowHub's integration with Galaxy was highlighted at the European Galaxy Days in Freiburg earlier this month. [Read the blog post here](https://www.researchobject.org/ro-crate/blog/2025-10-09/ro-crate-at-european-galaxy-days-2025)."
 - name: "WorkflowHub: a registry for computational workflows"
   date: 2025-05-21
   description: "We are delighted that the paper **WorkflowHub: a registry for computational workflows** has been accepted and published in _Scientific Data, Nature_. It is Open Access and available from <https://doi.org/10.1038/s41597-025-04786-3>.<br/>To reference from your academic work, please see [Cite WorkflowHub](/project/citation)"

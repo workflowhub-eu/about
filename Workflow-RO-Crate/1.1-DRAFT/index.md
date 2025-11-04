@@ -76,9 +76,11 @@ This section uses terminology from the [RO-Crate 1.2 specification](https://w3id
 
 The _Crate_ JSON-LD MUST be valid according to [RO-Crate 1.1](https://w3id.org/ro/crate/1.1) or later minor version, and SHOULD use the corresponding version of the RO-Crate `@context` - such as <https://w3id.org/ro/crate/1.1/context> for RO-Crate 1.1.
 
-### Metadata File Descriptor
+### Declaring Profile Conformance
 
-The [Metadata File Descriptor](https://www.researchobject.org/ro-crate/specification/1.2/root-data-entity.html#ro-crate-metadata-file-descriptor) `conformsTo` SHOULD be an array that contains at least <https://w3id.org/ro/crate/1.1> (or later minor version) and <https://w3id.org/workflowhub/workflow-ro-crate/1.1>
+The [Root Data Entity](https://www.researchobject.org/ro-crate/specification/1.2/root-data-entity.html#direct-properties-of-the-root-data-entity) `conformsTo` SHOULD be an array that contains at least <https://w3id.org/workflowhub/workflow-ro-crate/1.1>.
+
+For historical reasons, in Workflow RO-Crates conforming to RO-Crate version 1.1, <https://w3id.org/workflowhub/workflow-ro-crate/1.1> MAY instead be included in `conformsTo` on the [Metadata File Descriptor](https://www.researchobject.org/ro-crate/specification/1.2/root-data-entity.html#ro-crate-metadata-file-descriptor).  
 
 
 ### Main Workflow

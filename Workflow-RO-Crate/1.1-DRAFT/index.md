@@ -1,9 +1,9 @@
 ---
-title: Workflow RO-Crate profile 1.0
+title: Workflow RO-Crate profile 1.1-DRAFT
 ---
 <!--  https://signposting.org/FAIR/  markup --->
 
-<link href="https://w3id.org/workflowhub/workflow-ro-crate/1.0" rel="cite-as" /> 
+<link href="https://w3id.org/workflowhub/workflow-ro-crate/1.1-DRAFT" rel="cite-as" /> 
 
 <link href="https://www.researchobject.org/ro-crate/1.2-DRAFT/profiles" rel="type"  />
 <link href="http://purl.org/dc/terms/Standard" rel="type"  />
@@ -43,11 +43,11 @@ title: Workflow RO-Crate profile 1.0
   - Alan R Williams <https://orcid.org/0000-0003-3156-2105>
   - Stuart Owen <https://orcid.org/0000-0003-2130-0865>
   - Stian Soiland-Reyes <https://orcid.org/0000-0003-2130-0865>
-* Title: Workflow RO-Crate profile 1.0
+* Title: Workflow RO-Crate profile 1.1-DRAFT
 * Publisher: [WorkflowHub community](https://w3id.org/workflowhub/)
-* Permalink: <https://w3id.org/workflowhub/workflow-ro-crate/1.0> (this version)  
+* Permalink: <https://w3id.org/workflowhub/workflow-ro-crate/1.1-DRAFT> (this version)  
   <https://w3id.org/workflowhub/workflow-ro-crate/> (latest version)
-* Version: [1.0.3](https://github.com/workflowhub-eu/about/releases/tag/workflow-ro-crate-1.0.3)
+* Version: [1.1.0](https://github.com/workflowhub-eu/about/releases/tag/workflow-ro-crate-1.1.0)
 * [Profile Crate `ro-crate-metadata.json`](ro-crate-metadata.json)
   - [Profile Crate preview](ro-crate-preview.html)
 * [Example RO-Crate `ro-crate-metadata.json`](example/ro-crate-metadata.json)
@@ -78,7 +78,7 @@ The _Crate_ JSON-LD MUST be valid according to [RO-Crate 1.1](https://w3id.org/r
 
 ### Metadata File Descriptor
 
-The [Metadata File Descriptor](https://www.researchobject.org/ro-crate/1.1/root-data-entity.html#ro-crate-metadata-file-descriptor) `conformsTo` SHOULD be an array that contains at least <https://w3id.org/ro/crate/1.1> and <https://w3id.org/workflowhub/workflow-ro-crate/1.0>
+The [Metadata File Descriptor](https://www.researchobject.org/ro-crate/1.1/root-data-entity.html#ro-crate-metadata-file-descriptor) `conformsTo` SHOULD be an array that contains at least <https://w3id.org/ro/crate/1.1> and <https://w3id.org/workflowhub/workflow-ro-crate/1.1>
 
 
 ### Main Workflow
@@ -329,7 +329,7 @@ A minimal example of _Workflow RO-Crate_ metadata, containing a CWL workflow, an
       },
       "conformsTo": [
         { "@id": "https://w3id.org/ro/crate/1.1"},
-        { "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"}
+        { "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.1-DRAFT"}
       ]
     },
     {

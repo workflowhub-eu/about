@@ -5,7 +5,7 @@ title: Workflow RO-Crate profile 1.1-DRAFT
 
 <link href="https://w3id.org/workflowhub/workflow-ro-crate/1.1-DRAFT" rel="cite-as" /> 
 
-<link href="https://www.researchobject.org/ro-crate/1.2-DRAFT/profiles" rel="type"  />
+<link href="https://www.researchobject.org/ro-crate/specification/1.2/profiles" rel="type"  />
 <link href="http://purl.org/dc/terms/Standard" rel="type"  />
 <link href="https://schema.org/CreativeWork" rel="type"  />
 
@@ -25,7 +25,7 @@ title: Workflow RO-Crate profile 1.1-DRAFT
 <link href="licenses/" rel="item" />
 <link href="languages/" rel="item" />
 <link href="example/" rel="item" />
-<link href="https://w3id.org/ro/crate/1.1/context" rel="item" />
+<link href="https://w3id.org/ro/crate/1.2/context" rel="item" />
 <link href="https://pypi.org/project/rocrate/" rel="item" />
 <link href="https://github.com/inab/WfExS-backend/" rel="item" />
 <link href="https://www.nationalarchives.gov.uk/PRONOM/x-fmt/263" rel="item" />
@@ -70,15 +70,15 @@ Several extensions of Workflow RO-Crate exists:
  
 ## Concepts
 
-This section uses terminology from the [RO-Crate 1.1 specification](https://w3id.org/ro/crate/1.1).
+This section uses terminology from the [RO-Crate 1.2 specification](https://w3id.org/ro/crate/1.2).
 
 ### Context
 
-The _Crate_ JSON-LD MUST be valid according to [RO-Crate 1.1](https://w3id.org/ro/crate/1.1) and SHOULD use the RO-Crate 1.1 `@context` <https://w3id.org/ro/crate/1.1/context>
+The _Crate_ JSON-LD MUST be valid according to [RO-Crate 1.1](https://w3id.org/ro/crate/1.1) or later minor version, and SHOULD use the corresponding version of the RO-Crate `@context` - such as <https://w3id.org/ro/crate/1.1/context> for RO-Crate 1.1.
 
 ### Metadata File Descriptor
 
-The [Metadata File Descriptor](https://www.researchobject.org/ro-crate/1.1/root-data-entity.html#ro-crate-metadata-file-descriptor) `conformsTo` SHOULD be an array that contains at least <https://w3id.org/ro/crate/1.1> and <https://w3id.org/workflowhub/workflow-ro-crate/1.1>
+The [Metadata File Descriptor](https://www.researchobject.org/ro-crate/specification/1.2/root-data-entity.html#ro-crate-metadata-file-descriptor) `conformsTo` SHOULD be an array that contains at least <https://w3id.org/ro/crate/1.1> (or later minor version) and <https://w3id.org/workflowhub/workflow-ro-crate/1.1>
 
 
 ### Main Workflow
@@ -89,7 +89,7 @@ The _Crate_ MUST refer to the _Main Workflow_ via `mainEntity`.
 
 The _Main Workflow_ MUST refer to its type via `programmingLanguage`.
 
-**Tip**: See [RO-Crate specification on Workflows and Scripts](https://www.researchobject.org/ro-crate/1.1/workflows.html) for details.
+**Tip**: See [RO-Crate specification on Workflows and Scripts](https://www.researchobject.org/ro-crate/specification/1.2/workflows.html) for details.
 
 ### Main Workflow CWL Description
 
@@ -121,7 +121,7 @@ The `ComputationalWorkflow` description of the _Main Workflow_ SHOULD comply wit
 
 Conformance with the Bioschemas profile SHOULD be indicated with a `conformsTo` on the _Main Workflow_ entity.
 
-**Tip**: See [RO-Crate 1.1: Complying with Bioschemas Computational Workflow profile](https://www.researchobject.org/ro-crate/1.1/workflows.html#complying-with-bioschemas-computational-workflow-profile)
+**Tip**: See [RO-Crate 1.2: Complying with Bioschemas Computational Workflow profile](https://www.researchobject.org/ro-crate/specification/1.2/workflows.html#complying-with-bioschemas-computational-workflow-profile)
 
 ## WorkflowHub-specific Features/Requirements
 
@@ -319,7 +319,7 @@ A minimal example of _Workflow RO-Crate_ metadata, containing a CWL workflow, an
 
 ```json
 {
-  "@context": "https://w3id.org/ro/crate/1.1/context",
+  "@context": "https://w3id.org/ro/crate/1.2/context",
   "@graph": [
     {
       "@id": "ro-crate-metadata.json",
@@ -328,7 +328,7 @@ A minimal example of _Workflow RO-Crate_ metadata, containing a CWL workflow, an
         "@id": "./"
       },
       "conformsTo": [
-        { "@id": "https://w3id.org/ro/crate/1.1"},
+        { "@id": "https://w3id.org/ro/crate/1.2"},
         { "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.1-DRAFT"}
       ]
     },

@@ -1,0 +1,226 @@
+{
+    "description_domain": {
+        "keywords": [
+            "example"
+        ],
+        "pipeline_steps": [
+            {
+                "description": "The last lines of workflow input are the first lines of the reversed input.",
+                "input_list": [
+                    {
+                        "access_time": "2021-11-18T01:38:53.274158",
+                        "filename": "tac on data 3",
+                        "uri": "https://usegalaxy.eu/api/histories/e8a6c7a1eb9a6802/contents/11ac94870d0bb33ab330d3d474ad587d"
+                    }
+                ],
+                "name": "Select first",
+                "output_list": [
+                    {
+                        "access_time": "2021-11-18T01:38:53.677509",
+                        "filename": "Select first on data 4",
+                        "uri": "https://usegalaxy.eu/api/histories/e8a6c7a1eb9a6802/contents/11ac94870d0bb33a868b2cbaff930b8a"
+                    }
+                ],
+                "prerequisite": [],
+                "step_number": 2,
+                "version": "1.0.1"
+            },
+            {
+                "description": "",
+                "input_list": [
+                    {
+                        "access_time": "2021-11-18T01:36:55.071054",
+                        "filename": "abcdef.txt",
+                        "uri": "https://usegalaxy.eu/api/histories/e8a6c7a1eb9a6802/contents/11ac94870d0bb33a79b6633a0529f915"
+                    }
+                ],
+                "name": "tac",
+                "output_list": [
+                    {
+                        "access_time": "2021-11-18T01:38:53.274158",
+                        "filename": "tac on data 3",
+                        "uri": "https://usegalaxy.eu/api/histories/e8a6c7a1eb9a6802/contents/11ac94870d0bb33ab330d3d474ad587d"
+                    }
+                ],
+                "prerequisite": [],
+                "step_number": 1,
+                "version": "1.1.0"
+            }
+        ],
+        "platform": [
+            "Galaxy"
+        ],
+        "xref": []
+    },
+    "error_domain": {
+        "algorithmic_error": [],
+        "empirical_error": []
+    },
+    "etag": "0252e2800439cf88ea8bccb88957df7c4e5b8766dd60c28da886c5def4cd2b57",
+    "execution_domain": {
+        "environment_variables": {},
+        "external_data_endpoints": [
+            {
+                "name": "Access to Galaxy",
+                "url": "https://usegalaxy.eu/"
+            },
+            null
+        ],
+        "script": [
+            "https://usegalaxy.eu/api/workflows?encoded_workflow_id=d98ebac70039cbb1"
+        ],
+        "script_access_type": "a_galaxy_workflow",
+        "script_driver": "Galaxy",
+        "software_prerequisites": [
+            {
+                "name": "Show beginning1",
+                "uri": {
+                    "access_time": "b378a19a-2126-4302-aace-c3311b7ef64e",
+                    "uri": "Show beginning1"
+                },
+                "version": "1.0.1"
+            },
+            {
+                "name": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_tac/1.1.0",
+                "uri": {
+                    "access_time": "1e2bcc37-edad-4d9d-9ae8-a27e183ee55a",
+                    "uri": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_tac/1.1.0"
+                },
+                "version": "1.1.0"
+            }
+        ]
+    },
+    "extension_domain": [
+        {
+            "extension_schema": "https://raw.githubusercontent.com/biocompute-objects/extension_domain/6d2cd8482e6075746984662edcf78b57d3d38065/galaxy/galaxy_extension.json",
+            "galaxy_extension": {
+                "galaxy_url": "https://usegalaxy.eu/",
+                "galaxy_version": "21.05.1.dev0"
+            }
+        }
+    ],
+    "io_domain": {
+        "input_subdomain": [
+            {
+                "access_time": "2021-11-18T01:35:41.816040",
+                "filename": "simple_input",
+                "uri": "https://usegalaxy.eu/api/histories/e8a6c7a1eb9a6802/contents/11ac94870d0bb33a82c9c82fda893874"
+            }
+        ],
+        "output_subdomain": [
+            {
+                "mediatype": "txt",
+                "uri": {
+                    "access_time": "2021-11-18T01:38:53.677509",
+                    "filename": "Select first on data 4",
+                    "uri": "https://usegalaxy.eu/api/histories/e8a6c7a1eb9a6802/contents/11ac94870d0bb33a868b2cbaff930b8a"
+                }
+            },
+            {
+                "mediatype": "txt",
+                "uri": {
+                    "access_time": "2021-11-18T01:38:53.274158",
+                    "filename": "tac on data 3",
+                    "uri": "https://usegalaxy.eu/api/histories/e8a6c7a1eb9a6802/contents/11ac94870d0bb33ab330d3d474ad587d"
+                }
+            }
+        ]
+    },
+    "object_id": "https://usegalaxy.eu/api/invocations/a3a1d27edb703e5c/biocompute",
+    "parametric_domain": [
+        {
+            "param": "__page__",
+            "step": 2,
+            "value": null
+        },
+        {
+            "param": "__rerun_remap_job_id__",
+            "step": 2,
+            "value": null
+        },
+        {
+            "param": "header",
+            "step": 2,
+            "value": "false"
+        },
+        {
+            "param": "input",
+            "step": 2,
+            "value": {
+                "__class__": "RuntimeValue"
+            }
+        },
+        {
+            "param": "lineNum",
+            "step": 2,
+            "value": "2"
+        },
+        {
+            "param": "__page__",
+            "step": 1,
+            "value": null
+        },
+        {
+            "param": "__rerun_remap_job_id__",
+            "step": 1,
+            "value": null
+        },
+        {
+            "param": "infile",
+            "step": 1,
+            "value": {
+                "__class__": "RuntimeValue"
+            }
+        },
+        {
+            "param": "separator",
+            "step": 1,
+            "value": {
+                "__current_case__": 0,
+                "separator_select": "no"
+            }
+        },
+        {
+            "param": "optional",
+            "step": 0,
+            "value": false
+        }
+    ],
+    "provenance_domain": {
+        "contributors": [
+            {
+                "affiliation": "",
+                "contribution": [
+                    "authoredBy"
+                ],
+                "email": "soiland-reyes@manchester.ac.uk",
+                "name": "5dbf7f05329e49c98b31243b5f35045c",
+                "orcid": "https://orcid.org/0000-0001-9842-9718"
+            }
+        ],
+        "created": "2021-11-18T01:37:18.735496",
+        "derived_from": "https://usegalaxy.eu/api/workflows/d98ebac70039cbb1",
+        "license": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "modified": "2021-11-18T01:38:54.138513",
+        "name": "Hello World",
+        "review": [
+            {
+                "date": "2021-11-18T01:38:54.138513",
+                "reviewer": {
+                    "affiliation": "",
+                    "contribution": "curatedBy",
+                    "email": "soiland-reyes@manchester.ac.uk",
+                    "name": "5dbf7f05329e49c98b31243b5f35045c",
+                    "orcid": "https://orcid.org/0000-0001-9842-9718"
+                },
+                "reviewer_comment": "",
+                "status": "approved"
+            }
+        ],
+        "version": 3
+    },
+    "spec_version": "https://w3id.org/ieee/ieee-2791-schema/2791object.json",
+    "usability_domain": [
+        "From https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-editor/tutorial.html#creating-a-new-workflow"
+    ]
+}

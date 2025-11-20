@@ -1,17 +1,12 @@
 {
-  "@context": "https://w3id.org/ro/crate/1.1/context",
+  "@context": "https://w3id.org/ro/crate/1.2/context",
   "@graph": [
     {
       "@id": "ro-crate-metadata.json",
       "@type": "CreativeWork",
-      "conformsTo": [
-        {
-          "@id": "https://w3id.org/ro/crate/1.1"
-        },
-        {
-          "@id": "https://www.researchobject.org/ro-crate/1.2-DRAFT/profiles"
-        }
-      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
       "about": {
         "@id": "./"
       },
@@ -46,7 +41,7 @@
           "@id": "index.html"
         },
         {
-          "@id": "https://w3id.org/ro/crate/1.1/context"
+          "@id": "https://w3id.org/ro/crate/1.2/context"
         },
         {
           "@id": "https://bioschemas.org/ComputationalWorkflow"
@@ -261,20 +256,20 @@
       "about": "./"
     },
     {
-      "@id": "https://www.researchobject.org/ro-crate/1.2-DRAFT/profiles",
+      "@id": "https://www.researchobject.org/specification/ro-crate/1.2/profiles",
       "@type": "Guide",
       "name": "Profile Crate",
-      "version": "1.2-DRAFT"
+      "version": "1.2.0"
     },
     {
       "@id": "example/ro-crate-metadata.json",
       "@type": "CreativeWork",
       "conformsTo": [
         {
-          "@id": "https://w3id.org/ro/crate/1.1"
+          "@id": "https://w3id.org/ro/crate/1.2"
         },
         {
-          "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.1"
+          "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.1-DRAFT"
         }
       ],
       "encodingFormat": "application/json",
@@ -623,13 +618,13 @@
       "name": "BSD 3-Clause \"New\" or \"Revised\" License"
     },
     {
-      "@id": "https://w3id.org/ro/crate/1.1",
+      "@id": "https://w3id.org/ro/crate/1.2",
       "@type": "Guide",
       "name": "RO-Crate specification",
-      "version": "1.1.1"
+      "version": "1.2.0"
     },
     {
-      "@id": "https://w3id.org/ro/crate/1.1/context",
+      "@id": "https://w3id.org/ro/crate/1.2/context",
       "@type": "CreativeWork",
       "encodingFormat": [
         "application/ld+json",
@@ -638,7 +633,7 @@
         }
       ],
       "name": "RO-Crate JSON-LD Context",
-      "version": "1.1.1"
+      "version": "1.2.0"
     },
     {
       "@id": "https://workflowhub.eu/",

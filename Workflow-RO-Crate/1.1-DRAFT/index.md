@@ -85,7 +85,7 @@ For historical reasons, in Workflow RO-Crates conforming to RO-Crate version 1.1
 
 ### Main Workflow
 
-The _Crate_ MUST contain a data entity of type `["File", "SoftwareSourceCode", "ComputationalWorkflow"]` as the _Main Workflow_.
+The _Crate_ MUST contain a _Main Workflow_ data entity whose types MUST include `File`, `SoftwareSourceCode` and `ComputationalWorkflow`.
 
 The _Crate_ MUST refer to the _Main Workflow_ via `mainEntity`.
 

@@ -107,6 +107,10 @@ The _Crate_ COULD contain a _Main Workflow Diagram_, indicated as a data entity 
 
 If  _Main Workflow Diagram_ is present, the _Main Workflow_ MUST refer to it via `image`.
 
+### Main Workflow Steps
+
+Individual steps of the _Main Workflow_ MAY be described in the crate, in addition to the description of the workflow as a whole. Each step MUST be represented as a `HowToStep`, and the workflow MUST reference any `HowToStep` instances that represent its steps via `step`. Each `HowToStep` instance MAY indicate its position in the execution order via `position`. In addition to `File`, `SoftwareSourceCode` and `ComputationalWorkflow`, a workflow that points to step metadata via `step` MUST have a type of `HowTo`.
+
 ### Crate
 
 The _Crate_ MUST specify a `license`. The license is assumed to apply to any content of the crate, unless overriden by `license` on individual `File` entities.
@@ -122,6 +126,8 @@ The _Crate_ COULD contain a Dataset (directory) data entity of type `["Dataset"]
 The `ComputationalWorkflow` description of the _Main Workflow_ SHOULD comply with [Bioschemas ComputationalWorkflow profile](https://bioschemas.org/profiles/ComputationalWorkflow/1.0-RELEASE) version 1.0 or later.  
 
 Conformance with the Bioschemas profile SHOULD be indicated with a `conformsTo` on the _Main Workflow_ entity.
+
+Workflows can have multiple input and output parameter slots that have to be mapped to actual files, directories or other values (e.g., a string or a number) before they can be executed. It is OPTIONAL to define such entities for a `ComputationalWorkflow`. If included, parameter definitions MUST be provided as `FormalParameter` entities and referenced from the `ComputationalWorkflow` via `input` and `output`.
 
 **Tip**: See [RO-Crate 1.2: Complying with Bioschemas Computational Workflow profile](https://www.researchobject.org/ro-crate/specification/1.2/workflows.html#complying-with-bioschemas-computational-workflow-profile)
 

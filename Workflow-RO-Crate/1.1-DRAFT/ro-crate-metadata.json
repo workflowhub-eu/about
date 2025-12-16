@@ -19,7 +19,10 @@
     },
     {
       "@id": "./",
-      "@type": "Dataset",
+      "@type": [
+        "Dataset",
+        "Profile"
+      ],
       "author": [
         {
           "@id": "https://orcid.org/0000-0002-0048-3300"

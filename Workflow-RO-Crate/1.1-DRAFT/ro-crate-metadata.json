@@ -80,6 +80,9 @@
         },
         {
           "@id": "https://github.com/KockataEPich/CheckMyCrate/blob/master/CheckMyCrate/profile_library/ro_crate_1.1_basic.json"
+        },
+        {
+          "@id": "https://github.com/crs4/rocrate-validator/tree/develop/rocrate_validator/profiles/workflow-ro-crate/"
         }
       ],
       "identifier": "https://w3id.org/workflowhub/workflow-ro-crate/1.1-DRAFT",
@@ -1398,6 +1401,11 @@
         }
       ],
       "name": "CheckMyCrate profile for Workflow RO-Crate"
+    },
+    {
+      "@id": "https://github.com/crs4/rocrate-validator/tree/develop/rocrate_validator/profiles/workflow-ro-crate/",
+      "@type": "Dataset",
+      "name": "rocrate-validator profile for Workflow RO-Crate 1.0"
     },
     {
       "@id": "https://github.com/inab/WfExS-backend/",

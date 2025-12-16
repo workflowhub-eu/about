@@ -1,10 +1,10 @@
 title: WorkflowHub project
 
-description: > 
+description: >
   Project pages for developing and running WorkflowHub, 
   a registry of scientific workflows.
 
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@5.0.0
 
 permalink: pretty
 
@@ -39,10 +39,10 @@ defaults:
     values:
       search_exclude: true
 
-theme_variables: 
+theme_variables:
   theme_color: 1f8787
 
 plugins:
   - jemoji
   - jekyll-redirect-from
-  - jekyll-sitemap 
+  - jekyll-sitemap

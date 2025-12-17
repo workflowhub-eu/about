@@ -331,7 +331,6 @@ A minimal example of _Workflow RO-Crate_ metadata, containing a CWL workflow, an
       },
       "conformsTo": [
         { "@id": "https://w3id.org/ro/crate/1.2"},
-        { "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.1-DRAFT"}
       ]
     },
     {
@@ -347,6 +346,7 @@ A minimal example of _Workflow RO-Crate_ metadata, containing a CWL workflow, an
       "name": "Example Workflow",
       "description": "An example workflow RO-Crate",
       "license": "Apache-2.0",
+      "conformsTo": { "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.1-DRAFT"},
       "mainEntity": {
         "@id": "example_workflow.cwl"
       },

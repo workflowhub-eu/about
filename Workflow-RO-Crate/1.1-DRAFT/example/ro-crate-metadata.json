@@ -1,17 +1,12 @@
 {
-  "@context": "https://w3id.org/ro/crate/1.1/context",
+  "@context": "https://w3id.org/ro/crate/1.2/context",
   "@graph": [
     {
       "@id": "ro-crate-metadata.json",
       "@type": "CreativeWork",
-      "conformsTo": [
-        {
-          "@id": "https://w3id.org/ro/crate/1.1"
-        },
-        {
-          "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"
-        }
-      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
       "about": {
         "@id": "./"
       }
@@ -24,6 +19,9 @@
       },
       "datePublished": "2021-11-18T12:03:00Z",
       "description": "An example Workflow RO-Crate, showing a Galaxy workflow with an abstract CWL description and diagram. This Crate is deliberately excessively populated to show the exensible possibilities (e.g. including a BioCompute Object and a Planemo test), refer to the Workflow RO-Crate profile for minimal requirements.",
+      "conformsTo": {
+        "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"
+      },
       "hasPart": [
         {
           "@id": "Galaxy-Workflow-Hello_World.ga"
@@ -97,7 +95,9 @@
         "@id": "hello_world.png"
       },
       "input": [
-        { "@id": "#simple_input" }
+        {
+          "@id": "#simple_input"
+        }
       ],
       "isBasedOn": {
         "@id": "https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-editor/tutorial.html"
@@ -107,8 +107,12 @@
       },
       "name": "Hello World (Galaxy Workflow)",
       "output": [
-        { "@id": "#reversed" },
-        { "@id": "#last_lines" }
+        {
+          "@id": "#reversed"
+        },
+        {
+          "@id": "#last_lines"
+        }
       ],
       "programmingLanguage": {
         "@id": "https://w3id.org/workflowhub/workflow-ro-crate#galaxy"
@@ -268,13 +272,15 @@
       "additionalType": {
         "@id": "http://edamontology.org/data_3671"
       },
-      "conformsTo": { 
-          "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+      "conformsTo": {
+        "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
       },
       "description": "A simple set of lines in a text file",
       "encodingFormat": [
         "text/plain",
-        { "@id": "http://edamontology.org/format_2330" }
+        {
+          "@id": "http://edamontology.org/format_2330"
+        }
       ],
       "workExample": {
         "@id": "examples/abcdef.txt"
@@ -288,13 +294,15 @@
       "additionalType": {
         "@id": "http://edamontology.org/data_3671"
       },
-      "conformsTo": { 
-          "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+      "conformsTo": {
+        "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
       },
       "description": "All the lines, reversed",
       "encodingFormat": [
         "text/plain",
-        { "@id": "http://edamontology.org/format_2330" }
+        {
+          "@id": "http://edamontology.org/format_2330"
+        }
       ],
       "name": "Reversed lines",
       "workExample": {
@@ -307,13 +315,15 @@
       "additionalType": {
         "@id": "http://edamontology.org/data_3671"
       },
-      "conformsTo": { 
-          "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+      "conformsTo": {
+        "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
       },
       "description": "The last lines of workflow input are the first lines of the reversed input",
       "encodingFormat": [
         "text/plain",
-        { "@id": "http://edamontology.org/format_2330" }
+        {
+          "@id": "http://edamontology.org/format_2330"
+        }
       ],
       "name": "Last lines",
       "workExample": {
@@ -326,14 +336,14 @@
       "name": "ComputationalWorkflow Profile",
       "version": "1.0-RELEASE",
       "description": "Bioschemas specification for describing a Computational Workflow"
-    },    
+    },
     {
       "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE",
       "@type": "Guide",
       "name": "FormalParameter Profile",
       "version": "1.0-RELEASE",
       "description": "Bioschemas specification for describing a formal parameter in the Life Sciences"
-    },   
+    },
     {
       "@id": "http://edamontology.org/data_3671",
       "@type": "DefinedTerm",
@@ -343,7 +353,7 @@
       "@id": "http://edamontology.org/format_2330",
       "@type": "DefinedTerm",
       "name": "Textual format"
-    },    
+    },
     {
       "@id": "https://orcid.org/0000-0001-9842-9718",
       "@type": "Person",
@@ -387,16 +397,16 @@
       "version": "1.4"
     },
     {
-      "@id": "https://w3id.org/ro/crate/1.1",
+      "@id": "https://w3id.org/ro/crate/1.2",
       "@type": "Guide",
       "name": "RO-Crate specification",
-      "version": "1.1.1"
+      "version": "1.2.0"
     },
     {
       "@id": "https://w3id.org/workflowhub/",
       "@type": "Organization",
       "name": "WorkflowHub project"
-    },    
+    },
     {
       "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0",
       "@type": "Guide",

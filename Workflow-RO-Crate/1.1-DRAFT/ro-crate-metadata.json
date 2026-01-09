@@ -39,6 +39,9 @@
       ],
       "datePublished": "2023-03-13T10:43:00Z",
       "description": "This is the Profile Crate for Workflow RO-Crate. Workflow RO-Crates are a specialization of RO-Crate for packaging an executable workflow with all necessary documentation. It is aligned with, and intends to strictly extend, the more general Bioschemas ComputationalWorkflow profile.\n\nWorkflowHub uses Workflow RO-Crates as an exchange format for users to upload a packaged workflow.",
+      "keywords": [
+        "workflow"
+      ],
       "hasPart": [
         {
           "@id": "index.html"
@@ -66,6 +69,12 @@
         },
         {
           "@id": "example/"
+        },
+        {
+          "@id": "https://github.com/KockataEPich/CheckMyCrate/blob/master/CheckMyCrate/profile_library/ro_crate_1.1_basic.json"
+        },
+        {
+          "@id": "https://github.com/crs4/rocrate-validator/tree/develop/rocrate_validator/profiles/workflow-ro-crate/"
         }
       ],
       "mentions": [

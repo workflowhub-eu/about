@@ -35,6 +35,7 @@ title: Workflow RO-Crate profile 1.1-DRAFT
 <link href="http://schema.org/HowTo" rel="item" />
 <link href="http://schema.org/ImageObject" rel="item" />
 <link href="https://github.com/KockataEPich/CheckMyCrate/blob/master/CheckMyCrate/profile_library/ro_crate_1.1_basic.json" rel="item" />
+<link href="https://github.com/crs4/rocrate-validator/tree/develop/rocrate_validator/profiles/workflow-ro-crate/" rel="item" />
 
 ![Workflow RO-Crate]({{ '/assets/img/ro-crate-workflow.svg' | relative_url }}){: height="300px" width="300px"}
 
@@ -74,13 +75,12 @@ This section uses terminology from the [RO-Crate 1.2 specification](https://w3id
 
 ### Context
 
-The _Crate_ JSON-LD MUST be valid according to [RO-Crate 1.1](https://w3id.org/ro/crate/1.1) or later minor version, and SHOULD use the corresponding version of the RO-Crate `@context` - such as <https://w3id.org/ro/crate/1.1/context> for RO-Crate 1.1.
+The _Crate_ JSON-LD MUST be valid according to [RO-Crate 1.2](https://w3id.org/ro/crate/1.2) or later minor version, and SHOULD use the corresponding version of the RO-Crate `@context` - such as <https://w3id.org/ro/crate/1.2/context> for RO-Crate 1.2.
 
 ### Declaring Profile Conformance
 
 The [Root Data Entity](https://www.researchobject.org/ro-crate/specification/1.2/root-data-entity.html#direct-properties-of-the-root-data-entity) `conformsTo` SHOULD be an array that contains at least <https://w3id.org/workflowhub/workflow-ro-crate/1.1>.
 
-For historical reasons, in Workflow RO-Crates conforming to RO-Crate version 1.1, <https://w3id.org/workflowhub/workflow-ro-crate/1.1> MAY instead be included in `conformsTo` on the [Metadata File Descriptor](https://www.researchobject.org/ro-crate/specification/1.2/root-data-entity.html#ro-crate-metadata-file-descriptor).  
 
 
 ### Main Workflow
@@ -408,3 +408,13 @@ A minimal example of _Workflow RO-Crate_ metadata, containing a CWL workflow, an
   ]
 }
 ```
+
+## Backward compatibility
+
+This section is aimed at implementers of Workflow RO-Crate who wish to support both current and previous versions of the profile.
+
+In RO-Crates conforming to Workflow RO-Crate 1.0 and RO-Crate 1.1, <https://w3id.org/workflowhub/workflow-ro-crate/1.1> MAY be included in `conformsTo` on the [Metadata File Descriptor](https://www.researchobject.org/ro-crate/specification/1.2/root-data-entity.html#ro-crate-metadata-file-descriptor) rather than the Root Data Entity.
+
+Note that the IRI mappings for the `input` and `output` properties were updated in the [RO-Crate 1.2 JSON-LD context](https://www.researchobject.org/ro-crate/specification/1.2/context.jsonld). These properties were not mentioned in version 1.0 of this profile, but some conforming crates and implementations may use them, as they are referenced in both the [RO-Crate specification](https://www.researchobject.org/ro-crate/specification/1.2/workflows.html#describing-inputs-and-outputs) and the [Workflow Run Crate profile](https://www.researchobject.org/workflow-run-crate/profiles/workflow_run_crate/). Implementers should therefore be aware of the previous IRIs when reading older crates.
+    * `input` changed from `https://bioschemas.org/ComputationalWorkflow#input` to `https://bioschemas.org/properties/input` .
+    * `output` changed from `https://bioschemas.org/ComputationalWorkflow#output` to `https://bioschemas.org/properties/output`.

@@ -69,6 +69,12 @@
         },
         {
           "@id": "example/"
+        },
+        {
+          "@id": "https://github.com/KockataEPich/CheckMyCrate/blob/master/CheckMyCrate/profile_library/ro_crate_1.1_basic.json"
+        },
+        {
+          "@id": "https://github.com/crs4/rocrate-validator/tree/develop/rocrate_validator/profiles/workflow-ro-crate/"
         }
       ],
       "mentions": [

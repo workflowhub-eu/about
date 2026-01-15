@@ -373,7 +373,7 @@ A minimal example of _Workflow RO-Crate_ metadata, containing a CWL workflow, an
       "@type": [
         "File",
         "SoftwareSourceCode",
-        "HowTo"
+        "ComputationalWorkflow"
       ],
       "programmingLanguage": {
         "@id": "https://w3id.org/workflowhub/workflow-ro-crate#cwl"

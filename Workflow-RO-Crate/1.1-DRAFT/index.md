@@ -56,16 +56,16 @@ title: Workflow RO-Crate profile 1.1-DRAFT
 
 Please leave any suggestions and comments here: <https://github.com/seek4science/seek/issues/183>
 
-_Workflow RO-Crates_ are a specialization of [_RO-Crate_](https://researchobject.github.io/ro-crate/) for packaging an executable workflow with all necessary documentation. It extends the more general [Bioschemas ComputationalWorkflow profile](https://bioschemas.org/profiles/ComputationalWorkflow/1.0-RELEASE). 
+_Workflow RO-Crate_ is a specialization of [_RO-Crate_](https://researchobject.github.io/ro-crate/) for packaging an executable workflow with all necessary documentation. It extends the more general [Bioschemas ComputationalWorkflow profile](https://bioschemas.org/profiles/ComputationalWorkflow/1.0-RELEASE).
 
-WorkflowHub uses _Workflow RO-Crates_ as an exchange format for users to upload a packaged workflow. 
+WorkflowHub uses _Workflow RO-Crate_ as an exchange format for users to upload a packaged workflow.
 
 ## Extension profiles
 
 Several extensions of Workflow RO-Crate exists:
 
-* [Workflow Testing RO-Crate](https://lifemonitor.eu/workflow_testing_ro_crate) defines test infrastructure recognized by [LifeMonitor](https://lifemonitor.eu/)
-* The [Workflow Run Crate](https://w3id.org/ro/wfrun) profiles extends Workflow RO-Crate to describe *workflow run provenance*, documenting execution of a workflow. 
+* [Workflow Testing RO-Crate](https://w3id.org/ro/wftest) defines test infrastructure recognized by [LifeMonitor](https://lifemonitor.eu/)
+* The [Workflow Run Crate](https://w3id.org/ro/wfrun/workflow) profile extends Workflow RO-Crate to describe *workflow run provenance*, documenting execution of a workflow.
 * [Five Safes RO-Crate](https://w3id.org/5s-crate/) refers to Workflow RO-Crate for the purpose of workflow execution in a distributed trusted research environment (TRE)
 
  
@@ -95,7 +95,7 @@ The _Main Workflow_ MUST refer to its type via `programmingLanguage`.
 
 ### Main Workflow CWL Description
 
-The _Crate_ COULD contain a data entity of type `["File", "SoftwareSourceCode", "HowTo"]` as the _Main Workflow CWL Description_. 
+The _Crate_ MAY contain a data entity of type `["File", "SoftwareSourceCode", "HowTo"]` as the _Main Workflow CWL Description_.
 
 A _Main Workflow CWL Description_ SHOULD have `https://w3id.org/workflowhub/workflow-ro-crate#cwl` as its `programmingLanguage` with a corresponding [contextual entity](#cwl).
 
@@ -103,7 +103,7 @@ If _Main Workflow CWL Description_ is present, the _Main Workflow_ MUST refer to
 
 ### Main Workflow Diagram
 
-The _Crate_ COULD contain a _Main Workflow Diagram_, indicated as a data entity of type `["File", "ImageObject"]`.
+The _Crate_ MAY contain a _Main Workflow Diagram_, indicated as a data entity of type `["File", "ImageObject"]`.
 
 If  _Main Workflow Diagram_ is present, the _Main Workflow_ MUST refer to it via `image`.
 
@@ -117,9 +117,9 @@ The _Crate_ MUST specify a `license`. The license is assumed to apply to any con
 
 The _Crate_ SHOULD contain a File `README.md` at the root level. If present, it SHOULD be `about` the _Crate_ `./` and SHOULD have `text/markdown` as its `encodingFormat`.
 
-The _Crate_ COULD contain a Dataset (directory) data entity of type `["Dataset"]` with identifier `test/` to hold tests.
+The _Crate_ MAY contain a Dataset (directory) data entity of type `["Dataset"]` with identifier `test/` to hold tests.
 
-The _Crate_ COULD contain a Dataset (directory) data entity of type `["Dataset"]` with identifier `examples/` to hold examples.
+The _Crate_ MAY contain a Dataset (directory) data entity of type `["Dataset"]` with identifier `examples/` to hold examples.
 
 ### Bioschemas Computational Workflow profile
 
@@ -416,5 +416,6 @@ This section is aimed at implementers of Workflow RO-Crate who wish to support b
 In RO-Crates conforming to Workflow RO-Crate 1.0 and RO-Crate 1.1, <https://w3id.org/workflowhub/workflow-ro-crate/1.1> MAY be included in `conformsTo` on the [Metadata File Descriptor](https://www.researchobject.org/ro-crate/specification/1.2/root-data-entity.html#ro-crate-metadata-file-descriptor) rather than the Root Data Entity.
 
 Note that the IRI mappings for the `input` and `output` properties were updated in the [RO-Crate 1.2 JSON-LD context](https://www.researchobject.org/ro-crate/specification/1.2/context.jsonld). These properties were not mentioned in version 1.0 of this profile, but some conforming crates and implementations may use them, as they are referenced in both the [RO-Crate specification](https://www.researchobject.org/ro-crate/specification/1.2/workflows.html#describing-inputs-and-outputs) and the [Workflow Run Crate profile](https://www.researchobject.org/workflow-run-crate/profiles/workflow_run_crate/). Implementers should therefore be aware of the previous IRIs when reading older crates.
-    * `input` changed from `https://bioschemas.org/ComputationalWorkflow#input` to `https://bioschemas.org/properties/input` .
-    * `output` changed from `https://bioschemas.org/ComputationalWorkflow#output` to `https://bioschemas.org/properties/output`.
+
+* `input` changed from `https://bioschemas.org/ComputationalWorkflow#input` to `https://bioschemas.org/properties/input` .
+* `output` changed from `https://bioschemas.org/ComputationalWorkflow#output` to `https://bioschemas.org/properties/output`.

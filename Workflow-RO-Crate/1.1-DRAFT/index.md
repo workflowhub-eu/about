@@ -93,6 +93,8 @@ The _Main Workflow_ MUST refer to its type via `programmingLanguage`.
 
 **Tip**: See [RO-Crate specification on Workflows and Scripts](https://www.researchobject.org/ro-crate/specification/1.3/workflows.html) for details.
 
+**Note**: The IRI mapping for `ComputationalWorkflow` was updated in the [RO-Crate 1.3 JSON-LD context](https://www.researchobject.org/ro-crate/specification/1.3/context.jsonld), along with other Bioschemas terms - see [Backward compatibility](#backward-compatibility) for details.
+
 ### Main Workflow CWL Description
 
 The _Crate_ MAY contain a data entity of type `["File", "SoftwareSourceCode", "HowTo"]` as the _Main Workflow CWL Description_.
@@ -428,7 +430,7 @@ Note that `ComputationalWorkflow` and `FormalParameter` did not have IRI changes
 
 Implementers should further note:
 
-* The properties `input` and `output` were not mentioned in version 1.0 of this profile, but some conforming crates and implementations may use them, as they are referenced in both the [RO-Crate specification](https://www.researchobject.org/ro-crate/specification/1.3/workflows.html#describing-inputs-and-outputs) and the [Workflow Run Crate profile](https://www.researchobject.org/workflow-run-crate/profiles/workflow_run_crate/). 
+* The terms `FormalParameter`, `input` and `output` were not mentioned in version 1.0 of this profile, but some conforming crates and implementations may use them, as they are referenced in both the [RO-Crate specification](https://www.researchobject.org/ro-crate/specification/1.3/workflows.html#describing-inputs-and-outputs) and the [Workflow Run Crate profile](https://www.researchobject.org/workflow-run-crate/profiles/workflow_run_crate/). 
 * While RO-Crate 1.2 was never formally supported by the Workflow RO-Crate profile, there may nonetheless be crates which declare conformance to both RO-Crate 1.2 and Workflow RO-Crate, and therefore use the RO-Crate 1.2 context mappings.
 
 ### Compatibility table

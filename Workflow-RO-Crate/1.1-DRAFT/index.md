@@ -415,7 +415,18 @@ This section is aimed at implementers of Workflow RO-Crate who wish to support b
 
 In RO-Crates conforming to Workflow RO-Crate 1.0 and RO-Crate 1.1, <https://w3id.org/workflowhub/workflow-ro-crate/1.1> MAY be included in `conformsTo` on the [Metadata File Descriptor](https://www.researchobject.org/ro-crate/specification/1.3/root-data-entity.html#ro-crate-metadata-file-descriptor) rather than the Root Data Entity.
 
-Note that the IRI mappings for the `input` and `output` properties were updated in the [RO-Crate 1.3 JSON-LD context](https://www.researchobject.org/ro-crate/specification/1.3/context.jsonld). These properties were not mentioned in version 1.0 of this profile, but some conforming crates and implementations may use them, as they are referenced in both the [RO-Crate specification](https://www.researchobject.org/ro-crate/specification/1.3/workflows.html#describing-inputs-and-outputs) and the [Workflow Run Crate profile](https://www.researchobject.org/workflow-run-crate/profiles/workflow_run_crate/). Implementers should therefore be aware of the previous IRIs when reading older crates.
+When reading crates conforming to multiple versions of RO-Crate, be aware that IRI mappings for Bioschemas terms were updated in the RO-Crate context between 1.1 and 1.3. The changes are shown in the table below:
 
-* `input` changed from `https://bioschemas.org/ComputationalWorkflow#input` to `https://bioschemas.org/properties/input` .
-* `output` changed from `https://bioschemas.org/ComputationalWorkflow#output` to `https://bioschemas.org/properties/output`.
+| Term | RO-Crate 1.3 context (latest) | RO-Crate 1.2 context | RO-Crate 1.1 context |
+| --- | --- | --- | --- |
+| ComputationalWorkflow | <https://bioschemas.org/terms/ComputationalWorkflow> | https://bioschemas.org/ComputationalWorkflow | https://bioschemas.org/ComputationalWorkflow |
+| FormalParameter | <https://bioschemas.org/terms/FormalParameter> | https://bioschemas.org/FormalParameter | https://bioschemas.org/FormalParameter |
+| input | <https://bioschemas.org/terms/input> | https://bioschemas.org/properties/input | https://bioschemas.org/ComputationalWorkflow#input |
+| output | <https://bioschemas.org/terms/output> | https://bioschemas.org/properties/output | https://bioschemas.org/ComputationalWorkflow#output |
+
+Note that `ComputationalWorkflow` and `FormalParameter` did not have IRI changes between 1.1 and 1.2, whereas `input` and `output` had IRI changes between all three versions.
+
+Implementers should further note:
+
+* The properties `input` and `output` were not mentioned in version 1.0 of this profile, but some conforming crates and implementations may use them, as they are referenced in both the [RO-Crate specification](https://www.researchobject.org/ro-crate/specification/1.3/workflows.html#describing-inputs-and-outputs) and the [Workflow Run Crate profile](https://www.researchobject.org/workflow-run-crate/profiles/workflow_run_crate/). 
+* While RO-Crate 1.2 was never formally supported by the Workflow RO-Crate profile, there may nonetheless be crates which declare conformance to both RO-Crate 1.2 and Workflow RO-Crate, and therefore use the RO-Crate 1.2 context mappings.

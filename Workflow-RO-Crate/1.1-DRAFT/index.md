@@ -430,3 +430,12 @@ Implementers should further note:
 
 * The properties `input` and `output` were not mentioned in version 1.0 of this profile, but some conforming crates and implementations may use them, as they are referenced in both the [RO-Crate specification](https://www.researchobject.org/ro-crate/specification/1.3/workflows.html#describing-inputs-and-outputs) and the [Workflow Run Crate profile](https://www.researchobject.org/workflow-run-crate/profiles/workflow_run_crate/). 
 * While RO-Crate 1.2 was never formally supported by the Workflow RO-Crate profile, there may nonetheless be crates which declare conformance to both RO-Crate 1.2 and Workflow RO-Crate, and therefore use the RO-Crate 1.2 context mappings.
+
+### Compatibility table
+
+| RO-Crate version | Compatible Workflow RO-Crate version |
+| --- | --- |
+| 1.1 | 1.0 |
+| 1.2 | None |
+| 1.3 | 1.1-DRAFT |
+| later minor versions | 1.1-DRAFT, unless context changes are made that affect terms used in this profile |

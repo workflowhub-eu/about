@@ -5,7 +5,7 @@ title: Workflow RO-Crate profile 1.1-DRAFT
 
 <link href="https://w3id.org/workflowhub/workflow-ro-crate/1.1-DRAFT" rel="cite-as" /> 
 
-<link href="https://www.researchobject.org/ro-crate/specification/1.2/profiles" rel="type"  />
+<link href="https://www.researchobject.org/ro-crate/specification/1.3/profiles" rel="type"  />
 <link href="http://purl.org/dc/terms/Standard" rel="type"  />
 <link href="https://schema.org/CreativeWork" rel="type"  />
 
@@ -25,13 +25,13 @@ title: Workflow RO-Crate profile 1.1-DRAFT
 <link href="licenses/" rel="item" />
 <link href="languages/" rel="item" />
 <link href="example/" rel="item" />
-<link href="https://w3id.org/ro/crate/1.2/context" rel="item" />
+<link href="https://w3id.org/ro/crate/1.3/context" rel="item" />
 <link href="https://pypi.org/project/rocrate/" rel="item" />
 <link href="https://github.com/inab/WfExS-backend/" rel="item" />
 <link href="https://www.nationalarchives.gov.uk/PRONOM/x-fmt/263" rel="item" />
 <link href="https://workflowhub.eu/" rel="item" />
-<link href="https://bioschemas.org/ComputationalWorkflow" rel="item" />
-<link href="https://bioschemas.org/FormalParameter" rel="item" />
+<link href="https://bioschemas.org/terms/ComputationalWorkflow" rel="item" />
+<link href="https://bioschemas.org/terms/FormalParameter" rel="item" />
 <link href="http://schema.org/HowTo" rel="item" />
 <link href="http://schema.org/ImageObject" rel="item" />
 <link href="https://github.com/KockataEPich/CheckMyCrate/blob/master/CheckMyCrate/profile_library/ro_crate_1.1_basic.json" rel="item" />
@@ -71,15 +71,15 @@ Several extensions of Workflow RO-Crate exists:
  
 ## Concepts
 
-This section uses terminology from the [RO-Crate 1.2 specification](https://w3id.org/ro/crate/1.2).
+This section uses terminology from the [RO-Crate 1.3 specification](https://w3id.org/ro/crate/1.3).
 
 ### Context
 
-The _Crate_ JSON-LD MUST be valid according to [RO-Crate 1.2](https://w3id.org/ro/crate/1.2) or later minor version, and SHOULD use the corresponding version of the RO-Crate `@context` - such as <https://w3id.org/ro/crate/1.2/context> for RO-Crate 1.2.
+The _Crate_ JSON-LD MUST be valid according to [RO-Crate 1.3](https://w3id.org/ro/crate/1.3) or later minor version, and SHOULD use the corresponding version of the RO-Crate `@context` - such as <https://w3id.org/ro/crate/1.3/context> for RO-Crate 1.3.
 
 ### Declaring Profile Conformance
 
-The [Root Data Entity](https://www.researchobject.org/ro-crate/specification/1.2/root-data-entity.html#direct-properties-of-the-root-data-entity) `conformsTo` SHOULD be an array that contains at least <https://w3id.org/workflowhub/workflow-ro-crate/1.1>.
+The [Root Data Entity](https://www.researchobject.org/ro-crate/specification/1.3/root-data-entity.html#direct-properties-of-the-root-data-entity) `conformsTo` SHOULD be an array that contains at least <https://w3id.org/workflowhub/workflow-ro-crate/1.1>.
 
 
 
@@ -91,7 +91,9 @@ The _Crate_ MUST refer to the _Main Workflow_ via `mainEntity`.
 
 The _Main Workflow_ MUST refer to its type via `programmingLanguage`.
 
-**Tip**: See [RO-Crate specification on Workflows and Scripts](https://www.researchobject.org/ro-crate/specification/1.2/workflows.html) for details.
+**Tip**: See [RO-Crate specification on Workflows and Scripts](https://www.researchobject.org/ro-crate/specification/1.3/workflows.html) for details.
+
+**Note**: The IRI mapping for `ComputationalWorkflow` was updated in the [RO-Crate 1.3 JSON-LD context](https://www.researchobject.org/ro-crate/specification/1.3/context.jsonld), along with other Bioschemas terms - see [Backward compatibility](#backward-compatibility) for details.
 
 ### Main Workflow CWL Description
 
@@ -129,7 +131,7 @@ Conformance with the Bioschemas profile SHOULD be indicated with a `conformsTo` 
 
 Workflows can have multiple input and output parameter slots that have to be mapped to actual files, directories or other values (e.g., a string or a number) before they can be executed. It is OPTIONAL to define such entities for a `ComputationalWorkflow`. If included, parameter definitions MUST be provided as `FormalParameter` entities and referenced from the `ComputationalWorkflow` via `input` and `output`.
 
-**Tip**: See [RO-Crate 1.2: Complying with Bioschemas Computational Workflow profile](https://www.researchobject.org/ro-crate/specification/1.2/workflows.html#complying-with-bioschemas-computational-workflow-profile)
+**Tip**: See [RO-Crate 1.3: Complying with Bioschemas Computational Workflow profile](https://www.researchobject.org/ro-crate/specification/1.3/workflows.html#complying-with-bioschemas-computational-workflow-profile)
 
 ## WorkflowHub-specific Features/Requirements
 
@@ -327,7 +329,7 @@ A minimal example of _Workflow RO-Crate_ metadata, containing a CWL workflow, an
 
 ```json
 {
-  "@context": "https://w3id.org/ro/crate/1.2/context",
+  "@context": "https://w3id.org/ro/crate/1.3/context",
   "@graph": [
     {
       "@id": "ro-crate-metadata.json",
@@ -336,7 +338,7 @@ A minimal example of _Workflow RO-Crate_ metadata, containing a CWL workflow, an
         "@id": "./"
       },
       "conformsTo": [
-        { "@id": "https://w3id.org/ro/crate/1.2"},
+        { "@id": "https://w3id.org/ro/crate/1.3"},
       ]
     },
     {
@@ -413,9 +415,29 @@ A minimal example of _Workflow RO-Crate_ metadata, containing a CWL workflow, an
 
 This section is aimed at implementers of Workflow RO-Crate who wish to support both current and previous versions of the profile.
 
-In RO-Crates conforming to Workflow RO-Crate 1.0 and RO-Crate 1.1, <https://w3id.org/workflowhub/workflow-ro-crate/1.1> MAY be included in `conformsTo` on the [Metadata File Descriptor](https://www.researchobject.org/ro-crate/specification/1.2/root-data-entity.html#ro-crate-metadata-file-descriptor) rather than the Root Data Entity.
+In RO-Crates conforming to Workflow RO-Crate 1.0 and RO-Crate 1.1, <https://w3id.org/workflowhub/workflow-ro-crate/1.1> MAY be included in `conformsTo` on the [Metadata File Descriptor](https://www.researchobject.org/ro-crate/specification/1.3/root-data-entity.html#ro-crate-metadata-file-descriptor) rather than the Root Data Entity.
 
-Note that the IRI mappings for the `input` and `output` properties were updated in the [RO-Crate 1.2 JSON-LD context](https://www.researchobject.org/ro-crate/specification/1.2/context.jsonld). These properties were not mentioned in version 1.0 of this profile, but some conforming crates and implementations may use them, as they are referenced in both the [RO-Crate specification](https://www.researchobject.org/ro-crate/specification/1.2/workflows.html#describing-inputs-and-outputs) and the [Workflow Run Crate profile](https://www.researchobject.org/workflow-run-crate/profiles/workflow_run_crate/). Implementers should therefore be aware of the previous IRIs when reading older crates.
+When reading crates conforming to multiple versions of RO-Crate, be aware that IRI mappings for Bioschemas terms were updated in the RO-Crate context between 1.1 and 1.3. The changes are shown in the table below:
 
-* `input` changed from `https://bioschemas.org/ComputationalWorkflow#input` to `https://bioschemas.org/properties/input` .
-* `output` changed from `https://bioschemas.org/ComputationalWorkflow#output` to `https://bioschemas.org/properties/output`.
+| Term | RO-Crate 1.3 context (latest) | RO-Crate 1.2 context | RO-Crate 1.1 context |
+| --- | --- | --- | --- |
+| ComputationalWorkflow | <https://bioschemas.org/terms/ComputationalWorkflow> | https://bioschemas.org/ComputationalWorkflow | https://bioschemas.org/ComputationalWorkflow |
+| FormalParameter | <https://bioschemas.org/terms/FormalParameter> | https://bioschemas.org/FormalParameter | https://bioschemas.org/FormalParameter |
+| input | <https://bioschemas.org/terms/input> | https://bioschemas.org/properties/input | https://bioschemas.org/ComputationalWorkflow#input |
+| output | <https://bioschemas.org/terms/output> | https://bioschemas.org/properties/output | https://bioschemas.org/ComputationalWorkflow#output |
+
+Note that `ComputationalWorkflow` and `FormalParameter` did not have IRI changes between 1.1 and 1.2, whereas `input` and `output` had IRI changes between all three versions.
+
+Implementers should further note:
+
+* The terms `FormalParameter`, `input` and `output` were not mentioned in version 1.0 of this profile, but some conforming crates and implementations may use them, as they are referenced in both the [RO-Crate specification](https://www.researchobject.org/ro-crate/specification/1.3/workflows.html#describing-inputs-and-outputs) and the [Workflow Run Crate profile](https://www.researchobject.org/workflow-run-crate/profiles/workflow_run_crate/). 
+* While RO-Crate 1.2 was never formally supported by the Workflow RO-Crate profile, there may nonetheless be crates which declare conformance to both RO-Crate 1.2 and Workflow RO-Crate, and therefore use the RO-Crate 1.2 context mappings.
+
+### Compatibility table
+
+| RO-Crate version | Compatible Workflow RO-Crate version |
+| --- | --- |
+| 1.1 | 1.0 |
+| 1.2 | None |
+| 1.3 | 1.1-DRAFT |
+| later minor versions | 1.1-DRAFT, unless context changes are made that affect terms used in this profile |

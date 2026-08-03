@@ -98,7 +98,7 @@
       "subjectOf": {
         "@id": "ro-crate-preview.html"
       },
-      "version": "1.0.3",
+      "version": "1.0.2",
       "workExample": {
         "@id": "example/"
       }

@@ -14,5 +14,5 @@
 | --- | --- |
 | 1.1 | 1.0 |
 | 1.2 | None |
-| 1.3 | 1.1-DRAFT |
-| later minor versions | 1.1-DRAFT, unless context changes are made that affect terms used in this profile |
+| 1.3 | 1.1 |
+| later minor versions | 1.1, unless context changes are made that affect terms used in this profile |

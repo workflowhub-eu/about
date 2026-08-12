@@ -1,9 +1,9 @@
 ---
-title: Workflow RO-Crate profile 1.1-DRAFT
+title: Workflow RO-Crate profile 1.1
 ---
 <!--  https://signposting.org/FAIR/  markup --->
 
-<link href="https://w3id.org/workflowhub/workflow-ro-crate/1.1-DRAFT" rel="cite-as" /> 
+<link href="https://w3id.org/workflowhub/workflow-ro-crate/1.1" rel="cite-as" />
 
 <link href="https://www.researchobject.org/ro-crate/specification/1.3/profiles" rel="type"  />
 <link href="http://purl.org/dc/terms/Standard" rel="type"  />
@@ -46,9 +46,9 @@ title: Workflow RO-Crate profile 1.1-DRAFT
   - Stuart Owen <https://orcid.org/0000-0003-2130-0865>
   - Stian Soiland-Reyes <https://orcid.org/0000-0001-9842-9718>
   - Eli Chadwick <https://orcid.org/0000-0002-0035-6475>
-* Title: Workflow RO-Crate profile 1.1-DRAFT
+* Title: Workflow RO-Crate profile 1.1
 * Publisher: [WorkflowHub community](https://w3id.org/workflowhub/)
-* Permalink: <https://w3id.org/workflowhub/workflow-ro-crate/1.1-DRAFT> (this version)  
+* Permalink: <https://w3id.org/workflowhub/workflow-ro-crate/1.1> (this version)
   <https://w3id.org/workflowhub/workflow-ro-crate/> (latest version)
 * Version: [1.1.0](https://github.com/workflowhub-eu/about/releases/tag/workflow-ro-crate-1.1.0)
 * [Profile Crate `ro-crate-metadata.json`](ro-crate-metadata.json)
@@ -164,8 +164,8 @@ Implementers should further note:
 | --- | --- |
 | 1.1 | 1.0 |
 | 1.2 | None |
-| 1.3 | 1.1-DRAFT |
-| later minor versions | 1.1-DRAFT, unless context changes are made that affect terms used in this profile |
+| 1.3 | 1.1 |
+| later minor versions | 1.1, unless context changes are made that affect terms used in this profile |
 
 
 ## Appendix
@@ -316,7 +316,7 @@ A minimal example of _Workflow RO-Crate_ metadata, containing a CWL workflow, an
       "name": "Example Workflow",
       "description": "An example workflow RO-Crate",
       "license": "Apache-2.0",
-      "conformsTo": { "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.1-DRAFT"},
+      "conformsTo": { "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.1"},
       "mainEntity": {
         "@id": "example_workflow.cwl"
       },

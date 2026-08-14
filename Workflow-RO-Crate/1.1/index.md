@@ -46,6 +46,7 @@ title: Workflow RO-Crate profile 1.1
   - Stuart Owen <https://orcid.org/0000-0003-2130-0865>
   - Stian Soiland-Reyes <https://orcid.org/0000-0001-9842-9718>
   - Eli Chadwick <https://orcid.org/0000-0002-0035-6475>
+  - Simone Leo <https://orcid.org/0000-0001-8271-5429>
 * Title: Workflow RO-Crate profile 1.1
 * Publisher: [WorkflowHub community](https://w3id.org/workflowhub/)
 * Permalink: <https://w3id.org/workflowhub/workflow-ro-crate/1.1> (this version)

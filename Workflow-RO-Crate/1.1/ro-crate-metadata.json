@@ -38,6 +38,9 @@
         },
         {
           "@id": "https://orcid.org/0000-0002-0035-6475"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-8271-5429"
         }
       ],
       "datePublished": "2023-03-13T10:43:00Z",
@@ -313,9 +316,15 @@
         },
         {
           "@id": "https://orcid.org/0000-0001-9842-9718"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-0035-6475"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-8271-5429"
         }
       ],
-      "dateModified": "2024-03-13T10:43:00.000Z",
+      "dateModified": "2026-08-14T10:23:00.000Z",
       "name": "Workflow RO-Crate profile description"
     },
     {
@@ -623,6 +632,11 @@
       "@id": "https://orcid.org/0000-0002-0035-6475",
       "@type": "Person",
       "name": "Eli Chadwick"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-8271-5429",
+      "@type": "Person",
+      "name": "Simone Leo"
     },
     {
       "@id": "https://pypi.org/project/rocrate/",

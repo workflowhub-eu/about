@@ -16,6 +16,7 @@ title: Workflow RO-Crate profile 1.1
 <link href="https://orcid.org/0000-0003-2130-0865" rel="author"  />
 <link href="https://orcid.org/0000-0001-9842-9718" rel="author"  />
 <link href="https://orcid.org/0000-0002-0035-6475" rel="author"  />
+<link href="https://orcid.org/0000-0001-8271-5429" rel="author"  />
 
 <link href="ro-crate-metadata.json" rel="describedby" type='application/ld+json; profile="https://w3id.org/ro/crate"' />
 <link href="ro-crate-metadata.jsonld" rel="describedby" type='application/ld+json; profile="https://w3id.org/ro/crate"'  />

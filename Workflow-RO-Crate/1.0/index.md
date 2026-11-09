@@ -5,7 +5,7 @@ title: Workflow RO-Crate profile 1.0
 
 <link href="https://w3id.org/workflowhub/workflow-ro-crate/1.0" rel="cite-as" /> 
 
-<link href="https://www.researchobject.org/ro-crate/1.2-DRAFT/profiles" rel="type"  />
+<link href="https://www.researchobject.org/ro-crate/1.2/profiles" rel="type"  />
 <link href="http://purl.org/dc/terms/Standard" rel="type"  />
 <link href="https://schema.org/CreativeWork" rel="type"  />
 

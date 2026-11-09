@@ -6,7 +6,7 @@ title: Workflow RO-Crate profile 0.2 (Draft)
 
 <!--  <link href="https://about.workflowhub.eu/Workflow-RO-Crate/" rel="cite-as" /> SHOULD be w3id or DOI -->
 
-<link href="https://github.com/ResearchObject/ro-crate/blob/profiles/docs/1.2-DRAFT/profiles.md" rel="type"  />
+<link href="https://github.com/ResearchObject/ro-crate/blob/profiles/docs/1.2/profiles.md" rel="type"  />
 <link href="http://purl.org/dc/terms/Standard" rel="type"  />
 <link href="https://schema.org/CreativeWork" rel="type"  />
 

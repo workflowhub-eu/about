@@ -151,7 +151,8 @@
       "name": "Common Workflow Language",
       "url": {
         "@id": "https://www.commonwl.org/"
-      }
+      },
+      "version": "all"
     },
     {
       "@id": "https://w3id.org/workflowhub/workflow-ro-crate#galaxy",
@@ -162,7 +163,8 @@
       "name": "Galaxy",
       "url": {
         "@id": "https://galaxyproject.org/"
-      }
+      },
+      "version": "all"
     },
     {
       "@id": "https://w3id.org/workflowhub/workflow-ro-crate#knime",
@@ -173,7 +175,8 @@
       "name": "KNIME",
       "url": {
         "@id": "https://www.knime.com/"
-      }
+      },
+      "version": "all"
     },
     {
       "@id": "https://w3id.org/workflowhub/workflow-ro-crate#nextflow",
@@ -184,7 +187,8 @@
       "name": "Nextflow",
       "url": {
         "@id": "https://www.nextflow.io/"
-      }
+      },
+      "version": "all"
     },
     {
       "@id": "https://w3id.org/workflowhub/workflow-ro-crate#snakemake",
@@ -195,7 +199,8 @@
       "name": "Snakemake",
       "url": {
         "@id": "https://snakemake.readthedocs.io"
-      }
+      },
+      "version": "all"
     },
     {
       "@id": "#use-zip",
@@ -274,7 +279,9 @@
       "@type": "CreativeWork",
       "name": "Preview of Workflow RO-Crate",
       "encodingFormat": "text/html",
-      "about": "./"
+      "about": {
+        "@id": "./"
+      }
     },
     {
       "@id": "https://www.researchobject.org/specification/ro-crate/1.3/profiles",
